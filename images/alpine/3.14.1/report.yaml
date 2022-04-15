@@ -1,0 +1,97 @@
+- cves:
+   - CVE-2022-28391:
+     - severity: CRITICAL
+     - package: CVE-2022-28391 affecting package busybox 1.35.0
+   - CVE-2021-42378:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+   - CVE-2021-42379:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+   - CVE-2021-42380:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+   - CVE-2021-42381:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+   - CVE-2021-42382:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+   - CVE-2021-42383:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+   - CVE-2021-42384:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+   - CVE-2021-42385:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+   - CVE-2021-42386:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+   - CVE-2021-42374:
+     - severity: MEDIUM
+     - package: busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
+   - CVE-2021-42375:
+     - severity: MEDIUM
+     - package: busybox: incorrect handling of a special element in ash applet leads to denial of service when processing a crafted shell command
+   - CVE-2021-3711:
+     - severity: CRITICAL
+     - package: openssl: SM2 Decryption Buffer Overflow
+   - CVE-2021-3712:
+     - severity: HIGH
+     - package: openssl: Read buffer overruns processing ASN.1 strings
+   - CVE-2022-0778:
+     - severity: HIGH
+     - package: openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+   - CVE-2022-0778:
+     - severity: HIGH
+     - package: openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+   - CVE-2021-3711:
+     - severity: CRITICAL
+     - package: openssl: SM2 Decryption Buffer Overflow
+   - CVE-2021-3712:
+     - severity: HIGH
+     - package: openssl: Read buffer overruns processing ASN.1 strings
+   - CVE-2022-0778:
+     - severity: HIGH
+     - package: openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+   - CVE-2022-28391:
+     - severity: CRITICAL
+     - package: CVE-2022-28391 affecting package busybox 1.35.0
+   - CVE-2021-42378:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+   - CVE-2021-42379:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+   - CVE-2021-42380:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+   - CVE-2021-42381:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+   - CVE-2021-42382:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+   - CVE-2021-42383:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+   - CVE-2021-42384:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+   - CVE-2021-42385:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+   - CVE-2021-42386:
+     - severity: HIGH
+     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+   - CVE-2021-42374:
+     - severity: MEDIUM
+     - package: busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
+   - CVE-2021-42375:
+     - severity: MEDIUM
+     - package: busybox: incorrect handling of a special element in ash applet leads to denial of service when processing a crafted shell command
+   - CVE-2018-25032:
+     - severity: HIGH
+     - package: zlib: A flaw found in zlib v1.2.2.2 through zlib v1.2.11 when compressing (not decompressing!) certain inputs.
