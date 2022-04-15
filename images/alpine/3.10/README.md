@@ -1,537 +1,863 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=3.10&color=blue)
-## cves
+## etc/shadow
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-```
-
-## cves
-```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2019-14697:
-     - severity: CRITICAL
-     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2019-14697:
-     - severity: CRITICAL
-     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
 ```
 
-## cves
+## etc/passwd
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-```
-
-## cves
-```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-```
-
-## cves
-```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
 ```
 
-## cves
+## gtfo
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
 ```
 
-## cves
+## etc/shadow
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
 ```
 
-## cves
+## etc/passwd
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2019-1547:
-     - severity: MEDIUM
-     - package: openssl: side-channel weak encryption vulnerability
-   - CVE-2019-1549:
-     - severity: MEDIUM
-     - package: openssl: information disclosure in fork()
-   - CVE-2019-1551:
-     - severity: MEDIUM
-     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2019-1563:
-     - severity: LOW
-     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2019-14697:
-     - severity: CRITICAL
-     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2019-14697:
-     - severity: CRITICAL
-     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
 ```
 
-## cves
+## gtfo
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
 ```
 
-## cves
+## etc/shadow
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
 ```
 
-## cves
+## etc/passwd
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-1967:
-     - severity: HIGH
-     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
-   - CVE-2021-23840:
-     - severity: HIGH
-     - package: openssl: integer overflow in CipherUpdate
-   - CVE-2021-3450:
-     - severity: HIGH
-     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
-   - CVE-2020-1971:
-     - severity: MEDIUM
-     - package: openssl: EDIPARTYNAME NULL pointer de-reference
-   - CVE-2021-23841:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
-   - CVE-2021-3449:
-     - severity: MEDIUM
-     - package: openssl: NULL pointer dereference in signature_algorithms processing
-   - CVE-2021-23839:
-     - severity: LOW
-     - package: openssl: incorrect SSLv2 rollback protection
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2020-28928:
-     - severity: MEDIUM
-     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
-   - CVE-2021-28831:
-     - severity: HIGH
-     - package: busybox: invalid free or segmentation fault via malformed gzip data
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - postgres:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
 ```

@@ -1,98 +1,172 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=2.6&color=blue)
-## cves
+## etc/shadow
 ```
-   - CVE-2021-36159:
-     - severity: CRITICAL
-     - package: null
-   - CVE-2021-30139:
-     - severity: HIGH
-     - package: null
-   - CVE-2022-28391:
-     - severity: CRITICAL
-     - package: CVE-2022-28391 affecting package busybox 1.35.0
-   - CVE-2021-42378:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
-   - CVE-2021-42379:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
-   - CVE-2021-42380:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
-   - CVE-2021-42381:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
-   - CVE-2021-42382:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
-   - CVE-2021-42383:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
-   - CVE-2021-42384:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
-   - CVE-2021-42385:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
-   - CVE-2021-42386:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
-   - CVE-2021-42374:
-     - severity: MEDIUM
-     - package: busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
-   - CVE-2021-3711:
-     - severity: CRITICAL
-     - package: openssl: SM2 Decryption Buffer Overflow
-   - CVE-2021-3712:
-     - severity: HIGH
-     - package: openssl: Read buffer overruns processing ASN.1 strings
-   - CVE-2022-0778:
-     - severity: HIGH
-     - package: openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
-   - CVE-2021-3711:
-     - severity: CRITICAL
-     - package: openssl: SM2 Decryption Buffer Overflow
-   - CVE-2021-3712:
-     - severity: HIGH
-     - package: openssl: Read buffer overruns processing ASN.1 strings
-   - CVE-2022-0778:
-     - severity: HIGH
-     - package: openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
-   - CVE-2022-28391:
-     - severity: CRITICAL
-     - package: CVE-2022-28391 affecting package busybox 1.35.0
-   - CVE-2021-42378:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
-   - CVE-2021-42379:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
-   - CVE-2021-42380:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
-   - CVE-2021-42381:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
-   - CVE-2021-42382:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
-   - CVE-2021-42383:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
-   - CVE-2021-42384:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
-   - CVE-2021-42385:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
-   - CVE-2021-42386:
-     - severity: HIGH
-     - package: busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
-   - CVE-2021-42374:
-     - severity: MEDIUM
-     - package: busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
-   - CVE-2018-25032:
-     - severity: HIGH
-     - package: zlib: A flaw found in zlib v1.2.2.2 through zlib v1.2.11 when compressing (not decompressing!) certain inputs.
+  - root:!::0:::::
+  - bin:!::0:::::
+  - daemon:!::0:::::
+  - adm:!::0:::::
+  - lp:!::0:::::
+  - sync:!::0:::::
+  - shutdown:!::0:::::
+  - halt:!::0:::::
+  - mail:!::0:::::
+  - news:!::0:::::
+  - uucp:!::0:::::
+  - operator:!::0:::::
+  - man:!::0:::::
+  - postmaster:!::0:::::
+  - cron:!::0:::::
+  - ftp:!::0:::::
+  - sshd:!::0:::::
+  - at:!::0:::::
+  - squid:!::0:::::
+  - xfs:!::0:::::
+  - games:!::0:::::
+  - cyrus:!::0:::::
+  - vpopmail:!::0:::::
+  - ntp:!::0:::::
+  - smmsp:!::0:::::
+  - guest:!::0:::::
+  - nobody:!::0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/sbin/nologin
+  - daemon:x:2:2:daemon:/sbin:/sbin/nologin
+  - adm:x:3:4:adm:/var/adm:/sbin/nologin
+  - lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/mail:/sbin/nologin
+  - news:x:9:13:news:/usr/lib/news:/sbin/nologin
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/sbin/nologin
+  - operator:x:11:0:operator:/root:/sbin/nologin
+  - man:x:13:15:man:/usr/man:/sbin/nologin
+  - postmaster:x:14:12:postmaster:/var/mail:/sbin/nologin
+  - cron:x:16:16:cron:/var/spool/cron:/sbin/nologin
+  - ftp:x:21:21::/var/lib/ftp:/sbin/nologin
+  - sshd:x:22:22:sshd:/dev/null:/sbin/nologin
+  - at:x:25:25:at:/var/spool/cron/atjobs:/sbin/nologin
+  - squid:x:31:31:Squid:/var/cache/squid:/sbin/nologin
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/sbin/nologin
+  - games:x:35:35:games:/usr/games:/sbin/nologin
+  - cyrus:x:85:12::/usr/cyrus:/sbin/nologin
+  - vpopmail:x:89:89::/var/vpopmail:/sbin/nologin
+  - ntp:x:123:123:NTP:/var/empty:/sbin/nologin
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/sbin/nologin
+  - guest:x:405:100:guest:/dev/null:/sbin/nologin
+  - nobody:x:65534:65534:nobody:/:/sbin/nologin
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
+```
+
+## etc/shadow
+```
+  - root:!:13560:0:::::
+  - bin:!:13560:0:::::
+  - daemon:!:13560:0:::::
+  - adm:!:13560:0:::::
+  - lp:!:13560:0:::::
+  - sync:!:13560:0:::::
+  - shutdown:!:13560:0:::::
+  - halt:!:13560:0:::::
+  - mail:!:13560:0:::::
+  - news:!:13560:0:::::
+  - uucp:!:13560:0:::::
+  - operator:!:13560:0:::::
+  - man:!:13560:0:::::
+  - postmaster:!:13560:0:::::
+  - cron:!:13560:0:::::
+  - ftp:!:13560:0:::::
+  - sshd:!:13560:0:::::
+  - at:!:13560:0:::::
+  - squid:!:13560:0:::::
+  - gdm:!:13560:0:::::
+  - xfs:!:13560:0:::::
+  - games:!:13560:0:::::
+  - named:!:13560:0:::::
+  - mysql:!:13560:0:::::
+  - postgres:!:13560:0:::::
+  - apache:!:13560:0:::::
+  - nut:!:13560:0:::::
+  - cyrus:!:13560:0:::::
+  - vpopmail:!:13560:0:::::
+  - ntp:!:13560:0:::::
+  - alias:!:13560:0:::::
+  - qmaild:!:13560:0:::::
+  - qmaill:!:13560:0:::::
+  - qmailp:!:13560:0:::::
+  - qmailq:!:13560:0:::::
+  - qmailr:!:13560:0:::::
+  - qmails:!:13560:0:::::
+  - postfix:!:13560:0:::::
+  - smmsp:!:13560:0:::::
+  - portage:!:13560:0:::::
+  - guest:!:13560:0:::::
+  - nobody:!:13560:0:::::
+  - distcc:!:13560:0:::::
+```
+
+## etc/passwd
+```
+  - root:x:0:0:root:/root:/bin/ash
+  - bin:x:1:1:bin:/bin:/bin/false
+  - daemon:x:2:2:daemon:/sbin:/bin/false
+  - adm:x:3:4:adm:/var/adm:/bin/false
+  - lp:x:4:7:lp:/var/spool/lpd:/bin/false
+  - sync:x:5:0:sync:/sbin:/bin/sync
+  - shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+  - halt:x:7:0:halt:/sbin:/sbin/halt
+  - mail:x:8:12:mail:/var/spool/mail:/bin/false
+  - news:x:9:13:news:/usr/lib/news:/bin/false
+  - uucp:x:10:14:uucp:/var/spool/uucppublic:/bin/false
+  - operator:x:11:0:operator:/root:/bin/sh
+  - man:x:13:15:man:/usr/man:/bin/false
+  - postmaster:x:14:12:postmaster:/var/spool/mail:/bin/false
+  - cron:x:16:16:cron:/var/spool/cron:/bin/false
+  - ftp:x:21:21::/var/lib/ftp:/bin/false
+  - sshd:x:22:22:sshd:/dev/null:/bin/false
+  - at:x:25:25:at:/var/spool/cron/atjobs:/bin/false
+  - squid:x:31:31:Squid:/var/cache/squid:/bin/false
+  - gdm:x:32:32:GDM:/var/lib/gdm:/bin/false
+  - xfs:x:33:33:X Font Server:/etc/X11/fs:/bin/false
+  - games:x:35:35:games:/usr/games:/bin/false
+  - named:x:40:40:bind:/var/bind:/bin/false
+  - mysql:x:60:60:mysql:/var/lib/mysql:/bin/false
+  - postgres:x:70:70::/var/lib/postgresql:/bin/sh
+  - apache:x:81:81:apache:/var/www:/bin/false
+  - nut:x:84:84:nut:/var/state/nut:/bin/false
+  - cyrus:x:85:12::/usr/cyrus:/bin/false
+  - vpopmail:x:89:89::/var/vpopmail:/bin/false
+  - ntp:x:123:123:NTP:/var/empty:/bin/false
+  - alias:x:200:200::/var/qmail/alias:/bin/false
+  - qmaild:x:201:200::/var/qmail:/bin/false
+  - qmaill:x:202:200::/var/qmail:/bin/false
+  - qmailp:x:203:200::/var/qmail:/bin/false
+  - qmailq:x:204:201::/var/qmail:/bin/false
+  - qmailr:x:205:201::/var/qmail:/bin/false
+  - qmails:x:206:201::/var/qmail:/bin/false
+  - postfix:x:207:207:postfix:/var/spool/postfix:/bin/false
+  - smmsp:x:209:209:smmsp:/var/spool/mqueue:/bin/false
+  - guest:x:405:100:guest:/dev/null:/dev/null
+  - nobody:x:65534:65534:nobody:/:/bin/false
+  - distcc:x:240:2:distccd:/dev/null:/bin/false
+```
+
+## gtfo
+```
+  - /usr/bin/nc
+  - /usr/bin/wget
+  - /bin/ping
+  - /bin/base64
 ```
