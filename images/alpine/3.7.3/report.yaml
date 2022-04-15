@@ -61,3 +61,10 @@
   - /usr/bin/wget
   - /bin/ping
   - /bin/base64
+- cves:
+   - CVE-2019-14697:
+     - severity: CRITICAL
+     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
+   - CVE-2019-14697:
+     - severity: CRITICAL
+     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...

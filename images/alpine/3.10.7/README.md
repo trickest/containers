@@ -71,3 +71,19 @@
   - /bin/ping
   - /bin/base64
 ```
+
+## cves
+```
+   - CVE-2021-36159:
+     - severity: CRITICAL
+     - package: null
+   - CVE-2021-30139:
+     - severity: HIGH
+     - package: null
+   - CVE-2021-28831:
+     - severity: HIGH
+     - package: busybox: invalid free or segmentation fault via malformed gzip data
+   - CVE-2021-28831:
+     - severity: HIGH
+     - package: busybox: invalid free or segmentation fault via malformed gzip data
+```

@@ -71,3 +71,13 @@
   - /bin/ping
   - /bin/base64
 ```
+
+## cves
+```
+   - CVE-2021-36159:
+     - severity: CRITICAL
+     - package: null
+   - CVE-2021-30139:
+     - severity: HIGH
+     - package: null
+```

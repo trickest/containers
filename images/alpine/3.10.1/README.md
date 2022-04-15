@@ -71,3 +71,97 @@
   - /bin/ping
   - /bin/base64
 ```
+
+## cves
+```
+   - CVE-2021-36159:
+     - severity: CRITICAL
+     - package: null
+   - CVE-2021-30139:
+     - severity: HIGH
+     - package: null
+   - CVE-2021-28831:
+     - severity: HIGH
+     - package: busybox: invalid free or segmentation fault via malformed gzip data
+   - CVE-2020-1967:
+     - severity: HIGH
+     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
+   - CVE-2021-23840:
+     - severity: HIGH
+     - package: openssl: integer overflow in CipherUpdate
+   - CVE-2021-3450:
+     - severity: HIGH
+     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+   - CVE-2019-1547:
+     - severity: MEDIUM
+     - package: openssl: side-channel weak encryption vulnerability
+   - CVE-2019-1549:
+     - severity: MEDIUM
+     - package: openssl: information disclosure in fork()
+   - CVE-2019-1551:
+     - severity: MEDIUM
+     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+   - CVE-2020-1971:
+     - severity: MEDIUM
+     - package: openssl: EDIPARTYNAME NULL pointer de-reference
+   - CVE-2021-23841:
+     - severity: MEDIUM
+     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+   - CVE-2021-3449:
+     - severity: MEDIUM
+     - package: openssl: NULL pointer dereference in signature_algorithms processing
+   - CVE-2019-1563:
+     - severity: LOW
+     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+   - CVE-2021-23839:
+     - severity: LOW
+     - package: openssl: incorrect SSLv2 rollback protection
+   - CVE-2020-1967:
+     - severity: HIGH
+     - package: openssl: Segmentation fault in SSL_check_chain causes denial of service
+   - CVE-2021-23840:
+     - severity: HIGH
+     - package: openssl: integer overflow in CipherUpdate
+   - CVE-2021-3450:
+     - severity: HIGH
+     - package: openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+   - CVE-2019-1547:
+     - severity: MEDIUM
+     - package: openssl: side-channel weak encryption vulnerability
+   - CVE-2019-1549:
+     - severity: MEDIUM
+     - package: openssl: information disclosure in fork()
+   - CVE-2019-1551:
+     - severity: MEDIUM
+     - package: openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+   - CVE-2020-1971:
+     - severity: MEDIUM
+     - package: openssl: EDIPARTYNAME NULL pointer de-reference
+   - CVE-2021-23841:
+     - severity: MEDIUM
+     - package: openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+   - CVE-2021-3449:
+     - severity: MEDIUM
+     - package: openssl: NULL pointer dereference in signature_algorithms processing
+   - CVE-2019-1563:
+     - severity: LOW
+     - package: openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+   - CVE-2021-23839:
+     - severity: LOW
+     - package: openssl: incorrect SSLv2 rollback protection
+   - CVE-2019-14697:
+     - severity: CRITICAL
+     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
+   - CVE-2020-28928:
+     - severity: MEDIUM
+     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
+   - CVE-2019-14697:
+     - severity: CRITICAL
+     - package: musl libc through 1.1.23 has an x87 floating-point stack adjustment im ...
+   - CVE-2020-28928:
+     - severity: MEDIUM
+     - package: In musl libc through 1.2.1, wcsnrtombs mishandles particular combinati ...
+   - CVE-2021-28831:
+     - severity: HIGH
+     - package: busybox: invalid free or segmentation fault via malformed gzip data
+```
