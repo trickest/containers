@@ -1,5 +1,9 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=2.6&color=blue)
+## dev-tools
+```
+```
+
 ## etc/shadow
 ```
   - root:!:13560:0:::::
@@ -101,6 +105,22 @@
   - /bin/base64
 ```
 
+## hidden-files
+```
+```
+
+## listening-ports
+```
+```
+
+## pass-policy
+```
+```
+
+## path-executables
+```
+```
+
 ## root-structure
 ```
  - bin
@@ -119,10 +139,19 @@
  - tmp
  - usr
  - var
-  openssl (missing):
-    required by: world[openssl]
 ```
 
 ## ssl-certs
 ```
+```
+
+## world-writable-folders
+```
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp
 ```

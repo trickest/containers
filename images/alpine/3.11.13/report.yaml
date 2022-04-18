@@ -1,3 +1,4 @@
+- dev-tools:
 - etc/shadow:
   - root:!::0:::::
   - bin:!::0:::::
@@ -59,6 +60,20 @@
   - /usr/bin/wget
   - /bin/ping
   - /bin/base64
+- hidden-files:
+- listening-ports:
+- pass-policy:
+- path-executables:
+ - /usr/bin/ldd
+ - /usr/bin/scanelf
+ - /usr/bin/getent
+ - /usr/bin/iconv
+ - /usr/bin/getconf
+ - /usr/bin/ssl_client
+ - /sbin/apk
+ - /sbin/ldconfig
+ - /sbin/mkmntdirs
+ - /bin/busybox
 - root-structure:
  - bin
  - dev
@@ -78,3 +93,11 @@
  - usr
  - var
 - ssl-certs:
+- world-writable-folders:
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp
