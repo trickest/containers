@@ -71,3 +71,30 @@
   - /bin/ping
   - /bin/base64
 ```
+
+## root-structure
+```
+ - bin
+ - dev
+ - etc
+ - home
+ - lib
+ - media
+ - mnt
+ - proc
+ - root
+ - run
+ - sbin
+ - srv
+ - sys
+ - tmp
+ - usr
+ - var
+ERROR: unsatisfiable constraints:
+  openssl (missing):
+    required by: world[openssl]
+```
+
+## ssl-certs
+```
+```

@@ -100,3 +100,29 @@
   - /bin/ping
   - /bin/base64
 ```
+
+## root-structure
+```
+ - bin
+ - dev
+ - etc
+ - home
+ - lib
+ - linuxrc
+ - media
+ - mnt
+ - proc
+ - root
+ - run
+ - sbin
+ - sys
+ - tmp
+ - usr
+ - var
+  openssl (missing):
+    required by: world[openssl]
+```
+
+## ssl-certs
+```
+```
