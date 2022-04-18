@@ -70,6 +70,31 @@
   - /bin/base64
 ```
 
+## root-structure
+```
+ - bin
+ - dev
+ - etc
+ - home
+ - lib
+ - media
+ - mnt
+ - opt
+ - proc
+ - root
+ - run
+ - sbin
+ - srv
+ - sys
+ - tmp
+ - usr
+ - var
+```
+
+## ssl-certs
+```
+```
+
 ## cves
 ```
    - CVE-2021-36159:
