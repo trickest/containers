@@ -1,2 +1,2 @@
 echo "- root-structure:"
-ls | sed 's/^/ - /g'
+ls | sed 's/^/  - /g'

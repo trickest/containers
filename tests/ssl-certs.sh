@@ -4,4 +4,4 @@ exec 2> /dev/null
 
 echo "- ssl-certs:"
 cat /etc/ssl/certs/ca-certificates.crt | awk -v cmd='openssl x509 -noout -subject' '
-    /BEGIN/{close(cmd)};{print | cmd}' | sed 's/^/ - /g'
+    /BEGIN/{close(cmd)};{print | cmd}' | sed 's/^/  - /g'
