@@ -1,5 +1,9 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=3.10.7&color=blue)
+## dev-tools
+```
+```
+
 ## etc/shadow
 ```
   - root:!::0:::::
@@ -72,6 +76,32 @@
   - /bin/base64
 ```
 
+## hidden-files
+```
+```
+
+## listening-ports
+```
+```
+
+## pass-policy
+```
+```
+
+## path-executables
+```
+ - /usr/bin/ldd
+ - /usr/bin/scanelf
+ - /usr/bin/getent
+ - /usr/bin/iconv
+ - /usr/bin/getconf
+ - /usr/bin/ssl_client
+ - /sbin/apk
+ - /sbin/ldconfig
+ - /sbin/mkmntdirs
+ - /bin/busybox
+```
+
 ## root-structure
 ```
  - bin
@@ -95,6 +125,17 @@
 
 ## ssl-certs
 ```
+```
+
+## world-writable-folders
+```
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp
 ```
 
 ## cves

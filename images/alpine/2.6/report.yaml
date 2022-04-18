@@ -1,3 +1,4 @@
+- dev-tools:
 - etc/shadow:
   - root:!:13560:0:::::
   - bin:!:13560:0:::::
@@ -90,6 +91,10 @@
   - /usr/bin/wget
   - /bin/ping
   - /bin/base64
+- hidden-files:
+- listening-ports:
+- pass-policy:
+- path-executables:
 - root-structure:
  - bin
  - dev
@@ -107,6 +112,12 @@
  - tmp
  - usr
  - var
-  openssl (missing):
-    required by: world[openssl]
 - ssl-certs:
+- world-writable-folders:
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp

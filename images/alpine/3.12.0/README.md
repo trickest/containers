@@ -1,5 +1,9 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=3.12.0&color=blue)
+## dev-tools
+```
+```
+
 ## etc/shadow
 ```
   - root:!::0:::::
@@ -68,6 +72,32 @@
   - /usr/bin/wget
   - /bin/ping
   - /bin/base64
+```
+
+## hidden-files
+```
+```
+
+## listening-ports
+```
+```
+
+## pass-policy
+```
+```
+
+## path-executables
+```
+ - /usr/bin/ldd
+ - /usr/bin/scanelf
+ - /usr/bin/getent
+ - /usr/bin/iconv
+ - /usr/bin/getconf
+ - /usr/bin/ssl_client
+ - /sbin/apk
+ - /sbin/ldconfig
+ - /sbin/mkmntdirs
+ - /bin/busybox
 ```
 
 ## root-structure
@@ -231,6 +261,17 @@
  - subject=C = US, O = "thawte, Inc.", OU = Certification Services Division, OU = "(c) 2006 thawte, Inc. - For authorized use only", CN = thawte Primary Root CA
  - subject=C = US, O = "thawte, Inc.", OU = "(c) 2007 thawte, Inc. - For authorized use only", CN = thawte Primary Root CA - G2
  - subject=C = US, O = "thawte, Inc.", OU = Certification Services Division, OU = "(c) 2008 thawte, Inc. - For authorized use only", CN = thawte Primary Root CA - G3
+```
+
+## world-writable-folders
+```
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp
 ```
 
 ## cves

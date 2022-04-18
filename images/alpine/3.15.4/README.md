@@ -1,5 +1,9 @@
 ## alpine
 ![](https://img.shields.io/static/v1?label=tag&message=3.15.4&color=blue)
+## dev-tools
+```
+```
+
 ## etc/shadow
 ```
   - root:!::0:::::
@@ -68,6 +72,32 @@
   - /usr/bin/wget
   - /bin/ping
   - /bin/base64
+```
+
+## hidden-files
+```
+```
+
+## listening-ports
+```
+```
+
+## pass-policy
+```
+```
+
+## path-executables
+```
+ - /usr/bin/ldd
+ - /usr/bin/scanelf
+ - /usr/bin/getent
+ - /usr/bin/iconv
+ - /usr/bin/getconf
+ - /usr/bin/ssl_client
+ - /sbin/apk
+ - /sbin/ldconfig
+ - /sbin/mkmntdirs
+ - /bin/busybox
 ```
 
 ## root-structure
@@ -225,4 +255,15 @@
  - subject=C = IN, OU = emSign PKI, O = eMudhra Technologies Limited, CN = emSign Root CA - G1
  - subject=C = CN, O = "iTrusChina Co.,Ltd.", CN = vTrus ECC Root CA
  - subject=C = CN, O = "iTrusChina Co.,Ltd.", CN = vTrus Root CA
+```
+
+## world-writable-folders
+```
+ - /var/tmp
+ - /sys/firmware
+ - /proc/acpi
+ - /proc/scsi
+ - /dev/shm
+ - /dev/mqueue
+ - /tmp
 ```
