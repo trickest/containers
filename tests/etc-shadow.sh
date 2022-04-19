@@ -1,2 +1,2 @@
-echo "- etc/passwd:"
-cat /etc/passwd | sed 's/^/  - /g'
+echo "- etc/shadow:"
+cat /etc/shadow | sed 's/^/  - /g'
