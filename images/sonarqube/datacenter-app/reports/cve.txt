@@ -1,0 +1,22 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2022-0265 - CRITICAL -  hazelcast: Improper Restriction of XML External Entity Reference
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2021-40690 - HIGH -  xml-security: XPath Transform abuse allows for information disclosure
+CVE-2022-22968 - LOW -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2020-13697 - MEDIUM -  XXS in NanoHTTPD
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2018-10237 - MEDIUM -  guava: Unbounded memory allocation in AtomicDoubleArray and CompoundOrdering classes allow remote attackers to cause a denial of service
+CVE-2021-43797 - MEDIUM -  netty: control chars in header names may lead to HTTP request smuggling
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2021-22569 - MEDIUM -  protobuf-java: potential DoS in the parsing procedure for binary data
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java

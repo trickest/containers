@@ -1,0 +1,16 @@
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+GHSA-8j8c-7jfh-h6hx - HIGH -  Code Injection in js-yaml
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-21803 - HIGH -  nconf: Prototype pollution in memory store
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-1586 - HIGH -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - HIGH -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2004-0971 - LOW -  security flaw
+GHSA-xx4c-jj58-r7x6 - MEDIUM -   Inefficient Regular Expression Complexity in Validator.js
+GHSA-2pr6-76vf-7546 - MEDIUM -  Denial of Service in js-yaml
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+GHSA-984p-xq9m-4rjw - MEDIUM -  Rate Limiting Bypass in express-brute
+GHSA-v2p6-4mp7-3r9v - MEDIUM -  Regular Expression Denial of Service in underscore.string

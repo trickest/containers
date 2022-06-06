@@ -1,0 +1,87 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2017-12652 - CRITICAL -  libpng: does not check length of chunks against user limit
+CVE-2018-25011 - CRITICAL -  libwebp: heap-based buffer overflow in PutLE16()
+CVE-2018-25013 - CRITICAL -  libwebp: out-of-bounds read in ShiftBytes()
+CVE-2018-25009 - CRITICAL -  libwebp: out-of-bounds read in WebPMuxCreateInternal
+CVE-2018-25012 - CRITICAL -  libwebp: out-of-bounds read in WebPMuxCreateInternal()
+CVE-2018-25014 - CRITICAL -  libwebp: use of uninitialized value in ReadSymbol()
+CVE-2021-22930 - CRITICAL -  nodejs: Use-after-free on close http2 on stream canceling
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-22817 - CRITICAL -  python-pillow: PIL.ImageMath.eval allows evaluation of arbitrary expressions
+CVE-2018-20060 - CRITICAL -  python-urllib3: Cross-host redirect does not remove Authorization header allow for credential exposure
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2020-35492 - HIGH -  cairo: libreoffice slideshow aborts with stack smashing in cairo's composite_boxes
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-27218 - HIGH -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2020-18032 - HIGH -  graphviz: off-by-one in parse_reclbl() in lib/common/shapes.c
+CVE-2020-35524 - HIGH -  libtiff: Heap-based buffer overflow in TIFF2PDF tool
+CVE-2020-35523 - HIGH -  libtiff: Integer overflow in tif_getimage.c
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-44531 - HIGH -  nodejs: Improper handling of URI Subject Alternative Names
+CVE-2021-43818 - HIGH -  python-lxml: HTML Cleaner allows crafted and SVG embedded scripts to pass through
+CVE-2020-35653 - HIGH -  python-pillow: Buffer over-read in PCX image reader
+CVE-2021-27922 - HIGH -  python-pillow: Excessive memory allocation in ICNS image reader
+CVE-2021-27923 - HIGH -  python-pillow: Excessive memory allocation in ICO image reader
+CVE-2018-14553 - LOW -  gd: NULL pointer dereference in gdImageClone
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2018-18405 - LOW -  jquery: crafted onerror attribute of an IMG element could result in XSS
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2017-15088 - LOW -  krb5: Buffer overflow in get_matching_data()
+CVE-2017-13720 - LOW -  libXfont: Insufficient input validation in fontdir.c
+CVE-2017-13722 - LOW -  libXfont: Insufficient input validation in pcfread.c
+CVE-2017-16611 - LOW -  libXfont: User can trigger arbitrary file read by X server causing a DoS
+CVE-2019-2201 - LOW -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2020-35521 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2017-11499 - LOW -  nodejs: Constant Hashtable Seeds vulnerability
+CVE-2018-12120 - LOW -  nodejs: Debugger port 5858 listens on any interface by default
+CVE-2018-7167 - LOW -  nodejs: Denial of Service by calling Buffer.fill() or Buffer.alloc() with specially crafted parameters
+CVE-2019-5739 - LOW -  nodejs: DoS with keep-alive HTTP connection
+CVE-2018-7159 - LOW -  nodejs: HTTP parser allowed for spaces inside Content-Length header values
+CVE-2018-12116 - LOW -  nodejs: HTTP request splitting
+CVE-2018-12123 - LOW -  nodejs: Hostname spoofing in URL parser for javascript protocol
+CVE-2018-12115 - LOW -  nodejs: Out of bounds (OOB) write via UCS-2 encoding
+CVE-2018-12122 - LOW -  nodejs: Slowloris HTTP Denial of Service
+CVE-2018-7158 - LOW -  nodejs: path module regular expression denial of service
+CVE-2021-3601 - LOW -  openssl: Certificate with CA:FALSE is accepted as valid CA cert
+CVE-2019-16865 - LOW -  python-pillow: reading specially crafted image files leads to allocation of large amounts of memory and denial of service
+CVE-2018-20225 - LOW -  python-pip: when --extra-index-url option is used and package does not already exist in the public index, the installation of malicious package with arbitrary version number is possible.
+CVE-2019-9674 - LOW -  python: Nested zip file (Zip bomb) vulnerability in Lib/zipfile.py
+CVE-2004-0971 - LOW -  security flaw
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-24859 - MEDIUM -  PyPDF2: infinite loop vulnerability
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-22959 - MEDIUM -  llhttp: HTTP Request Smuggling due to spaces in headers
+CVE-2021-22960 - MEDIUM -  llhttp: HTTP Request Smuggling when parsing the body of chunked requests
+CVE-2021-44532 - MEDIUM -  nodejs: Certificate Verification Bypass via String Injection
+CVE-2021-44533 - MEDIUM -  nodejs: Incorrect handling of certificate subject and issuer fields
+CVE-2018-19787 - MEDIUM -  python-lxml: XSS in lxml.html.clean module in lxml/html/clean.py
+CVE-2022-22816 - MEDIUM -  python-pillow: buffer over-read during initialization of ImagePath.Path in path_getbbox() in path.c
+CVE-2022-22815 - MEDIUM -  python-pillow: improperly initializes ImagePath.Path in path_getbbox() in path.c
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+DLA-2593-1 - UNKNOWN -  ca-certificates - whitelist Symantec CA
+DLA-2948-1 - UNKNOWN -  debian-archive-keyring - security update
+DLA-2759-1 - UNKNOWN -  gnutls28 - security update
+DLA-2467-2 - UNKNOWN -  lxml - regression update
+DLA-2761-1 - UNKNOWN -  openssl1.0 - security update
+DLA-2963-1 - UNKNOWN -  tzdata - new timezone database
+DLA-2424-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2509-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2542-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2797-1 - UNKNOWN -  tzdata - new upstream version

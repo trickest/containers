@@ -1,0 +1,16 @@
+CVE-2022-23221 - CRITICAL -  h2: Loading of custom classes from remote servers through JNDI
+CVE-2021-42392 - CRITICAL -  h2: Remote Code Execution in Console
+CVE-2021-23463 - CRITICAL -  h2database: XXE injection vulnerability
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2022-21824 - HIGH -  nodejs: Prototype pollution via console.table properties
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2022-22968 - LOW -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2021-28168 - MEDIUM -  jersey: Local information disclosure via system temporary directory
+CVE-2021-42550 - MEDIUM -  logback: remote code execution through JNDI call from within its configuration file
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression

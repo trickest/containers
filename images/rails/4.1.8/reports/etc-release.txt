@@ -1,0 +1,6 @@
+PRETTY_NAME="Debian GNU/Linux jessie/sid"
+NAME="Debian GNU/Linux"
+ID=debian
+HOME_URL="http://www.debian.org/"
+SUPPORT_URL="http://www.debian.org/support/"
+BUG_REPORT_URL="https://bugs.debian.org/"

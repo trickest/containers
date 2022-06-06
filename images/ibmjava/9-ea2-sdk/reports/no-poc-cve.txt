@@ -1,0 +1,5 @@
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2017-12133 - LOW -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2017-6508 - LOW -  wget: CRLF injection in the url_parse function in url.c
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-5953 - MEDIUM -  wget: do_conversion() heap-based buffer overflow vulnerability

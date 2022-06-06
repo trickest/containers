@@ -1,0 +1,55 @@
+# [kibana:8.1.0](https://hub.docker.com/_/kibana?tab=tags)
+![](https://img.shields.io/static/v1?label=tag&message=8.1.0&color=blue)
+![](https://img.shields.io/badge/Ubuntu%2020.04.4%20LTS%20%20-blue)
+---
+<p>
+Kibana gives shape to any kind of data — structured and unstructured — indexed in Elasticsearch.
+</p>
+
+## CVEs
+### Critical (1)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2021--44906-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-44906.md)
+#### Without POC
+
+
+### High (8)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2022--24772-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-24772.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--24771-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-24771.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--3749-HIGH-organge)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-3749.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--23337-HIGH-organge)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-23337.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--8203-HIGH-organge)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-8203.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--0778-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-0778.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20CVE--2022--24785-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-24785.md)[![](https://img.shields.io/badge/%20CVE--2021--43138-HIGH-organge)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-43138.md)
+
+### Medium (18)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2022--22576-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22576.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--27782-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27782.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--27774-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27774.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--25315-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-25315.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--25314-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-25314.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--25313-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-25313.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--1271-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1271.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--37750-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-37750.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36222-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36222.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--24773-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-24773.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--28500-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-28500.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9794-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9794.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--29155-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-29155.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--16156-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-16156.md)[![](https://img.shields.io/badge/🔗%20CVE--2018--25032-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2018/CVE-2018-25032.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20CVE--2022--27404-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27404.md)[![](https://img.shields.io/badge/%20CVE--2022--1304-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1304.md)[![](https://img.shields.io/badge/%20CVE--2022--1292-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1292.md)
+
+### Low (24)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2019--18276-LOW-blue)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-18276.md)[![](https://img.shields.io/badge/🔗%20CVE--2016--2781-LOW-blue)](https://github.com/trickest/cve/blob/main/2016/CVE-2016-2781.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--27781-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27781.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--27776-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27776.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--27775-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27775.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--43618-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-43618.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36087-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36087.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36084-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36084.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36085-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36085.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36086-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36086.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--25648-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-25648.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9849-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9849.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9991-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9991.md)[![](https://img.shields.io/badge/🔗%20CVE--2019--20838-LOW-blue)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-20838.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--14155-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-14155.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11164-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11164.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--3671-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-3671.md)[![](https://img.shields.io/badge/🔗%20CVE--2013--4235-LOW-blue)](https://github.com/trickest/cve/blob/main/2013/CVE-2013-4235.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--20193-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-20193.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--25315-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-25315.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--25314-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-25314.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20CVE--2022--27405-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27405.md)[![](https://img.shields.io/badge/%20CVE--2022--27406-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27406.md)[![](https://img.shields.io/badge/%20CVE--2022--22747-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22747.md)[![](https://img.shields.io/badge/%20CVE--2022--1586-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1586.md)[![](https://img.shields.io/badge/%20CVE--2022--1587-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1587.md)[![](https://img.shields.io/badge/%20CVE--2022--27404-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27404.md)[![](https://img.shields.io/badge/%20CVE--2022--1292-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1292.md)
+
+## Tests
+* [path executables](reports/path-executables.txt)
+* [gtfo](reports/gtfo.txt)
+* [hidden files](reports/hidden-files.txt)
+* [no poc cve](reports/no-poc-cve.txt)
+* [cve](reports/cve.txt)
+* [etc issue](reports/etc-issue.txt)
+* [root structure](reports/root-structure.txt)
+* [etc release](reports/etc-release.txt)
+* [etc shadow](reports/etc-shadow.txt)
+* [guid executables](reports/guid-executables.txt)
+* [exposed ports](reports/exposed-ports.txt)
+* [package names](reports/package-names.txt)
+* [dev tools](reports/dev-tools.txt)
+* [world writable files](reports/world-writable-files.txt)
+* [files owned by root](reports/files-owned-by-root.txt)
+* [pass policy](reports/pass-policy.txt)
+* [etc passwd](reports/etc-passwd.txt)
+* [world writable folders](reports/world-writable-folders.txt)
+* [poc cve](reports/poc-cve.txt)
+* [ssl certs](reports/ssl-certs.txt)
+* [suid executables](reports/suid-executables.txt)

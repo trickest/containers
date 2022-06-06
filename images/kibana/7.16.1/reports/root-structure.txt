@@ -1,0 +1,12 @@
+LICENSE.txt
+NOTICE.txt
+README.txt
+bin
+config
+data
+node
+node_modules
+package.json
+plugins
+src
+x-pack

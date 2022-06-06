@@ -1,0 +1,8 @@
+CVE-2020-10531 - MEDIUM -  ICU: Integer overflow in UnicodeString::doAppend()
+CVE-2016-0494 - MEDIUM -  ICU: integer signedness issue in IndicRearrangementProcessor (OpenJDK 2D, 8140543)
+CVE-2015-4844 - MEDIUM -  ICU: missing boundary checks in layout engine (OpenJDK 2D, 8132042)
+CVE-2017-14952 - MEDIUM -  icu: Double free in i18n/zonemeta.cpp
+CVE-2017-7868 - MEDIUM -  icu: Heap-buffer overflow in utext_moveIndex32 function
+CVE-2017-7867 - MEDIUM -  icu: Heap-buffer overflow in utext_setNativeIndex function
+CVE-2016-6293 - MEDIUM -  icu: Out-of-bounds access in uloc_acceptLanguageFromHTTP
+CVE-2016-7415 - MEDIUM -  icu: Stack based buffer overflow in locid.cpp

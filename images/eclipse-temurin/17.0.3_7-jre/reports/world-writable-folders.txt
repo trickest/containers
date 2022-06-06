@@ -1,0 +1,4 @@
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi

@@ -1,0 +1,4 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs

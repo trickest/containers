@@ -1,0 +1,12 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2022-24765 - HIGH -  git: On multi-user machines Git users might find themselves unexpectedly in a Git worktree
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-24070 - HIGH -  subversion: Subversion's mod_dav_svn is vulnerable to memory corruption
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression

@@ -1,0 +1,13 @@
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/openssh/ssh-keysign
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/sudo
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/bin/su
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount

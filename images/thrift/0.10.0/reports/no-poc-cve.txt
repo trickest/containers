@@ -1,0 +1,13 @@
+CVE-2014-5044 - CRITICAL -  gcc: integer overflow flaws in libgfortran
+CVE-2017-5337 - CRITICAL -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5336 - CRITICAL -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2017-5335 - HIGH -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-7869 - HIGH -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2014-9114 - HIGH -  util-linux: command injection flaw in blkid
+CVE-2002-2439 - LOW -  gcc: Integer overflow can occur during the computation of the memory region size for new[] operator
+CVE-2013-2207 - LOW -  glibc (pt_chown): Improper pseudotty ownership and permissions changes when granting access to the slave pseudoterminal
+CVE-2013-7041 - LOW -  pam: pam_userdb case insensitive password hash comparison
+CVE-2014-2583 - LOW -  pam: path traversal issue in pam_timestamp's format_timestamp_name()
+CVE-2013-0157 - LOW -  util-linux: mount folder existence information disclosure
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc

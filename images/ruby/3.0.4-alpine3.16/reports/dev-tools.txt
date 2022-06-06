@@ -1,0 +1,2 @@
+/usr/local/include/ruby-3.0.0/ruby/internal/compiler_is/gcc.h
+/usr/local/include/ruby-3.0.0/ruby/backward/2/gcc_version_since.h

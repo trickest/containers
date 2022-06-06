@@ -1,0 +1,4 @@
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2021-31566 - MEDIUM -  libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive
+CVE-2021-3737 - MEDIUM -  python: urllib: HTTP client possible infinite loop on a 100 Continue response

@@ -1,0 +1,15 @@
+bin
+config
+CONTRIBUTORS
+data
+Gemfile
+Gemfile.lock
+jdk
+lib
+logstash-core
+logstash-core-plugin-api
+modules
+pipeline
+tools
+vendor
+x-pack

@@ -1,0 +1,11 @@
+/usr/lib/openssh/ssh-keysign
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/sudo
+/bin/su
+/bin/ping
+/bin/umount
+/bin/mount

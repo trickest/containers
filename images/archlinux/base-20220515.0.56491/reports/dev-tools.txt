@@ -1,0 +1,4 @@
+/usr/lib/python3.10
+/usr/share/makepkg/reproducible/python.sh
+/var/lib/pacman/local/gcc-libs-12.1.0-1
+/usr/share/licenses/gcc-libs

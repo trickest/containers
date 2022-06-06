@@ -1,0 +1,6 @@
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-45940 - MEDIUM -  libbpf: heap-based buffer overflow (4 bytes) in __bpf_object__open
+CVE-2021-45941 - MEDIUM -  libbpf: heap-based buffer overflow (8 bytes) in __bpf_object__open
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty

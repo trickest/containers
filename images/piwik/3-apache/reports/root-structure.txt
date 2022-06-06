@@ -1,0 +1,15 @@
+PRIVACY.md
+README.md
+SECURITY.md
+bower.json
+composer.json
+composer.lock
+console
+core
+lang
+libs
+piwik.js
+piwik.php
+plugins
+tests
+vendor

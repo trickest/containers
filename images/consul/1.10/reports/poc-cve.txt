@@ -1,0 +1,9 @@
+CVE-2022-27191 - HIGH -  golang: crash in a golang.org/x/crypto/ssh server
+CVE-2020-26160 - HIGH -  jwt-go: access restriction bypass vulnerability
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2019-11250 - MEDIUM -  kubernetes: Bearer tokens written to logs at high verbosity levels (>= 7)
+CVE-2020-8565 - MEDIUM -  kubernetes: Incomplete fix for CVE-2019-11250 allows for token leak in logs when logLevel >= 9
+CVE-2021-38561 - UNKNOWN -  null

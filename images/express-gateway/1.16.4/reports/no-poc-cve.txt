@@ -1,0 +1,15 @@
+GHSA-6x33-pw7p-hmpq - HIGH -  Denial of Service in http-proxy
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2020-8131 - HIGH -  yarn: Arbitrary filesystem write via tar expansion
+GHSA-gqf6-75v8-vr26 - LOW -  Arbitrary File Write in bin-links
+GHSA-v45m-2wcp-gg98 - LOW -  Global node_modules Binary Overwrite in bin-links
+GHSA-xgh6-85xh-479p - LOW -  Regular Expression Denial of Service in npm-user-validate
+GHSA-2mj8-pj3j-h362 - LOW -  Symlink reference outside of node_modules in bin-links
+CVE-2019-16776 - LOW -  npm: Arbitrary file write via constructed entry in the package.json bin field
+CVE-2019-16777 - LOW -  npm: Global node_modules Binary Overwrite
+GHSA-4xcv-9jjx-gfj3 - MEDIUM -  Denial of Service in mem
+GHSA-64g7-mvw6-v9qj - MEDIUM -  Improper Privilege Management in shelljs
+GHSA-pc5p-h8pf-mvwp - MEDIUM -  Machine-In-The-Middle in https-proxy-agent
+NSWG-ECO-505 - MEDIUM -  Man-in-the-Middle
+GHSA-jmqm-f2gx-4fjv - MEDIUM -  Sensitive information exposure through logs in npm-registry-fetch
+CVE-2022-0536 - MEDIUM -  follow-redirects: Exposure of Sensitive Information via Authorization Header leak

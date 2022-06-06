@@ -1,0 +1,4 @@
+CVE-2017-9233 - HIGH -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2016-4472 - HIGH -  expat: Undefined behavior and pointer overflows
+CVE-2017-15873 - MEDIUM -  busybox: Integer overflow in the get_next_block function
+CVE-2012-6702 - MEDIUM -  expat: Using XML_Parse before rand() results into non-random output

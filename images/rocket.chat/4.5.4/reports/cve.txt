@@ -1,0 +1,141 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2021-35942 - CRITICAL -  glibc: Arbitrary read in wordexp()
+CVE-2022-23219 - CRITICAL -  glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname
+CVE-2022-23218 - CRITICAL -  glibc: Stack-based buffer overflow in svcunix_create via long pathnames
+CVE-2021-33574 - CRITICAL -  glibc: mq_notify does not handle separately allocated thread attributes
+CVE-2021-44906 - CRITICAL -  minimist: prototype pollution
+CVE-2018-1000620 - CRITICAL -  nodejs-cryptiles: Insecure randomness causes the randomDigits() function returns a pseudo-random data string biased to certain digits
+CVE-2019-10744 - CRITICAL -  nodejs-lodash: prototype pollution in defaultsDeep function leading to modifying properties
+CVE-2022-0686 - CRITICAL -  npm-url-parse: Authorization bypass through user-controlled key
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2017-18924 - HIGH -  Code Injection in oauth2-server
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+GHSA-7543-mr7h-6v86 - HIGH -  Improper Authorization in googleapis
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2020-28472 - HIGH -  Prototype Pollution via file load in aws-sdk and @aws-sdk/shared-ini-file-loader
+NSWG-ECO-106 - HIGH -  Regular Expression Denial of Service
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-29078 - HIGH -  ejs: server-side template injection in outputFunctionName
+CVE-2022-0155 - HIGH -  follow-redirects: Exposure of Private Personal Information to an Unauthorized Actor
+CVE-2019-15847 - HIGH -  gcc: POWER9 "DARN" RNG intrinsic produces repeated output
+CVE-2018-12886 - HIGH -  gcc: spilling of stack protection address in cfgexpand.c and function.c leads to stack-overflow protection bypass
+CVE-2021-3326 - HIGH -  glibc: Assertion failure in ISO-2022-JP-3 gconv module related to combining characters
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-1751 - HIGH -  glibc: array overflow in backtrace functions for powerpc
+CVE-2020-1752 - HIGH -  glibc: use-after-free in glob() function when expanding ~user
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-29167 - HIGH -  hawk: REDoS in hawk.utils.parseHost() when parsing Host header
+CVE-2021-33560 - HIGH -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2018-16487 - HIGH -  lodash: Prototype pollution in utilities function
+CVE-2022-21680 - HIGH -  marked: regular expression block.def may lead Denial of Service
+CVE-2022-21681 - HIGH -  marked: regular expression inline.reflinkSearch may lead Denial of Service
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-0235 - HIGH -  node-fetch: exposure of sensitive information to an unauthorized actor
+CVE-2022-24772 - HIGH -  node-forge: Signature verification failing to check tailing garbage bytes can lead to signature forgery
+CVE-2022-24771 - HIGH -  node-forge: Signature verification leniency in checking `digestAlgorithm` structure can lead to signature forgery
+CVE-2021-3807 - HIGH -  nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes
+CVE-2021-3749 - HIGH -  nodejs-axios: Regular expression denial of service in trim function
+CVE-2020-28168 - HIGH -  nodejs-axios: allows an attacker to bypass a proxy by providing a URL that responds with a redirect to a restricted host or IP address
+CVE-2020-8244 - HIGH -  nodejs-bl: buffer over-read vulnerability leads to corrupted BufferList which can result in uninitialized memory being leaked
+CVE-2020-26289 - HIGH -  nodejs-date-and-time: ReDoS in parsing via date.compile
+CVE-2017-16118 - HIGH -  nodejs-forwarded:  regular expression denial of service when parsing crafted user input
+CVE-2017-16119 - HIGH -  nodejs-fresh: Regular expression denial of service when parsing crafted user input
+CVE-2020-28469 - HIGH -  nodejs-glob-parent: Regular expression denial of service
+CVE-2020-7768 - HIGH -  nodejs-grpc: Prototype Pollution via loadPackageDefinition
+CVE-2020-7788 - HIGH -  nodejs-ini: Prototype pollution via malicious INI file
+CVE-2020-8237 - HIGH -  nodejs-json-bigint: Prototype pollution via `__proto__` assignment could result in DoS
+CVE-2021-23337 - HIGH -  nodejs-lodash: command injection via template
+CVE-2020-8203 - HIGH -  nodejs-lodash: prototype pollution in zipObjectDeep function
+CVE-2020-7720 - HIGH -  nodejs-node-forge: prototype pollution via the util.setPath function
+CVE-2014-7191 - HIGH -  nodejs-qs: Denial-of-Service Memory Exhaustion
+CVE-2017-1000048 - HIGH -  nodejs-qs: Prototype override protection bypass
+CVE-2021-37713 - HIGH -  nodejs-tar: Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization
+CVE-2021-32804 - HIGH -  nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite
+CVE-2021-32803 - HIGH -  nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite
+CVE-2021-37701 - HIGH -  nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite
+CVE-2021-37712 - HIGH -  nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite
+CVE-2020-16156 - HIGH -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2019-3843 - HIGH -  systemd: services with DynamicUser can create SUID/SGID binaries
+CVE-2019-3844 - HIGH -  systemd: services with DynamicUser can get new privileges and create SGID binaries
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2011-3389 - LOW -  HTTPS: block-wise chosen-plaintext attack against SSL/TLS (BEAST)
+GHSA-5rrq-pxf6-6jx5 - LOW -  Prototype Pollution in node-forge debug API.
+GHSA-wxgw-qj99-44c2 - LOW -  Prototype Pollution in node-forge util.setPath API
+CVE-2021-21267 - LOW -  Regular Expression Denial-of-Service in npm schema-inspector
+GHSA-gf8q-jrpm-jvxq - LOW -  URL parsing in node-forge could lead to undesired behavior.
+CVE-2019-18276 - LOW -  bash: when effective UID is not equal to its real UID the saved UID is not dropped
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - LOW -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2013-0340 - LOW -  expat: internal entity expansion
+CVE-2019-1010024 - LOW -  glibc: ASLR bypass using cache of thread stack and heap
+CVE-2019-19126 - LOW -  glibc: LD_PREFER_MAP_32BIT_EXEC not ignored in setuid binaries
+CVE-2021-27645 - LOW -  glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c
+CVE-2010-4756 - LOW -  glibc: glob implementation can cause excessive CPU and memory consumption due to crafted glob expressions
+CVE-2016-10228 - LOW -  glibc: iconv program can hang when invoked with the -c option
+CVE-2019-1010025 - LOW -  glibc: information disclosure of heap addresses of pthread_created thread
+CVE-2019-1010023 - LOW -  glibc: running ldd on malicious ELF leads to code execution because of wrong size computation
+CVE-2020-6096 - LOW -  glibc: signed comparison vulnerability in the ARMv7 memcpy function
+CVE-2019-1010022 - LOW -  glibc: stack guard protection bypass
+CVE-2018-20796 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-9192 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-14855 - LOW -  gnupg2: OpenPGP Key Certification Forgeries with SHA-1
+CVE-2018-6829 - LOW -  libgcrypt: ElGamal implementation doesn't have semantic security due to incorrectly encoded plaintexts possibly allowing to obtain sensitive information
+CVE-2018-14048 - LOW -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2018-14550 - LOW -  libpng: Stack-based buffer overflow in contrib/pngminus/pnm2png.c:get_token() potentially leading to arbitrary code execution
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2019-6129 - LOW -  libpng: memory leak of png_info struct in pngcp.c
+CVE-2019-9893 - LOW -  libseccomp: incorrect generation of syscall filters in libseccomp
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2018-1000654 - LOW -  libtasn1: Infinite loop in _asn1_expand_object_id(ptree) leads to memory exhaustion
+CVE-2018-3721 - LOW -  lodash: Prototype pollution in utilities function
+CVE-2019-17543 - LOW -  lz4: heap-based buffer overflow in LZ4_write32
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2020-15168 - LOW -  node-fetch: size of data after fetch() JS thread leads to DoS
+CVE-2017-16137 - LOW -  nodejs-debug: Regular expression Denial of Service
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-16231 - LOW -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2011-4116 - LOW -  perl: File::Temp insecure temporary file handling
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-19882 - LOW -  shadow-utils: local users can obtain root access because setuid programs are misconfigured
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2020-13529 - LOW -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2020-13776 - LOW -  systemd: Mishandles numerical usernames beginning with decimal digits or 0x followed by hexadecimal digits
+CVE-2013-4392 - LOW -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2019-20386 - LOW -  systemd: memory leak in button_open() in login/logind-button.c when udev events are received
+CVE-2021-20193 - LOW -  tar: Memory leak in read_header() in list.c
+CVE-2005-2541 - LOW -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-0563 - LOW -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+NSWG-ECO-28 - MEDIUM -  Denial-of-Service Extended Event Loop Blocking
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-0122 - MEDIUM -  Open Redirect in node-forge
+GHSA-7wwv-vh3v-89cq - MEDIUM -  ReDOS vulnerabities: multiple grammars
+CVE-2022-1365 - MEDIUM -  cross-fetch: Exposure of Private Personal Information to an Unauthorized Actor
+CVE-2022-0536 - MEDIUM -  follow-redirects: Exposure of Sensitive Information via Authorization Header leak
+CVE-2019-25013 - MEDIUM -  glibc: buffer over-read in iconv when processing invalid multi-byte input sequences in the EUC-KR encoding
+CVE-2020-27618 - MEDIUM -  glibc: iconv when processing invalid multi-byte input sequences fails to advance the input state, which could result in an infinite loop
+CVE-2020-10029 - MEDIUM -  glibc: stack corruption from crafted input in cosl, sinl, sincosl, and tanl functions
+CVE-2019-13627 - MEDIUM -  libgcrypt: ECDSA timing attack allowing private key leak
+CVE-2019-1010266 - MEDIUM -  lodash: uncontrolled resource consumption in Data handler causing denial of service
+CVE-2022-24773 - MEDIUM -  node-forge: Signature verification leniency in checking `DigestInfo` structure
+CVE-2020-15366 - MEDIUM -  nodejs-ajv: prototype pollution via crafted JSON schema in ajv.validate function
+CVE-2016-1000236 - MEDIUM -  nodejs-cookie-signature: Timing attack vulnerability
+CVE-2021-3918 - MEDIUM -  nodejs-json-schema: Prototype pollution vulnerability
+CVE-2020-28500 - MEDIUM -  nodejs-lodash: ReDoS via the toNumber, trim and trimEnd functions
+CVE-2017-16138 - MEDIUM -  nodejs-mime: Regular expression Denial of Service
+CVE-2020-7598 - MEDIUM -  nodejs-minimist: prototype pollution allows adding or modifying properties of Object.prototype using a constructor or __proto__ payload
+CVE-2021-3803 - MEDIUM -  nodejs-nth-check: inefficient regular expression complexity
+CVE-2014-6394 - MEDIUM -  nodejs-send: directory traversal vulnerability
+CVE-2021-32796 - MEDIUM -  nodejs-xmldom: misinterpretation of malicious XML input
+CVE-2022-0691 - MEDIUM -  npm-url-parse: authorization bypass through user-controlled key
+CVE-2020-14155 - MEDIUM -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files

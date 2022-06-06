@@ -1,0 +1,18 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2019-20933 - CRITICAL -  influxdb: authentication bypass because a JWT token may have an empty SharedSecret
+CVE-2018-1098 - HIGH -  etcd: Cross-site request forgery via crafted local POST forms
+CVE-2020-29529 - HIGH -  go-slug: partial protection against zip slip attacks
+CVE-2021-3121 - HIGH -  gogo/protobuf: plugin/unmarshal/unmarshal.go lacks certain index validation
+CVE-2020-16845 - HIGH -  golang: ReadUvarint and ReadVarint can read an unlimited number of bytes from invalid inputs
+CVE-2022-27191 - HIGH -  golang: crash in a golang.org/x/crypto/ssh server
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2021-29482 - HIGH -  ulikunitz/xz: Infinite loop in readUvarint allows for denial of service
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2018-1099 - MEDIUM -  etcd: DNS rebinding vulnerability in etcd server
+CVE-2018-17572 - MEDIUM -  influxdb: Reflected cross-site-scripting in the Write Data module
+CVE-2019-11254 - MEDIUM -  kubernetes: Denial of service in API server via crafted YAML payloads by authorized users
+CVE-2020-8565 - MEDIUM -  kubernetes: Incomplete fix for CVE-2019-11250 allows for token leak in logs when logLevel >= 9
+CVE-2019-10743 - MEDIUM -  mholt/archiver: aribtrary file write via unsanitized destination filepaths
+CVE-2021-20329 - MEDIUM -  mongo-go-driver: specific cstrings input may not be properly validated
+CVE-2021-38561 - UNKNOWN -  null
+GO-2021-0061 - UNKNOWN -  null

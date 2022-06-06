@@ -1,0 +1,2 @@
+/usr/share/arangodb3/js/node/node_modules/highlight.js/lib/languages/perl.js
+/usr/share/arangodb3/js/node/node_modules/highlight.js/lib/languages/python.js

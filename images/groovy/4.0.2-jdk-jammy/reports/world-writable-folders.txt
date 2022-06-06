@@ -1,0 +1,11 @@
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/home/groovy
+/home/groovy/.groovy
+/home/groovy/.groovy/grapes
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

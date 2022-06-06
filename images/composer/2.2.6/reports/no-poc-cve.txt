@@ -1,0 +1,9 @@
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-24070 - HIGH -  subversion: Subversion's mod_dav_svn is vulnerable to memory corruption
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression

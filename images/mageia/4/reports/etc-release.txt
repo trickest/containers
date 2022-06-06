@@ -1,0 +1,19 @@
+LSB_VERSION=
+DISTRIB_ID="Mageia"
+DISTRIB_RELEASE=4
+DISTRIB_CODENAME=thornicroft
+DISTRIB_DESCRIPTION="Mageia 4"
+Mageia release 4 (Official) for x86_64
+Mageia release 4 (Official) for x86_64
+Mageia release 4 (Official) for x86_64
+Mageia release 4 (Official) for x86_64
+NAME="Mageia"
+VERSION="4"
+ID=mageia
+ID_LIKE="mandriva fedora"
+PRETTY_NAME="Mageia 4"
+ANSI_COLOR="1;36"
+HOME_URL="http://www.mageia.org/"
+SUPPORT_URL="http://www.mageia.org/support/"
+BUG_REPORT_URL="https://bugs.mageia.org/"
+Mageia release 4 (Official) for x86_64

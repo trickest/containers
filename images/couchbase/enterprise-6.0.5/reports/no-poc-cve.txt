@@ -1,0 +1,6 @@
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2020-11078 - LOW -  python-httplib2: CRLF injection via an attacker controlled unescaped part of uri for httplib2.Http.request function
+CVE-2019-9705 - LOW -  vixie-cron: memory consumption DoS via a large crontab file
+CVE-2019-9706 - LOW -  vixie-cron: use-after-free  resulting in dos
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection

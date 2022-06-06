@@ -1,0 +1,100 @@
+CVE-2022-26612 - CRITICAL -  hadoop: Arbitrary file write in FileUtil#unpackEntries on Windows
+CVE-2018-11307 - CRITICAL -  jackson-databind: Potential information exfiltration with default typing, serialization gadget from MyBatis
+CVE-2019-17267 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the ehcache package
+CVE-2019-14893 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the xalan package
+CVE-2019-16943 - CRITICAL -  jackson-databind: Serialization gadgets in com.p6spy.engine.spy.P6DataSource
+CVE-2019-14540 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariConfig
+CVE-2019-16335 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariDataSource
+CVE-2019-16942 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.commons.dbcp.datasources.*
+CVE-2019-17531 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.log4j.receivers.db.*
+CVE-2017-15095 - CRITICAL -  jackson-databind: Unsafe deserialization due to incomplete black list (incomplete fix for CVE-2017-7525)
+CVE-2018-14718 - CRITICAL -  jackson-databind: arbitrary code execution in slf4j-ext class
+CVE-2018-7489 - CRITICAL -  jackson-databind: incomplete fix for CVE-2017-7525 permits unsafe serialization via c3p0 libraries
+CVE-2019-20330 - CRITICAL -  jackson-databind: lacks certain net.sf.ehcache blocking
+CVE-2019-17638 - CRITICAL -  jetty: double release of resource can lead to information disclosure
+CVE-2021-45046 - CRITICAL -  log4j-core: DoS in log4j 2.x with thread context message pattern and context lookup pattern (incomplete fix for CVE-2021-44228)
+CVE-2021-44228 - CRITICAL -  log4j-core: Remote code execution in Log4j 2.x when logs contain an attacker-controlled string value
+CVE-2022-29155 - CRITICAL -  openldap: OpenLDAP SQL injection
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-9492 - HIGH -  hadoop: WebHDFS client might send SPNEGO authorization header
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2020-35490 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource
+CVE-2020-35491 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource
+CVE-2018-5968 - HIGH -  jackson-databind: unsafe deserialization due to incomplete blacklist (incomplete fix for CVE-2017-7525 and CVE-2017-17485)
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2021-33560 - HIGH -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2021-45105 - HIGH -  log4j-core: DoS in log4j 2.x with Thread Context Map (MDC) input data contains a recursive lookup and context lookup pattern
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2022-1586 - HIGH -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - HIGH -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2020-16156 - HIGH -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2020-13936 - HIGH -  velocity: arbitrary code execution when attacker is able to modify templates
+CVE-2007-6755 - LOW -  Dual_EC_DRBG: weak pseudo random number generator
+CVE-2011-3389 - LOW -  HTTPS: block-wise chosen-plaintext attack against SSL/TLS (BEAST)
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - LOW -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2019-1010024 - LOW -  glibc: ASLR bypass using cache of thread stack and heap
+CVE-2010-4756 - LOW -  glibc: glob implementation can cause excessive CPU and memory consumption due to crafted glob expressions
+CVE-2019-1010025 - LOW -  glibc: information disclosure of heap addresses of pthread_created thread
+CVE-2019-1010023 - LOW -  glibc: running ldd on malicious ELF leads to code execution because of wrong size computation
+CVE-2019-1010022 - LOW -  glibc: stack guard protection bypass
+CVE-2018-20796 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-9192 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2018-5709 - LOW -  krb5: integer overflow in dbentry->n_key_data in kadmin/dbutil/dump.c
+CVE-2018-6829 - LOW -  libgcrypt: ElGamal implementation doesn't have semantic security due to incorrectly encoded plaintexts possibly allowing to obtain sensitive information
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2020-15719 - LOW -  openldap: Certificate validation incorrectly matches name against CN-ID
+CVE-2017-14159 - LOW -  openldap: Privilege escalation via PID file manipulation
+CVE-2017-17740 - LOW -  openldap: contrib/slapd-modules/nops/nops.c attempts to free stack buffer allowing remote attackers to cause a denial of service
+CVE-2015-3276 - LOW -  openldap: incorrect multi-keyword mode cipherstring parsing
+CVE-2010-0928 - LOW -  openssl: RSA authentication weakness
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-16231 - LOW -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2011-4116 - LOW -  perl: File::Temp insecure temporary file handling
+CVE-2004-0971 - LOW -  security flaw
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-19882 - LOW -  shadow-utils: local users can obtain root access because setuid programs are misconfigured
+CVE-2020-13529 - LOW -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2013-4392 - LOW -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2005-2541 - LOW -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2022-0563 - LOW -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2020-13955 - MEDIUM -  Missing Authentication for Critical Function in Apache Calcite
+CVE-2021-29425 - MEDIUM -  apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2018-1000873 - MEDIUM -  jackson-modules-java8: DoS due to an Improper Input Validation
+CVE-2020-27218 - MEDIUM -  jetty: buffer not correctly recycled in Gzip Request inflation
+CVE-2020-27223 - MEDIUM -  jetty: request containing multiple Accept headers with a large number of "quality" parameters may lead to DoS
+CVE-2021-28169 - MEDIUM -  jetty: requests to the ConcatServlet and WelcomeFilter are able to access protected resources within the WEB-INF directory
+CVE-2021-44832 - MEDIUM -  log4j-core: remote code execution via JDBC Appender
+CVE-2022-24614 - MEDIUM -  metadata-extractor: Out-of-memory when reading a specially crafted JPEG file
+CVE-2022-24613 - MEDIUM -  metadata-extractor: Various uncaught exceptions while parsing a specially crafted JPEG file
+CVE-2021-27906 - MEDIUM -  pdfbox: OutOfMemory-Exception while loading a crafted PDF file
+CVE-2021-31811 - MEDIUM -  pdfbox: OutOfMemory-Exception while loading a crafted PDF file
+CVE-2021-27807 - MEDIUM -  pdfbox: infinite loop while loading a crafted PDF file
+CVE-2021-31812 - MEDIUM -  pdfbox: infinite loop while loading a crafted PDF file
+CVE-2021-22569 - MEDIUM -  protobuf-java: potential DoS in the parsing procedure for binary data
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-28657 - MEDIUM -  tika-parsers: Infinite loop in MP3Parser
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java

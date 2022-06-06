@@ -1,0 +1,47 @@
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2020-14155 - LOW -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21418 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21423 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21425 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21413 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21412 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21414 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21435 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21436 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21437 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21438 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21440 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21452 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21459 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21462 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21478 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21479 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21457 - MEDIUM -  mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21415 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2022)
+CVE-2020-9794 - MEDIUM -  null
+CVE-2021-46322 - MEDIUM -  null
+CVE-2022-29155 - MEDIUM -  openldap: OpenLDAP SQL injection
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2021-43784 - MEDIUM -  runc: integer overflow in netlink bytemsg length field allows attacker to override netlink-based container configuration

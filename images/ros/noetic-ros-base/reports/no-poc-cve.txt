@@ -1,0 +1,72 @@
+CVE-2022-29581 - HIGH -  kernel: Improper Update of Reference Count vulnerability in net/sched
+CVE-2022-1116 - HIGH -  kernel: Integer Overflow or Wraparound vulnerability in io_uring
+CVE-2019-1010204 - LOW -  binutils: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read in gold/fileread.cc and elfcpp/elfcpp_file.h leads to denial of service
+CVE-2022-27781 - LOW -  curl: CERTINFO never-ending busy-loop
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2020-12363 - LOW -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2020-12364 - LOW -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2020-14304 - LOW -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2021-3669 - LOW -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2021-3772 - LOW -  kernel: sctp: Invalid chunks may be used to remotely remove existing associations
+CVE-2022-0854 - LOW -  kernel: swiotlb information leak with DMA_FROM_DEVICE
+CVE-2021-4048 - LOW -  lapack: Out-of-bounds read in *larrv
+CVE-2017-13165 - LOW -  null
+CVE-2021-45261 - LOW -  patch: Invalid Pointer via another_hunk function
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1195 - MEDIUM -  kernel: A possible race condition (use-after-free) in drivers/net/hamradio/6pack ( mkiss.c) after unregister_netdev
+CVE-2022-1011 - MEDIUM -  kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes
+CVE-2020-12362 - MEDIUM -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2018-17977 - MEDIUM -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2022-1199 - MEDIUM -  kernel: Null pointer dereference and use after free in ax25_release()
+CVE-2022-1205 - MEDIUM -  kernel: Null pointer dereference and use after free in net/ax25/ax25_timer.c
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2020-24504 - MEDIUM -  kernel: Uncontrolled resource consumption in some Intel(R) Ethernet E810 Adapter drivers
+CVE-2022-28893 - MEDIUM -  kernel: Use after free in SUNRPC subsystem
+CVE-2022-1204 - MEDIUM -  kernel: Use after free in net/ax25/af_ax25.c
+CVE-2022-28388 - MEDIUM -  kernel: a double free in usb_8dev_start_xmit in drivers/net/can/usb/usb_8dev.c
+CVE-2022-0998 - MEDIUM -  kernel: an integer overflow in the vhost_vdpa_config_validate() can lead to out-of-bounds access on top of a 32-bit Linux kernel
+CVE-2021-4159 - MEDIUM -  kernel: another kernel ptr leak vulnerability via BPF in coerce_reg_to_size
+CVE-2021-4197 - MEDIUM -  kernel: cgroup: Use open-time creds and namespace for migration perm checks
+CVE-2021-3864 - MEDIUM -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2022-0382 - MEDIUM -  kernel: information leak due to uninitialized memory in __tipc_sendmsg() in net/tipc/socket.c
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2022-1508 - MEDIUM -  kernel: out-of-bounds read in iov_iter_revert() in lib/iov_iter.c
+CVE-2022-1048 - MEDIUM -  kernel: race condition in snd_pcm_hw_free leading to use-after-free
+CVE-2021-4001 - MEDIUM -  kernel: race condition when the EBPF map is frozen
+CVE-2021-4218 - MEDIUM -  kernel: sysctl parameter read causes kernel panic ( rpcrdma module )
+CVE-2022-1016 - MEDIUM -  kernel: uninitialized registers on stack in nft_do_chain can cause kernel pointer leakage to UM
+CVE-2022-1198 - MEDIUM -  kernel: use-after-free in drivers/net/hamradio/6pack.c
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21418 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21423 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21425 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21413 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21412 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21414 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21435 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21436 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21437 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21438 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21440 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21452 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21459 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21462 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21478 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21479 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21457 - MEDIUM -  mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21415 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2022)
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection

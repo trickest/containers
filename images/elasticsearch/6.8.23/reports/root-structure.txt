@@ -1,0 +1,10 @@
+LICENSE.txt
+NOTICE.txt
+README.textile
+bin
+config
+data
+lib
+logs
+modules
+plugins

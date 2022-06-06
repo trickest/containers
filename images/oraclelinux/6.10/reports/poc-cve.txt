@@ -1,0 +1,7 @@
+CVE-2021-43527 - CRITICAL -  CVE-2021-43529 nss: Memory corruption in decodeECorDsaSignature with DSA signatures (and RSA-PSS)
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2021-25217 - HIGH -  dhcp: stack-based buffer overflow when parsing statements with colon-separated hex digits in config or lease files in dhcpd and dhclient
+CVE-2022-25315 - HIGH -  expat: Integer overflow in storeRawNames()
+CVE-2022-25235 - HIGH -  expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution
+CVE-2022-25236 - HIGH -  expat: Namespace-separator characters in "xmlns[:prefix]" attribute values can lead to arbitrary code execution
+CVE-2021-27219 - HIGH -  glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits

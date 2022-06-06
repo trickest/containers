@@ -1,0 +1,10 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2022-25315 - CRITICAL -  expat: Integer overflow in storeRawNames()
+CVE-2022-25235 - CRITICAL -  expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution
+CVE-2022-25236 - CRITICAL -  expat: Namespace-separator characters in "xmlns[:prefix]" attribute values can lead to arbitrary code execution
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2022-25314 - HIGH -  expat: integer overflow in copyString()
+CVE-2022-24765 - HIGH -  git: On multi-user machines Git users might find themselves unexpectedly in a Git worktree
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2022-25313 - MEDIUM -  expat: stack exhaustion in doctype parsing

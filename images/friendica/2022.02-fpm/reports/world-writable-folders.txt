@@ -1,0 +1,10 @@
+/var/tmp
+/var/www/html
+/sys/firmware
+/usr/src/friendica/view/smarty3
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

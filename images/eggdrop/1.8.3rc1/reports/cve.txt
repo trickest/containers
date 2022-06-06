@@ -1,0 +1,11 @@
+CVE-2017-16879 - HIGH -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2019-1559 - MEDIUM -  openssl: 0-byte record padding oracle
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2018-0733 - MEDIUM -  openssl: Implementation bug in PA-RISC CRYPTO_memcmp function allows attackers to forge authenticated messages in a reduced number of attempts
+CVE-2018-0737 - MEDIUM -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2019-1547 - MEDIUM -  openssl: side-channel weak encryption vulnerability
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm

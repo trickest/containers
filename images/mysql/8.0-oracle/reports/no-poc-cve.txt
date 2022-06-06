@@ -1,0 +1,2 @@
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2022-24302 - MEDIUM -  python-paramiko: Race condition in the write_private_key_file function

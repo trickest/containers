@@ -1,0 +1,14 @@
+AUTHORS
+COPYING-AGPL
+apps
+core
+l10n
+lib
+occ
+ocs
+ocs-provider
+remote.php
+resources
+settings
+status.php
+version.php

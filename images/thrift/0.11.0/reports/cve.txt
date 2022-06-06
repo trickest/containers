@@ -1,0 +1,58 @@
+CVE-2014-5044 - CRITICAL -  gcc: integer overflow flaws in libgfortran
+CVE-2018-6485 - CRITICAL -  glibc: Integer overflow in posix_memalign in memalign functions
+CVE-2014-9761 - CRITICAL -  glibc: Unbounded stack allocation in nan* functions
+CVE-2017-5337 - CRITICAL -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5336 - CRITICAL -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2017-10685 - CRITICAL -  ncurses: Stack-based buffer overflow caused by format string vulnerability in fmt_entry function
+CVE-2017-10684 - CRITICAL -  ncurses: Stack-based buffer overflow in fmt_entry function in dump_entry.c
+CVE-2018-6797 - CRITICAL -  perl: heap write overflow in regcomp.c
+CVE-2017-12424 - CRITICAL -  shadow-utils: Buffer overflow via newusers tool
+CVE-2016-9843 - CRITICAL -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - CRITICAL -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2017-1000409 - HIGH -  glibc: Buffer overflow triggerable via LD_LIBRARY_PATH
+CVE-2017-16997 - HIGH -  glibc: Incorrect handling of RPATH in elf/dl-load.c can be used to execute code loaded from arbitrary libraries
+CVE-2017-1000408 - HIGH -  glibc: Memory leak reachable via LD_HWCAP_MASK
+CVE-2018-1000001 - HIGH -  glibc: realpath() buffer underflow when getcwd() returns relative path allows privilege escalation
+CVE-2017-5335 - HIGH -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-7869 - HIGH -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2017-11112 - HIGH -  ncurses: Illegal address access in append_acs function
+CVE-2017-13728 - HIGH -  ncurses: Infinite loop in the next_char function
+CVE-2017-11113 - HIGH -  ncurses: Null pointer dereference vulnerability in _nc_parse_entry function
+CVE-2017-16879 - HIGH -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2015-8853 - HIGH -  perl: regexp matching hangs indefinitely on illegal UTF-8 input
+CVE-2013-7422 - HIGH -  perl: segmentation fault in S_regmatch on negative backreference
+CVE-2014-9114 - HIGH -  util-linux: command injection flaw in blkid
+CVE-2016-9840 - HIGH -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - HIGH -  zlib: Undefined left shift of negative number
+CVE-2014-3566 - LOW -  SSL/TLS: Padding Oracle On Downgraded Legacy Encryption attack
+CVE-2016-3189 - LOW -  bzip2: heap use after free in bzip2recover
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2014-9471 - LOW -  coreutils: memory corruption flaw in parse_datetime()
+CVE-2002-2439 - LOW -  gcc: Integer overflow can occur during the computation of the memory region size for new[] operator
+CVE-2013-2207 - LOW -  glibc (pt_chown): Improper pseudotty ownership and permissions changes when granting access to the slave pseudoterminal
+CVE-2017-15804 - LOW -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - LOW -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2015-5180 - LOW -  glibc: DNS resolver NULL pointer dereference with crafted record type
+CVE-2017-15671 - LOW -  glibc: Memory leak in glob with GLOB_TILDE
+CVE-2018-19211 - LOW -  ncurses: Null pointer dereference at function _nc_parse_entry in parse_entry.c
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2013-7041 - LOW -  pam: pam_userdb case insensitive password hash comparison
+CVE-2014-2583 - LOW -  pam: path traversal issue in pam_timestamp's format_timestamp_name()
+CVE-2014-2524 - LOW -  readline: insecure temporary file use in _rl_tropen()
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2013-0157 - LOW -  util-linux: mount folder existence information disclosure
+CVE-2016-9401 - MEDIUM -  bash: popd controlled free
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2017-12132 - MEDIUM -  glibc: Fragmentation attacks possible when EDNS0 is enabled
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2016-10228 - MEDIUM -  glibc: iconv program can hang when invoked with the -c option
+CVE-2016-4429 - MEDIUM -  glibc: libtirpc: stack (frame) overflow in Sun RPC clntudp_call()
+CVE-2015-1607 - MEDIUM -  gnupg2: memcpy with overlapping ranges (keybox_search.c)
+CVE-2017-13729 - MEDIUM -  ncurses: Illegal address access in the _nc_save_str function
+CVE-2017-13730 - MEDIUM -  ncurses: Illegal address access in the function _nc_read_entry_source()
+CVE-2017-13734 - MEDIUM -  ncurses: Illegal address access in the function _nc_safe_strcat
+CVE-2017-13732 - MEDIUM -  ncurses: Illegal address access in the function dump_uses()
+CVE-2017-13733 - MEDIUM -  ncurses: Illegal address access in the function fmt_entry
+CVE-2017-13731 - MEDIUM -  ncurses: Illegal address access in the function postprocess_termcap()
+CVE-2015-3238 - MEDIUM -  pam: DoS/user enumeration due to blocking pipe in pam_unix module
+CVE-2016-5011 - MEDIUM -  util-linux: Extended partition loop in MBR partition table leads to DOS

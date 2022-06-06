@@ -1,0 +1,13 @@
+/var/tmp
+/var/www/html
+/var/www/html/wp-content
+/var/www/html/wp-content/cache
+/var/www/html/wp-content/plugins
+/var/www/html/wp-content/themes
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

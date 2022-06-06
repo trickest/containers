@@ -1,0 +1,4 @@
+CVE-2022-28805 - CRITICAL -  lua: heap buffer overread
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect

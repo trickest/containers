@@ -1,0 +1,78 @@
+CVE-2018-1000007 - CRITICAL -  curl: HTTP authentication leak in redirects
+CVE-2018-13347 - CRITICAL -  mercurial: Buffer underflow in mpatch.c:mpatch_apply()
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2019-5953 - CRITICAL -  wget: do_conversion() heap-based buffer overflow vulnerability
+CVE-2020-14382 - HIGH -  cryptsetup: Out-of-bounds write when validating segments
+CVE-2016-8625 - HIGH -  curl: IDNA 2003 makes curl use wrong host
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-29573 - HIGH -  glibc: stack-based buffer overflow if the input to any of the printf family of functions is an 80-bit long double with a non-canonical bit pattern
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2018-13348 - HIGH -  mercurial: Improper length check in mpatch.c
+CVE-2018-13346 - HIGH -  mercurial: Missing check for fragment start position in mpatch.c:mpatch_apply()
+CVE-2017-9462 - HIGH -  mercurial: Python debugger accessible to authorized users
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-36770 - HIGH -  perl-Encode: bug in local configuration loading allows arbitrary Perl code execution placed under the current working directory
+CVE-2018-1061 - HIGH -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - HIGH -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2018-8740 - HIGH -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2019-0203 - HIGH -  subversion: NULL pointer dereference in svnserve leading to an unauthenticated remote DoS
+CVE-2022-24070 - HIGH -  subversion: Subversion's mod_dav_svn is vulnerable to memory corruption
+CVE-2015-5186 - LOW -  Audit: log terminal emulator escape sequences handling
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2017-15298 - LOW -  git: Mishandling layers of tree objects
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2017-15088 - LOW -  krb5: Buffer overflow in get_matching_data()
+CVE-2020-8991 - LOW -  lvm2: memory leak in vg_lookup in daemons/lvmetad/lvmetad-core.c
+CVE-2021-3601 - LOW -  openssl: Certificate with CA:FALSE is accepted as valid CA cert
+CVE-2008-4108 - LOW -  python: Generic FAQ wizard moving tool insecure auxiliary /tmp file usage (symlink attack possible)
+CVE-2019-9674 - LOW -  python: Nested zip file (Zip bomb) vulnerability in Lib/zipfile.py
+CVE-2004-0971 - LOW -  security flaw
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-30115 - MEDIUM -  curl: HSTS bypass via trailing dot
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27779 - MEDIUM -  curl: cookie for trailing dot TLD
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-27780 - MEDIUM -  curl: percent-encoded path separator in URL host
+CVE-2022-27778 - MEDIUM -  curl: removes wrong file on error
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2015-5276 - MEDIUM -  gcc: Predictable randomness from std::random_device
+CVE-2021-3998 - MEDIUM -  glibc: Unexpected return value from realpath() could leak data based on the application
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2018-10846 - MEDIUM -  gnutls: "Just in Time" PRIME + PROBE cache-based side channel attack can lead to plaintext recovery
+CVE-2018-10844 - MEDIUM -  gnutls: HMAC-SHA-256 vulnerable to Lucky thirteen attack due to not enough dummy function calls
+CVE-2018-10845 - MEDIUM -  gnutls: HMAC-SHA-384 vulnerable to Lucky thirteen attack due to use of wrong constant
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2019-3902 - MEDIUM -  mercurial: Path-checking logic bypass via symlinks and subrepositories
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression
+CVE-2018-11782 - MEDIUM -  subversion: remotely triggerable DoS vulnerability in svnserve 'get-deleted-rev'
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2021-3995 - MEDIUM -  util-linux: Unauthorized unmount of FUSE filesystems belonging to users with similar uid
+CVE-2021-3996 - MEDIUM -  util-linux: Unauthorized unmount of filesystems in libmount
+DLA-1833-2 - UNKNOWN -  bzip2 - regression update
+DLA-1417-1 - UNKNOWN -  ca-certificates - security update
+DLA-1606-1 - UNKNOWN -  gcc-4.9 - bugfix update
+DSA-4117-1 - UNKNOWN -  gcc-4.9 - update
+DLA-1730-2 - UNKNOWN -  libssh2 - regression update
+DLA-1500-2 - UNKNOWN -  openssh - regression update
+DLA-1762-2 - UNKNOWN -  systemd - regression update
+DLA-1625-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1744-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1957-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1563-1 - UNKNOWN -  tzdata - update

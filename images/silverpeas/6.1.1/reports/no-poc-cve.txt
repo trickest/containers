@@ -1,0 +1,114 @@
+CVE-2020-7692 - CRITICAL -  google-oauth-client: missing PKCE support in accordance with the RFC for OAuth 2.0 for Native Apps can lead to improper authorization
+CVE-2019-10158 - CRITICAL -  infinispan: Session fixation protection broken for Spring Session integration
+CVE-2015-5258 - HIGH -  CSRF
+CVE-2014-3530 - HIGH -  PicketLink: XXE via insecure DocumentBuilderFactory usage
+CVE-2022-23913 - HIGH -  artemis-commons: Apache ActiveMQ Artemis DoS
+CVE-2020-25638 - HIGH -  hibernate-core: SQL injection vulnerability when both hibernate.use_sql_comments and JPQL String literals are used
+CVE-2021-33813 - HIGH -  jdom: XXE allows attackers to cause a DoS via a crafted HTTP request
+CVE-2022-23596 - HIGH -  junrar: A carefully crafted RAR archive can trigger an infinite loop while extracting
+CVE-2020-1695 - HIGH -  resteasy: Improper validation of response header in MediaTypeHeaderDelegate.java class
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2016-5007 - HIGH -  spring: Path matching inconsistency
+CVE-2019-14888 - HIGH -  undertow: possible Denial Of Service (DOS) in Undertow HTTP server listening on HTTPS
+CVE-2020-1757 - HIGH -  undertow: servletPath is normalized incorrectly leading to dangerous application mapping which could result in security bypass
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2020-25674 - LOW -  ImageMagick: heap-based buffer overflow in WriteOnePNGImage in coders/png.c
+CVE-2020-25665 - LOW -  ImageMagick: heap-based buffer overflow in WritePALMImage in coders/palm.c
+CVE-2020-25676 - LOW -  ImageMagick: outside the range of representable values of type 'long' and integer overflow at MagickCore/pixel.c and MagickCore/cache.c
+CVE-2020-25675 - LOW -  ImageMagick: outside the range of representable values of type 'long' and integer overflow at MagickCore/transform.c and MagickCore/image.c
+CVE-2020-25666 - LOW -  ImageMagick: outside the range of representable values of type int and signed integer overflow in MagickCore/histogram.c
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2021-3598 - LOW -  OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrIO::readChars
+CVE-2021-3477 - LOW -  OpenEXR: Heap-buffer-overflow in Imf_2_5::DeepTiledInputFile::readPixelSampleCounts
+CVE-2021-23215 - LOW -  OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers
+CVE-2021-26260 - LOW -  OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers
+CVE-2021-3474 - LOW -  OpenEXR: Undefined-shift in Imf_2_5::FastHufDecoder::FastHufDecoder
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-10001 - LOW -  cups: access to uninitialized buffer in ipp.c
+CVE-2020-35512 - LOW -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - LOW -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2017-18201 - LOW -  libcdio: Double free in get_cdtext_generic() in lib/driver/_cdio_generic.c
+CVE-2020-12802 - LOW -  libreoffice: 'stealth mode' remote resource restrictions bypass
+CVE-2020-12803 - LOW -  libreoffice: forms allowed to be submitted to any URI could result in local file overwrite
+CVE-2019-20446 - LOW -  librsvg: Resource exhaustion via crafted SVG file with nested patterns
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2021-3941 - LOW -  openexr: Divide-by-zero in Imf_3_1::RGBtoXYZ
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2016-9180 - LOW -  perl-XML-Twig:  expand_external_ents option fails to work as documented
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-44269 - LOW -  wavpack: heap Out-of-bounds Read
+GHSA-673j-qm5f-xpv8 - MEDIUM -  Arbitrary File Write Vulnerability
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2020-25664 - MEDIUM -  ImageMagick: heap-based buffer overflow in PopShortPixel in MagickCore/quantum-private.h
+CVE-2021-3605 - MEDIUM -  OpenEXR: Heap buffer overflow in the rleUncompress function
+CVE-2021-3475 - MEDIUM -  OpenEXR: Integer-overflow in Imf_2_5::calculateNumTiles
+CVE-2021-3479 - MEDIUM -  OpenEXR: Out-of-memory caused by allocation of a very large buffer
+CVE-2021-3478 - MEDIUM -  OpenEXR: Out-of-memory in ScanLineInputFile
+CVE-2021-3476 - MEDIUM -  OpenEXR: Undefined-shift in Imf_2_5::unpack14
+CVE-2022-21305 - MEDIUM -  OpenJDK: Array indexing issues in LIRGenerator (Hotspot, 8272014)
+CVE-2022-21476 - MEDIUM -  OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008)
+CVE-2022-21340 - MEDIUM -  OpenJDK: Excessive resource use when reading JAR manifest attributes (Libraries, 8272026)
+CVE-2022-21434 - MEDIUM -  OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672)
+CVE-2022-21293 - MEDIUM -  OpenJDK: Incomplete checks of StringBuffer and StringBuilder during deserialization (Libraries, 8270392)
+CVE-2022-21248 - MEDIUM -  OpenJDK: Incomplete deserialization class filtering in ObjectInputStream (Serialization, 8264934)
+CVE-2021-2163 - MEDIUM -  OpenJDK: Incomplete enforcement of JAR signing disabled algorithms (Libraries, 8249906)
+CVE-2022-21294 - MEDIUM -  OpenJDK: Incorrect IdentityHashMap size checks during deserialization (Libraries, 8270416)
+CVE-2022-21296 - MEDIUM -  OpenJDK: Incorrect access checks in XMLEntityManager (JAXP, 8270498)
+CVE-2022-21291 - MEDIUM -  OpenJDK: Incorrect marking of writeable fields (Hotspot, 8270386)
+CVE-2022-21277 - MEDIUM -  OpenJDK: Incorrect reading of TIFF files in TIFFNullDecompressor (ImageIO, 8270952)
+CVE-2022-21299 - MEDIUM -  OpenJDK: Infinite loop related to incorrect handling of newlines in XMLEntityScanner (JAXP, 8270646)
+CVE-2022-21282 - MEDIUM -  OpenJDK: Insufficient URI checks in the XSLT TransformerImpl (JAXP, 8270492)
+CVE-2022-21341 - MEDIUM -  OpenJDK: Insufficient checks when deserializing exceptions in ObjectInputStream (Serialization, 8272236)
+CVE-2022-21365 - MEDIUM -  OpenJDK: Integer overflow in BMPImageReader (ImageIO, 8273838)
+CVE-2022-21443 - MEDIUM -  OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151)
+CVE-2022-21496 - MEDIUM -  OpenJDK: URI parsing inconsistencies (JNDI, 8278972)
+CVE-2022-21426 - MEDIUM -  OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504)
+CVE-2022-21283 - MEDIUM -  OpenJDK: Unexpected exception thrown in regex Pattern (Libraries, 8268813)
+CVE-2020-10688 - MEDIUM -  RESTEasy: RESTEASY003870 exception in RESTEasy can lead to a reflected XSS attack
+CVE-2015-3192 - MEDIUM -  Spring Framework: denial-of-service attack with XML input
+CVE-2021-3468 - MEDIUM -  avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+CVE-2020-15522 - MEDIUM -  bouncycastle: Timing issue within the EC math library
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-25309 - MEDIUM -  fribidi: Heap-buffer-overflow in fribidi_cap_rtl_to_unicode
+CVE-2022-25310 - MEDIUM -  fribidi: SEGV in fribidi_remove_bidi_marks
+CVE-2022-25308 - MEDIUM -  fribidi: Stack based buffer overflow
+CVE-2019-25059 - MEDIUM -  ghostscript: Mishandling of .completefont (incomplete fix for CVE-2019-3839)
+CVE-2021-45949 - MEDIUM -  ghostscript: heap-based buffer overflow in sampled_data_finish
+CVE-2021-45944 - MEDIUM -  ghostscript: use-after-free in sampled_data_sample may lead to DoS
+CVE-2021-3800 - MEDIUM -  glib2: Possible privilege escalation thourgh pkexec and aliases
+CVE-2021-27218 - MEDIUM -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-3497 - MEDIUM -  gstreamer-plugins-good: Use-after-free in matroska demuxing
+CVE-2020-25711 - MEDIUM -  infinispan: authorization check missing for server management operations
+CVE-2021-28170 - MEDIUM -  jakarta-el: ELParserTokenManager enables invalid EL expressions to be evaluate
+CVE-2020-35510 - MEDIUM -  jboss-remoting: Threads hold up forever in the EJB server by suppressing the ack from an EJB client
+CVE-2021-25636 - MEDIUM -  libreoffice: Incorrect trust validation of signature with ambiguous KeyInfo children
+CVE-2020-35524 - MEDIUM -  libtiff: Heap-based buffer overflow in TIFF2PDF tool
+CVE-2020-35523 - MEDIUM -  libtiff: Integer overflow in tif_getimage.c
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2018-25011 - MEDIUM -  libwebp: heap-based buffer overflow in PutLE16()
+CVE-2018-25013 - MEDIUM -  libwebp: out-of-bounds read in ShiftBytes()
+CVE-2018-25009 - MEDIUM -  libwebp: out-of-bounds read in WebPMuxCreateInternal
+CVE-2018-25012 - MEDIUM -  libwebp: out-of-bounds read in WebPMuxCreateInternal()
+CVE-2018-25014 - MEDIUM -  libwebp: use of uninitialized value in ReadSymbol()
+CVE-2022-23308 - MEDIUM -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-3933 - MEDIUM -  openexr: Integer-overflow in Imf_3_1::bytesPerDeepLineTable
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2021-32027 - MEDIUM -  postgresql: Buffer overrun from integer overflow in array subscripting calculations
+CVE-2021-23222 - MEDIUM -  postgresql: libpq processes unencrypted bytes from man-in-the-middle
+CVE-2021-23214 - MEDIUM -  postgresql: server processes unencrypted bytes from man-in-the-middle
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2020-25633 - MEDIUM -  resteasy-client: potential sensitive information leakage in JAX-RS RESTEasy Client's WebApplicationException handling
+CVE-2020-23903 - MEDIUM -  speex: divide by zero in read_samples() via crafted WAV file
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+CVE-2020-14340 - MEDIUM -  xnio: file descriptor leak caused by growing amounts of NIO Selector file handles may lead to DoS
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+GMS-2022-7 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GMS-2022-75 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

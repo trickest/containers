@@ -1,0 +1,2 @@
+CVE-2018-6003 - HIGH -  libtasn1: Stack exhaustion due to indefinite recursion during BER decoding
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()

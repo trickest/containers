@@ -1,0 +1,2 @@
+CVE-2018-16860 - HIGH -  samba: S4U2Self with unkeyed checksum
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write

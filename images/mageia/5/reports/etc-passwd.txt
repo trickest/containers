@@ -1,0 +1,15 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/bin/sh
+daemon:x:2:2:daemon:/sbin:/bin/sh
+adm:x:3:4:adm:/var/adm:/bin/sh
+lp:x:4:7:lp:/var/spool/lpd:/bin/sh
+sync:x:5:0:sync:/sbin:/bin/sync
+mail:x:8:12:mail:/var/spool/mail:/bin/sh
+news:x:9:13:news:/var/spool/news:/bin/sh
+uucp:x:10:14:uucp:/var/spool/uucp:/bin/sh
+operator:x:11:0:operator:/var:/bin/sh
+games:x:12:100:games:/usr/games:/bin/sh
+nobody:x:65534:65534:Nobody:/:/bin/sh
+messagebus:x:999:999:system user for dbus:/:/sbin/nologin
+vcsa:x:69:997:virtual console memory owner:/dev:/sbin/nologin
+rpm:x:998:995:system user for rpm:/var/lib/rpm:/bin/false

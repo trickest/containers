@@ -1,0 +1,14 @@
+BUILDING.txt
+CONTRIBUTING.md
+LICENSE
+NOTICE
+README.md
+RELEASE-NOTES
+RUNNING.txt
+bin
+conf
+lib
+logs
+temp
+webapps
+work

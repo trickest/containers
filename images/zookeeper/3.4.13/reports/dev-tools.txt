@@ -1,0 +1,3 @@
+/zookeeper-3.4.13/src/contrib/rest/src/python
+/zookeeper-3.4.13/src/contrib/zkpython/src/python
+/zookeeper-3.4.13/contrib/zkpython/src/python

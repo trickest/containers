@@ -1,0 +1,15 @@
+/var/lib/dnf/modulefailsafe/python39:3.9:x86_64.yaml
+/usr/lib/rpm/python-macro-helper
+/usr/lib/mysqlsh/lib/python3.9
+/usr/lib/mysqlsh/lib/python3.9/site-packages/python_dateutil-2.8.2.dist-info
+/usr/lib/mysqlsh/python-packages
+/usr/lib/python3.9
+/usr/lib64/python3.9
+/usr/share/gcc-8/python
+/usr/share/licenses/python39-pip-wheel
+/usr/share/licenses/python39-setuptools-wheel
+/usr/share/doc/python39-libs
+/usr/share/python39-wheels
+/usr/include/python3.9
+/etc/dnf/modules.d/python39.module
+/usr/share/gcc-8

@@ -1,0 +1,27 @@
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-3177 - CRITICAL -  python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c
+CVE-2021-28831 - HIGH -  busybox: invalid free or segmentation fault via malformed gzip data
+CVE-2020-8231 - HIGH -  curl: Expired pointer dereference via multi API with CURLOPT_CONNECT_ONLY option set
+CVE-2020-8177 - HIGH -  curl: Incorrect argument check can allow remote servers to overwrite local files
+CVE-2020-8286 - HIGH -  curl: Inferior OCSP verification
+CVE-2020-8285 - HIGH -  curl: Malicious FTP server can trigger stack overflow when CURLOPT_CHUNK_BGN_FUNCTION is used
+CVE-2019-15903 - HIGH -  expat: heap-based buffer over-read via crafted XML input
+CVE-2020-8169 - HIGH -  libcurl: partial password leak over DNS on HTTP redirect
+CVE-2020-11080 - HIGH -  nghttp2: overly large SETTINGS frames can lead to DoS
+CVE-2021-30139 - HIGH -  null
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-10878 - HIGH -  perl: corruption of intermediate language state of compiled regular expression due to integer overflow leads to DoS
+CVE-2020-12723 - HIGH -  perl: corruption of intermediate language state of compiled regular expression due to recursive S_study_chunk() calls leads to DoS
+CVE-2020-10543 - HIGH -  perl: heap-based buffer overflow in regular expression compiler leads to DoS
+CVE-2020-11655 - HIGH -  sqlite: malformed window-function query leads to DoS
+CVE-2021-22898 - LOW -  curl: TELNET stack contents disclosure
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2021-3487 - MEDIUM -  binutils: Excessive debug section size can cause excessive memory consumption in bfd's dwarf2.c read_section()
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2019-18348 - MEDIUM -  python: CRLF injection via the host part of the url passed to urlopen()
+CVE-2020-14422 - MEDIUM -  python: DoS via inefficiency in IPv{4,6}Interface classes
+CVE-2020-8315 - MEDIUM -  python: unsafe dll loading in getpathp.c on Windows
+CVE-2020-8492 - MEDIUM -  python: wrong backtracking in urllib.request.AbstractBasicAuthHandler allows for a ReDoS

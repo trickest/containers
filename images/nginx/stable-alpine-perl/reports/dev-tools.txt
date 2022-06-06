@@ -1,0 +1,9 @@
+/usr/lib/perl5
+/usr/share/perl5
+/usr/share/perl5/core_perl/perlfaq.pm
+/usr/share/perl5/core_perl/perl5db.pl
+/usr/bin/perl5.32.1
+/usr/bin/perl
+/usr/bin/perldoc
+/usr/local/lib/perl5
+/usr/local/share/perl5

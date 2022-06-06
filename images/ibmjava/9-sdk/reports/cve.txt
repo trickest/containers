@@ -1,0 +1,83 @@
+CVE-2018-1000001 - HIGH -  glibc: realpath() buffer underflow when getcwd() returns relative path allows privilege escalation
+CVE-2020-1971 - HIGH -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2018-16864 - HIGH -  systemd: stack overflow when calling syslog from a command with long cmdline
+CVE-2018-16865 - HIGH -  systemd: stack overflow when receiving many journald entries
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2019-9924 - LOW -  bash: BASH_CMD is writable in restricted bash shells
+CVE-2016-3189 - LOW -  bzip2: heap use after free in bzip2recover
+CVE-2017-15804 - LOW -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - LOW -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2017-1000409 - LOW -  glibc: Buffer overflow triggerable via LD_LIBRARY_PATH
+CVE-2017-16997 - LOW -  glibc: Incorrect handling of RPATH in elf/dl-load.c can be used to execute code loaded from arbitrary libraries
+CVE-2019-19126 - LOW -  glibc: LD_PREFER_MAP_32BIT_EXEC not ignored in setuid binaries
+CVE-2017-1000408 - LOW -  glibc: Memory leak reachable via LD_HWCAP_MASK
+CVE-2017-12133 - LOW -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2009-5155 - LOW -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2019-9169 - LOW -  glibc: regular-expression match via proceed_next_node in posix/regexec.c leads to heap-based buffer over-read
+CVE-2020-6096 - LOW -  glibc: signed comparison vulnerability in the ARMv7 memcpy function
+CVE-2020-10029 - LOW -  glibc: stack corruption from crafted input in cosl, sinl, sincosl, and tanl functions
+CVE-2020-1752 - LOW -  glibc: use-after-free in glob() function when expanding ~user
+CVE-2020-1968 - LOW -  openssl: Information exposure when DH secret are reused across multiple TLS connections
+CVE-2019-1551 - LOW -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2018-0732 - LOW -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2018-5407 - LOW -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2021-23840 - LOW -  openssl: integer overflow in CipherUpdate
+CVE-2019-1547 - LOW -  openssl: side-channel weak encryption vulnerability
+CVE-2018-0734 - LOW -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2017-6512 - LOW -  perl-File-Path: rmtree/remove_tree race condition
+CVE-2016-6185 - LOW -  perl: XSLoader loads relative paths not included in @INC
+CVE-2020-10878 - LOW -  perl: corruption of intermediate language state of compiled regular expression due to integer overflow leads to DoS
+CVE-2020-12723 - LOW -  perl: corruption of intermediate language state of compiled regular expression due to recursive S_study_chunk() calls leads to DoS
+CVE-2020-10543 - LOW -  perl: heap-based buffer overflow in regular expression compiler leads to DoS
+CVE-2018-16888 - LOW -  systemd: kills privileged process if unprivileged PIDFile was tampered
+CVE-2019-20386 - LOW -  systemd: memory leak in button_open() in login/logind-button.c when udev events are received
+CVE-2018-20482 - LOW -  tar: Infinite read loop in sparse_dump_region function in sparse.c
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2016-9843 - LOW -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - LOW -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2016-9840 - LOW -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - LOW -  zlib: Undefined left shift of negative number
+CVE-2020-27350 - MEDIUM -  apt: integer overflows and underflows while parsing .deb packages
+CVE-2019-12900 - MEDIUM -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-5188 - MEDIUM -  e2fsprogs: Out-of-bounds write in e2fsck/rehash.c
+CVE-2018-11237 - MEDIUM -  glibc: Buffer overflow in __mempcpy_avx512_no_vzeroupper
+CVE-2018-6485 - MEDIUM -  glibc: Integer overflow in posix_memalign in memalign functions
+CVE-2018-11236 - MEDIUM -  glibc: Integer overflow in stdlib/canonicalize.c on 32-bit architectures leading to stack-based buffer overflow
+CVE-2020-1751 - MEDIUM -  glibc: array overflow in backtrace functions for powerpc
+CVE-2017-18269 - MEDIUM -  glibc: memory corruption in memcpy-sse2-unaligned.S
+CVE-2018-12020 - MEDIUM -  gnupg2: Improper sanitization of filenames allows for the display of fake status messages and the bypass of signature verification
+CVE-2019-13627 - MEDIUM -  libgcrypt: ECDSA timing attack allowing private key leak
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2019-9893 - MEDIUM -  libseccomp: incorrect generation of syscall filters in libseccomp
+CVE-2019-1559 - MEDIUM -  openssl: 0-byte record padding oracle
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2018-12015 - MEDIUM -  perl: Directory traversal in Archive::Tar
+CVE-2018-18312 - MEDIUM -  perl: Heap-based buffer overflow in S_handle_regex_sets()
+CVE-2018-18314 - MEDIUM -  perl: Heap-based buffer overflow in S_regatom()
+CVE-2018-18313 - MEDIUM -  perl: Heap-based buffer read overflow in S_grok_bslash_N()
+CVE-2018-18311 - MEDIUM -  perl: Integer overflow leading to buffer overflow in Perl_my_setenv()
+CVE-2018-6913 - MEDIUM -  perl: heap buffer overflow in pp_pack.c
+CVE-2018-6798 - MEDIUM -  perl: heap read overflow in regexec.c
+CVE-2018-6797 - MEDIUM -  perl: heap write overflow in regcomp.c
+CVE-2018-1124 - MEDIUM -  procps-ng, procps: Integer overflows leading to heap overflow in file2strvec
+CVE-2018-1122 - MEDIUM -  procps-ng, procps: Local privilege escalation in top
+CVE-2018-1123 - MEDIUM -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1126 - MEDIUM -  procps-ng, procps: incorrect integer size in proc/alloc.* leading to truncation / integer overflow issues
+CVE-2018-1125 - MEDIUM -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2019-8457 - MEDIUM -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2018-15687 - MEDIUM -  systemd: Dereference of symlinks in chown_recursive.c:chown_one() allows for modification of file privileges
+CVE-2017-15908 - MEDIUM -  systemd: Infinite loop in the dns_packet_read_type_window() function
+CVE-2019-6454 - MEDIUM -  systemd: Insufficient input validation in bus_process_object() resulting in PID 1 crash
+CVE-2018-6954 - MEDIUM -  systemd: Mishandled symlinks in systemd-tmpfiles allows local users to obtain ownership of arbitrary files
+CVE-2018-15688 - MEDIUM -  systemd: Out-of-bounds heap write in systemd-networkd dhcpv6 option handling
+CVE-2019-3842 - MEDIUM -  systemd: Spoofing of XDG_SEAT allows for actions to be checked against "allow_active" instead of "allow_any"
+CVE-2018-1049 - MEDIUM -  systemd: automount: access to automounted volumes can lock up
+CVE-2018-15686 - MEDIUM -  systemd: line splitting via fgets() allows for state injection during daemon-reexec
+CVE-2018-16866 - MEDIUM -  systemd: out-of-bounds read when parsing a crafted syslog message
+CVE-2020-1712 - MEDIUM -  systemd: use-after-free when asynchronous polkit queries are performed
+CVE-2018-0494 - MEDIUM -  wget: Cookie injection allows malicious website to write arbitrary cookie entries into cookie jar
+CVE-2019-5953 - MEDIUM -  wget: do_conversion() heap-based buffer overflow vulnerability

@@ -1,0 +1,16 @@
+README
+data
+doc
+eggdrop
+eggdrop-1.8.4
+eggdrop-basic.conf
+eggdrop.conf
+entrypoint.sh
+filesys
+help
+language
+logs
+modules
+modules-1.8.4
+scripts
+text

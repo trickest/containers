@@ -1,0 +1,8 @@
+/var/tmp
+/sys/firmware
+/usr/local/bundle
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp

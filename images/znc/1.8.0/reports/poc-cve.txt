@@ -1,0 +1,39 @@
+CVE-2021-22945 - CRITICAL -  curl: use-after-free and double-free in MQTT sending
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-3711 - CRITICAL -  openssl: SM2 Decryption Buffer Overflow
+CVE-2021-3177 - CRITICAL -  python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c
+CVE-2021-28831 - HIGH -  busybox: invalid free or segmentation fault via malformed gzip data
+CVE-2021-42380 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+CVE-2021-42383 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42385 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42378 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+CVE-2021-42382 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+CVE-2021-42384 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+CVE-2021-42381 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+CVE-2021-42379 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+CVE-2021-42386 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+CVE-2021-22926 - HIGH -  curl: CURLOPT_SSLCERT mixup with Secure Transport
+CVE-2020-8231 - HIGH -  curl: Expired pointer dereference via multi API with CURLOPT_CONNECT_ONLY option set
+CVE-2020-8177 - HIGH -  curl: Incorrect argument check can allow remote servers to overwrite local files
+CVE-2020-8286 - HIGH -  curl: Inferior OCSP verification
+CVE-2020-8285 - HIGH -  curl: Malicious FTP server can trigger stack overflow when CURLOPT_CHUNK_BGN_FUNCTION is used
+CVE-2021-22946 - HIGH -  curl: Requirement to use TLS not properly enforced for IMAP, POP3, and FTP protocols
+CVE-2019-15847 - HIGH -  gcc: POWER9 "DARN" RNG intrinsic produces repeated output
+CVE-2020-8169 - HIGH -  libcurl: partial password leak over DNS on HTTP redirect
+CVE-2021-30139 - HIGH -  null
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2021-3712 - HIGH -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-8284 - LOW -  curl: FTP PASV command response can cause curl to connect to arbitrary host
+CVE-2021-22898 - LOW -  curl: TELNET stack contents disclosure
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2021-3487 - MEDIUM -  binutils: Excessive debug section size can cause excessive memory consumption in bfd's dwarf2.c read_section()
+CVE-2021-42374 - MEDIUM -  busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
+CVE-2021-22925 - MEDIUM -  curl: Incorrect fix for CVE-2021-22898 TELNET stack contents disclosure
+CVE-2021-22923 - MEDIUM -  curl: Metalink download sends credentials
+CVE-2021-22947 - MEDIUM -  curl: Server responses received before STARTTLS processed after TLS handshake
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2020-14422 - MEDIUM -  python: DoS via inefficiency in IPv{4,6}Interface classes
+CVE-2021-24032 - MEDIUM -  zstd: Race condition allows attacker to access world-readable destination file

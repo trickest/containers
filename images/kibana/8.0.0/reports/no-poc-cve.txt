@@ -1,0 +1,12 @@
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2022-23647 - HIGH -  prismjs: improperly escaped output allows a XSS
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-0536 - MEDIUM -  follow-redirects: Exposure of Sensitive Information via Authorization Header leak
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection

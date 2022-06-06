@@ -1,0 +1,10 @@
+bin
+dev
+etc
+home
+proc
+root
+sys
+tmp
+usr
+var

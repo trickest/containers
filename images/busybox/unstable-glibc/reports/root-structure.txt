@@ -1,0 +1,12 @@
+bin
+dev
+etc
+home
+lib
+lib64
+proc
+root
+sys
+tmp
+usr
+var

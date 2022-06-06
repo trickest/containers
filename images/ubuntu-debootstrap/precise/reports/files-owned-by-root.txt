@@ -1,0 +1,11 @@
+/usr/lib/pt_chown
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/bin/su
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount

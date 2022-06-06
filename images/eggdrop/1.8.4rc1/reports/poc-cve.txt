@@ -1,0 +1,5 @@
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2019-1559 - MEDIUM -  openssl: 0-byte record padding oracle
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2019-1547 - MEDIUM -  openssl: side-channel weak encryption vulnerability
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm

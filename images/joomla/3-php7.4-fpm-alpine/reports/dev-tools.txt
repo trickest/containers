@@ -1,0 +1,6 @@
+/usr/src/joomla/media/editors/codemirror/mode/perl
+/usr/src/joomla/media/editors/codemirror/mode/perl/perl.js
+/usr/src/joomla/media/editors/codemirror/mode/perl/perl.min.js
+/usr/src/joomla/media/editors/codemirror/mode/python
+/usr/src/joomla/media/editors/codemirror/mode/python/python.min.js
+/usr/src/joomla/media/editors/codemirror/mode/python/python.js

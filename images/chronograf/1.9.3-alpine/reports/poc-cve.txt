@@ -1,0 +1,5 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2019-20933 - CRITICAL -  influxdb: authentication bypass because a JWT token may have an empty SharedSecret
+CVE-2022-27191 - HIGH -  golang: crash in a golang.org/x/crypto/ssh server
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs

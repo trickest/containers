@@ -1,0 +1,9 @@
+/usr/lib/mysql/plugin/auth_pam_tool_dir/auth_pam_tool
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/su
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn

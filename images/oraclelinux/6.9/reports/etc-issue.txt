@@ -1,0 +1,2 @@
+Oracle Linux Server release 6.9
+Kernel \r on an \m

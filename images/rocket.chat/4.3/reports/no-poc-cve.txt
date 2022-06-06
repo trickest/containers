@@ -1,0 +1,30 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+GHSA-7543-mr7h-6v86 - HIGH -  Improper Authorization in googleapis
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+NSWG-ECO-434 - HIGH -  Out-of-bounds Read
+GHSA-j4mr-9xw3-c9jx - HIGH -  Out-of-bounds Read in base64-url
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+NSWG-ECO-106 - HIGH -  Regular Expression Denial of Service
+GHSA-6chw-6frg-f759 - HIGH -  Regular Expression Denial of Service in Acorn
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-29167 - HIGH -  hawk: REDoS in hawk.utils.parseHost() when parsing Host header
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2020-26289 - HIGH -  nodejs-date-and-time: ReDoS in parsing via date.compile
+CVE-2020-8237 - HIGH -  nodejs-json-bigint: Prototype pollution via `__proto__` assignment could result in DoS
+CVE-2022-0355 - HIGH -  simple-get: exposure of sensitive information to an unauthorized actor
+GHSA-5rrq-pxf6-6jx5 - LOW -  Prototype Pollution in node-forge debug API.
+GHSA-wxgw-qj99-44c2 - LOW -  Prototype Pollution in node-forge util.setPath API
+GHSA-gf8q-jrpm-jvxq - LOW -  URL parsing in node-forge could lead to undesired behavior.
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+NSWG-ECO-473 - MEDIUM -  Arbitrary Code Injection
+NSWG-ECO-28 - MEDIUM -  Denial-of-Service Extended Event Loop Blocking
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+GHSA-7wwv-vh3v-89cq - MEDIUM -  ReDOS vulnerabities: multiple grammars
+CVE-2022-1365 - MEDIUM -  cross-fetch: Exposure of Private Personal Information to an Unauthorized Actor
+CVE-2022-0536 - MEDIUM -  follow-redirects: Exposure of Sensitive Information via Authorization Header leak
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files

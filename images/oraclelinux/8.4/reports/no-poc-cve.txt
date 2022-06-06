@@ -1,0 +1,11 @@
+CVE-2021-25214 - MEDIUM -  bind: Broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+CVE-2021-25219 - MEDIUM -  bind: Lame cache can be abused to severely degrade resolver performance
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2021-3800 - MEDIUM -  glib2: Possible privilege escalation thourgh pkexec and aliases
+CVE-2021-23177 - MEDIUM -  libarchive: extracting a symlink with ACLs modifies ACLs of target
+CVE-2021-3445 - MEDIUM -  libdnf: Signature verification bypass via signature placed in the main RPM header
+CVE-2022-23308 - MEDIUM -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-3521 - MEDIUM -  rpm: RPM does not require subkeys to have a valid binding signature
+CVE-2019-13750 - MEDIUM -  sqlite: dropping of shadow tables not restricted in defensive mode
+CVE-2019-13751 - MEDIUM -  sqlite: fts3: improve detection of corrupted records

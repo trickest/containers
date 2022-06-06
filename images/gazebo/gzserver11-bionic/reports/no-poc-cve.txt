@@ -1,0 +1,33 @@
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-10001 - LOW -  cups: access to uninitialized buffer in ipp.c
+CVE-2020-35512 - LOW -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - LOW -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2021-4048 - LOW -  lapack: Out-of-bounds read in *larrv
+CVE-2017-18201 - LOW -  libcdio: Double free in get_cdtext_generic() in lib/driver/_cdio_generic.c
+CVE-2019-20446 - LOW -  librsvg: Resource exhaustion via crafted SVG file with nested patterns
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2015-9541 - LOW -  qt: XML entity expansion vulnerability
+CVE-2021-44269 - LOW -  wavpack: heap Out-of-bounds Read
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2019-8397 - MEDIUM -  hdf5: Out-of-Bounds Read in function H5T_close_real in H5T.c
+CVE-2019-9152 - MEDIUM -  hdf5: out of bounds read in function H5MM_xstrdup in H5MM.c
+CVE-2019-9151 - MEDIUM -  hdf5: out of bounds read in function H5VM_memcpyvv in H5VM.c
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2012-0880 - MEDIUM -  xml: xerces-c hash table collisions CPU usage DoS (oCERT-2011-003)

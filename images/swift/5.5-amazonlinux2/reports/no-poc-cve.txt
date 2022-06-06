@@ -1,0 +1,5 @@
+CVE-2022-1353 - MEDIUM -  Kernel: A kernel-info-leak issue in pfkey_register
+CVE-2022-1011 - MEDIUM -  kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes
+CVE-2022-28390 - MEDIUM -  kernel: a double free in ems_usb_start_xmit in drivers/net/can/usb/ems_usb.c
+CVE-2022-28389 - MEDIUM -  kernel: a double free in mcba_usb_start_xmit in drivers/net/can/usb/mcba_usb.c
+CVE-2022-1516 - MEDIUM -  kernel: null-ptr-deref caused by x25_disconnect

@@ -1,0 +1,11 @@
+CHANGES.txt
+LICENSE.txt
+LUCENE_CHANGES.txt
+NOTICE.txt
+README.txt
+bin
+contrib
+dist
+example
+licenses
+server

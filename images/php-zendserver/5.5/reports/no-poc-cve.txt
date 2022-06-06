@@ -1,0 +1,21 @@
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2017-15873 - LOW -  busybox: Integer overflow in the get_next_block function
+CVE-2015-8865 - LOW -  file: Buffer over-write in finfo_open with malformed magic file
+CVE-2014-9621 - LOW -  file: limit string printing to 100 chars
+CVE-2014-9620 - LOW -  file: limit the number of ELF notes processed
+CVE-2017-15298 - LOW -  git: Mishandling layers of tree objects
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2016-7943 - LOW -  libX11: Insufficient validation of server responses in FontNames
+CVE-2016-7942 - LOW -  libX11: Insufficient validation of server responses in XGetImage()
+CVE-2016-10087 - LOW -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2018-1061 - LOW -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - LOW -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2018-8740 - LOW -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2015-1270 - MEDIUM -  ICU: Uninitialized memory read fixed in Chrome 44.0.2403.89
+CVE-2018-1000517 - MEDIUM -  busybox: wget: Heap-based buffer overflow in the retrieve_file_data() function
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2018-7183 - MEDIUM -  ntp: decodearr() can write beyond its buffer limit
+CVE-2018-10915 - MEDIUM -  postgresql: Certain host connection parameters defeat client-side security defenses

@@ -1,0 +1,12 @@
+CVE-2017-16931 - CRITICAL -  libxml2: Mishandling parameter-entity references
+CVE-2017-9233 - HIGH -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2017-2862 - HIGH -  gdk-pixbuf2: Heap overflow in the gdk_pixbuf__jpeg_image_load_increment function
+CVE-2017-7507 - HIGH -  gnutls: Crash upon receiving well-formed status_request extension
+CVE-2017-16612 - HIGH -  libXcursor: file.c: heap-based buffer overflow when reading/creating images
+CVE-2018-6003 - HIGH -  libtasn1: Stack exhaustion due to indefinite recursion during BER decoding
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2017-7592 - HIGH -  libtiff: Left shift of unsigned char without a cast
+CVE-2017-6314 - MEDIUM -  gdk-pixbuf: Infinite loop in io-tiff.c
+CVE-2017-7594 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesDcTable function
+CVE-2017-7593 - MEDIUM -  libtiff: tif_rawdata not properly initialized in tif_read.c
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation

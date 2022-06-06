@@ -1,0 +1,14 @@
+/usr/lib/tmpfiles.d/python.conf
+/usr/lib/python2.7
+/usr/lib64/python2.7
+/usr/lib64/python2.7/site-packages/python_dmidecode-3.10.13-py2.7.egg-info
+/usr/lib64/python2.7/idlelib/Icons/python.gif
+/usr/share/python-dmidecode
+/usr/share/gcc-4.8.2/python
+/usr/bin/python2.7
+/usr/bin/python
+/usr/bin/python2
+/usr/include/python2.7
+/etc/python
+/usr/share/gcc-4.8.5
+/usr/share/gcc-4.8.2

@@ -1,0 +1,2 @@
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-3737 - MEDIUM -  python: urllib: HTTP client possible infinite loop on a 100 Continue response

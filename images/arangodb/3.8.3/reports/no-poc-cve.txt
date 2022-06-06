@@ -1,0 +1,11 @@
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2021-44531 - HIGH -  nodejs: Improper handling of URI Subject Alternative Names
+CVE-2021-22959 - MEDIUM -  llhttp: HTTP Request Smuggling due to spaces in headers
+CVE-2021-22960 - MEDIUM -  llhttp: HTTP Request Smuggling when parsing the body of chunked requests
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2021-44532 - MEDIUM -  nodejs: Certificate Verification Bypass via String Injection
+CVE-2021-44533 - MEDIUM -  nodejs: Incorrect handling of certificate subject and issuer fields
+GMS-2021-175 - UNKNOWN -  Ambiguous OCI manifest parsing
+GMS-2021-101 - UNKNOWN -  Clarify `mediaType` handling
+GMS-2021-177 - UNKNOWN -  Devices resource list treated as a denylist by default
+GMS-2022-20 - UNKNOWN -  OCI Manifest Type Confusion Issue

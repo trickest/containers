@@ -1,0 +1,12 @@
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2020-1967 - HIGH -  openssl: Segmentation fault in SSL_check_chain causes denial of service
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-10663 - HIGH -  rubygem-json: Unsafe object creation vulnerability in JSON
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2021-41186 - MEDIUM -  fluentd: ReDoS vulnerability in parser_apache2
+CVE-2020-16255 - MEDIUM -  null
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2020-10933 - MEDIUM -  ruby: BasicSocket#read_nonblock method leads to information disclosure
+CVE-2022-24795 - MEDIUM -  yajl: heap-based buffer overflow when handling large inputs due to an integer overflow

@@ -1,0 +1,6 @@
+adminer.php
+designs
+index.php
+plugin-loader.php
+plugins
+plugins-enabled

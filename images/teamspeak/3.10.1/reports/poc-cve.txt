@@ -1,0 +1,11 @@
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-28831 - HIGH -  busybox: invalid free or segmentation fault via malformed gzip data
+CVE-2021-30139 - HIGH -  null
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2020-1967 - HIGH -  openssl: Segmentation fault in SSL_check_chain causes denial of service
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2019-1551 - MEDIUM -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing

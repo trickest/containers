@@ -1,0 +1,6 @@
+AUTHORS
+core
+l10n
+lib
+occ
+version.php

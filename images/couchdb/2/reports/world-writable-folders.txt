@@ -1,0 +1,11 @@
+/opt/couchdb/var/log
+/opt/couchdb/etc/local.d
+/opt/couchdb/data
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

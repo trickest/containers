@@ -1,0 +1,25 @@
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2020-14304 - LOW -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2017-13165 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1195 - MEDIUM -  kernel: A possible race condition (use-after-free) in drivers/net/hamradio/6pack ( mkiss.c) after unregister_netdev
+CVE-2021-4095 - MEDIUM -  kernel: KVM: NULL pointer dereference in kvm_dirty_ring_get() in virt/kvm/dirty_ring.c
+CVE-2022-0500 - MEDIUM -  kernel: Linux ebpf logic vulnerability leads to critical memory read and write gaining root privileges
+CVE-2018-17977 - MEDIUM -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2022-1199 - MEDIUM -  kernel: Null pointer dereference and use after free in ax25_release()
+CVE-2022-1205 - MEDIUM -  kernel: Null pointer dereference and use after free in net/ax25/ax25_timer.c
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-28893 - MEDIUM -  kernel: Use after free in SUNRPC subsystem
+CVE-2022-1204 - MEDIUM -  kernel: Use after free in net/ax25/af_ax25.c
+CVE-2022-0998 - MEDIUM -  kernel: an integer overflow in the vhost_vdpa_config_validate() can lead to out-of-bounds access on top of a 32-bit Linux kernel
+CVE-2021-3864 - MEDIUM -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2022-1048 - MEDIUM -  kernel: race condition in snd_pcm_hw_free leading to use-after-free
+CVE-2022-1198 - MEDIUM -  kernel: use-after-free in drivers/net/hamradio/6pack.c

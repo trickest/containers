@@ -1,0 +1,8 @@
+/usr/libexec/pt_chown
+/usr/bin/newgrp
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/passwd
+/bin/su
+/sbin/pam_timestamp_check
+/sbin/unix_chkpwd

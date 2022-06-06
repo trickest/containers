@@ -1,0 +1,11 @@
+LICENSE.txt
+NOTICE.txt
+README.asciidoc
+bin
+config
+data
+jdk
+lib
+logs
+modules
+plugins

@@ -1,0 +1,2 @@
+CVE-2019-20916 - HIGH -  python-pip: directory traversal in _download_http_url() function in src/pip/_internal/download.py
+CVE-2021-3572 - MEDIUM -  python-pip: Incorrect handling of unicode separators in git references

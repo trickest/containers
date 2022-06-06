@@ -1,0 +1,15 @@
+CVE-2016-9843 - CRITICAL -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - CRITICAL -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2017-16544 - HIGH -  busybox: Insufficient sanitization of filenames when autocompleting
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2016-9840 - HIGH -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - HIGH -  zlib: Undefined left shift of negative number
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2018-0733 - MEDIUM -  openssl: Implementation bug in PA-RISC CRYPTO_memcmp function allows attackers to forge authenticated messages in a reduced number of attempts
+CVE-2017-3735 - MEDIUM -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0737 - MEDIUM -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2017-3737 - MEDIUM -  openssl: Read/write after SSL object in error state
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2017-3736 - MEDIUM -  openssl: bn_sqrx8x_internal carry bug on x86_64
+CVE-2017-3738 - MEDIUM -  openssl: rsaz_1024_mul_avx2 overflow bug on x86_64
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm

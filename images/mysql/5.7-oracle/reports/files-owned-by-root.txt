@@ -1,0 +1,3 @@
+/usr/bin/newgrp
+/usr/bin/chage
+/usr/bin/gpasswd

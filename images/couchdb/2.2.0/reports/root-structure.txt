@@ -1,0 +1,9 @@
+LICENSE
+bin
+data
+erts-8.2.1
+etc
+lib
+releases
+share
+var

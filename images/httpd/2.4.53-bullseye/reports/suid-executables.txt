@@ -1,0 +1,9 @@
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/local/apache2/bin/suexec
+/bin/su
+/bin/umount
+/bin/mount

@@ -1,0 +1,16 @@
+/var/lib/dpkg/info/perl-base.preinst
+/var/lib/dpkg/info/perl-base.prerm
+/var/lib/dpkg/info/perl-base.postrm
+/var/lib/dpkg/info/perl-base.list
+/var/lib/dpkg/info/perl-base.postinst
+/var/lib/dpkg/info/perl-base.md5sums
+/usr/lib/x86_64-linux-gnu/perl-base
+/usr/share/perl5
+/usr/share/doc/perl-base
+/usr/bin/perl
+/usr/bin/perl5.34.0
+/usr/share/gcc/python
+/var/lib/dpkg/info/gcc-12-base:amd64.list
+/var/lib/dpkg/info/gcc-12-base:amd64.md5sums
+/usr/share/gcc
+/usr/share/doc/gcc-12-base

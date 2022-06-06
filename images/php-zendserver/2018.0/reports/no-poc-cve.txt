@@ -1,0 +1,43 @@
+CVE-2017-12133 - LOW -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2019-9937 - LOW -  sqlite: null-pointer dereference in function fts5ChunkIterate in sqlite3.c
+CVE-2020-8616 - MEDIUM -  bind: BIND does not sufficiently limit the number of fetches performed when processing referrals
+CVE-2021-25214 - MEDIUM -  bind: Broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+CVE-2020-8625 - MEDIUM -  bind: Buffer overflow in the SPNEGO implementation affecting GSSAPI security policy negotiation
+CVE-2020-8623 - MEDIUM -  bind: remotely triggerable assertion failure in pk11.c
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2020-2570 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2573 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2574 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2577 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2589 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2020)
+CVE-2020-14775 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14776 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Oct 2020)
+CVE-2020-2572 - MEDIUM -  mysql: Server: Audit Plugin unspecified vulnerability (CPU Jan 2020)
+CVE-2020-14867 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14765 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14789 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Oct 2020)
+CVE-2021-2160 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2020-2579 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2660 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2020)
+CVE-2020-14769 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14793 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2020)
+CVE-2020-2584 - MEDIUM -  mysql: Server: Options unspecified vulnerability (CPU Jan 2020)
+CVE-2020-14790 - MEDIUM -  mysql: Server: PS unspecified vulnerability (CPU Oct 2020)
+CVE-2021-2144 - MEDIUM -  mysql: Server: Parser unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2178 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2202 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2021)
+CVE-2020-14771 - MEDIUM -  mysql: Server: Security: LDAP Auth unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14869 - MEDIUM -  mysql: Server: Security: LDAP Auth unspecified vulnerability (CPU Oct 2020)
+CVE-2020-1547 - MEDIUM -  null
+CVE-2020-25694 - MEDIUM -  postgresql: Reconnection can downgrade connection security settings
+CVE-2019-10208 - MEDIUM -  postgresql: TYPE in pg_temp executes arbitrary SQL during SECURITY DEFINER execution
+CVE-2020-14350 - MEDIUM -  postgresql: Uncontrolled search path element in CREATE EXTENSION
+CVE-2020-25696 - MEDIUM -  postgresql: psql's \gset allows overwriting specially treated variables
+CVE-2019-13750 - MEDIUM -  sqlite: dropping of shadow tables not restricted in defensive mode
+CVE-2019-13751 - MEDIUM -  sqlite: fts3: improve detection of corrupted records
+CVE-2019-13734 - MEDIUM -  sqlite: fts3: improve shadow table corruption detection
+CVE-2019-13752 - MEDIUM -  sqlite: fts3: improve shadow table corruption detection
+CVE-2019-13753 - MEDIUM -  sqlite: fts3: incorrectly removed corruption check
+CVE-2019-9936 - MEDIUM -  sqlite: heap-based buffer over-read in function fts5HashEntrySort in sqlite3.c

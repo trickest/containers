@@ -1,0 +1,221 @@
+CVE-2020-1971 - HIGH -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2019-9924 - LOW -  bash: BASH_CMD is writable in restricted bash shells
+CVE-2016-3189 - LOW -  bzip2: heap use after free in bzip2recover
+CVE-2020-8231 - LOW -  curl: Expired pointer dereference via multi API with CURLOPT_CONNECT_ONLY option set
+CVE-2020-8284 - LOW -  curl: FTP PASV command response can cause curl to connect to arbitrary host
+CVE-2018-20843 - LOW -  expat: large number of colons in input makes parser consume high amount of resources, leading to DoS
+CVE-2019-1354 - LOW -  git: Git does not refuse to write out tracked files with backlashes in filenames
+CVE-2019-1349 - LOW -  git: Recursive submodule cloning allows using git directory twice with synonymous directory name written in .git/
+CVE-2019-1387 - LOW -  git: Remote code execution in recursive clones with nested submodules
+CVE-2019-19126 - LOW -  glibc: LD_PREFER_MAP_32BIT_EXEC not ignored in setuid binaries
+CVE-2017-12133 - LOW -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2009-5155 - LOW -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2019-9169 - LOW -  glibc: regular-expression match via proceed_next_node in posix/regexec.c leads to heap-based buffer over-read
+CVE-2020-6096 - LOW -  glibc: signed comparison vulnerability in the ARMv7 memcpy function
+CVE-2020-10029 - LOW -  glibc: stack corruption from crafted input in cosl, sinl, sincosl, and tanl functions
+CVE-2020-1752 - LOW -  glibc: use-after-free in glob() function when expanding ~user
+CVE-2020-11985 - LOW -  httpd: IP address spoofing when proxying using mod_remoteip and mod_rewrite
+CVE-2019-10092 - LOW -  httpd: limited cross-site scripting in mod_proxy error page
+CVE-2020-1934 - LOW -  httpd: mod_proxy_ftp use of uninitialized value
+CVE-2020-1927 - LOW -  httpd: mod_rewrite configurations vulnerable to open redirect
+CVE-2019-10098 - LOW -  httpd: mod_rewrite potential open redirect
+CVE-2020-7595 - LOW -  libxml2: infinite loop in xmlStringLenDecodeEntities in some end-of-file situations
+CVE-2019-19956 - LOW -  libxml2: memory leak in xmlParseBalancedChunkMemoryRecover in parser.c
+CVE-2019-13057 - LOW -  openldap: Information disclosure issue in slapd component
+CVE-2020-1968 - LOW -  openssl: Information exposure when DH secret are reused across multiple TLS connections
+CVE-2019-1551 - LOW -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2021-23840 - LOW -  openssl: integer overflow in CipherUpdate
+CVE-2019-1547 - LOW -  openssl: side-channel weak encryption vulnerability
+CVE-2020-10878 - LOW -  perl: corruption of intermediate language state of compiled regular expression due to integer overflow leads to DoS
+CVE-2020-12723 - LOW -  perl: corruption of intermediate language state of compiled regular expression due to recursive S_study_chunk() calls leads to DoS
+CVE-2020-10543 - LOW -  perl: heap-based buffer overflow in regular expression compiler leads to DoS
+CVE-2019-16168 - LOW -  sqlite: Division by zero in whereLoopAddBtreeIndex in sqlite3.c
+CVE-2017-10989 - LOW -  sqlite: Heap-buffer overflow in the getNodeSize function
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2016-6153 - LOW -  sqlite: Tempdir selection vulnerability
+CVE-2019-9937 - LOW -  sqlite: null-pointer dereference in function fts5ChunkIterate in sqlite3.c
+CVE-2019-5827 - LOW -  sqlite: out-of-bounds access due to the use of 32-bit memory allocator interfaces
+CVE-2019-20218 - LOW -  sqlite: selectExpander in select.c proceeds with WITH stack unwinding even after a parsing error
+CVE-2018-16888 - LOW -  systemd: kills privileged process if unprivileged PIDFile was tampered
+CVE-2019-20386 - LOW -  systemd: memory leak in button_open() in login/logind-button.c when udev events are received
+CVE-2018-20482 - LOW -  tar: Infinite read loop in sparse_dump_region function in sparse.c
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2018-1000035 - LOW -  unzip: Heap-based buffer overflow in fileio.c:UzpPassword function allows code execution
+CVE-2014-9913 - LOW -  unzip: methbuf[] buffer overflow in unzip's list_files()
+CVE-2016-9844 - LOW -  unzip: methbuf[] buffer overflow in zipinfo's zi_short()
+CVE-2019-13232 - LOW -  unzip: overlapping of files in ZIP container leads to denial of service
+CVE-2016-9843 - LOW -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - LOW -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2016-9840 - LOW -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - LOW -  zlib: Undefined left shift of negative number
+CVE-2018-20506 - MEDIUM -  CVE-2018-20346 CVE-2018-20505 CVE-2018-20506 sqlite: Multiple flaws in sqlite which can be triggered via corrupted internal databases (Magellan)
+CVE-2018-20346 - MEDIUM -  CVE-2018-20505 CVE-2018-20506 sqlite: Multiple flaws in sqlite which can be triggered via corrupted internal databases (Magellan)
+CVE-2020-10531 - MEDIUM -  ICU: Integer overflow in UnicodeString::doAppend()
+CVE-2016-0494 - MEDIUM -  ICU: integer signedness issue in IndicRearrangementProcessor (OpenJDK 2D, 8140543)
+CVE-2015-4844 - MEDIUM -  ICU: missing boundary checks in layout engine (OpenJDK 2D, 8132042)
+CVE-2016-1000212 - MEDIUM -  [Mitigation for HTTPoxy vulnerability]
+CVE-2020-27350 - MEDIUM -  apt: integer overflows and underflows while parsing .deb packages
+CVE-2020-8617 - MEDIUM -  bind: A logic error in code which checks TSIG validity can be used to trigger an assertion failure in tsig.c
+CVE-2021-25215 - MEDIUM -  bind: An assertion check can fail while answering queries for DNAME records that require the DNAME to be processed to resolve itself
+CVE-2020-8616 - MEDIUM -  bind: BIND does not sufficiently limit the number of fetches performed when processing referrals
+CVE-2021-25214 - MEDIUM -  bind: Broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+CVE-2020-8625 - MEDIUM -  bind: Buffer overflow in the SPNEGO implementation affecting GSSAPI security policy negotiation
+CVE-2021-25216 - MEDIUM -  bind: Vulnerability in BIND's GSSAPI security policy negotiation can be targeted by a buffer overflow attack
+CVE-2020-8623 - MEDIUM -  bind: remotely triggerable assertion failure in pk11.c
+CVE-2020-8622 - MEDIUM -  bind: truncated TSIG response can lead to an assertion failure
+CVE-2019-12900 - MEDIUM -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2020-8177 - MEDIUM -  curl: Incorrect argument check can allow remote servers to overwrite local files
+CVE-2020-8286 - MEDIUM -  curl: Inferior OCSP verification
+CVE-2021-22876 - MEDIUM -  curl: Leak of authentication credentials in URL via automatic Referer
+CVE-2020-8285 - MEDIUM -  curl: Malicious FTP server can trigger stack overflow when CURLOPT_CHUNK_BGN_FUNCTION is used
+CVE-2019-5482 - MEDIUM -  curl: heap buffer overflow in function tftp_receive_packet()
+CVE-2019-19906 - MEDIUM -  cyrus-sasl: denial of service in _sasl_add_string function
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-5188 - MEDIUM -  e2fsprogs: Out-of-bounds write in e2fsck/rehash.c
+CVE-2019-15903 - MEDIUM -  expat: heap-based buffer over-read via crafted XML input
+CVE-2019-18218 - MEDIUM -  file: heap-based buffer overflow in cdf_read_property_info in cdf.c
+CVE-2019-1348 - MEDIUM -  git: Arbitrary path overwriting via export-marks in-stream command feature
+CVE-2020-5260 - MEDIUM -  git: Crafted URL containing new lines can cause credential leak
+CVE-2020-11008 - MEDIUM -  git: Crafted URL containing new lines, empty host or lacks a scheme can cause credential leak
+CVE-2019-1352 - MEDIUM -  git: Files inside the .git directory may be overwritten during cloning via NTFS Alternate Data Streams
+CVE-2019-1351 - MEDIUM -  git: Git mistakes some paths for relative paths allowing writing outside of the worktree while cloning
+CVE-2019-1350 - MEDIUM -  git: Incorrect quoting of command-line arguments allowed remote code execution during a recursive clone
+CVE-2019-1353 - MEDIUM -  git: NTFS protections inactive when running Git in the Windows Subsystem for Linux
+CVE-2021-21300 - MEDIUM -  git: remote code execution during clone operation on case-insensitive filesystems
+CVE-2018-11237 - MEDIUM -  glibc: Buffer overflow in __mempcpy_avx512_no_vzeroupper
+CVE-2018-6485 - MEDIUM -  glibc: Integer overflow in posix_memalign in memalign functions
+CVE-2018-11236 - MEDIUM -  glibc: Integer overflow in stdlib/canonicalize.c on 32-bit architectures leading to stack-based buffer overflow
+CVE-2020-1751 - MEDIUM -  glibc: array overflow in backtrace functions for powerpc
+CVE-2017-18269 - MEDIUM -  glibc: memory corruption in memcpy-sse2-unaligned.S
+CVE-2017-14952 - MEDIUM -  icu: Double free in i18n/zonemeta.cpp
+CVE-2017-7868 - MEDIUM -  icu: Heap-buffer overflow in utext_moveIndex32 function
+CVE-2017-7867 - MEDIUM -  icu: Heap-buffer overflow in utext_setNativeIndex function
+CVE-2016-6293 - MEDIUM -  icu: Out-of-bounds access in uloc_acceptLanguageFromHTTP
+CVE-2016-7415 - MEDIUM -  icu: Stack based buffer overflow in locid.cpp
+CVE-2020-28196 - MEDIUM -  krb5: unbounded recursion via an ASN.1-encoded Kerberos message in lib/krb5/asn.1/asn1_encode.c may lead to DoS
+CVE-2020-14344 - MEDIUM -  libX11: Heap overflow in the X input method client
+CVE-2020-14363 - MEDIUM -  libX11: integer overflow leads to double free in locale handling
+CVE-2019-13627 - MEDIUM -  libgcrypt: ECDSA timing attack allowing private key leak
+CVE-2020-2752 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Apr 2020)
+CVE-2020-2922 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Apr 2020)
+CVE-2020-2570 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2573 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2574 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2020)
+CVE-2021-2007 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2021)
+CVE-2021-2010 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2021)
+CVE-2021-2011 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jan 2021)
+CVE-2020-14550 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jul 2020)
+CVE-2019-2797 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2969 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Oct 2019)
+CVE-2021-2032 - MEDIUM -  mysql: Information Schema unspecified vulnerability (CPU Jan 2021)
+CVE-2019-2911 - MEDIUM -  mysql: Information Schema unspecified vulnerability (CPU Oct 2019)
+CVE-2020-2760 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2020)
+CVE-2020-2814 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2020)
+CVE-2020-2577 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2589 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2020)
+CVE-2021-2022 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2021)
+CVE-2019-2758 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2938 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Oct 2019)
+CVE-2020-14775 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14776 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Oct 2020)
+CVE-2019-2741 - MEDIUM -  mysql: Server: Audit Log unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2791 - MEDIUM -  mysql: Server: Audit Plug-in unspecified vulnerability (CPU Jul 2019)
+CVE-2020-2572 - MEDIUM -  mysql: Server: Audit Plugin unspecified vulnerability (CPU Jan 2020)
+CVE-2019-2993 - MEDIUM -  mysql: Server: C API unspecified vulnerability (CPU Oct 2019)
+CVE-2020-2806 - MEDIUM -  mysql: Server: Compiling unspecified vulnerability (CPU Apr 2020)
+CVE-2019-2738 - MEDIUM -  mysql: Server: Compiling unspecified vulnerability (CPU Jul 2019)
+CVE-2020-14867 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Oct 2020)
+CVE-2020-2780 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2020)
+CVE-2020-14540 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Jul 2020)
+CVE-2020-14765 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14789 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14559 - MEDIUM -  mysql: Server: Information Schema unspecified vulnerability (CPU Jul 2020)
+CVE-2020-14812 - MEDIUM -  mysql: Server: Locking unspecified vulnerability (CPU Oct 2020)
+CVE-2020-2804 - MEDIUM -  mysql: Server: Memcached unspecified vulnerability (CPU Apr 2020)
+CVE-2020-2765 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2020)
+CVE-2021-2160 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2020-2579 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2020)
+CVE-2020-2660 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2020)
+CVE-2021-2001 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021)
+CVE-2021-2060 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2021)
+CVE-2019-2757 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2774 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2019)
+CVE-2020-14539 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2020)
+CVE-2020-14547 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2020)
+CVE-2019-2948 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2974 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2019)
+CVE-2020-14760 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14769 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14793 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2020)
+CVE-2020-2584 - MEDIUM -  mysql: Server: Options unspecified vulnerability (CPU Jan 2020)
+CVE-2021-2014 - MEDIUM -  mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Jan 2021)
+CVE-2019-2946 - MEDIUM -  mysql: Server: PS unspecified vulnerability (CPU Oct 2019)
+CVE-2020-14790 - MEDIUM -  mysql: Server: PS unspecified vulnerability (CPU Oct 2020)
+CVE-2021-2144 - MEDIUM -  mysql: Server: Parser unspecified vulnerability (CPU Apr 2021)
+CVE-2019-2805 - MEDIUM -  mysql: Server: Parser unspecified vulnerability (CPU Jul 2019)
+CVE-2020-2790 - MEDIUM -  mysql: Server: Pluggable Auth unspecified vulnerability (CPU Apr 2020)
+CVE-2019-2737 - MEDIUM -  mysql: Server: Pluggable Auth unspecified vulnerability (CPU Jul 2019)
+CVE-2020-14553 - MEDIUM -  mysql: Server: Pluggable Auth unspecified vulnerability (CPU Jul 2020)
+CVE-2020-2763 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2020)
+CVE-2021-2178 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2202 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2021)
+CVE-2020-14567 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Jul 2020)
+CVE-2019-2960 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2819 - MEDIUM -  mysql: Server: Security: Audit unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2910 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2914 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2922 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2923 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2019)
+CVE-2019-2924 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Oct 2019)
+CVE-2020-14771 - MEDIUM -  mysql: Server: Security: LDAP Auth unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14827 - MEDIUM -  mysql: Server: Security: LDAP Auth unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14869 - MEDIUM -  mysql: Server: Security: LDAP Auth unspecified vulnerability (CPU Oct 2020)
+CVE-2019-2739 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Jul 2019)
+CVE-2019-2778 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Jul 2019)
+CVE-2020-2812 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2020)
+CVE-2020-14672 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Oct 2020)
+CVE-2020-14576 - MEDIUM -  mysql: Server: UDF unspecified vulnerability (CPU Jul 2020)
+CVE-2019-2740 - MEDIUM -  mysql: Server: XML unspecified vulnerability (CPU Jul 2019)
+CVE-2021-20305 - MEDIUM -  nettle: Out of bounds memory access in signature verification
+CVE-2020-1547 - MEDIUM -  null
+CVE-2019-13565 - MEDIUM -  openldap: ACL restrictions bypass due to sasl_ssf value being set permanently
+CVE-2020-36230 - MEDIUM -  openldap: Assertion failure in ber_next_element in decode.c
+CVE-2021-27212 - MEDIUM -  openldap: Assertion failure in slapd in the issuerAndThisUpdateCheck function
+CVE-2020-36222 - MEDIUM -  openldap: Assertion failure in slapd in the saslAuthzTo validation
+CVE-2020-36226 - MEDIUM -  openldap: Denial of service via length miscalculation in slap_parse_user
+CVE-2020-36225 - MEDIUM -  openldap: Double free in the saslAuthzTo processing
+CVE-2020-36227 - MEDIUM -  openldap: Infinite loop in slapd with the cancel_extop Cancel operation
+CVE-2020-36228 - MEDIUM -  openldap: Integer underflow in issuerAndThisUpdateCheck in schema_init.c
+CVE-2020-36221 - MEDIUM -  openldap: Integer underflow in serialNumberAndIssuerCheck in schema_init.c
+CVE-2020-36224 - MEDIUM -  openldap: Invalid pointer free in the saslAuthzTo processing
+CVE-2020-25692 - MEDIUM -  openldap: NULL pointer dereference for unauthenticated packet in slapd
+CVE-2020-36223 - MEDIUM -  openldap: Out-of-bounds read in Values Return Filter
+CVE-2020-36229 - MEDIUM -  openldap: Type confusion in ad_keystring in ad.c
+CVE-2020-25710 - MEDIUM -  openldap: assertion failure in CSN normalization with invalid input
+CVE-2020-25709 - MEDIUM -  openldap: assertion failure in Certificate List syntax validation
+CVE-2020-12243 - MEDIUM -  openldap: denial of service via nested boolean expressions in LDAP search filters
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2020-29361 - MEDIUM -  p11-kit: integer overflow when allocating memory for arrays or attributes and object identifiers
+CVE-2020-29362 - MEDIUM -  p11-kit: out-of-bounds read in p11_rpc_buffer_get_byte_array function in rpc-message.c
+CVE-2019-13638 - MEDIUM -  patch: OS shell command injection when processing crafted patch files
+CVE-2018-20969 - MEDIUM -  patch: do_ed_script in pch.c does not block strings beginning with a ! character
+CVE-2019-13636 - MEDIUM -  patch: the following of symlinks in inp.c and util.c is mishandled in cases other than input files
+CVE-2020-25695 - MEDIUM -  postgresql: Multiple features escape "security restricted operation" sandbox
+CVE-2020-25694 - MEDIUM -  postgresql: Reconnection can downgrade connection security settings
+CVE-2019-10208 - MEDIUM -  postgresql: TYPE in pg_temp executes arbitrary SQL during SECURITY DEFINER execution
+CVE-2020-14350 - MEDIUM -  postgresql: Uncontrolled search path element in CREATE EXTENSION
+CVE-2020-25696 - MEDIUM -  postgresql: psql's \gset allows overwriting specially treated variables
+CVE-2020-13632 - MEDIUM -  sqlite: NULL pointer dereference in ext/fts3/fts3_snippet.c via a crafted matchinfo() query
+CVE-2020-13630 - MEDIUM -  sqlite: Use-after-free in fts3EvalNextRow in ext/fts3/fts3.c
+CVE-2019-13750 - MEDIUM -  sqlite: dropping of shadow tables not restricted in defensive mode
+CVE-2019-19926 - MEDIUM -  sqlite: error mishandling because of incomplete fix of CVE-2019-19880
+CVE-2019-13751 - MEDIUM -  sqlite: fts3: improve detection of corrupted records
+CVE-2019-13734 - MEDIUM -  sqlite: fts3: improve shadow table corruption detection
+CVE-2019-13752 - MEDIUM -  sqlite: fts3: improve shadow table corruption detection
+CVE-2019-13753 - MEDIUM -  sqlite: fts3: incorrectly removed corruption check
+CVE-2019-8457 - MEDIUM -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2019-9936 - MEDIUM -  sqlite: heap-based buffer over-read in function fts5HashEntrySort in sqlite3.c
+CVE-2020-13434 - MEDIUM -  sqlite: integer overflow in sqlite3_str_vappendf function in printf.c
+CVE-2020-1712 - MEDIUM -  systemd: use-after-free when asynchronous polkit queries are performed

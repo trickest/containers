@@ -1,0 +1,7 @@
+CVE-2019-8907 - HIGH -  file: do_core_note in readelf.c allows remote attackers to cause a denial of service
+CVE-2019-18408 - HIGH -  libarchive: use-after-free in archive_read_format_rar_read_data when there is an error in the decompression of an archive entry
+CVE-2018-16860 - HIGH -  samba: S4U2Self with unkeyed checksum
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-8906 - MEDIUM -  file: out-of-bounds read in do_core_note in readelf.c
+CVE-2019-8905 - MEDIUM -  file: stack-based buffer over-read in do_core_note in readelf.c
+CVE-2020-19221 - UNKNOWN -  null

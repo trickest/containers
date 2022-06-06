@@ -1,0 +1,5 @@
+/zookeeper-3.4.13/bin/zkTxnLogToolkit.sh
+/zookeeper-3.4.13/bin/zkEnv.sh
+/zookeeper-3.4.13/bin/zkCli.sh
+/zookeeper-3.4.13/bin/zkCleanup.sh
+/zookeeper-3.4.13/bin/zkServer.sh

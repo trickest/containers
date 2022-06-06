@@ -1,0 +1,39 @@
+CVE-2019-12900 - CRITICAL -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2018-16842 - CRITICAL -  curl: Heap-based buffer over-read in the curl tool warning formatting
+CVE-2018-16839 - CRITICAL -  curl: Integer overflow leading to heap-based buffer overflow in Curl_sasl_create_plain_message()
+CVE-2019-3822 - CRITICAL -  curl: NTLMv2 type-3 header stack buffer overflow
+CVE-2018-16840 - CRITICAL -  curl: Use-after-free when closing "easy" handle in Curl_close()
+CVE-2019-5481 - CRITICAL -  curl: double free due to subsequent call of realloc()
+CVE-2019-5482 - CRITICAL -  curl: heap buffer overflow in function tftp_receive_packet()
+CVE-2019-10768 - HIGH -  AngularJS: Prototype pollution in merge function could result in code injection
+CVE-2020-28948 - HIGH -  Archive_Tar: allows an unserialization attack because phar: is blocked but PHAR: is not blocked
+CVE-2020-36193 - HIGH -  Archive_Tar: directory traversal due to inadequate checking of symbolic links
+CVE-2020-28949 - HIGH -  Archive_Tar: improper filename sanitization leads to file overwrites
+CVE-2019-9513 - HIGH -  HTTP/2: flood using PRIORITY frames results in excessive resource consumption
+CVE-2019-9511 - HIGH -  HTTP/2: large amount of data requests leads to denial of service
+CVE-2018-16890 - HIGH -  curl: NTLM type-2 heap out-of-bounds buffer read
+CVE-2019-3823 - HIGH -  curl: SMTP end-of-response out-of-bounds read
+CVE-2019-19906 - HIGH -  cyrus-sasl: denial of service in _sasl_add_string function
+CVE-2016-7103 - HIGH -  jquery-ui: cross-site scripting in dialog closeText
+CVE-2019-2201 - HIGH -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2018-11813 - HIGH -  libjpeg: "cjpeg" utility large loop because read_pixel in rdtarga.c mishandles EOF
+CVE-2018-14550 - HIGH -  libpng: Stack-based buffer overflow in contrib/pngminus/pnm2png.c:get_token() potentially leading to arbitrary code execution
+CVE-2018-14404 - HIGH -  libxml2: NULL pointer dereference in xmlXPathCompOpEval() function in xpath.c
+CVE-2019-19956 - HIGH -  libxml2: memory leak in xmlParseBalancedChunkMemoryRecover in parser.c
+CVE-2019-13565 - HIGH -  openldap: ACL restrictions bypass due to sasl_ssf value being set permanently
+CVE-2020-12243 - HIGH -  openldap: denial of service via nested boolean expressions in LDAP search filters
+CVE-2021-32610 - HIGH -  php-pear: Directory traversal vulnerability
+CVE-2018-1000888 - HIGH -  php-pear: Unsafe deserialization of data in Archive_Tar class
+GHSA-5cp4-xmrw-59wf - MEDIUM -  XSS via JQLite DOM manipulation functions in AngularJS
+CVE-2021-41183 - MEDIUM -  jquery-ui: XSS in *Text options of the datepicker widget
+CVE-2021-41184 - MEDIUM -  jquery-ui: XSS in the 'of' option of the .position() util
+CVE-2021-41182 - MEDIUM -  jquery-ui: XSS in the altField option of the datepicker widget
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2018-14498 - MEDIUM -  libjpeg-turbo: heap-based buffer over-read via crafted 8-bit BMP in get_8bit_row in rdbmp.c leads to denial of service
+CVE-2018-14048 - MEDIUM -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2019-7317 - MEDIUM -  libpng: use-after-free in png_image_free in png.c
+CVE-2018-14567 - MEDIUM -  libxml2: Infinite loop caused by incorrect error detection during LZMA decompression
+CVE-2018-9251 - MEDIUM -  libxml2: infinite loop in xz_decomp function in xzlib.c
+CVE-2020-7676 - MEDIUM -  nodejs-angular: XSS due to regex-based HTML replacement
+CVE-2019-13057 - MEDIUM -  openldap: Information disclosure issue in slapd component
+CVE-2018-20482 - MEDIUM -  tar: Infinite read loop in sparse_dump_region function in sparse.c

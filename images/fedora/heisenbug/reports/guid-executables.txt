@@ -1,0 +1,15 @@
+/usr/lib64/dbus-1/dbus-daemon-launch-helper
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/sudo
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/sbin/usernetctl
+/usr/sbin/pam_timestamp_check
+/usr/sbin/unix_chkpwd

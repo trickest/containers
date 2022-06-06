@@ -1,0 +1,2 @@
+CVE-2020-1934 - MEDIUM -  httpd: mod_proxy_ftp use of uninitialized value
+CVE-2020-1927 - MEDIUM -  httpd: mod_rewrite configurations vulnerable to open redirect

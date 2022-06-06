@@ -1,0 +1,6 @@
+/zookeeper-3.5.4-beta/bin/zkTxnLogToolkit.sh
+/zookeeper-3.5.4-beta/bin/zkEnv.sh
+/zookeeper-3.5.4-beta/bin/zkServer-initialize.sh
+/zookeeper-3.5.4-beta/bin/zkCli.sh
+/zookeeper-3.5.4-beta/bin/zkCleanup.sh
+/zookeeper-3.5.4-beta/bin/zkServer.sh

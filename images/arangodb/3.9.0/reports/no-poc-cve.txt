@@ -1,0 +1,6 @@
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+GMS-2021-175 - UNKNOWN -  Ambiguous OCI manifest parsing
+GMS-2021-101 - UNKNOWN -  Clarify `mediaType` handling
+GMS-2021-177 - UNKNOWN -  Devices resource list treated as a denylist by default
+GMS-2022-20 - UNKNOWN -  OCI Manifest Type Confusion Issue

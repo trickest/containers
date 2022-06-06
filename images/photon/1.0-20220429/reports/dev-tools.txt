@@ -1,0 +1,2 @@
+/usr/share/gcc-5.3.0/python
+/usr/share/gcc-5.3.0

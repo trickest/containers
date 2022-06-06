@@ -1,0 +1,3 @@
+CVE-2022-24070 - HIGH -  subversion: Subversion's mod_dav_svn is vulnerable to memory corruption
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression

@@ -1,0 +1,2 @@
+/usr/bin/umount
+/usr/bin/mount

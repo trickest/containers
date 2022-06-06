@@ -1,0 +1,397 @@
+CVE-2021-45046 - CRITICAL -  log4j-core: DoS in log4j 2.x with thread context message pattern and context lookup pattern (incomplete fix for CVE-2021-44228)
+CVE-2021-44228 - CRITICAL -  log4j-core: Remote code execution in Log4j 2.x when logs contain an attacker-controlled string value
+CVE-2021-43527 - CRITICAL -  nss: Memory corruption in decodeECorDsaSignature with DSA signatures (and RSA-PSS)
+CVE-2021-25215 - HIGH -  bind: An assertion check can fail while answering queries for DNAME records that require the DNAME to be processed to resolve itself
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2022-25315 - HIGH -  expat: Integer overflow in storeRawNames()
+CVE-2022-25235 - HIGH -  expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution
+CVE-2022-25236 - HIGH -  expat: Namespace-separator characters in "xmlns[:prefix]" attribute values can lead to arbitrary code execution
+CVE-2021-27219 - HIGH -  glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits
+CVE-2018-8029 - HIGH -  hadoop: a user who can escalate to yarn user can possibly run arbitrary commands as root user
+CVE-2018-8009 - HIGH -  hadoop: arbitrary file write vulnerability / arbitrary code execution using a specially crafted zip file
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2020-28491 - HIGH -  jackson-dataformat-cbor:  Unchecked allocation of byte buffer can cause a java.lang.OutOfMemoryError exception
+CVE-2021-45105 - HIGH -  log4j-core: DoS in log4j 2.x with Thread Context Map (MDC) input data contains a recursive lookup and context lookup pattern
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2016-3191 - HIGH -  pcre: workspace overflow for (*ACCEPT) with deeply nested parentheses (8.39/13, 10.22/12)
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2018-9234 - LOW -  GnuPG: Unenforced configuration allows for apparently valid certifications actually signed by signing subkeys
+CVE-2016-1938 - LOW -  Mozilla NSS: Errors in mp_div and mp_exptmod cryptographic functions
+CVE-2019-18276 - LOW -  bash: when effective UID is not equal to its real UID the saved UID is not dropped
+CVE-2016-6170 - LOW -  bind: Improper restriction of zone size limit
+CVE-2017-9756 - LOW -  binutils: Address violation in aarch64_ext_ldst_reglist function when disassembling corrupt aarch64 binary
+CVE-2017-17125 - LOW -  binutils: Buffer over-read in the _bfd_elf_get_symbol_version_string function
+CVE-2017-15025 - LOW -  binutils: Divide-by-zero in decode_line_info
+CVE-2017-14938 - LOW -  binutils: Excessive memory allocation in _bfd_elf_slurp_version_tables
+CVE-2017-15996 - LOW -  binutils: Excessive memory allocation in elfcomm.c
+CVE-2017-17122 - LOW -  binutils: Excessive memory allocation in the dump_relocs_in_section function
+CVE-2017-9749 - LOW -  binutils: Global buffer over-read in *regs* macros when disassembling corrupt bfin binary
+CVE-2017-9750 - LOW -  binutils: Global buffer over-read in opcodes/rx-decode.opc when disassembling a corrupt RX binary
+CVE-2017-9742 - LOW -  binutils: Global buffer over-read in print_insn_score16 function while disassembling corrupt score binary
+CVE-2017-9746 - LOW -  binutils: Heap buffer over-read in disassemble_bytes function when disassembling a corrupt binary
+CVE-2017-14729 - LOW -  binutils: Heap buffer overflow in the *_get_synthetic_symtab functions
+CVE-2017-17124 - LOW -  binutils: Heap buffer overflow in the _bfd_coff_read_string_table function
+CVE-2017-9041 - LOW -  binutils: Heap buffer overflow in the process_mips_specific function
+CVE-2017-15021 - LOW -  binutils: Heap-based buffer over-read in bfd_get_debug_link_info_1
+CVE-2017-17080 - LOW -  binutils: Heap-based buffer over-read in bfd_getl32
+CVE-2017-14130 - LOW -  binutils: Heap-based buffer over-read in the _bfd_elf_parse_attributes function
+CVE-2017-14939 - LOW -  binutils: Heap-based buffer over-read in the decode_line_info
+CVE-2017-14128 - LOW -  binutils: Heap-based buffer over-read in the decode_line_info function
+CVE-2017-14129 - LOW -  binutils: Heap-based buffer over-read in the read_section function
+CVE-2020-35448 - LOW -  binutils: Heap-based buffer overflow in bfd_getl_signed_32() in libbfd.c because sh_entsize is not validated in _bfd_elf_slurp_secondary_reloc_section() in elf.c
+CVE-2017-15020 - LOW -  binutils: Heap-based buffer overflow in parse_die
+CVE-2017-9038 - LOW -  binutils: Heap-buffer overflow in the byte_get_little_endian
+CVE-2017-14934 - LOW -  binutils: Infinite loop in process_debug_info
+CVE-2017-14933 - LOW -  binutils: Infinite loop in read_formatted_entries
+CVE-2017-14932 - LOW -  binutils: Infinite loop in the decode_line_info
+CVE-2017-15024 - LOW -  binutils: Infinite recursion in find_abstract_instance_name
+CVE-2017-16831 - LOW -  binutils: Integer overflow in coffgen.c
+CVE-2018-18483 - LOW -  binutils: Integer overflow in cplus-dem.c:get_count() allows for denial of service
+CVE-2018-6323 - LOW -  binutils: Integer overflow in elf_object_p function in elfcode.h
+CVE-2017-14745 - LOW -  binutils: Integer overflow in the *_get_synthetic_symtab functions
+CVE-2017-16828 - LOW -  binutils: Integer overflow in the display_debug_frames function
+CVE-2017-16827 - LOW -  binutils: Invalid free in the aout_get_external_symbols function
+CVE-2017-16826 - LOW -  binutils: Invalid memory access in the coff_slurp_line_table function
+CVE-2017-17126 - LOW -  binutils: Invalid memory access in the load_debug_section function
+CVE-2017-15938 - LOW -  binutils: Invalid memory read in find_abstract_instance_name
+CVE-2017-9042 - LOW -  binutils: Invalid variable type in readelf.c
+CVE-2017-17121 - LOW -  binutils: Memory access violation via a crafted COFF binary
+CVE-2017-9039 - LOW -  binutils: Memory consumption via many program headers
+CVE-2017-8421 - LOW -  binutils: Memory exhaustion in objdump via a crafted PE file
+CVE-2017-15225 - LOW -  binutils: Memory leak in _bfd_dwarf2_cleanup_debug_info
+CVE-2017-14930 - LOW -  binutils: Memory leak in decode_line_info
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2018-18606 - LOW -  binutils: NULL pointer dereference in _bfd_add_merge_section in merge_strings function in merge.c
+CVE-2017-7614 - LOW -  binutils: NULL pointer dereference in bfd_elf_final_link function
+CVE-2017-15022 - LOW -  binutils: NULL pointer dereference in dwarf2.c
+CVE-2018-18607 - LOW -  binutils: NULL pointer dereference in elf_link_input_bfd in elflink.c
+CVE-2018-17794 - LOW -  binutils: NULL pointer dereference in libiberty/cplus-dem.c:work_stuff_copy_to_from() via crafted input
+CVE-2017-15023 - LOW -  binutils: NULL pointer dereference in read_formatted_entries
+CVE-2017-17123 - LOW -  binutils: NULL pointer dereference in the coff_slurp_reloc_table function
+CVE-2017-15939 - LOW -  binutils: NULL pointer dereference in the concat_filename
+CVE-2017-9040 - LOW -  binutils: NULL pointer dereference in the process_mips_specific_function
+CVE-2017-14940 - LOW -  binutils: NULL pointer dereference in the scan_unit_for_symbols
+CVE-2020-16599 - LOW -  binutils: Null Pointer Dereference in _bfd_elf_get_symbol_version_string could result in DoS
+CVE-2020-16593 - LOW -  binutils: Null Pointer Dereference in scan_unit_for_symbols could result in DoS
+CVE-2017-16829 - LOW -  binutils: Out-of-bounds read in the _bfd_elf_parse_gnu_properties function
+CVE-2017-9044 - LOW -  binutils: Out-of-bounds read in the print_symbol_for_build_attribute function
+CVE-2018-18700 - LOW -  binutils: Recursive Stack Overflow within function d_name, d_encoding, and d_local_name in cp-demangle.c
+CVE-2017-16832 - LOW -  binutils: Segmentation fault in the pe_bfd_read_buildid function
+CVE-2017-16830 - LOW -  binutils: Segmentation fault in the print_gnu_property_note function
+CVE-2017-9043 - LOW -  binutils: Shift exponent too large for type unsigned long in readelf.c
+CVE-2018-17985 - LOW -  binutils: Stack consumption problem caused by the cplus_demangle_type
+CVE-2018-18484 - LOW -  binutils: Stack exhaustion in cp-demangle.c allows for denial of service
+CVE-2017-9747 - LOW -  binutils: Stack-based buffer over-read in ieee_archive_p function while disassembling corrupt IEEE binary
+CVE-2017-9748 - LOW -  binutils: Stack-based buffer over-read in ieee_object_p function
+CVE-2018-6759 - LOW -  binutils: Unchecked strnlen in opncls.c:bfd_get_debug_link_info_1() can allow lead to denial of service
+CVE-2018-12934 - LOW -  binutils: Uncontrolled Resource Consumption in remember_Ktype in cplus-dem.c
+CVE-2014-9939 - LOW -  binutils: buffer overflow in ihex.c
+CVE-2019-17450 - LOW -  binutils: denial of service via crafted ELF file
+CVE-2018-12698 - LOW -  binutils: excessive memory consumption in demangle_template in cplus-dem.c
+CVE-2017-9955 - LOW -  binutils: heap buffer over-read in get_build_id function
+CVE-2017-14529 - LOW -  binutils: heap-based buffer over-read in bfd_getl16 function in peXXigen.c
+CVE-2018-17360 - LOW -  binutils: heap-based buffer over-read in bfd_getl32 in libbfd.c
+CVE-2017-13757 - LOW -  binutils: heap-based buffer over-read in elf_i386_get_synthetic_symtab in elf32-i386.c and elf_x86_64_get_synthetic_symtab in elf64-x86-64.c
+CVE-2018-18605 - LOW -  binutils: heap-based buffer over-read in sec_merge_hash_lookup in merge.c
+CVE-2018-12699 - LOW -  binutils: heap-based buffer overflow in finish_stab in stabs.c
+CVE-2018-18701 - LOW -  binutils: infinite recursion in next_is_type_qual and cplus_demangle_type functions in cp-demangle.c
+CVE-2019-14250 - LOW -  binutils: integer overflow in simple-object-elf.c leads to a heap-based buffer overflow
+CVE-2019-17451 - LOW -  binutils: integer overflow leading to a SEGV in _bfd_dwarf2_find_nearest_line in dwarf2.c
+CVE-2020-16591 - LOW -  binutils: invalid read in process_symbol_table could result in DoS
+CVE-2018-20002 - LOW -  binutils: memory leak in _bfd_generic_read_minisymbols function in syms.c
+CVE-2018-6872 - LOW -  binutils: out of bounds read in elf_parse_notes function in elf.c file in libbfd library
+CVE-2019-12972 - LOW -  binutils: out-of-bounds read in setup_group in bfd/elf.c
+CVE-2016-3189 - LOW -  bzip2: heap use after free in bzip2recover
+CVE-2019-12900 - LOW -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2015-5218 - LOW -  colcrt: global-buffer-overflow
+CVE-2014-9471 - LOW -  coreutils: memory corruption flaw in parse_datetime()
+CVE-2017-7407 - LOW -  curl: --write-out out of bounds read
+CVE-2016-8616 - LOW -  curl: Case insensitive password comparison
+CVE-2020-8231 - LOW -  curl: Expired pointer dereference via multi API with CURLOPT_CONNECT_ONLY option set
+CVE-2021-22925 - LOW -  curl: Incorrect fix for CVE-2021-22898 TELNET stack contents disclosure
+CVE-2016-0755 - LOW -  curl: NTLM credentials not-checked for proxy connection re-use
+CVE-2021-22898 - LOW -  curl: TELNET stack contents disclosure
+CVE-2017-1000100 - LOW -  curl: TFTP sends more than buffer size
+CVE-2016-8622 - LOW -  curl: URL unescape heap overflow via integer truncation
+CVE-2016-8623 - LOW -  curl: Use-after-free via shared cookies
+CVE-2016-8621 - LOW -  curl: curl_getdate out-of-bounds read
+CVE-2016-9586 - LOW -  curl: printf floating point buffer overflow
+CVE-2014-3637 - LOW -  dbus: denial of service by creating unkillable D-Bus connections
+CVE-2015-0245 - LOW -  dbus: denial of service in dbus systemd activation
+CVE-2015-1572 - LOW -  e2fsprogs: potential buffer overflow in closefs() (incomplete CVE-2015-0247 fix)
+CVE-2017-7610 - LOW -  elfutils: Heap-buffer overflow in the check_group function
+CVE-2017-7611 - LOW -  elfutils: Heap-buffer overflow in the check_symtab_shndx function
+CVE-2017-7612 - LOW -  elfutils: Heap-buffer overflow in the check_sysv_hash function
+CVE-2017-7608 - LOW -  elfutils: Heap-buffer overflow in the ebl_object_note_type_name function
+CVE-2017-7607 - LOW -  elfutils: Heap-buffer overflow in the handle_gnu_hash function
+CVE-2016-10255 - LOW -  elfutils: Memory allocation failure in __libelf_set_rawdata_wrlock (elf_getdata.c)
+CVE-2016-10254 - LOW -  elfutils: Memory allocation failure in allocate_elf
+CVE-2017-7609 - LOW -  elfutils: Memory allocation failure in elf_compress.c
+CVE-2017-7613 - LOW -  elfutils: elflint.c does not validate the number of sections and segments
+CVE-2022-23990 - LOW -  expat: integer overflow in the doProlog function
+CVE-2016-9063 - LOW -  firefox: Possible integer overflow to fix inside XML_Parse in Expat
+CVE-2016-2226 - LOW -  gcc: Exploitable buffer overflow
+CVE-2016-4487 - LOW -  gcc: Invalid write due to a use-after-free to array btypevec
+CVE-2016-4488 - LOW -  gcc: Invalid write due to a use-after-free to array ktypevec
+CVE-2016-4489 - LOW -  gcc: Invalid write due to integer overflow
+CVE-2016-4492 - LOW -  gcc: Read access violations
+CVE-2016-4493 - LOW -  gcc: Read access violations
+CVE-2016-4491 - LOW -  gcc: Stack overflow due to infinite recursion in d_print_comp
+CVE-2016-4490 - LOW -  gcc: Write access violation
+CVE-2021-46195 - LOW -  gcc: uncontrolled recursion in libiberty/rust-demangle.c
+CVE-2018-16428 - LOW -  glib2: NULL pointer dereference in g_markup_parse_context_end_parse() function in gmarkup.c
+CVE-2018-16429 - LOW -  glib2: Out-of-bounds read in g_markup_parse_context_parse() in gmarkup.c
+CVE-2019-13012 - LOW -  glib2: insecure permissions for files and directories
+CVE-2021-28153 - LOW -  glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink
+CVE-2017-15671 - LOW -  glibc: Memory leak in glob with GLOB_TILDE
+CVE-2016-10228 - LOW -  glibc: iconv program can hang when invoked with the -c option
+CVE-2020-27618 - LOW -  glibc: iconv when processing invalid multi-byte input sequences fails to advance the input state, which could result in an infinite loop
+CVE-2021-33574 - LOW -  glibc: mq_notify does not handle separately allocated thread attributes
+CVE-2014-4043 - LOW -  glibc: posix_spawn_file_actions_addopen fails to copy the path argument
+CVE-2015-8985 - LOW -  glibc: potential denial of service in pop_fail_stack()
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2015-1606 - LOW -  gnupg2: invalid memory read using a garbled keyring
+CVE-2015-1607 - LOW -  gnupg2: memcpy with overlapping ranges (keybox_search.c)
+CVE-2015-0837 - LOW -  libgcrypt: last-level cache side-channel attack
+CVE-2014-3591 - LOW -  libgcrypt: use ciphertext blinding for Elgamal decryption (new side-channel attack)
+CVE-2018-20657 - LOW -  libiberty: Memory leak in demangle_template function resulting in a denial of service
+CVE-2017-14062 - LOW -  libidn2: Integer overflow in puny_decode.c/decode_digit
+CVE-2016-6263 - LOW -  libidn: Crash when given invalid UTF-8 data on input
+CVE-2016-6261 - LOW -  libidn: Out of bounds stack read in idna_to_ascii_4i
+CVE-2015-2059 - LOW -  libidn: out-of-bounds read with stringprep on invalid UTF-8
+CVE-2018-1000654 - LOW -  libtasn1: Infinite loop in _asn1_expand_object_id(ptree) leads to memory exhaustion
+CVE-2017-10790 - LOW -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2017-8872 - LOW -  libxml2: Out-of-bounds read in htmlParseTryOrFinish
+CVE-2020-9488 - LOW -  log4j: improper validation of certificate with host mismatch in SMTP appender
+CVE-2017-11112 - LOW -  ncurses: Illegal address access in append_acs function
+CVE-2017-13729 - LOW -  ncurses: Illegal address access in the _nc_save_str function
+CVE-2017-13730 - LOW -  ncurses: Illegal address access in the function _nc_read_entry_source()
+CVE-2017-13734 - LOW -  ncurses: Illegal address access in the function _nc_safe_strcat
+CVE-2017-13732 - LOW -  ncurses: Illegal address access in the function dump_uses()
+CVE-2017-13733 - LOW -  ncurses: Illegal address access in the function fmt_entry
+CVE-2017-13731 - LOW -  ncurses: Illegal address access in the function postprocess_termcap()
+CVE-2017-13728 - LOW -  ncurses: Infinite loop in the next_char function
+CVE-2018-19217 - LOW -  ncurses: Null pointer dereference at function _nc_name_match
+CVE-2018-19211 - LOW -  ncurses: Null pointer dereference at function _nc_parse_entry in parse_entry.c
+CVE-2017-11113 - LOW -  ncurses: Null pointer dereference vulnerability in _nc_parse_entry function
+CVE-2017-16879 - LOW -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2020-15719 - LOW -  openldap: Certificate validation incorrectly matches name against CN-ID
+CVE-2020-1968 - LOW -  openssl: Information exposure when DH secret are reused across multiple TLS connections
+CVE-2019-1551 - LOW -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2020-14155 - LOW -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-7244 - LOW -  pcre: invalid memory read in _pcre32_xclass (pcre_xclass.c)
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2018-1123 - LOW -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2018-1125 - LOW -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2021-3572 - LOW -  python-pip: Incorrect handling of unicode separators in git references
+CVE-2018-1000030 - LOW -  python: Heap-Buffer-Overflow and Heap-Use-After-Free in Objects/fileobject.c
+CVE-2021-3737 - LOW -  python: urllib: HTTP client possible infinite loop on a 100 Continue response
+CVE-2021-20266 - LOW -  rpm: missing length checks in hdrblobInit()
+CVE-2017-10989 - LOW -  sqlite: Heap-buffer overflow in the getNodeSize function
+CVE-2017-15286 - LOW -  sqlite: NULL pointer dereference in tableColumnList
+CVE-2016-6153 - LOW -  sqlite: Tempdir selection vulnerability
+CVE-2019-19244 - LOW -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2018-20482 - LOW -  tar: Infinite read loop in sparse_dump_region function in sparse.c
+CVE-2021-20193 - LOW -  tar: Memory leak in read_header() in list.c
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2017-1000382 - LOW -  vim: Ignores umask when creating a swap file
+CVE-2021-3974 - LOW -  vim: Use after free in regexp_nfa.c
+CVE-2022-0351 - LOW -  vim: access of memory location before start of buffer
+CVE-2021-3927 - LOW -  vim: heap-based buffer overflow in gchar_cursor() in misc1.c
+CVE-2021-3903 - LOW -  vim: heap-based buffer overflow vulnerability
+CVE-2021-4166 - LOW -  vim: out-of-bounds read in do_arg_all() in src/arglist.c
+CVE-2022-1154 - LOW -  vim: use after free in utf_ptr2char
+CVE-2021-4069 - LOW -  vim: use-after-free in ex_open() in src/ex_docmd.c
+CVE-2021-42694 - MEDIUM -  Developer environment: Homoglyph characters can lead to trojan source attack
+CVE-2021-42574 - MEDIUM -  Developer environment: Unicode's bidirectional (BiDi) override characters can cause trojan source attacks
+CVE-2019-13050 - MEDIUM -  GnuPG: interaction between the sks-keyserver code and GnuPG allows for a Certificate Spamming Attack which leads to persistent DoS
+CVE-2020-17049 - MEDIUM -  Kerberos: delegation constrain bypass in S4U2Proxy
+CVE-2019-12904 - MEDIUM -  Libgcrypt: physical addresses being available to other processes leads to a flush-and-reload side-channel attack
+CVE-2017-15713 - MEDIUM -  Moderate severity vulnerability that affects org.apache.hadoop:hadoop-main
+CVE-2017-7781 - MEDIUM -  Mozilla: Elliptic curve point addition error when using mixed Jacobian-affine coordinates (MFSA 2017-18)
+CVE-2015-2613 - MEDIUM -  NSS / JCE: missing EC parameter validation in ECDH_Derive() (OpenJDK JCE, 8075833)
+CVE-2013-1665 - MEDIUM -  Python xml bindings: External entity expansion in Python XML libraries inflicts potential security flaws and DoS vulnerabilities
+CVE-2013-1664 - MEDIUM -  Python xml bindings: Internal entity expansion in Python XML libraries inflicts DoS vulnerabilities
+CVE-2015-2808 - MEDIUM -  SSL/TLS: "Invariance Weakness" vulnerability in RC4 stream cipher
+CVE-2016-2183 - MEDIUM -  SSL/TLS: Birthday attack against 64-bit block ciphers (SWEET32)
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2012-6711 - MEDIUM -  bash: heap-based buffer overflow during echo of unsupported characters
+CVE-2020-8622 - MEDIUM -  bind: truncated TSIG response can lead to an assertion failure
+CVE-2021-3487 - MEDIUM -  binutils: Excessive debug section size can cause excessive memory consumption in bfd's dwarf2.c read_section()
+CVE-2021-20197 - MEDIUM -  binutils: Race window allows users to own arbitrary files
+CVE-2017-6966 - MEDIUM -  binutils: Use-after-free in target_specific_reloc_handling in readelf
+CVE-2020-16590 - MEDIUM -  binutils: double free vulnerability in process_symbol_table could result in DoS
+CVE-2021-45078 - MEDIUM -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2021-20294 - MEDIUM -  binutils: stack buffer overflow WRITE may lead to a DoS via a crafted ELF
+CVE-2020-16592 - MEDIUM -  binutils: use-after-free in bfd_hash_lookup could result in DoS
+CVE-2021-37322 - MEDIUM -  binutils: use-after-free in c++filt in cplus-dem.c
+CVE-2016-2781 - MEDIUM -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - MEDIUM -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2021-38185 - MEDIUM -  cpio: integer overflow in ds_fgetstr() in dstring.c can lead to an out-of-bounds write via a crafted pattern file
+CVE-2021-22924 - MEDIUM -  curl: Bad connection reuse due to flawed path name checks
+CVE-2016-8615 - MEDIUM -  curl: Cookie injection for other servers
+CVE-2016-8618 - MEDIUM -  curl: Double-free in curl_maprintf
+CVE-2016-8619 - MEDIUM -  curl: Double-free in krb5 code
+CVE-2020-8284 - MEDIUM -  curl: FTP PASV command response can cause curl to connect to arbitrary host
+CVE-2017-1000254 - MEDIUM -  curl: FTP PWD response parser out of bounds read
+CVE-2017-8817 - MEDIUM -  curl: FTP wildcard out of bounds read
+CVE-2020-8177 - MEDIUM -  curl: Incorrect argument check can allow remote servers to overwrite local files
+CVE-2016-8624 - MEDIUM -  curl: Invalid URL parsing with '#'
+CVE-2021-22876 - MEDIUM -  curl: Leak of authentication credentials in URL via automatic Referer
+CVE-2020-8285 - MEDIUM -  curl: Malicious FTP server can trigger stack overflow when CURLOPT_CHUNK_BGN_FUNCTION is used
+CVE-2016-8617 - MEDIUM -  curl: Out-of-bounds write via unchecked multiplication
+CVE-2021-22946 - MEDIUM -  curl: Requirement to use TLS not properly enforced for IMAP, POP3, and FTP protocols
+CVE-2021-22947 - MEDIUM -  curl: Server responses received before STARTTLS processed after TLS handshake
+CVE-2015-3153 - MEDIUM -  curl: sensitive HTTP server headers also sent to proxies
+CVE-2019-19906 - MEDIUM -  cyrus-sasl: denial of service in _sasl_add_string function
+CVE-2014-3635 - MEDIUM -  dbus: heap-based buffer overflow flaw in file descriptor passing
+CVE-2016-4484 - MEDIUM -  dracut: Brute force attack on LUKS password decryption via initramfs
+CVE-2015-0247 - MEDIUM -  e2fsprogs: ext2fs_open2() missing first_meta_bg boundary check leading to heap buffer overflow (oCERT-015-002)
+CVE-2022-22822 - MEDIUM -  expat: Integer overflow in addBinding in xmlparse.c
+CVE-2022-22823 - MEDIUM -  expat: Integer overflow in build_model in xmlparse.c
+CVE-2022-22824 - MEDIUM -  expat: Integer overflow in defineAttribute in xmlparse.c
+CVE-2021-46143 - MEDIUM -  expat: Integer overflow in doProlog in xmlparse.c
+CVE-2022-23852 - MEDIUM -  expat: Integer overflow in function XML_GetBuffer
+CVE-2022-22825 - MEDIUM -  expat: Integer overflow in lookup in xmlparse.c
+CVE-2022-22826 - MEDIUM -  expat: Integer overflow in nextScaffoldPart in xmlparse.c
+CVE-2022-22827 - MEDIUM -  expat: Integer overflow in storeAtts in xmlparse.c
+CVE-2021-45960 - MEDIUM -  expat: Large number of prefixed XML attributes on a single tag can crash libexpat
+CVE-2016-5300 - MEDIUM -  expat: Little entropy used for hash initialization
+CVE-2013-0340 - MEDIUM -  expat: internal entity expansion
+CVE-2022-25313 - MEDIUM -  expat: stack exhaustion in doctype parsing
+CVE-2021-35942 - MEDIUM -  glibc: Arbitrary read in wordexp()
+CVE-2016-1234 - MEDIUM -  glibc: Stack-based buffer overflow in glob with GLOB_ALTDIRFUNC and crafted directory
+CVE-2022-23219 - MEDIUM -  glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname
+CVE-2022-23218 - MEDIUM -  glibc: Stack-based buffer overflow in svcunix_create via long pathnames
+CVE-2019-25013 - MEDIUM -  glibc: buffer over-read in iconv when processing invalid multi-byte input sequences in the EUC-KR encoding
+CVE-2016-4429 - MEDIUM -  glibc: libtirpc: stack (frame) overflow in Sun RPC clntudp_call()
+CVE-2017-8804 - MEDIUM -  glibc: memory leak in sunrpc when decoding malformed XDR
+CVE-2009-5155 - MEDIUM -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2019-9169 - MEDIUM -  glibc: regular-expression match via proceed_next_node in posix/regexec.c leads to heap-based buffer over-read
+CVE-2020-10029 - MEDIUM -  glibc: stack corruption from crafted input in cosl, sinl, sincosl, and tanl functions
+CVE-2020-1752 - MEDIUM -  glibc: use-after-free in glob() function when expanding ~user
+CVE-2014-4617 - MEDIUM -  gnupg: infinite loop when decompressing data packets
+CVE-2019-16276 - MEDIUM -  golang: HTTP/1.1 headers with a space before the colon leads to filter bypass or request smuggling
+CVE-2020-16845 - MEDIUM -  golang: ReadUvarint and ReadVarint can read an unlimited number of bytes from invalid inputs
+CVE-2020-24553 - MEDIUM -  golang: default Content-Type setting in net/http/cgi and net/http/fcgi could cause XSS
+CVE-2020-28367 - MEDIUM -  golang: improper validation of cgo flags can lead to code execution at build time
+CVE-2020-28366 - MEDIUM -  golang: malicious symbol names can lead to code execution at build time
+CVE-2020-28362 - MEDIUM -  golang: math/big: panic during recursive division of very large numbers
+CVE-2020-12762 - MEDIUM -  json-c: integer overflow and out-of-bounds write via a large JSON file
+CVE-2015-2696 - MEDIUM -  krb5: IAKERB context aliasing flaw
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2015-2695 - MEDIUM -  krb5: SPNEGO context aliasing bugs
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2015-2697 - MEDIUM -  krb5: build_principal() memory flaw
+CVE-2014-5351 - MEDIUM -  krb5: current keys returned when randomizing the keys for a service principal
+CVE-2020-28196 - MEDIUM -  krb5: unbounded recursion via an ASN.1-encoded Kerberos message in lib/krb5/asn.1/asn1_encode.c may lead to DoS
+CVE-2017-10140 - MEDIUM -  libdb: Reads DB_CONFIG from the current working directory
+CVE-2014-5270 - MEDIUM -  libgcrypt: ELGAMAL side-channel attack
+CVE-2021-40528 - MEDIUM -  libgcrypt: ElGamal implementation allows plaintext recovery
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2021-33560 - MEDIUM -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2018-20673 - MEDIUM -  libiberty: Integer overflow in demangle_template() function
+CVE-2021-36087 - MEDIUM -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - MEDIUM -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - MEDIUM -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - MEDIUM -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2019-3860 - MEDIUM -  libssh2: Out-of-bounds reads with specially crafted SFTP packets
+CVE-2019-3859 - MEDIUM -  libssh2: Unchecked use of _libssh2_packet_require and _libssh2_packet_requirev resulting in out-of-bounds read
+CVE-2019-13115 - MEDIUM -  libssh2: integer overflow in kex_method_diffie_hellman_group_exchange_sha256_key_exchange in kex.c leads to out-of-bounds write
+CVE-2016-4008 - MEDIUM -  libtasn1: infinite loop while parsing DER certificates
+CVE-2017-9047 - MEDIUM -  libxml2: Buffer overflow in function xmlSnprintfElementContent
+CVE-2020-24977 - MEDIUM -  libxml2: Buffer overflow vulnerability in xmlEncodeEntitiesInternal() in entities.c
+CVE-2021-3541 - MEDIUM -  libxml2: Exponential entity expansion attack bypasses all existing protection mechanisms
+CVE-2017-9050 - MEDIUM -  libxml2: Heap-based buffer over-read in function xmlDictAddString
+CVE-2021-3517 - MEDIUM -  libxml2: Heap-based buffer overflow in xmlEncodeEntitiesInternal() in entities.c
+CVE-2021-3537 - MEDIUM -  libxml2: NULL pointer dereference when post-validating mixed content parsed in recovery mode
+CVE-2016-4658 - MEDIUM -  libxml2: Use after free via namespace node in XPointer ranges
+CVE-2021-3516 - MEDIUM -  libxml2: Use-after-free in xmlEncodeEntitiesInternal() in entities.c
+CVE-2021-3518 - MEDIUM -  libxml2: Use-after-free in xmlXIncludeDoProcess() in xinclude.c
+CVE-2016-9318 - MEDIUM -  libxml2: XML External Entity vulnerability
+CVE-2021-44832 - MEDIUM -  log4j-core: remote code execution via JDBC Appender
+CVE-2014-5461 - MEDIUM -  lua: overflow flaw in vararg functions
+CVE-2019-17543 - MEDIUM -  lz4: heap-based buffer overflow in LZ4_write32
+CVE-2021-3520 - MEDIUM -  lz4: memory corruption due to an integer overflow bug caused by memmove argument
+CVE-2017-10685 - MEDIUM -  ncurses: Stack-based buffer overflow caused by format string vulnerability in fmt_entry function
+CVE-2017-10684 - MEDIUM -  ncurses: Stack-based buffer overflow in fmt_entry function in dump_entry.c
+CVE-2021-39537 - MEDIUM -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2019-17594 - MEDIUM -  ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c
+CVE-2019-17595 - MEDIUM -  ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c
+CVE-2021-43797 - MEDIUM -  netty: control chars in header names may lead to HTTP request smuggling
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2020-25648 - MEDIUM -  nss: TLS 1.3 CCS flood remote DoS Attack
+CVE-2019-13565 - MEDIUM -  openldap: ACL restrictions bypass due to sasl_ssf value being set permanently
+CVE-2020-36230 - MEDIUM -  openldap: Assertion failure in ber_next_element in decode.c
+CVE-2021-27212 - MEDIUM -  openldap: Assertion failure in slapd in the issuerAndThisUpdateCheck function
+CVE-2020-36222 - MEDIUM -  openldap: Assertion failure in slapd in the saslAuthzTo validation
+CVE-2020-36226 - MEDIUM -  openldap: Denial of service via length miscalculation in slap_parse_user
+CVE-2020-36225 - MEDIUM -  openldap: Double free in the saslAuthzTo processing
+CVE-2020-36227 - MEDIUM -  openldap: Infinite loop in slapd with the cancel_extop Cancel operation
+CVE-2019-13057 - MEDIUM -  openldap: Information disclosure issue in slapd component
+CVE-2020-36228 - MEDIUM -  openldap: Integer underflow in issuerAndThisUpdateCheck in schema_init.c
+CVE-2020-36221 - MEDIUM -  openldap: Integer underflow in serialNumberAndIssuerCheck in schema_init.c
+CVE-2020-36224 - MEDIUM -  openldap: Invalid pointer free in the saslAuthzTo processing
+CVE-2020-25692 - MEDIUM -  openldap: NULL pointer dereference for unauthenticated packet in slapd
+CVE-2022-29155 - MEDIUM -  openldap: OpenLDAP SQL injection
+CVE-2020-36223 - MEDIUM -  openldap: Out-of-bounds read in Values Return Filter
+CVE-2020-36229 - MEDIUM -  openldap: Type confusion in ad_keystring in ad.c
+CVE-2020-25710 - MEDIUM -  openldap: assertion failure in CSN normalization with invalid input
+CVE-2020-25709 - MEDIUM -  openldap: assertion failure in Certificate List syntax validation
+CVE-2021-3712 - MEDIUM -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2019-1547 - MEDIUM -  openssl: side-channel weak encryption vulnerability
+CVE-2020-29361 - MEDIUM -  p11-kit: integer overflow when allocating memory for arrays or attributes and object identifiers
+CVE-2020-29362 - MEDIUM -  p11-kit: out-of-bounds read in p11_rpc_buffer_get_byte_array function in rpc-message.c
+CVE-2017-7186 - MEDIUM -  pcre: Invalid Unicode property lookup (8.41/7, 10.24/2)
+CVE-2017-6004 - MEDIUM -  pcre: Out-of-bounds read in compile_bracket_matchingpath function (8.41/3)
+CVE-2015-2327 - MEDIUM -  pcre: infinite recursion compiling pattern with zero-repeated groups that include recursive back reference (8.36/19)
+CVE-2015-3217 - MEDIUM -  pcre: stack overflow caused by mishandled group empty match (8.38/11)
+CVE-2021-22569 - MEDIUM -  protobuf-java: potential DoS in the parsing procedure for binary data
+CVE-2019-20916 - MEDIUM -  python-pip: directory traversal in _download_http_url() function in src/pip/_internal/download.py
+CVE-2020-26116 - MEDIUM -  python: CRLF injection via HTTP request method in httplib/http.client
+CVE-2019-18348 - MEDIUM -  python: CRLF injection via the host part of the url passed to urlopen()
+CVE-2020-14422 - MEDIUM -  python: DoS via inefficiency in IPv{4,6}Interface classes
+CVE-2021-3426 - MEDIUM -  python: Information disclosure via pydoc
+CVE-2017-1000158 - MEDIUM -  python: Integer overflow in PyString_DecodeEscape results in heap-base buffer overflow
+CVE-2021-3177 - MEDIUM -  python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c
+CVE-2020-27619 - MEDIUM -  python: Unsafe use of eval() on data retrieved via HTTP in the test suite
+CVE-2021-23336 - MEDIUM -  python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
+CVE-2013-7040 - MEDIUM -  python: hash secret can be recovered remotely
+CVE-2019-20907 - MEDIUM -  python: infinite loop in the tarfile module via crafted TAR archive
+CVE-2022-0391 - MEDIUM -  python: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+CVE-2021-3733 - MEDIUM -  python: urllib: Regular expression DoS in AbstractBasicAuthHandler
+CVE-2020-8492 - MEDIUM -  python: wrong backtracking in urllib.request.AbstractBasicAuthHandler allows for a ReDoS
+CVE-2021-20271 - MEDIUM -  rpm: Signature checks bypass via corrupted rpm package
+CVE-2020-13435 - MEDIUM -  sqlite: NULL pointer dereference in sqlite3ExprCodeTarget()
+CVE-2020-13631 - MEDIUM -  sqlite: Virtual table can be renamed into the name of one of its shadow tables
+CVE-2019-8457 - MEDIUM -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2019-19924 - MEDIUM -  sqlite: incorrect sqlite3WindowRewrite() error handling leads to mishandling certain parser-tree rewriting
+CVE-2019-19645 - MEDIUM -  sqlite: infinite recursion via certain types of self-referential views in conjunction with ALTER TABLE statements
+CVE-2019-19880 - MEDIUM -  sqlite: invalid pointer dereference in exprListAppendList in window.c
+CVE-2019-19603 - MEDIUM -  sqlite: mishandling of certain SELECT statements with non-existent VIEW can lead to DoS
+CVE-2019-5827 - MEDIUM -  sqlite: out-of-bounds access due to the use of 32-bit memory allocator interfaces
+CVE-2019-20218 - MEDIUM -  sqlite: selectExpander in select.c proceeds with WITH stack unwinding even after a parsing error
+CVE-2020-13529 - MEDIUM -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2018-6954 - MEDIUM -  systemd: Mishandled symlinks in systemd-tmpfiles allows local users to obtain ownership of arbitrary files
+CVE-2020-13776 - MEDIUM -  systemd: Mishandles numerical usernames beginning with decimal digits or 0x followed by hexadecimal digits
+CVE-2019-3842 - MEDIUM -  systemd: Spoofing of XDG_SEAT allows for actions to be checked against "allow_active" instead of "allow_any"
+CVE-2013-4392 - MEDIUM -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2017-18078 - MEDIUM -  systemd: Unsafe handling of hard links allowing privilege escalation
+CVE-2016-6321 - MEDIUM -  tar: Bypassing the extract path name
+CVE-2005-2541 - MEDIUM -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2022-0563 - MEDIUM -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+CVE-2016-2779 - MEDIUM -  util-linux: runuser tty hijack via TIOCSTI ioctl
+CVE-2022-0359 - MEDIUM -  vim: Heap-based buffer overflow in init_ccline() in ex_getln.c
+CVE-2021-4019 - MEDIUM -  vim: heap-based buffer overflow in find_help_tags() in help.c
+CVE-2021-3778 - MEDIUM -  vim: heap-based buffer overflow in utf_ptr2char() in mbyte.c
+CVE-2021-3872 - MEDIUM -  vim: heap-based buffer overflow in win_redr_status() in drawscreen.c
+CVE-2021-3984 - MEDIUM -  vim: illegal memory access in find_start_brace() in cindent.c when C-indenting
+CVE-2021-4193 - MEDIUM -  vim: out-of-bound read in getvcol()
+CVE-2021-3796 - MEDIUM -  vim: use-after-free in nv_replace() in normal.c
+CVE-2021-4192 - MEDIUM -  vim: use-after-free in win_linetabsize()

@@ -1,0 +1,2 @@
+CentOS release 6.10 (Final)
+Kernel \r on an \m

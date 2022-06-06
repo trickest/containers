@@ -1,0 +1,550 @@
+CVE-2022-22822 - CRITICAL -  expat: Integer overflow in addBinding in xmlparse.c
+CVE-2022-22823 - CRITICAL -  expat: Integer overflow in build_model in xmlparse.c
+CVE-2022-22824 - CRITICAL -  expat: Integer overflow in defineAttribute in xmlparse.c
+CVE-2022-23852 - CRITICAL -  expat: Integer overflow in function XML_GetBuffer
+CVE-2022-25315 - CRITICAL -  expat: Integer overflow in storeRawNames()
+CVE-2022-25235 - CRITICAL -  expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution
+CVE-2022-25236 - CRITICAL -  expat: Namespace-separator characters in "xmlns[:prefix]" attribute values can lead to arbitrary code execution
+CVE-2022-23990 - CRITICAL -  expat: integer overflow in the doProlog function
+CVE-2021-35942 - CRITICAL -  glibc: Arbitrary read in wordexp()
+CVE-2022-23219 - CRITICAL -  glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname
+CVE-2022-23218 - CRITICAL -  glibc: Stack-based buffer overflow in svcunix_create via long pathnames
+CVE-2021-33574 - CRITICAL -  glibc: mq_notify does not handle separately allocated thread attributes
+CVE-2021-20231 - CRITICAL -  gnutls: Use after free in client key_share extension
+CVE-2021-20232 - CRITICAL -  gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c
+CVE-2022-22720 - CRITICAL -  httpd: Errors encountered during the discarding of request body lead to HTTP request smuggling
+CVE-2021-39275 - CRITICAL -  httpd: Out-of-bounds write in ap_escape_quotes() via malicious input
+CVE-2022-22721 - CRITICAL -  httpd: core: Possible buffer overflow with very large or unlimited LimitXMLRequestBody
+CVE-2021-44790 - CRITICAL -  httpd: mod_lua: Possible buffer overflow when parsing multipart content
+CVE-2021-40438 - CRITICAL -  httpd: mod_proxy: SSRF via a crafted request uri-path containing "unix:"
+CVE-2022-23943 - CRITICAL -  httpd: mod_sed: Read/write beyond bounds
+CVE-2021-26691 - CRITICAL -  httpd: mod_session: Heap overflow via a crafted SessionHeader value
+CVE-2021-39713 - CRITICAL -  kernel: race condition in the network scheduling subsystem could lead to an use-after-free
+CVE-2021-3520 - CRITICAL -  lz4: memory corruption due to an integer overflow bug caused by memmove argument
+CVE-2022-29155 - CRITICAL -  openldap: OpenLDAP SQL injection
+CVE-2021-3711 - CRITICAL -  openssl: SM2 Decryption Buffer Overflow
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2022-28356 - HIGH -  CVE-2022-28356 kernel: refcount leak in llc_ui_bind and llc_ui_autobind
+CVE-2022-1353 - HIGH -  Kernel: A kernel-info-leak issue in pfkey_register
+CVE-2020-8231 - HIGH -  curl: Expired pointer dereference via multi API with CURLOPT_CONNECT_ONLY option set
+CVE-2020-8177 - HIGH -  curl: Incorrect argument check can allow remote servers to overwrite local files
+CVE-2020-8286 - HIGH -  curl: Inferior OCSP verification
+CVE-2020-8285 - HIGH -  curl: Malicious FTP server can trigger stack overflow when CURLOPT_CHUNK_BGN_FUNCTION is used
+CVE-2021-22946 - HIGH -  curl: Requirement to use TLS not properly enforced for IMAP, POP3, and FTP protocols
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-46143 - HIGH -  expat: Integer overflow in doProlog in xmlparse.c
+CVE-2022-22825 - HIGH -  expat: Integer overflow in lookup in xmlparse.c
+CVE-2022-22826 - HIGH -  expat: Integer overflow in nextScaffoldPart in xmlparse.c
+CVE-2022-22827 - HIGH -  expat: Integer overflow in storeAtts in xmlparse.c
+CVE-2021-45960 - HIGH -  expat: Large number of prefixed XML attributes on a single tag can crash libexpat
+CVE-2022-25314 - HIGH -  expat: integer overflow in copyString()
+CVE-2019-15847 - HIGH -  gcc: POWER9 "DARN" RNG intrinsic produces repeated output
+CVE-2018-12886 - HIGH -  gcc: spilling of stack protection address in cfgexpand.c and function.c leads to stack-overflow protection bypass
+CVE-2021-27218 - HIGH -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-27219 - HIGH -  glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits
+CVE-2021-3326 - HIGH -  glibc: Assertion failure in ISO-2022-JP-3 gconv module related to combining characters
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-1751 - HIGH -  glibc: array overflow in backtrace functions for powerpc
+CVE-2020-1752 - HIGH -  glibc: use-after-free in glob() function when expanding ~user
+CVE-2021-43618 - HIGH -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2020-24659 - HIGH -  gnutls: Heap buffer overflow in handshake with no_renegotiation alert sent
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2021-31618 - HIGH -  httpd: NULL pointer dereference on specially crafted HTTP/2 request
+CVE-2021-34798 - HIGH -  httpd: NULL pointer dereference via malformed requests
+CVE-2021-33193 - HIGH -  httpd: Request splitting via HTTP/2 method injection and mod_proxy
+CVE-2020-35452 - HIGH -  httpd: Single zero byte stack overflow in mod_auth_digest
+CVE-2022-22719 - HIGH -  httpd: mod_lua: Use of uninitialized value of in r:parsebody
+CVE-2021-36160 - HIGH -  httpd: mod_proxy_uwsgi: out-of-bounds read via a crafted request uri-path
+CVE-2021-26690 - HIGH -  httpd: mod_session: NULL pointer dereference when parsing Cookie header
+CVE-2021-44224 - HIGH -  httpd: possible NULL dereference or SSRF in forward proxy configurations
+CVE-2022-1247 - HIGH -  kernel: A race condition bug in rose_connect()
+CVE-2020-27815 - HIGH -  kernel: Array index out of bounds access when setting extended attributes on journaling filesystems.
+CVE-2021-34981 - HIGH -  kernel: Bluetooth CMTP Module Double Free Privilege Escalation Vulnerability
+CVE-2021-4157 - HIGH -  kernel: Buffer overwrite in decode_nfs_fh function
+CVE-2020-16119 - HIGH -  kernel: DCCP CCID structure use-after-free may lead to DoS or code execution
+CVE-2022-1011 - HIGH -  kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes
+CVE-2022-29581 - HIGH -  kernel: Improper Update of Reference Count vulnerability in net/sched
+CVE-2021-22543 - HIGH -  kernel: Improper handling of VM_IO|VM_PFNMAP vmas in KVM can bypass RO checks
+CVE-2022-27223 - HIGH -  kernel: In drivers/usb/gadget/udc/udc-xilinx.c the endpoint index is not validated
+CVE-2020-12362 - HIGH -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2021-29154 - HIGH -  kernel: Local privilege escalation due to incorrect BPF JIT branch displacement computation
+CVE-2021-3506 - HIGH -  kernel: Out of bounds memory access bug in get_next_net_page() in fs/f2fs/node.c
+CVE-2021-4202 - HIGH -  kernel: Race condition in nci_request() leads to use after free while the device is getting removed
+CVE-2021-23133 - HIGH -  kernel: Race condition in sctp_destroy_sock list_del
+CVE-2020-28374 - HIGH -  kernel: SCSI target (LIO) write to any block on ILO backstore
+CVE-2021-3653 - HIGH -  kernel: SVM nested virtualization issue in KVM (AVIC support)
+CVE-2021-3656 - HIGH -  kernel: SVM nested virtualization issue in KVM (VMLOAD/VMSAVE)
+CVE-2022-1012 - HIGH -  kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak
+CVE-2021-39685 - HIGH -  kernel: USB gadget buffer overflow
+CVE-2021-3347 - HIGH -  kernel: Use after free via PI futex state
+CVE-2022-1679 - HIGH -  kernel: Use-After-Free in ath9k_htc_probe_device() could cause an escalation of privileges
+CVE-2021-3348 - HIGH -  kernel: Use-after-free in ndb_queue_rq() in drivers/block/nbd.c
+CVE-2022-28390 - HIGH -  kernel: a double free in ems_usb_start_xmit in drivers/net/can/usb/ems_usb.c
+CVE-2022-28389 - HIGH -  kernel: a double free in mcba_usb_start_xmit in drivers/net/can/usb/mcba_usb.c
+CVE-2022-28388 - HIGH -  kernel: a double free in usb_8dev_start_xmit in drivers/net/can/usb/usb_8dev.c
+CVE-2021-35039 - HIGH -  kernel: allows loading unsigned kernel modules via init_module syscall
+CVE-2021-3444 - HIGH -  kernel: bpf verifier incorrect mod32 truncation
+CVE-2022-27666 - HIGH -  kernel: buffer overflow in IPsec ESP transformation code
+CVE-2021-38207 - HIGH -  kernel: buffer overflow in drivers/net/ethernet/xilinx/ll_temac_main.c by sending heavy network traffic for about ten minutes
+CVE-2021-28660 - HIGH -  kernel: buffer overflow in rtw_wx_set_scan function in drivers/staging/rtl8188eu/os_dep/ioctl_linux.c
+CVE-2021-4197 - HIGH -  kernel: cgroup: Use open-time creds and namespace for migration perm checks
+CVE-2022-0492 - HIGH -  kernel: cgroups v1 release_agent feature may allow privilege escalation
+CVE-2021-38300 - HIGH -  kernel: crafting anomalous machine code may lead to arbitrary Kernel code execution
+CVE-2021-38160 - HIGH -  kernel: data corruption or loss can be triggered by an untrusted device that supplies a buf->len value exceeding the buffer size in drivers/char/virtio_console.c
+CVE-2021-3864 - HIGH -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2021-22600 - HIGH -  kernel: double free in packet_set_ring() in net/packet/af_packet.c
+CVE-2021-3600 - HIGH -  kernel: eBPF 32-bit source register truncation on div/mod
+CVE-2021-41864 - HIGH -  kernel: eBPF multiplication integer overflow in prealloc_elems_and_freelist() in kernel/bpf/stackmap.c leads to out-of-bounds write
+CVE-2022-22942 - HIGH -  kernel: failing usercopy allows for use-after-free exploitation
+CVE-2021-4083 - HIGH -  kernel: fget: check that the fd still exists after getting a ref to it
+CVE-2021-27365 - HIGH -  kernel: heap buffer overflow in the iSCSI subsystem
+CVE-2021-45485 - HIGH -  kernel: information leak in the IPv6 implementation
+CVE-2021-3612 - HIGH -  kernel: joydev: zero size passed to joydev_handle_JSIOCSBTNMAP()
+CVE-2020-29661 - HIGH -  kernel: locking issue in drivers/tty/tty_jobctrl.c can lead to an use-after-free
+CVE-2021-3847 - HIGH -  kernel: low-privileged user privileges escalation
+CVE-2013-7445 - HIGH -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2020-25672 - HIGH -  kernel: memory leak in llcp_sock_connect()
+CVE-2021-42252 - HIGH -  kernel: memory overwrite in the kernel with potential privileges execution
+CVE-2022-30594 - HIGH -  kernel: mishandled seccomp permissions
+CVE-2019-19449 - HIGH -  kernel: mounting a crafted f2fs filesystem image can lead to slab-out-of-bounds read access in f2fs_build_segment_manager in fs/f2fs/segment.c
+CVE-2021-20322 - HIGH -  kernel: new DNS Cache Poisoning Attack based on ICMP fragment needed packets replies
+CVE-2021-3760 - HIGH -  kernel: nfc: Use-After-Free vulnerability of ndev->rf_conn_info object
+CVE-2021-3743 - HIGH -  kernel: out-of-bound Read in qrtr_endpoint_post in net/qrtr/qrtr.c
+CVE-2021-45469 - HIGH -  kernel: out-of-bounds memory access in __f2fs_setxattr() in fs/f2fs/xattr.c when an inode has an invalid last xattr entry
+CVE-2021-27364 - HIGH -  kernel: out-of-bounds read in libiscsi module
+CVE-2021-0512 - HIGH -  kernel: out-of-bounds write due to a heap buffer overflow in __hidinput_change_resolution_multipliers() of hid-input.c
+CVE-2019-19814 - HIGH -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - HIGH -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2021-22555 - HIGH -  kernel: out-of-bounds write in xt_compat_target_from_user() in net/netfilter/x_tables.c
+CVE-2021-3493 - HIGH -  kernel: overlayfs file system caps privilege escalation
+CVE-2022-0330 - HIGH -  kernel: possible privileges escalation due to missing TLB flush
+CVE-2021-3752 - HIGH -  kernel: possible use-after-free in bluetooth module
+CVE-2022-26490 - HIGH -  kernel: potential buffer overflows in EVT_TRANSACTION in st21nfca
+CVE-2021-37576 - HIGH -  kernel: powerpc: KVM guest OS users can cause host OS memory corruption
+CVE-2021-32399 - HIGH -  kernel: race condition for removal of the HCI controller
+CVE-2021-3609 - HIGH -  kernel: race condition in net/can/bcm.c leads to local privilege escalation
+CVE-2022-1729 - HIGH -  kernel: race condition in perf_event_open leads to privilege escalation
+CVE-2022-1048 - HIGH -  kernel: race condition in snd_pcm_hw_free leading to use-after-free
+CVE-2021-39686 - HIGH -  kernel: race condition in the Android binder driver could lead to incorrect security checks
+CVE-2021-40490 - HIGH -  kernel: race condition was discovered in ext4_write_inline_data_end in fs/ext4/inline.c in the ext4 subsystem
+CVE-2020-25670 - HIGH -  kernel: refcount leak in llcp_sock_bind()
+CVE-2020-25671 - HIGH -  kernel: refcount leak in llcp_sock_connect()
+CVE-2022-0435 - HIGH -  kernel: remote stack overflow via kernel panic on systems using TIPC may lead to DoS
+CVE-2021-33909 - HIGH -  kernel: size_t-to-int conversion vulnerability in the filesystem layer
+CVE-2021-42008 - HIGH -  kernel: slab out-of-bounds write in decode_data() in drivers/net/hamradio/6pack.c
+CVE-2021-33033 - HIGH -  kernel: use-after-free in cipso_v4_genopt in net/ipv4/cipso_ipv4.c
+CVE-2022-24958 - HIGH -  kernel: use-after-free in dev->buf release in drivers/usb/gadget/legacy/inode.c
+CVE-2020-36385 - HIGH -  kernel: use-after-free in drivers/infiniband/core/ucma.c ctx use-after-free
+CVE-2021-33034 - HIGH -  kernel: use-after-free in net/bluetooth/hci_event.c when destroying an hci_chan
+CVE-2021-23134 - HIGH -  kernel: use-after-free in nfc sockets
+CVE-2021-3483 - HIGH -  kernel: use-after-free in nosy driver in nosy_ioctl() in drivers/firewire/nosy.c when a device is added twice
+CVE-2021-44733 - HIGH -  kernel: use-after-free in the TEE subsystem
+CVE-2021-39698 - HIGH -  kernel: use-after-free in the file polling implementation
+CVE-2021-3640 - HIGH -  kernel: use-after-free vulnerability in function sco_sock_sendmsg()
+CVE-2020-35519 - HIGH -  kernel: x25_bind out-of-bounds read
+CVE-2021-36222 - HIGH -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2020-8169 - HIGH -  libcurl: partial password leak over DNS on HTTP redirect
+CVE-2021-33560 - HIGH -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2019-13115 - HIGH -  libssh2: integer overflow in kex_method_diffie_hellman_group_exchange_sha256_key_exchange in kex.c leads to out-of-bounds write
+CVE-2021-3517 - HIGH -  libxml2: Heap-based buffer overflow in xmlEncodeEntitiesInternal() in entities.c
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2021-3516 - HIGH -  libxml2: Use-after-free in xmlEncodeEntitiesInternal() in entities.c
+CVE-2021-3518 - HIGH -  libxml2: Use-after-free in xmlXIncludeDoProcess() in xinclude.c
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-20305 - HIGH -  nettle: Out of bounds memory access in signature verification
+CVE-2021-3580 - HIGH -  nettle: Remote crash in RSA decryption via manipulated ciphertext
+CVE-2020-11080 - HIGH -  nghttp2: overly large SETTINGS frames can lead to DoS
+CVE-2020-36230 - HIGH -  openldap: Assertion failure in ber_next_element in decode.c
+CVE-2021-27212 - HIGH -  openldap: Assertion failure in slapd in the issuerAndThisUpdateCheck function
+CVE-2020-36222 - HIGH -  openldap: Assertion failure in slapd in the saslAuthzTo validation
+CVE-2020-36226 - HIGH -  openldap: Denial of service via length miscalculation in slap_parse_user
+CVE-2020-36225 - HIGH -  openldap: Double free in the saslAuthzTo processing
+CVE-2020-36227 - HIGH -  openldap: Infinite loop in slapd with the cancel_extop Cancel operation
+CVE-2020-36228 - HIGH -  openldap: Integer underflow in issuerAndThisUpdateCheck in schema_init.c
+CVE-2020-36221 - HIGH -  openldap: Integer underflow in serialNumberAndIssuerCheck in schema_init.c
+CVE-2020-36224 - HIGH -  openldap: Invalid pointer free in the saslAuthzTo processing
+CVE-2020-36223 - HIGH -  openldap: Out-of-bounds read in Values Return Filter
+CVE-2020-36229 - HIGH -  openldap: Type confusion in ad_keystring in ad.c
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2021-3712 - HIGH -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-29361 - HIGH -  p11-kit: integer overflow when allocating memory for arrays or attributes and object identifiers
+CVE-2020-29363 - HIGH -  p11-kit: out-of-bounds write in p11_rpc_buffer_get_byte_array_value function in rpc-message.c
+CVE-2020-16156 - HIGH -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2022-1552 - HIGH -  postgresql: Autovacuum, REINDEX, and others omit "security restricted operation" sandbox
+CVE-2021-32027 - HIGH -  postgresql: Buffer overrun from integer overflow in array subscripting calculations
+CVE-2020-25695 - HIGH -  postgresql: Multiple features escape "security restricted operation" sandbox
+CVE-2020-25694 - HIGH -  postgresql: Reconnection can downgrade connection security settings
+CVE-2020-25696 - HIGH -  postgresql: psql's \gset allows overwriting specially treated variables
+CVE-2021-23214 - HIGH -  postgresql: server processes unencrypted bytes from man-in-the-middle
+CVE-2019-19603 - HIGH -  sqlite: mishandling of certain SELECT statements with non-existent VIEW can lead to DoS
+CVE-2019-3843 - HIGH -  systemd: services with DynamicUser can create SUID/SGID binaries
+CVE-2019-3844 - HIGH -  systemd: services with DynamicUser can get new privileges and create SGID binaries
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2007-0086 - LOW -  CVE-2007-0086 affecting package httpd 2.4.46
+CVE-2007-6755 - LOW -  Dual_EC_DRBG: weak pseudo random number generator
+CVE-2011-3389 - LOW -  HTTPS: block-wise chosen-plaintext attack against SSL/TLS (BEAST)
+CVE-2015-2877 - LOW -  Kernel: Cross-VM ASL INtrospection (CAIN)
+CVE-2019-18276 - LOW -  bash: when effective UID is not equal to its real UID the saved UID is not dropped
+CVE-2021-3487 - LOW -  binutils: Excessive debug section size can cause excessive memory consumption in bfd's dwarf2.c read_section()
+CVE-2021-20284 - LOW -  binutils: Heap-based buffer overflow in _bfd_elf_slurp_secondary_reloc_section in elf.c
+CVE-2018-19931 - LOW -  binutils: Heap-based buffer overflow in bfd_elf32_swap_phdr_in function resulting in a denial of service
+CVE-2020-35448 - LOW -  binutils: Heap-based buffer overflow in bfd_getl_signed_32() in libbfd.c because sh_entsize is not validated in _bfd_elf_slurp_secondary_reloc_section() in elf.c
+CVE-2019-1010204 - LOW -  binutils: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read in gold/fileread.cc and elfcpp/elfcpp_file.h leads to denial of service
+CVE-2018-19932 - LOW -  binutils: Integer overflow due to the IS_CONTAINED_BY_LMA macro resulting in a denial of service
+CVE-2018-18483 - LOW -  binutils: Integer overflow in cplus-dem.c:get_count() allows for denial of service
+CVE-2018-20671 - LOW -  binutils: Integer overflow in load_specific_debug_section function
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2018-18606 - LOW -  binutils: NULL pointer dereference in _bfd_add_merge_section in merge_strings function in merge.c
+CVE-2020-35507 - LOW -  binutils: NULL pointer dereference in bfd_pef_parse_function_stubs function in bfd/pef.c
+CVE-2020-35495 - LOW -  binutils: NULL pointer dereference in bfd_pef_parse_symbols function in bfd/pef.c
+CVE-2020-35496 - LOW -  binutils: NULL pointer dereference in bfd_pef_scan_start_address function in bfd/pef.c
+CVE-2018-20651 - LOW -  binutils: NULL pointer dereference in elf_link_add_object_symbols function resulting in a denial of service
+CVE-2018-18607 - LOW -  binutils: NULL pointer dereference in elf_link_input_bfd in elflink.c
+CVE-2018-17794 - LOW -  binutils: NULL pointer dereference in libiberty/cplus-dem.c:work_stuff_copy_to_from() via crafted input
+CVE-2018-12697 - LOW -  binutils: NULL pointer dereference in work_stuff_copy_to_from in cplus-dem.c.
+CVE-2020-16599 - LOW -  binutils: Null Pointer Dereference in _bfd_elf_get_symbol_version_string could result in DoS
+CVE-2020-16593 - LOW -  binutils: Null Pointer Dereference in scan_unit_for_symbols could result in DoS
+CVE-2021-20197 - LOW -  binutils: Race window allows users to own arbitrary files
+CVE-2018-18700 - LOW -  binutils: Recursive Stack Overflow within function d_name, d_encoding, and d_local_name in cp-demangle.c
+CVE-2018-9138 - LOW -  binutils: Stack Exhaustion in the the C++ demangling functions provided by libiberty
+CVE-2018-17985 - LOW -  binutils: Stack consumption problem caused by the cplus_demangle_type
+CVE-2018-18484 - LOW -  binutils: Stack exhaustion in cp-demangle.c allows for denial of service
+CVE-2018-9996 - LOW -  binutils: Stack-overflow in libiberty/cplus-dem.c causes crash
+CVE-2018-12934 - LOW -  binutils: Uncontrolled Resource Consumption in remember_Ktype in cplus-dem.c
+CVE-2018-20623 - LOW -  binutils: Use-after-free in the error function
+CVE-2019-17450 - LOW -  binutils: denial of service via crafted ELF file
+CVE-2020-16590 - LOW -  binutils: double free vulnerability in process_symbol_table could result in DoS
+CVE-2019-9073 - LOW -  binutils: excessive memory allocation in function _bfd_elf_slurp_version_tables in elf.c
+CVE-2018-12698 - LOW -  binutils: excessive memory consumption in demangle_template in cplus-dem.c
+CVE-2018-17360 - LOW -  binutils: heap-based buffer over-read in bfd_getl32 in libbfd.c
+CVE-2019-9070 - LOW -  binutils: heap-based buffer over-read in function d_expression_1 in cp-demangle.c
+CVE-2018-18605 - LOW -  binutils: heap-based buffer over-read in sec_merge_hash_lookup in merge.c
+CVE-2021-3549 - LOW -  binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter
+CVE-2020-35493 - LOW -  binutils: heap-based buffer overflow in bfd_pef_parse_function_stubs function in bfd/pef.c via crafted PEF file
+CVE-2018-12699 - LOW -  binutils: heap-based buffer overflow in finish_stab in stabs.c
+CVE-2019-9075 - LOW -  binutils: heap-based buffer overflow in function _bfd_archive_64_bit_slurp_armap in archive64.c
+CVE-2019-9077 - LOW -  binutils: heap-based buffer overflow in function process_mips_specific in readelf.c
+CVE-2018-18701 - LOW -  binutils: infinite recursion in next_is_type_qual and cplus_demangle_type functions in cp-demangle.c
+CVE-2019-14444 - LOW -  binutils: integer overflow in function apply_relocation in readelf.c
+CVE-2019-14250 - LOW -  binutils: integer overflow in simple-object-elf.c leads to a heap-based buffer overflow
+CVE-2019-17451 - LOW -  binutils: integer overflow leading to a SEGV in _bfd_dwarf2_find_nearest_line in dwarf2.c
+CVE-2018-1000876 - LOW -  binutils: integer overflow leads to heap-based buffer overflow in objdump
+CVE-2018-17358 - LOW -  binutils: invalid memory access in _bfd_stab_section_find_nearest_line in syms.c
+CVE-2018-17359 - LOW -  binutils: invalid memory access in bfd_zalloc in opncls.c
+CVE-2018-18309 - LOW -  binutils: invalid memory address dereference in read_reloc in reloc.c
+CVE-2020-16591 - LOW -  binutils: invalid read in process_symbol_table could result in DoS
+CVE-2018-20002 - LOW -  binutils: memory leak in _bfd_generic_read_minisymbols function in syms.c
+CVE-2019-9074 - LOW -  binutils: out-of-bound read in function bfd_getl32 in libbfd.c
+CVE-2019-12972 - LOW -  binutils: out-of-bounds read in setup_group in bfd/elf.c
+CVE-2021-45078 - LOW -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2021-20294 - LOW -  binutils: stack buffer overflow WRITE may lead to a DoS via a crafted ELF
+CVE-2019-9071 - LOW -  binutils: stack consumption in function d_count_templates_scopes in cp-demangle.c
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2020-35494 - LOW -  binutils: usage of unitialized heap in tic4x_print_cond function in opcodes/tic4x-dis.c
+CVE-2020-16592 - LOW -  binutils: use-after-free in bfd_hash_lookup could result in DoS
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - LOW -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2021-22924 - LOW -  curl: Bad connection reuse due to flawed path name checks
+CVE-2021-22922 - LOW -  curl: Content not matching hash in Metalink is not being discarded
+CVE-2020-8284 - LOW -  curl: FTP PASV command response can cause curl to connect to arbitrary host
+CVE-2021-22923 - LOW -  curl: Metalink download sends credentials
+CVE-2021-22898 - LOW -  curl: TELNET stack contents disclosure
+CVE-2021-22890 - LOW -  curl: TLS 1.3 session ticket mix-up with HTTPS proxy host
+CVE-2013-0340 - LOW -  expat: internal entity expansion
+CVE-2021-46195 - LOW -  gcc: uncontrolled recursion in libiberty/rust-demangle.c
+CVE-2019-1010180 - LOW -  gdb: buffer overflow while opening an ELF for debugging leads to Dos, information dislosure and code execution
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2019-1010024 - LOW -  glibc: ASLR bypass using cache of thread stack and heap
+CVE-2019-19126 - LOW -  glibc: LD_PREFER_MAP_32BIT_EXEC not ignored in setuid binaries
+CVE-2021-27645 - LOW -  glibc: Use-after-free in addgetnetgrentX function in netgroupcache.c
+CVE-2010-4756 - LOW -  glibc: glob implementation can cause excessive CPU and memory consumption due to crafted glob expressions
+CVE-2016-10228 - LOW -  glibc: iconv program can hang when invoked with the -c option
+CVE-2019-1010025 - LOW -  glibc: information disclosure of heap addresses of pthread_created thread
+CVE-2019-1010023 - LOW -  glibc: running ldd on malicious ELF leads to code execution because of wrong size computation
+CVE-2020-6096 - LOW -  glibc: signed comparison vulnerability in the ARMv7 memcpy function
+CVE-2019-1010022 - LOW -  glibc: stack guard protection bypass
+CVE-2018-20796 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-9192 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-14855 - LOW -  gnupg2: OpenPGP Key Certification Forgeries with SHA-1
+CVE-2003-1581 - LOW -  httpd: Injection of arbitrary text into log files when DNS resolution is enabled
+CVE-2008-0456 - LOW -  httpd: mod_negotiation CRLF injection via untrusted file names in directories with MultiViews enabled
+CVE-2020-36325 - LOW -  jansson: out-of-bounds read in json_loads() due to a parsing error
+CVE-2019-12379 - LOW -  kernel:  memory leak in con_insert_unipair in drivers/tty/vt/consolemap.c
+CVE-2019-19064 - LOW -  kernel: A memory leak in the fsl_lpspi_probe() function in drivers/spi/spi-fsl-lpspi.c allows for a DoS
+CVE-2019-19070 - LOW -  kernel: A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c allows for a DoS
+CVE-2017-13694 - LOW -  kernel: ACPI node and node_ext cache leak
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2022-25265 - LOW -  kernel: Executable Space Protection Bypass
+CVE-2020-24586 - LOW -  kernel: Fragmentation cache not cleared on reconnection
+CVE-2014-9900 - LOW -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2017-0630 - LOW -  kernel: Information disclosure vulnerability in kernel trace subsystem
+CVE-2018-17977 - LOW -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2020-24587 - LOW -  kernel: Reassembling fragments encrypted under different keys
+CVE-2008-4609 - LOW -  kernel: TCP protocol vulnerabilities from Outpost24
+CVE-2022-1734 - LOW -  kernel: Use-After-Free in NFC driver in nfcmrvl_nci_unregister_dev when simulating NFC device from user-space
+CVE-2021-21781 - LOW -  kernel: arm: SIGPAGE information disclosure vulnerability
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2012-4542 - LOW -  kernel: block: default SCSI command filter does not accomodate commands overlap across device classes
+CVE-2019-12456 - LOW -  kernel: double fetch in the MPT3COMMAND case in _ctl_ioctl_main in drivers/scsi/mpt3sas/mpt3sas_ctl.c
+CVE-2021-38205 - LOW -  kernel: drivers/net/ethernet/xilinx/xilinx_emaclite.c prints the real IOMEM pointer
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2021-45486 - LOW -  kernel: information leak in the IPv4 implementation
+CVE-2010-4563 - LOW -  kernel: ipv6: sniffer detection
+CVE-2019-12380 - LOW -  kernel: memory allocation failure in the efi subsystem leads to denial of service
+CVE-2019-19083 - LOW -  kernel: memory leaks in *clock_source_create() functions under drivers/gpu/drm/amd/display/dc leads to DoS
+CVE-2021-3655 - LOW -  kernel: missing size validations on inbound SCTP packets
+CVE-2008-2544 - LOW -  kernel: mounting proc readonly on a different mount point silently mounts it rw if the /proc mount is rw
+CVE-2021-38209 - LOW -  kernel: net/netfilter/nf_conntrack_standalone.c allows observation of changes in any net namespace because these changes are leaked into all other net namespaces
+CVE-2022-24448 - LOW -  kernel: nfs_atomic_open() returns uninitialized data instead of ENOTDIR
+CVE-2019-16229 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/amd/amdkfd/kfd_interrupt.c
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2019-16234 - LOW -  kernel: null pointer dereference in drivers/net/wireless/intel/iwlwifi/pcie/trans.c
+CVE-2019-16233 - LOW -  kernel: null pointer dereference in drivers/scsi/qla2xxx/qla_os.c
+CVE-2019-12615 - LOW -  kernel: null pointer dereference in get_vdev_port_node_info in arch /sparc/kernel/mdesc.c
+CVE-2019-12455 - LOW -  kernel: null pointer dereference in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c causing denial of service
+CVE-2019-16231 - LOW -  kernel: null-pointer dereference in drivers/net/fjes/fjes_main.c
+CVE-2019-16232 - LOW -  kernel: null-pointer dereference in drivers/net/wireless/marvell/libertas/if_sdio.c
+CVE-2022-1516 - LOW -  kernel: null-ptr-deref caused by x25_disconnect
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2021-3178 - LOW -  kernel: path traversal in fs/nfsd/nfs3xdr.c may lead to Information Disclosure or RCE
+CVE-2021-0938 - LOW -  kernel: possible bypass of defense in depth due to uninitialized data in memzero_explicit() of compiler-clang.h
+CVE-2019-11191 - LOW -  kernel: race condition in load_aout_binary() allows local users to bypass ASLR on setuid a.out programs
+CVE-2007-3719 - LOW -  kernel: secretly Monopolizing the CPU Without Superuser Privileges
+CVE-2020-29374 - LOW -  kernel: the get_user_pages implementation when used for a copy-on-write page does not properly consider the semantics of read operations and therefore can grant unintended read access
+CVE-2019-12378 - LOW -  kernel: unchecked kmalloc of new_ra in ip6_ra_control leads to denial of service
+CVE-2019-12381 - LOW -  kernel: unchecked kmalloc of new_ra in ip_ra_control leads to denial of service
+CVE-2019-12382 - LOW -  kernel: unchecked kstrdup of fwstr in drm_load_edid_firmware leads to denial of service
+CVE-2021-38204 - LOW -  kernel: use-after-free and panic in drivers/usb/host/max3421-hcd.c by removing a MAX-3421 USB device in certain situations
+CVE-2021-0929 - LOW -  kernel: use-after-free in ion_dma_buf_end_cpu_access and related functions in ion.c
+CVE-2020-27820 - LOW -  kernel: use-after-free in nouveau kernel module
+CVE-2010-5321 - LOW -  kernel: v4l: videobuf: hotfix a bug on multiple calls to mmap()
+CVE-2020-24588 - LOW -  kernel: wifi frame payload being parsed incorrectly as an L2 frame
+CVE-2016-8660 - LOW -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2018-5709 - LOW -  krb5: integer overflow in dbentry->n_key_data in kadmin/dbutil/dump.c
+CVE-2018-6829 - LOW -  libgcrypt: ElGamal implementation doesn't have semantic security due to incorrectly encoded plaintexts possibly allowing to obtain sensitive information
+CVE-2018-20673 - LOW -  libiberty: Integer overflow in demangle_template() function
+CVE-2018-20712 - LOW -  libiberty: heap-based buffer over-read in d_expression_1
+CVE-2017-15232 - LOW -  libjpeg-turbo: NULL pointer dereference in jdpostct.c and jquant1.c
+CVE-2020-17541 - LOW -  libjpeg-turbo: Stack-based buffer overflow in the "transform" component
+CVE-2018-11813 - LOW -  libjpeg: "cjpeg" utility large loop because read_pixel in rdtarga.c mishandles EOF
+CVE-2018-14048 - LOW -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2018-14550 - LOW -  libpng: Stack-based buffer overflow in contrib/pngminus/pnm2png.c:get_token() potentially leading to arbitrary code execution
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2019-6129 - LOW -  libpng: memory leak of png_info struct in pngcp.c
+CVE-2019-9893 - LOW -  libseccomp: incorrect generation of syscall filters in libseccomp
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2019-17498 - LOW -  libssh2: integer overflow in SSH_MSG_DISCONNECT logic in packet.c
+CVE-2018-1000654 - LOW -  libtasn1: Infinite loop in _asn1_expand_object_id(ptree) leads to memory exhaustion
+CVE-2020-24977 - LOW -  libxml2: Buffer overflow vulnerability in xmlEncodeEntitiesInternal() in entities.c
+CVE-2019-17543 - LOW -  lz4: heap-based buffer overflow in LZ4_write32
+CVE-2008-1688 - LOW -  m4: code execution via -F argument
+CVE-2008-1687 - LOW -  m4: unquoted output of maketemp and mkstemp
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2003-1307 - LOW -  null
+CVE-2020-15719 - LOW -  openldap: Certificate validation incorrectly matches name against CN-ID
+CVE-2017-14159 - LOW -  openldap: Privilege escalation via PID file manipulation
+CVE-2017-17740 - LOW -  openldap: contrib/slapd-modules/nops/nops.c attempts to free stack buffer allowing remote attackers to cause a denial of service
+CVE-2015-3276 - LOW -  openldap: incorrect multi-keyword mode cipherstring parsing
+CVE-2010-0928 - LOW -  openssl: RSA authentication weakness
+CVE-2018-6952 - LOW -  patch: Double free of memory in pch.c:another_hunk() causes a crash
+CVE-2021-45261 - LOW -  patch: Invalid Pointer via another_hunk function
+CVE-2018-6951 - LOW -  patch: NULL pointer dereference in pch.c:intuit_diff_type() causes a crash
+CVE-2010-4651 - LOW -  patch: directory traversal flaw allows for arbitrary file creation
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-16231 - LOW -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2011-4116 - LOW -  perl: File::Temp insecure temporary file handling
+CVE-2019-9193 - LOW -  postgresql: Command injection via "COPY TO/FROM PROGRAM" function
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2018-21232 - LOW -  re2c: uncontrolled recursion that causes stack consumption in find_fixed_tags
+CVE-2004-0971 - LOW -  security flaw
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-19882 - LOW -  shadow-utils: local users can obtain root access because setuid programs are misconfigured
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2019-19244 - LOW -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2020-11656 - LOW -  sqlite: use-after-free in the ALTER TABLE implementation
+CVE-2020-13529 - LOW -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2020-13776 - LOW -  systemd: Mishandles numerical usernames beginning with decimal digits or 0x followed by hexadecimal digits
+CVE-2013-4392 - LOW -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2019-20386 - LOW -  systemd: memory leak in button_open() in login/logind-button.c when udev events are received
+CVE-2021-20193 - LOW -  tar: Memory leak in read_header() in list.c
+CVE-2005-2541 - LOW -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-0563 - LOW -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+CVE-2021-28712 - MEDIUM -  CVE-2021-28711 CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-28713 - MEDIUM -  CVE-2021-28711 CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-28711 - MEDIUM -  CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2020-26558 - MEDIUM -  bluez: Passkey Entry protocol of the Bluetooth Core is vulnerable to an impersonation attack
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2021-22876 - MEDIUM -  curl: Leak of authentication credentials in URL via automatic Referer
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2021-22947 - MEDIUM -  curl: Server responses received before STARTTLS processed after TLS handshake
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-25313 - MEDIUM -  expat: stack exhaustion in doctype parsing
+CVE-2021-28153 - MEDIUM -  glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink
+CVE-2019-25013 - MEDIUM -  glibc: buffer over-read in iconv when processing invalid multi-byte input sequences in the EUC-KR encoding
+CVE-2020-27618 - MEDIUM -  glibc: iconv when processing invalid multi-byte input sequences fails to advance the input state, which could result in an infinite loop
+CVE-2020-10029 - MEDIUM -  glibc: stack corruption from crafted input in cosl, sinl, sincosl, and tanl functions
+CVE-2020-15802 - MEDIUM -  hardware: BLURtooth: "Dual mode" hardware using CTKD are vulnerable to key overwrite
+CVE-2019-17567 - MEDIUM -  httpd:  mod_proxy_wstunnel tunneling of non Upgraded connection
+CVE-2021-30641 - MEDIUM -  httpd: Unexpected URL matching with 'MergeSlashes OFF'
+CVE-2021-26401 - MEDIUM -  hw: cpu: LFENCE/JMP Mitigation Update for CVE-2017-5715
+CVE-2022-23960 - MEDIUM -  hw: cpu: arm64: Spectre-BHB
+CVE-2022-0001 - MEDIUM -  hw: cpu: intel: Branch History Injection (BHI)
+CVE-2022-0002 - MEDIUM -  hw: cpu: intel: Intra-Mode BTI
+CVE-2020-21913 - MEDIUM -  icu: Use after free in pkg_createWithAssemblyCode function in tools/pkgdata/pkgdata.cpp
+CVE-2022-1652 - MEDIUM -  kernel: A concurrency use-after-free in bad_flp_intr
+CVE-2022-1195 - MEDIUM -  kernel: A possible race condition (use-after-free) in drivers/net/hamradio/6pack ( mkiss.c) after unregister_netdev
+CVE-2022-0644 - MEDIUM -  kernel: Assertion failure can happen if users trigger kernel_read_file_from_fd()
+CVE-2021-34556 - MEDIUM -  kernel: BPF program can obtain sensitive information from kernel memory via a speculative store bypass side-channel attack because of the possibility of uninitialized memory locations on the BPF stack
+CVE-2021-35477 - MEDIUM -  kernel: BPF program can obtain sensitive information from kernel memory via a speculative store bypass side-channel attack because the technique used by the BPF verifier to manage speculation is unreliable
+CVE-2020-26555 - MEDIUM -  kernel: Bluetooth BR/EDR PIN Pairing procedure is vulnerable to an impersonation attack
+CVE-2021-28972 - MEDIUM -  kernel: Buffer overflow in hotplug/rpadlpar_sysfs.c
+CVE-2022-1836 - MEDIUM -  kernel: Concurrency use-after-free in floppy's raw_cmd
+CVE-2020-36311 - MEDIUM -  kernel: DoS by triggering destruction of a large SEV VM
+CVE-2021-29264 - MEDIUM -  kernel: DoS due to negative fragment size calculation in drivers/net/ethernet/freescale/gianfar.c
+CVE-2021-3764 - MEDIUM -  kernel: DoS in ccp_run_aes_gcm_cmd() function
+CVE-2021-3679 - MEDIUM -  kernel: DoS in rb_per_cpu_empty()
+CVE-2022-0322 - MEDIUM -  kernel: DoS in sctp_addto_chunk in net/sctp/sm_make_chunk.c
+CVE-2020-26139 - MEDIUM -  kernel: Forwarding EAPOL from unauthenticated wifi client
+CVE-2021-42739 - MEDIUM -  kernel: Heap buffer overflow in firedtv driver
+CVE-2021-4135 - MEDIUM -  kernel: Heap information leak in map_lookup_elem function
+CVE-2021-0129 - MEDIUM -  kernel: Improper access control in BlueZ may allow information disclosure vulnerability.
+CVE-2020-12363 - MEDIUM -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2021-33098 - MEDIUM -  kernel: Improper input validation in the Intel(R) Ethernet ixgbe driver may allow an authenticated user to potentially enable DoS via local access
+CVE-2021-4149 - MEDIUM -  kernel: Improper lock operation in btrfs
+CVE-2019-16089 - MEDIUM -  kernel: Improper return check in nbd_genl_status function in drivers/block/nbd.c
+CVE-2021-20321 - MEDIUM -  kernel: In Overlayfs missing a check for a negative dentry before calling vfs_rename()
+CVE-2020-27171 - MEDIUM -  kernel: Integer underflow when restricting speculative pointer arithmetic
+CVE-2022-0171 - MEDIUM -  kernel: KVM: cache incoherence issue in SEV API may lead to kernel crash
+CVE-2021-33624 - MEDIUM -  kernel: Linux kernel BPF protection against speculative execution attacks can be bypassed to read arbitrary kernel memory
+CVE-2022-0812 - MEDIUM -  kernel: NFS over RDMA random memory leakage
+CVE-2021-44879 - MEDIUM -  kernel: NULL pointer dereference in folio_mark_dirty() via a crafted f2fs image
+CVE-2021-3659 - MEDIUM -  kernel: NULL pointer dereference in llsec_key_alloc() in net/mac802154/llsec.c
+CVE-2021-38208 - MEDIUM -  kernel: NULL pointer dereference in net/nfc/llcp_sock.c by making a getsockname call after a certain type of failure of a bind call
+CVE-2022-1199 - MEDIUM -  kernel: Null pointer dereference and use after free in ax25_release()
+CVE-2022-1205 - MEDIUM -  kernel: Null pointer dereference and use after free in net/ax25/ax25_timer.c
+CVE-2020-12364 - MEDIUM -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2022-0617 - MEDIUM -  kernel: Null pointer dereference in udf_expand_file_adinicbdue() during writeback
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2019-15794 - MEDIUM -  kernel: Overlayfs in the Linux kernel and shiftfs  not restoring original value on error leading to a refcount underflow
+CVE-2021-4203 - MEDIUM -  kernel: Race condition in races in sk_peer_pid and sk_peer_cred accesses
+CVE-2021-3714 - MEDIUM -  kernel: Remote Page Deduplication Attacks
+CVE-2020-27170 - MEDIUM -  kernel: Speculation on pointer arithmetic against bpf_context pointer
+CVE-2021-28971 - MEDIUM -  kernel: System crash in intel_pmu_drain_pebs_nhm in arch/x86/events/intel/ds.c
+CVE-2021-0920 - MEDIUM -  kernel: Use After Free in unix_gc() which could result in a local privilege escalation
+CVE-2022-0487 - MEDIUM -  kernel: Use after free in moxart_remove
+CVE-2022-1204 - MEDIUM -  kernel: Use after free in net/ax25/af_ax25.c
+CVE-2021-3753 - MEDIUM -  kernel: a race out-of-bound read in vt
+CVE-2020-26145 - MEDIUM -  kernel: accepting plaintext broadcast fragments as full frames
+CVE-2021-34693 - MEDIUM -  kernel: allows local users to obtain sensitive information from stack memory because of uninitialized data structure in net/can/bcm.c
+CVE-2021-43389 - MEDIUM -  kernel: an array-index-out-bounds in detach_capi_ctr in drivers/isdn/capi/kcapi.c
+CVE-2020-36516 - MEDIUM -  kernel: an off-path attacker may inject data or terminate a victim's TCP session
+CVE-2021-4159 - MEDIUM -  kernel: another kernel ptr leak vulnerability via BPF in coerce_reg_to_size
+CVE-2021-38198 - MEDIUM -  kernel: arch/x86/kvm/mmu/paging_tmpl.h incorrectly computes the access permissions of a shadow page
+CVE-2020-3702 - MEDIUM -  kernel: ath9k: information disclosure via specifically timed and handcrafted traffic
+CVE-2020-36158 - MEDIUM -  kernel: buffer overflow in mwifiex_cmd_802_11_ad_hoc_start function in drivers/net/wireless/marvell/mwifiex/join.c via a long SSID value
+CVE-2020-27835 - MEDIUM -  kernel: child process is able to access parent mm through hfi dev file handle
+CVE-2022-1280 - MEDIUM -  kernel: concurrency use-after-free between drm_setmaster_ioctl and drm_mode_getresources
+CVE-2021-3744 - MEDIUM -  kernel: crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd()
+CVE-2021-3564 - MEDIUM -  kernel: double free in bluetooth subsystem when the HCI device initialization fails
+CVE-2020-14304 - MEDIUM -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2021-45868 - MEDIUM -  kernel: fs/quota/quota_tree.c does not validate the block number in the quota tree
+CVE-2020-36322 - MEDIUM -  kernel: fuse: fuse_do_getattr() calls make_bad_inode() in inappropriate situations
+CVE-2021-28950 - MEDIUM -  kernel: fuse: stall on CPU can occur because a retry loop continually finds the same bad inode
+CVE-2022-26966 - MEDIUM -  kernel: heap memory leak in drivers/net/usb/sr9700.c
+CVE-2021-38199 - MEDIUM -  kernel: incorrect connection-setup ordering allows operators of remote NFSv4 servers to cause a DoS
+CVE-2020-16120 - MEDIUM -  kernel: incorrect unprivileged overlayfs permission checking may lead to information disclosure
+CVE-2020-36310 - MEDIUM -  kernel: infinite loop in set_memory_region_test in arch/x86/kvm/svm/svm.c for certain nested page faults
+CVE-2021-29647 - MEDIUM -  kernel: information disclosure due to uninitialized data structure in qrtr_recvmsg function in net/qrtr/qrtr.c
+CVE-2022-25375 - MEDIUM -  kernel: information disclosure in drivers/usb/gadget/function/rndis.c
+CVE-2022-0494 - MEDIUM -  kernel: information leak in  scsi_ioctl()
+CVE-2022-0850 - MEDIUM -  kernel: information leak in copy_page_to_iter() in iov_iter.c
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2021-3428 - MEDIUM -  kernel: integer overflow in ext4_es_cache_extent
+CVE-2021-20177 - MEDIUM -  kernel: iptables string match rule could result in kernel panic
+CVE-2021-27363 - MEDIUM -  kernel: iscsi: unrestricted access to sessions and handles
+CVE-2021-29650 - MEDIUM -  kernel: lack a full memory barrier upon the assignment of a new table value in net/netfilter/x_tables.c and include/linux/netfilter/x_tables.h may lead to DoS
+CVE-2020-29660 - MEDIUM -  kernel: locking inconsistency in drivers/tty/tty_io.c and drivers/tty/tty_jobctrl.c can lead to a read-after-free
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2021-30002 - MEDIUM -  kernel: memory leak for large arguments in video_usercopy function in drivers/media/v4l2-core/v4l2-ioctl.c
+CVE-2021-45480 - MEDIUM -  kernel: memory leak in the __rds_conn_create() in net/rds/connection.c
+CVE-2022-24959 - MEDIUM -  kernel: memory leak in yam_siocdevprivate() in drivers/net/hamradio/yam.c
+CVE-2021-43976 - MEDIUM -  kernel: mwifiex_usb_recv() in drivers/net/wireless/marvell/mwifiex/usb.c allows an attacker to cause DoS via crafted USB device
+CVE-2020-25673 - MEDIUM -  kernel: non-blocking socket in llcp_sock_connect()
+CVE-2020-26141 - MEDIUM -  kernel: not verifying TKIP MIC of fragmented frames
+CVE-2020-27830 - MEDIUM -  kernel: null pointer dereference in in spk_ttyio_receive_buf2
+CVE-2021-31916 - MEDIUM -  kernel: out of bounds array access in drivers/md/dm-ioctl.c
+CVE-2021-0941 - MEDIUM -  kernel: out-of-bounds read in bpf_skb_change_head() of filter.c due to a use-after-free
+CVE-2021-43975 - MEDIUM -  kernel: out-of-bounds write in hw_atl_utils_fw_rpc_wait() in drivers/net/ethernet/aquantia/atlantic/hw_atl/hw_atl_utils.c
+CVE-2021-3732 - MEDIUM -  kernel: overlayfs: Mounting overlayfs inside an unprivileged user namespace can reveal files
+CVE-2021-39648 - MEDIUM -  kernel: possible disclosure of memory due to a race condition in gadget_dev_desc_UDC_show() of configfs.c
+CVE-2021-4002 - MEDIUM -  kernel: possible leak or coruption of data residing on hugetlbfs
+CVE-2021-29155 - MEDIUM -  kernel: protection for sequences of pointer arithmetic operations against speculatively out-of-bounds loads can be bypassed to leak content of kernel memory
+CVE-2021-31829 - MEDIUM -  kernel: protection of stack pointer against speculative pointer arithmetic can be bypassed to leak content of kernel memory
+CVE-2021-28964 - MEDIUM -  kernel: race condition in get_old_root function in fs/btrfs/ctree.c because of a lack of locking on an extent buffer before a cloning operation
+CVE-2021-29265 - MEDIUM -  kernel: race conditions in usbip_sockfd_store function in drivers/usb/usbip/stub_dev.c can lead to DoS
+CVE-2021-3669 - MEDIUM -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2020-26147 - MEDIUM -  kernel: reassembling mixed encrypted/plaintext fragments
+CVE-2021-45095 - MEDIUM -  kernel: refcount leak in pep_sock_accept() in net/phonet/pep.c
+CVE-2021-20320 - MEDIUM -  kernel: s390 eBPF JIT miscompilation issues fixes
+CVE-2021-3772 - MEDIUM -  kernel: sctp: Invalid chunks may be used to remotely remove existing associations
+CVE-2021-3894 - MEDIUM -  kernel: sctp: local DoS: unprivileged user can cause BUG()
+CVE-2020-26541 - MEDIUM -  kernel: security bypass in certs/blacklist.c and certs/system_keyring.c
+CVE-2022-25258 - MEDIUM -  kernel: security issues in the OS descriptor handling section of composite_setup function (composite.c)
+CVE-2021-4037 - MEDIUM -  kernel: security regression for CVE-2018-13405
+CVE-2022-0854 - MEDIUM -  kernel: swiotlb information leak with DMA_FROM_DEVICE
+CVE-2019-20794 - MEDIUM -  kernel: task processes not being properly ended could lead to resource exhaustion
+CVE-2021-20317 - MEDIUM -  kernel: timer tree corruption leads to missing wakeup and system freeze
+CVE-2021-3759 - MEDIUM -  kernel: unaccounted ipc objects in Linux kernel lead to breaking memcg limits and DoS attacks
+CVE-2022-1016 - MEDIUM -  kernel: uninitialized registers on stack in nft_do_chain can cause kernel pointer leakage to UM
+CVE-2022-1184 - MEDIUM -  kernel: use-after-free and memory errors in ext4 when mounting and operating on a corrupted image
+CVE-2019-15213 - MEDIUM -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2022-1198 - MEDIUM -  kernel: use-after-free in drivers/net/hamradio/6pack.c
+CVE-2021-3573 - MEDIUM -  kernel: use-after-free in function hci_sock_bound_ioctl()
+CVE-2021-37159 - MEDIUM -  kernel: use-after-free in hso_free_net_device() in drivers/net/usb/hso.c
+CVE-2020-27825 - MEDIUM -  kernel: use-after-free in the ftrace ring buffer resizing logic due to a race condition
+CVE-2021-4155 - MEDIUM -  kernel: xfs: raw block device data leak in XFS_IOC_ALLOCSP IOCTL
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2019-13627 - MEDIUM -  libgcrypt: ECDSA timing attack allowing private key leak
+CVE-2021-40528 - MEDIUM -  libgcrypt: ElGamal implementation allows plaintext recovery
+CVE-2021-3541 - MEDIUM -  libxml2: Exponential entity expansion attack bypasses all existing protection mechanisms
+CVE-2021-3537 - MEDIUM -  libxml2: NULL pointer dereference when post-validating mixed content parsed in recovery mode
+CVE-2016-9318 - MEDIUM -  libxml2: XML External Entity vulnerability
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-43519 - MEDIUM -  lua: stack overflow in lua_resume of ldo.c allows a DoS via a crafted script file
+CVE-2021-0937 - MEDIUM -  null
+CVE-2022-1419 - MEDIUM -  null
+CVE-2021-4160 - MEDIUM -  openssl: Carry propagation bug in the MIPS32 and MIPS64 squaring procedure
+CVE-2019-1551 - MEDIUM -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2020-29362 - MEDIUM -  p11-kit: out-of-bounds read in p11_rpc_buffer_get_byte_array function in rpc-message.c
+CVE-2020-14155 - MEDIUM -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2021-3393 - MEDIUM -  postgresql: Partition constraint violation errors leak values of denied columns
+CVE-2021-23222 - MEDIUM -  postgresql: libpq processes unencrypted bytes from man-in-the-middle
+CVE-2021-3677 - MEDIUM -  postgresql: memory disclosure in certain queries
+CVE-2020-13631 - MEDIUM -  sqlite: Virtual table can be renamed into the name of one of its shadow tables
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2019-19924 - MEDIUM -  sqlite: incorrect sqlite3WindowRewrite() error handling leads to mishandling certain parser-tree rewriting
+CVE-2019-19645 - MEDIUM -  sqlite: infinite recursion via certain types of self-referential views in conjunction with ALTER TABLE statements
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2021-33910 - MEDIUM -  systemd: uncontrolled allocation on the stack in function unit_name_path_escape leads to crash
+CVE-2021-24032 - MEDIUM -  zstd: Race condition allows attacker to access world-readable destination file
+CVE-2021-24031 - MEDIUM -  zstd: adds read permissions to files while being compressed or uncompressed
+CVE-2022-1789 - UNKNOWN -  [KVM: x86/mmu: fix NULL pointer dereference on guest INVPCID]
+DSA-5085-2 - UNKNOWN -  expat - regression update

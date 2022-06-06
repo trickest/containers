@@ -1,0 +1,8 @@
+LICENSE.txt
+NOTICE.txt
+README.md
+README_packaging.txt
+bin
+conf
+docs
+lib

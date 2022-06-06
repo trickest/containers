@@ -1,0 +1,12 @@
+/var/log/cassandra
+/var/lib/cassandra
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/etc/cassandra
+/etc/cassandra/triggers
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

@@ -1,0 +1,16 @@
+DIObject.php
+PRIVACY.md
+README.md
+SECURITY.md
+console
+core
+lang
+libs
+matomo.js
+offline-service-worker.js
+piwik.js
+piwik.min.js
+piwik.php
+plugins
+tests
+vendor

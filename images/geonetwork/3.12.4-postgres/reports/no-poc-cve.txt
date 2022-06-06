@@ -1,0 +1,50 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2020-1731 - CRITICAL -  keycloak: generates same admin password while installation when deployed on same openshift namespace
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2018-1294 - HIGH -  Improper Input Validation
+CVE-2017-9801 - HIGH -  SMTP header injection vulnerabilty
+CVE-2017-5643 - HIGH -  camel-core: Validation component vulnerable to SSRF via remote DTDs and XXE
+CVE-2019-0194 - HIGH -  camel: Directory traversal in file producer
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-1466 - HIGH -  keycloak: Improper authorization for master realm
+CVE-2019-10201 - HIGH -  keycloak: SAML broker does not check existence of signature on document allowing any user impersonation
+CVE-2019-10170 - HIGH -  keycloak: script execution via realm management policy trigger
+CVE-2020-1718 - HIGH -  keycloak: security issue on reset credential flow
+CVE-2020-14389 - HIGH -  keycloak: user can manage resources with just "view-profile" role using new Account Console
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-1586 - HIGH -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - HIGH -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1552 - HIGH -  postgresql: Autovacuum, REINDEX, and others omit "security restricted operation" sandbox
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2019-3868 - LOW -  keycloak: session hijack using the user access token
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2022-29577 - MEDIUM -  Cross-site Scripting in OWASP AntiSamy
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2020-1725 - MEDIUM -  keycloak-gatekeeper: improper usage of parsed claims for authorization leads to improper resource access
+CVE-2020-10776 - MEDIUM -  keycloak: OIDC redirect_uri allows dangerous schemes resulting in potential XSS
+CVE-2020-1698 - MEDIUM -  keycloak: Password leak by logged exception in HttpMethod class
+CVE-2019-14820 - MEDIUM -  keycloak: adapter endpoints are exposed via arbitrary URLs
+CVE-2020-1744 - MEDIUM -  keycloak: failedLogin Event not sent to BruteForceProtector when using Post Login Flow with Conditional-OTP
+CVE-2020-1758 - MEDIUM -  keycloak: improper verification of certificate with host mismatch could result in information disclosure
+CVE-2019-3875 - MEDIUM -  keycloak: missing signatures validation on CRL used to verify client certificates
+CVE-2020-1724 - MEDIUM -  keycloak: problem with privacy after user logout
+CVE-2020-14302 - MEDIUM -  keycloak: reusable "state" parameter at redirect_uri endpoint enables possibility of replay attacks
+CVE-2020-1728 - MEDIUM -  keycloak: security headers missing on REST endpoints
+CVE-2020-1697 - MEDIUM -  keycloak: stored XSS in client settings via application links
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')

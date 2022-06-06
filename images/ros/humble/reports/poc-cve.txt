@@ -1,0 +1,39 @@
+CVE-2019-14899 - LOW -  VPN: an attacker can inject data into the TCP stream which allows a hijack of active connections inside the VPN tunnel
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2018-18064 - LOW -  cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document
+CVE-2019-6461 - LOW -  cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2019-19814 - LOW -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - LOW -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2018-12931 - LOW -  kernel: stack-based out-of-bounds write in ntfs_attr_find in the ntfs.ko
+CVE-2018-12930 - LOW -  kernel: stack-based out-of-bounds write in ntfs_end_buffer_async_read in the ntfs.ko
+CVE-2019-15213 - LOW -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2018-12929 - LOW -  kernel: use-after-free in ntfs_read_locked_inode in the ntfs.ko
+CVE-2018-20657 - LOW -  libiberty: Memory leak in demangle_template function resulting in a denial of service
+CVE-2018-10126 - LOW -  libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c
+CVE-2017-9937 - LOW -  libtiff: memory malloc failure in tif_jbig.c could cause DOS.
+CVE-2017-0537 - LOW -  null
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2018-6952 - LOW -  patch: Double free of memory in pch.c:another_hunk() causes a crash
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2015-8553 - MEDIUM -  CVE-2015-2150 CVE-2015-8553 xen: non-maskable interrupts triggerable by guests (xsa120)
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2021-4148 - MEDIUM -  kernel: Improper implementation of block_invalidatepage() allows users to crash the kernel
+CVE-2022-0995 - MEDIUM -  kernel: kernel bug in the watch_queue subsystem
+CVE-2013-7445 - MEDIUM -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2016-8660 - MEDIUM -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2020-9794 - MEDIUM -  null
+CVE-2021-39800 - MEDIUM -  null
+CVE-2021-39801 - MEDIUM -  null
+CVE-2021-39802 - MEDIUM -  null
+CVE-2022-29155 - MEDIUM -  openldap: OpenLDAP SQL injection
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files

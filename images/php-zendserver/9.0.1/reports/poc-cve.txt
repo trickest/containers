@@ -1,0 +1,199 @@
+CVE-2018-11235 - HIGH -  git: arbitrary code execution when recursively cloning a malicious repository
+CVE-2018-1000001 - HIGH -  glibc: realpath() buffer underflow when getcwd() returns relative path allows privilege escalation
+CVE-2017-1000367 - HIGH -  sudo: Privilege escalation in via improper get_process_ttyname() parsing
+CVE-2016-8610 - LOW -  SSL/TLS: Malformed plain-text ALERT packets could cause remote DoS
+CVE-2016-0634 - LOW -  bash: Arbitrary code execution via malicious hostname
+CVE-2016-9401 - LOW -  bash: popd controlled free
+CVE-2018-20679 - LOW -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2011-5325 - LOW -  busybox: Path traversal via crafted tar file containing symlink
+CVE-2016-2148 - LOW -  busybox: heap-based buffer overflow in OPTION_6RD parsing
+CVE-2016-2147 - LOW -  busybox: out of bounds write (heap) due to integer underflow in udhcpc
+CVE-2014-9645 - LOW -  busybox: unprivileged arbitrary module load via basename abuse
+CVE-2017-7407 - LOW -  curl: --write-out out of bounds read
+CVE-2019-3823 - LOW -  curl: SMTP end-of-response out-of-bounds read
+CVE-2017-1000100 - LOW -  curl: TFTP sends more than buffer size
+CVE-2017-1000101 - LOW -  curl: URL globbing out of bounds read
+CVE-2016-9586 - LOW -  curl: printf floating point buffer overflow
+CVE-2014-9653 - LOW -  file: malformed elf file causes access to uninitialized memory
+CVE-2018-10360 - LOW -  file: out-of-bounds read via a crafted ELF file
+CVE-2018-11233 - LOW -  git: path sanity check in is_ntfs_dotgit() can read arbitrary memory
+CVE-2017-15804 - LOW -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - LOW -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2017-1000409 - LOW -  glibc: Buffer overflow triggerable via LD_LIBRARY_PATH
+CVE-2017-16997 - LOW -  glibc: Incorrect handling of RPATH in elf/dl-load.c can be used to execute code loaded from arbitrary libraries
+CVE-2017-1000408 - LOW -  glibc: Memory leak reachable via LD_HWCAP_MASK
+CVE-2016-1234 - LOW -  glibc: Stack-based buffer overflow in glob with GLOB_ALTDIRFUNC and crafted directory
+CVE-2016-4429 - LOW -  glibc: libtirpc: stack (frame) overflow in Sun RPC clntudp_call()
+CVE-2017-15715 - LOW -  httpd: <FilesMatch> bypass with a trailing newline in the file name
+CVE-2016-4975 - LOW -  httpd: CRLF injection allowing HTTP response splitting attacks for sites which use mod_userdir
+CVE-2016-2161 - LOW -  httpd: DoS vulnerability in mod_auth_digest
+CVE-2018-1283 - LOW -  httpd: Improper handling of headers in mod_session can allow a remote user to modify session data for CGI applications
+CVE-2018-1301 - LOW -  httpd: Out of bounds access after failure in reading the HTTP request
+CVE-2018-1303 - LOW -  httpd: Out of bounds read in mod_cache_socache can allow a remote attacker to cause DoS
+CVE-2017-15710 - LOW -  httpd: Out of bounds write in mod_authnz_ldap when using too small Accept-Language values
+CVE-2019-0220 - LOW -  httpd: URL normalization inconsistency
+CVE-2018-1312 - LOW -  httpd: Weak Digest auth nonce generation in mod_auth_digest
+CVE-2017-7679 - LOW -  httpd: mod_mime buffer overread
+CVE-2018-17199 - LOW -  httpd: mod_session_cookie does not respect expiry time
+CVE-2018-5730 - LOW -  krb5: DN container check bypass by supplying special crafted data
+CVE-2018-5729 - LOW -  krb5: null dereference in kadmind or DN container check bypass by supplying special crafted data
+CVE-2017-10790 - LOW -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2016-4448 - LOW -  libxml2: Format string vulnerability
+CVE-2017-18258 - LOW -  libxml2: Unrestricted memory usage in xz_head() function in xzlib.c
+CVE-2016-9318 - LOW -  libxml2: XML External Entity vulnerability
+CVE-2017-3302 - LOW -  mysql: prepared statement handle use-after-free after disconnect
+CVE-2016-7429 - LOW -  ntp: Attack on interface selection
+CVE-2016-7428 - LOW -  ntp: Broadcast Mode Poll Interval Enforcement DoS
+CVE-2016-7427 - LOW -  ntp: Broadcast Mode Replay Prevention DoS
+CVE-2016-7426 - LOW -  ntp: Client rate limiting and server responses
+CVE-2016-9310 - LOW -  ntp: Mode 6 unauthenticated trap information disclosure and DDoS vector
+CVE-2016-9311 - LOW -  ntp: Null pointer dereference when trap service is enabled
+CVE-2017-6458 - LOW -  ntp: Potential Overflows in ctl_put() functions
+CVE-2018-7185 - LOW -  ntp: Unauthenticated packet can reset authenticated interleaved association
+CVE-2016-10012 - LOW -  openssh: Bounds check can be evaded in the shared memory manager used by pre-authentication compression support
+CVE-2019-6111 - LOW -  openssh: Improper validation of object names allows malicious server to overwrite files via scp client
+CVE-2017-15906 - LOW -  openssh: Improper write operations in readonly mode allow for zero-length file creation
+CVE-2016-10011 - LOW -  openssh: Leak of host private key material to privilege-separated child process via realloc()
+CVE-2016-10708 - LOW -  openssh: Out of sequence NEWKEYS message can allow remote attacker to cause denial of service
+CVE-2018-15473 - LOW -  openssh: User enumeration via malformed packets in authentication requests
+CVE-2016-10009 - LOW -  openssh: loading of untrusted PKCS#11 modules in ssh-agent
+CVE-2017-3735 - LOW -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0732 - LOW -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2016-2177 - LOW -  openssl: Possible integer overflow vulnerabilities in codebase
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2018-5407 - LOW -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2018-0734 - LOW -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2018-6951 - LOW -  patch: NULL pointer dereference in pch.c:intuit_diff_type() causes a crash
+CVE-2017-6512 - LOW -  perl-File-Path: rmtree/remove_tree race condition
+CVE-2016-6185 - LOW -  perl: XSLoader loads relative paths not included in @INC
+CVE-2015-8853 - LOW -  perl: regexp matching hangs indefinitely on illegal UTF-8 input
+CVE-2017-7546 - LOW -  postgresql: Empty password accepted in some authentication methods
+CVE-2017-7484 - LOW -  postgresql: Selectivity estimators bypass SELECT privilege checks
+CVE-2017-7485 - LOW -  postgresql: libpq ignores PGREQUIRESSL environment variable
+CVE-2017-7486 - LOW -  postgresql: pg_user_mappings view discloses foreign server passwords
+CVE-2017-16548 - LOW -  rsync: Heap-based buffer over-read in receive_xattr function
+CVE-2016-0494 - MEDIUM -  ICU: integer signedness issue in IndicRearrangementProcessor (OpenJDK 2D, 8140543)
+CVE-2015-4844 - MEDIUM -  ICU: missing boundary checks in layout engine (OpenJDK 2D, 8132042)
+CVE-2016-7543 - MEDIUM -  bash: Specially crafted SHELLOPTS+PS4 variables allows command substitution
+CVE-2017-16544 - MEDIUM -  busybox: Insufficient sanitization of filenames when autocompleting
+CVE-2019-5747 - MEDIUM -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2015-9261 - MEDIUM -  busybox: Segmentation fault when unzipping specially crafted zip file
+CVE-2017-1000254 - MEDIUM -  curl: FTP PWD response parser out of bounds read
+CVE-2018-1000120 - MEDIUM -  curl: FTP path trickery leads to NIL byte out of bounds write
+CVE-2017-8817 - MEDIUM -  curl: FTP wildcard out of bounds read
+CVE-2018-16842 - MEDIUM -  curl: Heap-based buffer over-read in the curl tool warning formatting
+CVE-2017-1000257 - MEDIUM -  curl: IMAP FETCH response out of bounds read
+CVE-2018-16839 - MEDIUM -  curl: Integer overflow leading to heap-based buffer overflow in Curl_sasl_create_plain_message()
+CVE-2018-1000121 - MEDIUM -  curl: LDAP NULL pointer dereference
+CVE-2018-14618 - MEDIUM -  curl: NTLM password overflow via integer overflow
+CVE-2018-1000301 - MEDIUM -  curl: Out-of-bounds heap read when missing RTSP headers allows information leak or denial of service
+CVE-2018-1000122 - MEDIUM -  curl: RTSP RTP buffer over-read
+CVE-2018-5732 - MEDIUM -  dhcp: Buffer overflow in dhclient possibly allowing code execution triggered by malicious server
+CVE-2017-1000117 - MEDIUM -  git: Command injection via malicious ssh URLs
+CVE-2017-8386 - MEDIUM -  git: Escape out of git-shell
+CVE-2018-17456 - MEDIUM -  git: arbitrary code execution via .gitmodules
+CVE-2014-9938 - MEDIUM -  git: git-prompt.sh does not sanitize branch names in $PS1
+CVE-2017-1000366 - MEDIUM -  glibc: heap/stack gap jumping via unbounded stack allocations
+CVE-2018-12020 - MEDIUM -  gnupg2: Improper sanitization of filenames allows for the display of fake status messages and the bypass of signature verification
+CVE-2016-8743 - MEDIUM -  httpd: Apache HTTP Request Parsing Whitespace Defects
+CVE-2016-0736 - MEDIUM -  httpd: Padding Oracle in Apache mod_session_crypto
+CVE-2017-9788 - MEDIUM -  httpd: Uninitialized memory reflection in mod_auth_digest
+CVE-2017-9798 - MEDIUM -  httpd: Use-after-free by limiting unregistered HTTP method (Optionsbleed)
+CVE-2017-7668 - MEDIUM -  httpd: ap_find_token() buffer overread
+CVE-2017-3167 - MEDIUM -  httpd: ap_get_basic_auth_pw() authentication bypass
+CVE-2019-0217 - MEDIUM -  httpd: mod_auth_digest: access control bypass due to race condition
+CVE-2017-3169 - MEDIUM -  httpd: mod_ssl NULL pointer dereference
+CVE-2017-14952 - MEDIUM -  icu: Double free in i18n/zonemeta.cpp
+CVE-2017-7868 - MEDIUM -  icu: Heap-buffer overflow in utext_moveIndex32 function
+CVE-2017-7867 - MEDIUM -  icu: Heap-buffer overflow in utext_setNativeIndex function
+CVE-2016-6293 - MEDIUM -  icu: Out-of-bounds access in uloc_acceptLanguageFromHTTP
+CVE-2016-7415 - MEDIUM -  icu: Stack based buffer overflow in locid.cpp
+CVE-2014-9911 - MEDIUM -  icu: stack-based buffer overflow in uloc_getDisplayName
+CVE-2015-8631 - MEDIUM -  krb5: Memory leak caused by supplying a null principal name in request
+CVE-2015-8630 - MEDIUM -  krb5: krb5 doesn't check for null policy when KADM5_POLICY is set in the mask
+CVE-2015-8629 - MEDIUM -  krb5: xdr_nullstring() doesn't check for terminating null character
+CVE-2018-14598 - MEDIUM -  libX11: Crash on invalid reply in XListExtensions in ListExt.c
+CVE-2018-14599 - MEDIUM -  libX11: Off-by-one error in XListExtensions in ListExt.c
+CVE-2018-14600 - MEDIUM -  libX11: Out of Bounds write in XListExtensions in ListExt.c
+CVE-2017-10140 - MEDIUM -  libdb: Reads DB_CONFIG from the current working directory
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2017-14062 - MEDIUM -  libidn2: Integer overflow in puny_decode.c/decode_digit
+CVE-2015-1782 - MEDIUM -  libssh2: Using SSH_MSG_KEXINIT data unbounded
+CVE-2017-9047 - MEDIUM -  libxml2: Buffer overflow in function xmlSnprintfElementContent
+CVE-2017-9050 - MEDIUM -  libxml2: Heap-based buffer over-read in function xmlDictAddString
+CVE-2017-7376 - MEDIUM -  libxml2: Incorrect limit used for port values
+CVE-2018-14567 - MEDIUM -  libxml2: Infinite loop caused by incorrect error detection during LZMA decompression
+CVE-2018-14404 - MEDIUM -  libxml2: NULL pointer dereference in xmlXPathCompOpEval() function in xpath.c
+CVE-2017-15412 - MEDIUM -  libxml2: Use after free in xmlXPathCompOpEvalPositionalPredicate() function in xpath.c
+CVE-2016-5131 - MEDIUM -  libxml2: Use after free triggered by XPointer paths beginning with range-to
+CVE-2016-4658 - MEDIUM -  libxml2: Use after free via namespace node in XPointer ranges
+CVE-2017-3600 - MEDIUM -  mariadb, mysql: Incorrect input validation allowing code execution via mysqldump
+CVE-2017-3635 - MEDIUM -  mysql: C API unspecified vulnerability (CPU Jul 2017)
+CVE-2017-3651 - MEDIUM -  mysql: Client mysqldump unspecified vulnerability (CPU Jul 2017)
+CVE-2018-3070 - MEDIUM -  mysql: Client mysqldump unspecified vulnerability (CPU Jul 2018)
+CVE-2018-2761 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Apr 2018)
+CVE-2017-3636 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Jul 2017)
+CVE-2018-3081 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Jul 2018)
+CVE-2017-10379 - MEDIUM -  mysql: Client programs unspecified vulnerability (CPU Oct 2017)
+CVE-2018-3174 - MEDIUM -  mysql: Init script calling kill with root privileges using pid from pidfile owned by mysql user (CPU Oct 2018)
+CVE-2018-2819 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2018)
+CVE-2018-3058 - MEDIUM -  mysql: MyISAM unspecified vulnerability (CPU Jul 2018)
+CVE-2017-3648 - MEDIUM -  mysql: Server: Charsets unspecified vulnerability (CPU Jul 2017)
+CVE-2017-3464 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2017)
+CVE-2018-2813 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2018)
+CVE-2018-2817 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2018)
+CVE-2018-2622 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jan 2018)
+CVE-2017-3652 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jul 2017)
+CVE-2017-3653 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jul 2017)
+CVE-2017-10384 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Oct 2017)
+CVE-2017-3308 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3456 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3641 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Jul 2017)
+CVE-2018-2771 - MEDIUM -  mysql: Server: Locking unspecified vulnerability (CPU Apr 2018)
+CVE-2017-3309 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3453 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2017)
+CVE-2018-2781 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2018)
+CVE-2018-2640 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2018)
+CVE-2018-2665 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2018)
+CVE-2018-2668 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2018)
+CVE-2017-10378 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Oct 2017)
+CVE-2018-3066 - MEDIUM -  mysql: Server: Options unspecified vulnerability (CPU Jul 2018)
+CVE-2018-3133 - MEDIUM -  mysql: Server: Parser unspecified vulnerability (CPU Oct 2018)
+CVE-2018-2562 - MEDIUM -  mysql: Server: Partition unspecified vulnerability (CPU Jan 2018)
+CVE-2018-2755 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2018)
+CVE-2017-10268 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Oct 2017)
+CVE-2017-3461 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3462 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3463 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2017)
+CVE-2018-2818 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Apr 2018)
+CVE-2018-3063 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Jul 2018)
+CVE-2018-3282 - MEDIUM -  mysql: Server: Storage Engines unspecified vulnerability (CPU Oct 2018)
+CVE-2017-3329 - MEDIUM -  mysql: Server: Thread Pooling unspecified vulnerability (CPU Apr 2017)
+CVE-2017-3305 - MEDIUM -  mysql: incorrect enforcement of ssl-mode=REQUIRED in MySQL 5.5 and 5.6
+CVE-2018-2773 - MEDIUM -  mysql: pid file can be created in a world-writeable directory (CPU Apr 2018)
+CVE-2018-2767 - MEDIUM -  mysql: use of SSL/TLS not enforced in libmysqld (Return of BACKRONYM)
+CVE-2019-6109 - MEDIUM -  openssh: Missing character encoding in progress display allows for spoofing of scp client output
+CVE-2018-20685 - MEDIUM -  openssh: scp client improper directory name validation
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2017-3731 - MEDIUM -  openssl: Truncated packet could crash via OOB read
+CVE-2018-1000156 - MEDIUM -  patch: Malicious patch files cause ed to execute arbitrary commands
+CVE-2017-12883 - MEDIUM -  perl: Buffer over-read in regular expression parser
+CVE-2018-12015 - MEDIUM -  perl: Directory traversal in Archive::Tar
+CVE-2017-12837 - MEDIUM -  perl: Heap buffer overflow in regular expression compiler
+CVE-2018-18313 - MEDIUM -  perl: Heap-based buffer read overflow in S_grok_bslash_N()
+CVE-2018-18311 - MEDIUM -  perl: Integer overflow leading to buffer overflow in Perl_my_setenv()
+CVE-2018-6913 - MEDIUM -  perl: heap buffer overflow in pp_pack.c
+CVE-2018-1058 - MEDIUM -  postgresql: Uncontrolled search path element in pg_dump and other client applications
+CVE-2018-1124 - MEDIUM -  procps-ng, procps: Integer overflows leading to heap overflow in file2strvec
+CVE-2018-1122 - MEDIUM -  procps-ng, procps: Local privilege escalation in top
+CVE-2018-1123 - MEDIUM -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1126 - MEDIUM -  procps-ng, procps: incorrect integer size in proc/alloc.* leading to truncation / integer overflow issues
+CVE-2018-1125 - MEDIUM -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2018-1000802 - MEDIUM -  python: Command injection in the shutil module
+CVE-2017-1000158 - MEDIUM -  python: Integer overflow in PyString_DecodeEscape results in heap-base buffer overflow
+CVE-2018-14647 - MEDIUM -  python: Missing salt initialization in _elementtree.c module
+CVE-2017-17434 - MEDIUM -  rsync: daemon does not check for fnamecmp filenames allowing for access restriction bypass
+CVE-2017-17433 - MEDIUM -  rsync: recv_files function metadata handling allows for access restriction bypass
+CVE-2019-3842 - MEDIUM -  systemd: Spoofing of XDG_SEAT allows for actions to be checked against "allow_active" instead of "allow_any"
+CVE-2018-1049 - MEDIUM -  systemd: automount: access to automounted volumes can lock up
+CVE-2017-2616 - MEDIUM -  util-linux: Sending SIGKILL to other processes with root privileges via su

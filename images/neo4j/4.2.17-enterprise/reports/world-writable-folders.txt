@@ -1,0 +1,12 @@
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock
+/logs
+/data
+/data/transactions
+/data/databases

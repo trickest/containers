@@ -1,0 +1,4 @@
+CVE-2019-2201 - HIGH -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2021-32610 - HIGH -  php-pear: Directory traversal vulnerability
+GHSA-5cp4-xmrw-59wf - MEDIUM -  XSS via JQLite DOM manipulation functions in AngularJS
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image

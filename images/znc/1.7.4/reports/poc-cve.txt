@@ -1,0 +1,30 @@
+CVE-2019-12900 - CRITICAL -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2019-5481 - CRITICAL -  curl: double free due to subsequent call of realloc()
+CVE-2019-5482 - CRITICAL -  curl: heap buffer overflow in function tftp_receive_packet()
+CVE-2019-18218 - CRITICAL -  file: heap-based buffer overflow in cdf_read_property_info in cdf.c
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2019-9513 - HIGH -  HTTP/2: flood using PRIORITY frames results in excessive resource consumption
+CVE-2019-9511 - HIGH -  HTTP/2: large amount of data requests leads to denial of service
+CVE-2020-10531 - HIGH -  ICU: Integer overflow in UnicodeString::doAppend()
+CVE-2018-6543 - HIGH -  binutils:  integer overflow in load_specific_debug_section function in objdump.c
+CVE-2018-7208 - HIGH -  binutils: Improper bounds check in coffgen.c:coff_pointerize_aux() allows for denial of service when parsing a crafted COFF file
+CVE-2018-7643 - HIGH -  binutils: Integer overflow in the display_debug_ranges function resulting in crash
+CVE-2019-19906 - HIGH -  cyrus-sasl: denial of service in _sasl_add_string function
+CVE-2019-15903 - HIGH -  expat: heap-based buffer over-read via crafted XML input
+CVE-2018-20843 - HIGH -  expat: large number of colons in input makes parser consume high amount of resources, leading to DoS
+CVE-2017-14502 - HIGH -  libarchive: Off-by-one error in the read_header function
+CVE-2019-16056 - HIGH -  python: email.utils.parseaddr wrongly parses email addresses
+CVE-2019-19244 - HIGH -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2018-8945 - MEDIUM -  binutils: Crash in elf.c:bfd_section_from_shdr() with crafted executable
+CVE-2018-7642 - MEDIUM -  binutils: NULL pointer dereference in swap_std_reloc_in function in aoutx.h resulting in crash
+CVE-2018-7570 - MEDIUM -  binutils: NULL pointer dereference the assign_file_positions_for_non_load_sections function in libbfd library
+CVE-2018-6759 - MEDIUM -  binutils: Unchecked strnlen in opncls.c:bfd_get_debug_link_info_1() can allow lead to denial of service
+CVE-2018-7568 - MEDIUM -  binutils: integer overflow via an ELF file with corrupt dwarf1 debug information in libbfd library
+CVE-2018-7569 - MEDIUM -  binutils: integer underflow or overflow via an ELF file with a corrupt DWARF FORM block in libbfd library
+CVE-2018-6872 - MEDIUM -  binutils: out of bounds read in elf_parse_notes function in elf.c file in libbfd library
+CVE-2019-5188 - MEDIUM -  e2fsprogs: Out-of-bounds write in e2fsck/rehash.c
+CVE-2017-14503 - MEDIUM -  libarchive: Out-of-bounds read in lha_read_data_none
+CVE-2017-14501 - MEDIUM -  libarchive: Out-of-bounds read in parse_file_info
+CVE-2019-16935 - MEDIUM -  python: XSS vulnerability in the documentation XML-RPC server in server_title field
+CVE-2019-16168 - MEDIUM -  sqlite: Division by zero in whereLoopAddBtreeIndex in sqlite3.c
+CVE-2019-19242 - MEDIUM -  sqlite: SQL injection in sqlite3ExprCodeTarget in expr.c

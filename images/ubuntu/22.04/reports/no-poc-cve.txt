@@ -1,0 +1,7 @@
+CVE-2022-1434 - LOW -  openssl: Incorrect MAC key used in the RC4-MD5 ciphersuite
+CVE-2022-1473 - LOW -  openssl: OPENSSL_LH_flush() breaks reuse of memory
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1343 - MEDIUM -  openssl: Signer certificate verification returns inaccurate response when using OCSP_NOCHECKS
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection

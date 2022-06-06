@@ -1,0 +1,10 @@
+/var/lib/mysql
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock
+/run/mysqld

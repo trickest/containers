@@ -1,0 +1,15 @@
+README
+data
+doc
+eggdrop
+eggdrop-1.6.21
+eggdrop.conf
+entrypoint.sh
+filesys
+help
+language
+logs
+modules
+modules-1.6.21
+scripts
+text

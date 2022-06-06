@@ -1,0 +1,138 @@
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2019-13050 - LOW -  GnuPG: interaction between the sks-keyserver code and GnuPG allows for a Certificate Spamming Attack which leads to persistent DoS
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2021-20299 - LOW -  OpenEXR: Null-dereference READ in Imf_2_5::Header::operator
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2019-7572 - LOW -  SDL: buffer over-read in IMA_ADPCM_nibble in audio/SDL_wave.c
+CVE-2019-7577 - LOW -  SDL: buffer over-read in SDL_LoadWAV_RW in audio/SDL_wave.c
+CVE-2019-7574 - LOW -  SDL: heap-based buffer over-read in IMA_ADPCM_decode in audio/SDL_wave.c
+CVE-2019-7578 - LOW -  SDL: heap-based buffer over-read in InitIMA_ADPCM in audio/SDL_wave.c
+CVE-2019-7573 - LOW -  SDL: heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c
+CVE-2019-7576 - LOW -  SDL: heap-based buffer over-read in InitMS_ADPCM in audio/SDL_wave.c
+CVE-2019-7575 - LOW -  SDL: heap-based buffer overflow in MS_ADPCM_decode in audio/SDL_wave.c
+CVE-2019-13616 - LOW -  SDL: heap-based buffer overflow in SDL blit functions in video/SDL_blit*.c
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2018-18064 - LOW -  cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document
+CVE-2019-6461 - LOW -  cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2020-10001 - LOW -  cups: access to uninitialized buffer in ipp.c
+CVE-2022-27781 - LOW -  curl: CERTINFO never-ending busy-loop
+CVE-2020-35512 - LOW -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - LOW -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2016-10739 - LOW -  glibc: getaddrinfo should reject IP addresses with trailing characters
+CVE-2009-5155 - LOW -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2015-8985 - LOW -  glibc: potential denial of service in pop_fail_stack()
+CVE-2018-16868 - LOW -  gnutls: Bleichenbacher-like side channel leakage in PKCS#1 v1.5 verification and padding oracle verification
+CVE-2021-4048 - LOW -  lapack: Out-of-bounds read in *larrv
+CVE-2017-18201 - LOW -  libcdio: Double free in get_cdtext_generic() in lib/driver/_cdio_generic.c
+CVE-2017-8871 - LOW -  libcroco: Infinite loop in the cr_parser_parse_selector_core function
+CVE-2017-8834 - LOW -  libcroco: Memory allocation failure in the cr_tknzr_parse_comment function
+CVE-2017-7960 - LOW -  libcroco: Out-of-bounds read due to missing index check in cr-input.c
+CVE-2020-12825 - LOW -  libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c
+CVE-2020-17541 - LOW -  libjpeg-turbo: Stack-based buffer overflow in the "transform" component
+CVE-2018-11813 - LOW -  libjpeg: "cjpeg" utility large loop because read_pixel in rdtarga.c mishandles EOF
+CVE-2018-14048 - LOW -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2019-20446 - LOW -  librsvg: Resource exhaustion via crafted SVG file with nested patterns
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2022-0561 - LOW -  libtiff: Denial of Service via crafted TIFF file
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2018-10126 - LOW -  libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c
+CVE-2022-0562 - LOW -  libtiff: Null source pointer lead to Denial of Service via crafted TIFF file
+CVE-2020-19131 - LOW -  libtiff: a buffer overflow via the "invertImage()" may lead to DoS
+CVE-2020-19144 - LOW -  libtiff: heap-based buffer overflow in _TIFFmemcpy() in tif_unix.c
+CVE-2017-9937 - LOW -  libtiff: memory malloc failure in tif_jbig.c could cause DOS.
+CVE-2022-22844 - LOW -  libtiff: out-of-bounds read in _TIFFmemcpy() in tif_unix.c
+CVE-2017-14160 - LOW -  libvorbis: Out-of-bounds read in the bark_noise_hybridmp function
+CVE-2018-10392 - LOW -  libvorbis: heap buffer overflow in mapping0_forward function
+CVE-2018-10393 - LOW -  libvorbis: stack buffer overflow in bark_noise_hybridmp function
+CVE-2017-14107 - LOW -  libzip: Memory allocation failure in _zip_cdir_grow function
+CVE-2019-17594 - LOW -  ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c
+CVE-2019-17595 - LOW -  ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c
+CVE-2017-11697 - LOW -  nss: Floating Point Exception in __hash_open
+CVE-2017-11698 - LOW -  nss: Heap-buffer-overflow in __get_page
+CVE-2017-11696 - LOW -  nss: Heap-buffer-overflow in __hash_open
+CVE-2017-11695 - LOW -  nss: Heap-buffer-overflow in alloc_segs
+CVE-2020-25648 - LOW -  nss: TLS 1.3 CCS flood remote DoS Attack
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2019-6988 - LOW -  openjpeg: DoS via memory exhaustion in opj_decompress
+CVE-2019-12973 - LOW -  openjpeg: denial of service in function opj_t1_encode_cblks in openjp2/t1.c
+CVE-2020-27841 - LOW -  openjpeg: heap-based buffer overflows in lib/openjp2/pi.c
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2018-5727 - LOW -  openjpeg: integer overflow in opj_t1_encode_cblks in src/lib/openjp2/t1.c
+CVE-2021-29338 - LOW -  openjpeg: out-of-bounds write due to an integer overflow in opj_compress.c
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2020-14155 - LOW -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2019-10871 - LOW -  poppler: heap-based buffer over-read in function PSOutputDev::checkPageSlice in PSOutputDev.cc
+CVE-2019-9543 - LOW -  poppler: recursive function call in JBIG2Stream::readGenericBitmap() in JBIG2Stream.cc causing denial of service
+CVE-2019-9545 - LOW -  poppler: recursive function call in JBIG2Stream::readTextRegion() in JBIG2Stream.cc causing denial of service
+CVE-2015-5237 - LOW -  protobuf: integer overflow in serialization
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2015-9541 - LOW -  qt: XML entity expansion vulnerability
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2021-44269 - LOW -  wavpack: heap Out-of-bounds Read
+CVE-2018-7727 - LOW -  zziplib: Memory leak in memdisk.c:zzip_mem_disk_new() can lead to denial of service via crafted zip
+CVE-2018-16548 - LOW -  zziplib: Memory leak triggered in the function __zzip_parse_root_directory in zip.c
+CVE-2018-17828 - LOW -  zziplib: directory traversal in unzzip_cat in the bins/unzzipcat-mem.c
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2019-9513 - MEDIUM -  HTTP/2: flood using PRIORITY frames results in excessive resource consumption
+CVE-2019-9511 - MEDIUM -  HTTP/2: large amount of data requests leads to denial of service
+CVE-2020-14410 - MEDIUM -  SDL2: Heap-based buffer over-read in Blit_3or4_to_3or4__inversed_rgb in video/SDL_blit_N.c via a crafted .BMP file
+CVE-2020-14409 - MEDIUM -  SDL2: Integer overflow in SDL_BlitCopy in video/SDL_blit_copy.c via a crafted .BMP file
+CVE-2019-13626 - MEDIUM -  SDL: integer overflow in IMA_ADPCM_decode() in audio/SDL_wave.c leads to heap-based buffer over-read in Fill_IMA_ADPCM_block
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-44648 - MEDIUM -  gdk-pixbuf: heap-buffer overflow when decoding the lzw compressed stream of image data
+CVE-2017-17508 - MEDIUM -  hdf5: Divide-by-zero in the H5T_set_loc function
+CVE-2018-17234 - MEDIUM -  hdf5: Memory leak in the H5O__chunk_deserialize() function in H5Ocache.c
+CVE-2018-11204 - MEDIUM -  hdf5: NULL pointer dereference in H5O__chunk_deserialize in H5Ocache.c
+CVE-2018-17432 - MEDIUM -  hdf5: NULL pointer dereference in H5O_sdspace_encode() in H5Osdspace.c
+CVE-2017-17505 - MEDIUM -  hdf5: NULL pointer dereference in the H5O_pline_decode function
+CVE-2019-8397 - MEDIUM -  hdf5: Out-of-Bounds Read in function H5T_close_real in H5T.c
+CVE-2017-17506 - MEDIUM -  hdf5: Out-of-bounds read in the H5Opline_pline_decode function
+CVE-2017-17507 - MEDIUM -  hdf5: Out-of-bounds read in the H5T_conv_struct_opt function
+CVE-2017-17509 - MEDIUM -  hdf5: Out-of-bounds write in the H5G__ent_decode_vec function
+CVE-2018-17233 - MEDIUM -  hdf5: SIGFPE signal in H5D__create_chunk_file_map_hyper() of H5Dchunk.c
+CVE-2018-17434 - MEDIUM -  hdf5: SIGFPE signal in apply_filters() in h5repack_filters.c
+CVE-2018-17438 - MEDIUM -  hdf5: SIGFPE signal in function H5D__select_io() of H5Dselect.c
+CVE-2018-11203 - MEDIUM -  hdf5: division by zero in H5D__btree_decode_key in H5Dbtree.c
+CVE-2018-11207 - MEDIUM -  hdf5: division by zero in H5D__chunk_init in H5Dchunk.c
+CVE-2018-17433 - MEDIUM -  hdf5: heap-based buffer overflow in ReadGifImageDesc() in gifread.c
+CVE-2018-17437 - MEDIUM -  hdf5: memory leak in H5O_dtype_decode_helper() in H5Odtype.c
+CVE-2018-11206 - MEDIUM -  hdf5: out of bounds read in H5O_fill_new_decode and H5O_fill_old_decode in H5Ofill.c
+CVE-2019-9152 - MEDIUM -  hdf5: out of bounds read in function H5MM_xstrdup in H5MM.c
+CVE-2019-9151 - MEDIUM -  hdf5: out of bounds read in function H5VM_memcpyvv in H5VM.c
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2018-20217 - MEDIUM -  krb5: Reachable assertion in the KDC using S4U2Self requests
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-0891 - MEDIUM -  libtiff: heap buffer overflow in extractImageSection
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-0865 - MEDIUM -  libtiff: reachable assertion
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2020-9794 - MEDIUM -  null
+CVE-2021-46322 - MEDIUM -  null
+CVE-2018-21010 - MEDIUM -  openjpeg: heap buffer overflow in color_apply_icc_profile in bin/common/color.c
+CVE-2020-27845 - MEDIUM -  openjpeg: heap-based buffer overflow in functions opj_pi_next_rlcp, opj_pi_next_rpcl and opj_pi_next_lrcp in openjp2/pi.c
+CVE-2020-8112 - MEDIUM -  openjpeg: heap-based buffer overflow in pj_t1_clbl_decode_processor in openjp2/t1.c
+CVE-2020-27814 - MEDIUM -  openjpeg: heap-buffer-overflow in lib/openjp2/mqc.c could result in DoS
+CVE-2022-29155 - MEDIUM -  openldap: OpenLDAP SQL injection
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2017-12627 - MEDIUM -  xerces-c: Null pointer dereference while processing the path to DTD allows denial of service
+CVE-2018-1311 - MEDIUM -  xerces-c: XML parser contains a use-after-free error triggered during the scanning of external DTDs
+CVE-2012-0880 - MEDIUM -  xml: xerces-c hash table collisions CPU usage DoS (oCERT-2011-003)
+CVE-2021-20235 - MEDIUM -  zeromq: Heap overflow when receiving malformed ZMTP v1 packets
+CVE-2021-20236 - MEDIUM -  zeromq: Stack overflow on server running PUB/XPUB socket
+CVE-2020-15166 - MEDIUM -  zeromq: unauthenticated clients causing denial-of-service

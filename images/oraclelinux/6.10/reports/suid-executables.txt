@@ -1,0 +1,17 @@
+/usr/libexec/openssh/ssh-keysign
+/usr/libexec/pt_chown
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/sbin/usernetctl
+/usr/sbin/userhelper
+/bin/su
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount
+/sbin/pam_timestamp_check
+/sbin/unix_chkpwd

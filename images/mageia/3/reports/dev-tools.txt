@@ -1,0 +1,15 @@
+/usr/lib/rpm/fileattrs/perllib.attr
+/usr/lib/rpm/fileattrs/perl.attr
+/usr/lib/perl5
+/usr/lib/perl5/5.16.3/pod/perldiag.pod
+/usr/lib/perl5/5.16.3/perlfaq.pm
+/usr/lib/perl5/5.16.3/x86_64-linux-thread-multi/CORE/perl.h
+/usr/lib/perl5/5.16.3/perl5db.pl
+/usr/bin/perlbug
+/usr/bin/perl5.16.3
+/usr/bin/perl5
+/usr/bin/perl
+/usr/bin/perlthanks
+/usr/lib/rpm/fileattrs/python.attr
+/usr/lib/gcc-lib
+/usr/lib64/gcc-lib

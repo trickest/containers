@@ -1,0 +1,68 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2020-13112 - CRITICAL -  libexif: several buffer over-reads in EXIF MakerNote handling can lead to information disclosure and DoS
+CVE-2019-18224 - CRITICAL -  libidn2: heap-based buffer overflow in idn2_to_ascii_4i in lib/lookup.c
+CVE-2018-25011 - CRITICAL -  libwebp: heap-based buffer overflow in PutLE16()
+CVE-2018-25013 - CRITICAL -  libwebp: out-of-bounds read in ShiftBytes()
+CVE-2018-25009 - CRITICAL -  libwebp: out-of-bounds read in WebPMuxCreateInternal
+CVE-2018-25012 - CRITICAL -  libwebp: out-of-bounds read in WebPMuxCreateInternal()
+CVE-2018-25014 - CRITICAL -  libwebp: use of uninitialized value in ReadSymbol()
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2020-35492 - HIGH -  cairo: libreoffice slideshow aborts with stack smashing in cairo's composite_boxes
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2020-23922 - HIGH -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - HIGH -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2021-27218 - HIGH -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2019-9278 - HIGH -  libexif: out of bounds write in exif-data.c
+CVE-2020-13114 - HIGH -  libexif: unrestricted size in handling Canon EXIF MakerNote data can lead to consumption of large amounts of compute time
+CVE-2020-13113 - HIGH -  libexif: use of uninitialized memory in EXIF Makernote handling can lead to crashes and use-after-free
+CVE-2020-13790 - HIGH -  libjpeg-turbo: heap-based buffer over-read in get_rgb_row() in rdppm.c
+CVE-2020-35524 - HIGH -  libtiff: Heap-based buffer overflow in TIFF2PDF tool
+CVE-2020-35523 - HIGH -  libtiff: Integer overflow in tif_getimage.c
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2018-19931 - LOW -  binutils: Heap-based buffer overflow in bfd_elf32_swap_phdr_in function resulting in a denial of service
+CVE-2019-1010204 - LOW -  binutils: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read in gold/fileread.cc and elfcpp/elfcpp_file.h leads to denial of service
+CVE-2018-19932 - LOW -  binutils: Integer overflow due to the IS_CONTAINED_BY_LMA macro resulting in a denial of service
+CVE-2020-35507 - LOW -  binutils: NULL pointer dereference in bfd_pef_parse_function_stubs function in bfd/pef.c
+CVE-2020-35495 - LOW -  binutils: NULL pointer dereference in bfd_pef_parse_symbols function in bfd/pef.c
+CVE-2020-35496 - LOW -  binutils: NULL pointer dereference in bfd_pef_scan_start_address function in bfd/pef.c
+CVE-2019-9073 - LOW -  binutils: excessive memory allocation in function _bfd_elf_slurp_version_tables in elf.c
+CVE-2021-3549 - LOW -  binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter
+CVE-2020-35493 - LOW -  binutils: heap-based buffer overflow in bfd_pef_parse_function_stubs function in bfd/pef.c via crafted PEF file
+CVE-2019-9075 - LOW -  binutils: heap-based buffer overflow in function _bfd_archive_64_bit_slurp_armap in archive64.c
+CVE-2019-9077 - LOW -  binutils: heap-based buffer overflow in function process_mips_specific in readelf.c
+CVE-2019-9074 - LOW -  binutils: out-of-bound read in function bfd_getl32 in libbfd.c
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2020-35494 - LOW -  binutils: usage of unitialized heap in tic4x_print_cond function in opcodes/tic4x-dis.c
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2020-0182 - LOW -  libexif: out of bounds read due to a missing bounds check in exif_entry_get_value function in exif-entry.c
+CVE-2018-1152 - LOW -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2019-2201 - LOW -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2020-35521 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2019-15133 - MEDIUM -  giflib: divide-by-zero exception in the decoder function DGifSlurp in dgif_lib.c
+CVE-2020-12767 - MEDIUM -  libexif: divide-by-zero in exif_entry_get_value function in exif-entry.c
+CVE-2020-0093 - MEDIUM -  libexif: out of bounds read due to a missing bounds check in exif_data_save_data_entry function in exif-data.c
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+DSA-5085-2 - UNKNOWN -  expat - regression update

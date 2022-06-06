@@ -1,0 +1,1 @@
+GMS-2022-176 - UNKNOWN -  Improper random number generation in github.com/coredns/coredns

@@ -1,0 +1,11 @@
+backup
+bin
+config
+databases
+history.txt
+lib
+license.txt
+log
+plugins
+readme.txt
+www

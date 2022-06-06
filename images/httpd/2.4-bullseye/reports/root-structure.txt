@@ -1,0 +1,10 @@
+bin
+build
+cgi-bin
+conf
+error
+htdocs
+icons
+include
+logs
+modules

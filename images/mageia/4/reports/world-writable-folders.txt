@@ -1,0 +1,12 @@
+/tmp
+/tmp/.ICE-unix
+/tmp/.Test-unix
+/tmp/.X11-unix
+/tmp/.XIM-unix
+/tmp/.font-unix
+/dev/shm
+/dev/mqueue
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi

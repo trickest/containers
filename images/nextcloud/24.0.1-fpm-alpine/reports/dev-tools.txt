@@ -1,0 +1,6 @@
+/usr/src/nextcloud/apps/text/js/highlight/perl.js
+/usr/src/nextcloud/apps/text/js/highlight/perl.js.map
+/usr/src/nextcloud/apps/text/js/highlight/python-repl.js.map
+/usr/src/nextcloud/apps/text/js/highlight/python.js.map
+/usr/src/nextcloud/apps/text/js/highlight/python-repl.js
+/usr/src/nextcloud/apps/text/js/highlight/python.js

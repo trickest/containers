@@ -1,0 +1,7 @@
+3.4.0
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.4.0
+PRETTY_NAME="Alpine Linux v3.4"
+HOME_URL="http://alpinelinux.org"
+BUG_REPORT_URL="http://bugs.alpinelinux.org"

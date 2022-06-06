@@ -1,0 +1,31 @@
+CVE-2020-8625 - HIGH -  bind: Buffer overflow in the SPNEGO implementation affecting GSSAPI security policy negotiation
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2018-14621 - HIGH -  libtirpc: Infinite loop in EMFILE case in svc_vc.c
+CVE-2019-2708 - LOW -  libdb: Denial of service in the Data Store component
+CVE-2021-25214 - MEDIUM -  bind: Broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+CVE-2021-25219 - MEDIUM -  bind: Lame cache can be abused to severely degrade resolver performance
+CVE-2020-8619 - MEDIUM -  bind: asterisk character in an empty non-terminal can cause an assertion failure in rbtdb.c
+CVE-2020-8624 - MEDIUM -  bind: incorrect enforcement of update-policy rules of type "subdomain"
+CVE-2020-8623 - MEDIUM -  bind: remotely triggerable assertion failure in pk11.c
+CVE-2020-14382 - MEDIUM -  cryptsetup: Out-of-bounds write when validating segments
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2021-3800 - MEDIUM -  glib2: Possible privilege escalation thourgh pkexec and aliases
+CVE-2021-27218 - MEDIUM -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-23177 - MEDIUM -  libarchive: extracting a symlink with ACLs modifies ACLs of target
+CVE-2019-19221 - MEDIUM -  libarchive: out-of-bounds read in archive_wstring_append_from_mbs in archive_string.c
+CVE-2021-3445 - MEDIUM -  libdnf: Signature verification bypass via signature placed in the main RPM header
+CVE-2021-33929 - MEDIUM -  libsolv: heap-based buffer overflow in pool_disabled_solvable() in src/repo.h
+CVE-2021-33928 - MEDIUM -  libsolv: heap-based buffer overflow in pool_installable() in src/repo.h
+CVE-2021-33930 - MEDIUM -  libsolv: heap-based buffer overflow in pool_installable_whatprovides() in src/repo.h
+CVE-2021-33938 - MEDIUM -  libsolv: heap-based buffer overflow in prune_to_recommended() in src/policy.c
+CVE-2019-20387 - MEDIUM -  libsolv: out-of-bounds read in repodata_schema2id in repodata.c
+CVE-2020-1730 - MEDIUM -  libssh: denial of service when handling AES-CTR (or DES) ciphers
+CVE-2022-23308 - MEDIUM -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2019-20454 - MEDIUM -  pcre: Out of bounds read in JIT mode when \X is used in non-UTF mode
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-3521 - MEDIUM -  rpm: RPM does not require subkeys to have a valid binding signature
+CVE-2020-6405 - MEDIUM -  sqlite: Out-of-bounds read in SELECT with ON/USING clause
+CVE-2019-13750 - MEDIUM -  sqlite: dropping of shadow tables not restricted in defensive mode
+CVE-2019-13751 - MEDIUM -  sqlite: fts3: improve detection of corrupted records
+CVE-2019-20807 - MEDIUM -  vim: users can execute arbitrary OS commands via scripting interfaces in the rvim restricted mode
+CVE-2020-13584 - MEDIUM -  webkitgtk: use-after-free may lead to arbitrary code execution

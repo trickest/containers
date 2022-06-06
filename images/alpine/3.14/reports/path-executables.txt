@@ -1,0 +1,10 @@
+/usr/bin/ldd
+/usr/bin/scanelf
+/usr/bin/getent
+/usr/bin/iconv
+/usr/bin/getconf
+/usr/bin/ssl_client
+/sbin/apk
+/sbin/ldconfig
+/sbin/mkmntdirs
+/bin/busybox

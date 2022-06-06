@@ -1,0 +1,17 @@
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/bin/sg
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/sudo
+/usr/bin/newgidmap
+/usr/bin/gpasswd
+/usr/bin/unix_chkpwd
+/usr/bin/expiry
+/usr/bin/ksu
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/newuidmap

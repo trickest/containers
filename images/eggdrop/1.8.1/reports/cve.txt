@@ -1,0 +1,22 @@
+CVE-2017-10685 - CRITICAL -  ncurses: Stack-based buffer overflow caused by format string vulnerability in fmt_entry function
+CVE-2017-10684 - CRITICAL -  ncurses: Stack-based buffer overflow in fmt_entry function in dump_entry.c
+CVE-2017-11112 - HIGH -  ncurses: Illegal address access in append_acs function
+CVE-2017-13728 - HIGH -  ncurses: Infinite loop in the next_char function
+CVE-2017-11113 - HIGH -  ncurses: Null pointer dereference vulnerability in _nc_parse_entry function
+CVE-2017-16879 - HIGH -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2017-13729 - MEDIUM -  ncurses: Illegal address access in the _nc_save_str function
+CVE-2017-13730 - MEDIUM -  ncurses: Illegal address access in the function _nc_read_entry_source()
+CVE-2017-13734 - MEDIUM -  ncurses: Illegal address access in the function _nc_safe_strcat
+CVE-2017-13732 - MEDIUM -  ncurses: Illegal address access in the function dump_uses()
+CVE-2017-13733 - MEDIUM -  ncurses: Illegal address access in the function fmt_entry
+CVE-2017-13731 - MEDIUM -  ncurses: Illegal address access in the function postprocess_termcap()
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2018-0733 - MEDIUM -  openssl: Implementation bug in PA-RISC CRYPTO_memcmp function allows attackers to forge authenticated messages in a reduced number of attempts
+CVE-2017-3735 - MEDIUM -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0737 - MEDIUM -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2017-3737 - MEDIUM -  openssl: Read/write after SSL object in error state
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2017-3736 - MEDIUM -  openssl: bn_sqrx8x_internal carry bug on x86_64
+CVE-2017-3738 - MEDIUM -  openssl: rsaz_1024_mul_avx2 overflow bug on x86_64
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm

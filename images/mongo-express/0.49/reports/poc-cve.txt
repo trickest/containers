@@ -1,0 +1,50 @@
+CVE-2020-7699 - CRITICAL -  Prototype Pollution in express-fileupload
+CVE-2021-44906 - CRITICAL -  minimist: prototype pollution
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-3711 - CRITICAL -  openssl: SM2 Decryption Buffer Overflow
+CVE-2019-10758 - HIGH -  Remote Code Execution Vulnerability in NPM mongo-express
+CVE-2021-28831 - HIGH -  busybox: invalid free or segmentation fault via malformed gzip data
+CVE-2021-42380 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+CVE-2021-42383 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42385 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42378 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+CVE-2021-42382 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+CVE-2021-42384 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+CVE-2021-42381 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+CVE-2021-42379 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+CVE-2021-42386 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+CVE-2019-15847 - HIGH -  gcc: POWER9 "DARN" RNG intrinsic produces repeated output
+CVE-2021-3807 - HIGH -  nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes
+CVE-2020-8116 - HIGH -  nodejs-dot-prop: prototype pollution
+CVE-2020-7788 - HIGH -  nodejs-ini: Prototype pollution via malicious INI file
+CVE-2021-23337 - HIGH -  nodejs-lodash: command injection via template
+CVE-2020-8203 - HIGH -  nodejs-lodash: prototype pollution in zipObjectDeep function
+CVE-2020-7754 - HIGH -  nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS
+CVE-2021-27290 - HIGH -  nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode
+CVE-2021-37713 - HIGH -  nodejs-tar: Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization
+CVE-2021-32804 - HIGH -  nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite
+CVE-2021-32803 - HIGH -  nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite
+CVE-2021-37701 - HIGH -  nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite
+CVE-2021-37712 - HIGH -  nodejs-tar: Insufficient symlink protection due to directory cache poisoning using symbolic links allowing arbitrary file creation and overwrite
+CVE-2020-7774 - HIGH -  nodejs-y18n: prototype pollution vulnerability
+CVE-2019-10773 - HIGH -  nodejs-yarn: Install functionality can be abused to generate arbitrary symlinks
+CVE-2021-30139 - HIGH -  null
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2021-3712 - HIGH -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2020-1967 - HIGH -  openssl: Segmentation fault in SSL_check_chain causes denial of service
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-15095 - LOW -  npm: sensitive information exposure through logs
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2021-23372 - MEDIUM -  Denial of Service (DoS) in mongo-express
+CVE-2021-42374 - MEDIUM -  busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
+CVE-2020-15366 - MEDIUM -  nodejs-ajv: prototype pollution via crafted JSON schema in ajv.validate function
+CVE-2021-23362 - MEDIUM -  nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl()
+CVE-2021-3918 - MEDIUM -  nodejs-json-schema: Prototype pollution vulnerability
+CVE-2020-28500 - MEDIUM -  nodejs-lodash: ReDoS via the toNumber, trim and trimEnd functions
+CVE-2020-7598 - MEDIUM -  nodejs-minimist: prototype pollution allows adding or modifying properties of Object.prototype using a constructor or __proto__ payload
+CVE-2021-23343 - MEDIUM -  nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe
+CVE-2020-7608 - MEDIUM -  nodejs-yargs-parser: prototype pollution vulnerability
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2019-1551 - MEDIUM -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing

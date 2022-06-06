@@ -1,0 +1,53 @@
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-27376 - HIGH -  mariadb: assertion failure in Item_args::walk_arg
+CVE-2022-27382 - HIGH -  mariadb: assertion failure via component Item_field::used_tables/update_depend_map_for_order
+CVE-2022-27387 - HIGH -  mariadb: assertion failures in decimal_bin_size
+CVE-2022-27385 - HIGH -  mariadb: crash in Used_tables_and_const_cache::used_tables_and_const_cache_join
+CVE-2022-27384 - HIGH -  mariadb: crash via component Item_subselect::init_expr_cache_tracker
+CVE-2022-27381 - HIGH -  mariadb: server crash at Field::set_default via specially crafted SQL statements
+CVE-2022-27380 - HIGH -  mariadb: server crash at my_decimal::operator=
+CVE-2022-27379 - HIGH -  mariadb: server crash in component arg_comparator::compare_real_fixed
+CVE-2022-27378 - HIGH -  mariadb: server crash in create_tmp_table::finalize
+CVE-2022-27386 - HIGH -  mariadb: server crashes in query_arena::set_query_arena upon SELECT from view
+CVE-2022-27383 - HIGH -  mariadb: use-after-poison in my_strcasecmp_8bit() of ctype-simple.c
+CVE-2022-27377 - HIGH -  mariadb: use-after-poison when complex conversion is involved in blob
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-1552 - HIGH -  postgresql: Autovacuum, REINDEX, and others omit "security restricted operation" sandbox
+CVE-2021-32027 - HIGH -  postgresql: Buffer overrun from integer overflow in array subscripting calculations
+CVE-2020-25694 - HIGH -  postgresql: Reconnection can downgrade connection security settings
+CVE-2020-25696 - HIGH -  postgresql: psql's \gset allows overwriting specially treated variables
+CVE-2021-23214 - HIGH -  postgresql: server processes unencrypted bytes from man-in-the-middle
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2017-15088 - LOW -  krb5: Buffer overflow in get_matching_data()
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2004-0971 - LOW -  security flaw
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2021-23177 - MEDIUM -  libarchive: extracting a symlink with ACLs modifies ACLs of target
+CVE-2019-19221 - MEDIUM -  libarchive: out-of-bounds read in archive_wstring_append_from_mbs in archive_string.c
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2020-14765 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Oct 2020)
+CVE-2021-23222 - MEDIUM -  postgresql: libpq processes unencrypted bytes from man-in-the-middle
+CVE-2020-25713 - MEDIUM -  raptor2: malformed input file can lead to a segfault due to an out of bounds array access in raptor_xml_writer_start_element_common
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+DLA-2593-1 - UNKNOWN -  ca-certificates - whitelist Symantec CA
+DLA-2948-1 - UNKNOWN -  debian-archive-keyring - security update
+DLA-2759-1 - UNKNOWN -  gnutls28 - security update
+DLA-2751-1 - UNKNOWN -  postgresql-9.6 - security update
+DLA-2963-1 - UNKNOWN -  tzdata - new timezone database
+DLA-2509-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2542-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2797-1 - UNKNOWN -  tzdata - new upstream version

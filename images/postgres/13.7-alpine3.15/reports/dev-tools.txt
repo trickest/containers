@@ -1,0 +1,1 @@
+/usr/local/lib/postgresql/pgxs/src/test/perl

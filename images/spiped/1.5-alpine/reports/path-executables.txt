@@ -1,0 +1,2 @@
+/usr/local/bin/spiped-generate-key.sh
+/usr/local/bin/docker-entrypoint.sh

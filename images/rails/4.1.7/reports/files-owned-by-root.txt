@@ -1,0 +1,13 @@
+/usr/lib/pt_chown
+/usr/lib/openssh/ssh-keysign
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/bin/su
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount

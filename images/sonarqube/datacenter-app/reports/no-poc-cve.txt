@@ -1,0 +1,6 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java

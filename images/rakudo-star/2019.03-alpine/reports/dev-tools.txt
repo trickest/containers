@@ -1,0 +1,12 @@
+/usr/share/perl6
+/usr/share/perl6/runtime/perl6-debug.moarvm
+/usr/share/perl6/runtime/perl6.moarvm
+/usr/bin/perl6-debug-m
+/usr/bin/perl6-m
+/usr/bin/perl6-lldb-m
+/usr/bin/perl6-valgrind-m
+/usr/bin/perl6-gdb-m
+/usr/bin/perl6
+/home/perl6
+/usr/include/moar/gcc_diag.h
+/usr/include/libatomic_ops/atomic_ops/sysdeps/gcc

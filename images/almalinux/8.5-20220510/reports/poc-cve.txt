@@ -1,0 +1,1 @@
+CVE-2021-3737 - MEDIUM -  python: urllib: HTTP client possible infinite loop on a 100 Continue response

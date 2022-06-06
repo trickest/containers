@@ -1,0 +1,112 @@
+CVE-2019-12900 - CRITICAL -  bzip2: out-of-bounds write in function BZ2_decompress
+CVE-2017-7657 - CRITICAL -  jetty: HTTP request smuggling
+CVE-2017-7658 - CRITICAL -  jetty: Incorrect header handling
+CVE-2022-23305 - CRITICAL -  log4j: SQL injection in Log4j 1.x when application is configured to use JDBCAppender
+CVE-2019-17571 - CRITICAL -  log4j: deserialization of untrusted data in SocketServer
+CVE-2019-20444 - CRITICAL -  netty: HTTP request smuggling
+CVE-2019-20445 - CRITICAL -  netty: HttpObjectDecoder.java allows Content-Length header to accompanied by second Content-Length header
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2020-14583 - HIGH -  OpenJDK: Bypass of boundary checks in nio.Buffer via concurrent access (Libraries, 8238920)
+CVE-2020-14593 - HIGH -  OpenJDK: Incomplete bounds checks in Affine Transformations (2D, 8240119)
+CVE-2020-2803 - HIGH -  OpenJDK: Incorrect bounds checks in NIO Buffers (Libraries, 8234841)
+CVE-2020-2805 - HIGH -  OpenJDK: Incorrect type checks in MethodType.readObject() (Libraries, 8235274)
+CVE-2020-2604 - HIGH -  OpenJDK: Serialization filter changes via jdk.serialFilter property modification (Serialization, 8231422)
+CVE-2019-10172 - HIGH -  jackson-mapper-asl: XML external entity similar to CVE-2016-3720
+CVE-2017-7656 - HIGH -  jetty: HTTP request smuggling using the range header
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2017-9735 - HIGH -  jetty: Timing channel attack in util/security/Password.java
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2020-28196 - HIGH -  krb5: unbounded recursion via an ASN.1-encoded Kerberos message in lib/krb5/asn.1/asn1_encode.c may lead to DoS
+CVE-2020-14363 - HIGH -  libX11: integer overflow leads to double free in locale handling
+CVE-2019-2201 - HIGH -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2022-23302 - HIGH -  log4j: Remote code execution in Log4j 1.x when application is configured to use JMSSink
+CVE-2022-23307 - HIGH -  log4j: Unsafe deserialization flaw in Chainsaw log viewer
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2019-16869 - HIGH -  netty: HTTP request smuggling by mishandled whitespace before the colon in HTTP headers
+CVE-2015-2156 - HIGH -  netty: HttpOnly cookie bypass
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2020-1967 - HIGH -  openssl: Segmentation fault in SSL_check_chain causes denial of service
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2019-5018 - HIGH -  sqlite: Use-after-free in window function leading to remote code execution
+CVE-2019-19244 - HIGH -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2020-11655 - HIGH -  sqlite: malformed window-function query leads to DoS
+CVE-2020-14782 - LOW -  OpenJDK: Certificate blacklist bypass via alternate certificate encodings (Libraries, 8237995)
+CVE-2020-14781 - LOW -  OpenJDK: Credentials sent over unencrypted LDAP connection (JNDI, 8237990)
+CVE-2019-2992 - LOW -  OpenJDK: Excessive memory allocation in CMap when reading TrueType font (2D, 8225597)
+CVE-2020-2654 - LOW -  OpenJDK: Excessive memory usage in OID processing in X.509 certificate parsing (Libraries, 8234037)
+CVE-2019-2933 - LOW -  OpenJDK: FilePermission checks not preformed correctly on Windows (Libraries, 8213429)
+CVE-2020-14779 - LOW -  OpenJDK: High memory usage during deserialization of Proxy class with many interfaces (Serialization, 8236862)
+CVE-2020-14577 - LOW -  OpenJDK: HostnameChecker does not ensure X.509 certificate names are in normalized form (JSSE, 8237592)
+CVE-2020-2590 - LOW -  OpenJDK: Improper checks of SASL message properties in GssKrb5Base (Security, 8226352)
+CVE-2020-14797 - LOW -  OpenJDK: Incomplete check for invalid characters in URI to path conversion (Libraries, 8242685)
+CVE-2020-2659 - LOW -  OpenJDK: Incomplete enforcement of maxDatagramSockets limit in DatagramChannelImpl (Networking, 8231795)
+CVE-2020-2583 - LOW -  OpenJDK: Incorrect exception processing during deserialization in BeanContextSupport (Serialization, 8224909)
+CVE-2020-2755 - LOW -  OpenJDK: Incorrect handling of empty string nodes in regular expression Parser (Scripting, 8223904)
+CVE-2019-2978 - LOW -  OpenJDK: Incorrect handling of nested jar: URLs in Jar URL handler (Networking, 8223892)
+CVE-2020-2756 - LOW -  OpenJDK: Incorrect handling of references to uninitialized class descriptors during deserialization (Serialization, 8224541)
+CVE-2020-14581 - LOW -  OpenJDK: Information disclosure in color management (2D, 8238002)
+CVE-2019-2766 - LOW -  OpenJDK: Insufficient permission checks for file:// URLs on Windows (Networking, 8213431)
+CVE-2019-2786 - LOW -  OpenJDK: Insufficient restriction of privileges in AccessController (Security, 8216381)
+CVE-2019-2988 - LOW -  OpenJDK: Integer overflow in bounds check in SunGraphics2D (2D, 8225292)
+CVE-2020-2754 - LOW -  OpenJDK: Misplaced regular expression syntax error check in RegExpScanner (Scripting, 8223898)
+CVE-2019-2842 - LOW -  OpenJDK: Missing array bounds check in crypto providers (JCE, 8223511)
+CVE-2019-2987 - LOW -  OpenJDK: Missing glyph bitmap image dimension check in FreetypeFontScaler (2D, 8225286)
+CVE-2020-14798 - LOW -  OpenJDK: Missing maximum length check in WindowsNativeDispatcher.asNativeBuffer() (Libraries, 8242695)
+CVE-2020-14796 - LOW -  OpenJDK: Missing permission check in path to URI conversion (Libraries, 8242680)
+CVE-2019-2945 - LOW -  OpenJDK: Missing restrictions on use of custom SocketImpl (Networking, 8218573)
+CVE-2019-2962 - LOW -  OpenJDK: NULL pointer dereference in DrawGlyphList (2D, 8222690)
+CVE-2019-2894 - LOW -  OpenJDK: Side-channel vulnerability in the ECDSA implementation (Security, 8228825)
+CVE-2020-2757 - LOW -  OpenJDK: Uncaught InstantiationError exception in ObjectStreamClass (Serialization, 8224549)
+CVE-2020-14578 - LOW -  OpenJDK: Unexpected exception raised by DerInputStream (Libraries, 8237731)
+CVE-2020-14579 - LOW -  OpenJDK: Unexpected exception raised by DerValue.equals() (Libraries, 8237736)
+CVE-2019-2964 - LOW -  OpenJDK: Unexpected exception thrown by Pattern processing crafted regular expression (Concurrency, 8222684)
+CVE-2019-2981 - LOW -  OpenJDK: Unexpected exception thrown by XPath processing crafted XPath expression (JAXP, 8224532)
+CVE-2019-2973 - LOW -  OpenJDK: Unexpected exception thrown by XPathParser processing crafted XPath expression (JAXP, 8223505)
+CVE-2019-2983 - LOW -  OpenJDK: Unexpected exception thrown during Font object deserialization (Serialization, 8224915)
+CVE-2020-2773 - LOW -  OpenJDK: Unexpected exceptions raised by DOMKeyInfoFactory and DOMXMLSignatureFactory (Security, 8231415)
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2020-9488 - LOW -  log4j: improper validation of certificate with host mismatch in SMTP appender
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2019-1563 - LOW -  openssl: information disclosure in PKCS7_dataDecode and CMS_decrypt_set1_pkey
+CVE-2020-2800 - MEDIUM -  OpenJDK: CRLF injection into HTTP headers in HttpServer (Lightweight HTTP Server, 8234825)
+CVE-2019-2949 - MEDIUM -  OpenJDK: Improper handling of Kerberos proxy credentials (Kerberos, 8220302)
+CVE-2019-2958 - MEDIUM -  OpenJDK: Incorrect escaping of command line arguments in ProcessImpl on Windows (Libraries, 8221858)
+CVE-2019-2989 - MEDIUM -  OpenJDK: Incorrect handling of HTTP proxy responses in HttpURLConnection (Networking, 8225298)
+CVE-2020-14556 - MEDIUM -  OpenJDK: Incorrect handling of access control context in ForkJoinPool (Libraries, 8237117)
+CVE-2020-2593 - MEDIUM -  OpenJDK: Incorrect isBuiltinStreamHandler check causing URL normalization issues (Networking, 8228548)
+CVE-2019-2762 - MEDIUM -  OpenJDK: Insufficient checks of suppressed exceptions in deserialization (Utilities, 8212328)
+CVE-2019-2999 - MEDIUM -  OpenJDK: Insufficient filtering of HTML event attributes in Javadoc (Javadoc, 8226765)
+CVE-2020-14792 - MEDIUM -  OpenJDK: Integer overflow leading to out-of-bounds access (Hotspot, 8241114)
+CVE-2019-2816 - MEDIUM -  OpenJDK: Missing URL format validation (Networking, 8221518)
+CVE-2020-14803 - MEDIUM -  OpenJDK: Race condition in NIO Buffer boundary checks (Libraries, 8244136)
+CVE-2020-2781 - MEDIUM -  OpenJDK: Re-use of single TLS session for new connections (JSSE, 8234408)
+CVE-2020-2830 - MEDIUM -  OpenJDK: Regular expression DoS in Scanner (Concurrency, 8236201)
+CVE-2019-2745 - MEDIUM -  OpenJDK: Side-channel attack risks in Elliptic Curve (EC) cryptography (Security, 8208698)
+CVE-2019-2769 - MEDIUM -  OpenJDK: Unbounded memory allocation during deserialization in Collections (Utilities, 8213432)
+CVE-2019-2975 - MEDIUM -  OpenJDK: Unexpected exception thrown during regular expression processing in Nashorn (Scripting, 8223518)
+CVE-2020-2601 - MEDIUM -  OpenJDK: Use of unsafe RSA-MD5 checksum in Kerberos TGS (Security, 8229951)
+CVE-2020-14621 - MEDIUM -  OpenJDK: XML validation manipulation due to incomplete application of the use-grammar-pool-only feature (JAXP, 8242136)
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-5188 - MEDIUM -  e2fsprogs: Out-of-bounds write in e2fsck/rehash.c
+CVE-2020-15999 - MEDIUM -  freetype: Heap-based buffer overflow due to integer truncation in Load_SBit_Png
+CVE-2019-10247 - MEDIUM -  jetty: error path information disclosure
+CVE-2018-12536 - MEDIUM -  jetty: full server path revealed when using the default Error Handling
+CVE-2019-10241 - MEDIUM -  jetty: using specially formatted URL against DefaultServlet or ResourceHandler leads to XSS conditions
+CVE-2020-14344 - MEDIUM -  libX11: Heap overflow in the X input method client
+CVE-2018-14498 - MEDIUM -  libjpeg-turbo: heap-based buffer over-read via crafted 8-bit BMP in get_8bit_row in rdbmp.c leads to denial of service
+CVE-2019-7317 - MEDIUM -  libpng: use-after-free in png_image_free in png.c
+CVE-2018-1000654 - MEDIUM -  libtasn1: Infinite loop in _asn1_expand_object_id(ptree) leads to memory exhaustion
+CVE-2021-21290 - MEDIUM -  netty: Information disclosure via the local system temporary directory
+CVE-2021-21409 - MEDIUM -  netty: Request smuggling via content-length header
+CVE-2021-43797 - MEDIUM -  netty: control chars in header names may lead to HTTP request smuggling
+CVE-2021-21295 - MEDIUM -  netty: possible request smuggling in HTTP/2 due missing validation
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2019-1551 - MEDIUM -  openssl: Integer overflow in RSAZ modular exponentiation on x86_64
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2019-1549 - MEDIUM -  openssl: information disclosure in fork()
+CVE-2019-1547 - MEDIUM -  openssl: side-channel weak encryption vulnerability
+CVE-2019-16168 - MEDIUM -  sqlite: Division by zero in whereLoopAddBtreeIndex in sqlite3.c
+CVE-2019-19242 - MEDIUM -  sqlite: SQL injection in sqlite3ExprCodeTarget in expr.c
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')

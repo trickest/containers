@@ -1,0 +1,6 @@
+CVE-2019-16255 - HIGH -  ruby: Code injection via command argument of Shell#test / Shell#[]
+CVE-2020-16255 - MEDIUM -  null
+CVE-2020-10933 - MEDIUM -  ruby: BasicSocket#read_nonblock method leads to information disclosure
+CVE-2019-16254 - MEDIUM -  ruby: HTTP response splitting in WEBrick
+CVE-2019-15845 - MEDIUM -  ruby: NUL injection vulnerability of File.fnmatch and File.fnmatch?
+CVE-2022-24795 - MEDIUM -  yajl: heap-based buffer overflow when handling large inputs due to an integer overflow

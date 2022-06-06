@@ -1,0 +1,13 @@
+/opt/znc/lib64/znc/perleval.pm
+/usr/lib/python3.7
+/usr/lib/python3.7/config-3.7m-x86_64-linux-gnu/python-config.py
+/usr/lib/python2.7
+/usr/lib/python2.7/idlelib/Icons/python.gif
+/usr/bin/python3.7
+/usr/bin/python3
+/usr/bin/python2.7
+/usr/bin/python
+/usr/bin/python2
+/usr/bin/python3.7m
+/usr/include/python2.7
+/usr/include/python3.7m

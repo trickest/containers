@@ -1,0 +1,16 @@
+CVE-2019-2698 - HIGH -  OpenJDK: Font layout engine out of bounds access setCurrGlyphID() (2D, 8219022)
+CVE-2019-2602 - HIGH -  OpenJDK: Slow conversion of BigDecimal to long (Libraries, 8211936)
+CVE-2019-2201 - HIGH -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2019-16869 - HIGH -  netty: HTTP request smuggling by mishandled whitespace before the colon in HTTP headers
+CVE-2020-14782 - LOW -  OpenJDK: Certificate blacklist bypass via alternate certificate encodings (Libraries, 8237995)
+CVE-2020-14781 - LOW -  OpenJDK: Credentials sent over unencrypted LDAP connection (JNDI, 8237990)
+CVE-2020-14779 - LOW -  OpenJDK: High memory usage during deserialization of Proxy class with many interfaces (Serialization, 8236862)
+CVE-2020-14797 - LOW -  OpenJDK: Incomplete check for invalid characters in URI to path conversion (Libraries, 8242685)
+CVE-2020-2659 - LOW -  OpenJDK: Incomplete enforcement of maxDatagramSockets limit in DatagramChannelImpl (Networking, 8231795)
+CVE-2020-14798 - LOW -  OpenJDK: Missing maximum length check in WindowsNativeDispatcher.asNativeBuffer() (Libraries, 8242695)
+CVE-2020-14796 - LOW -  OpenJDK: Missing permission check in path to URI conversion (Libraries, 8242680)
+CVE-2020-14792 - MEDIUM -  OpenJDK: Integer overflow leading to out-of-bounds access (Hotspot, 8241114)
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2010-1330 - MEDIUM -  jruby: XSS in the regular expression engine when processing invalid UTF-8 byte sequences
+CVE-2021-41973 - MEDIUM -  mina-core: infinite loop may lead to DoS
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')

@@ -1,0 +1,15 @@
+/var/lib/alternatives/python
+/usr/lib/rpm/python-macro-helper
+/usr/lib/python3.6
+/usr/lib64/python3.6
+/usr/share/gcc-8/python
+/usr/share/licenses/python3-libs
+/usr/share/licenses/python3-setuptools-wheel
+/usr/share/licenses/python3-pip-wheel
+/usr/share/licenses/python3-unbound
+/usr/share/python3-wheels
+/usr/share/crypto-policies/python
+/usr/include/python3.6m
+/etc/alternatives/python
+/usr/share/gcc-8
+/usr/lib/.build-id/cc

@@ -1,0 +1,215 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2018-3183 - CRITICAL -  OpenJDK: Unrestricted access to scripting engine (Scripting, 8202936)
+CVE-2018-1000007 - CRITICAL -  curl: HTTP authentication leak in redirects
+CVE-2018-1000005 - CRITICAL -  curl: Out-of-bounds read in code handling HTTP/2 trailers
+CVE-2021-21690 - CRITICAL -  jenkins: Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path
+CVE-2021-21696 - CRITICAL -  jenkins: Agent-to-controller access control allowed writing to sensitive directory used by Pipeline: Shared Groovy Libraries Plugin
+CVE-2021-21697 - CRITICAL -  jenkins: Agent-to-controller access control allows reading/writing most content of build directories
+CVE-2021-21691 - CRITICAL -  jenkins: Creating symbolic links is possible without the symlink permission
+CVE-2021-21685 - CRITICAL -  jenkins: FilePath#mkdirs does not check permission to create parent directories
+CVE-2021-21694 - CRITICAL -  jenkins: FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions
+CVE-2021-21687 - CRITICAL -  jenkins: FilePath#untar does not check permission to create symbolic links when unarchiving a symbolic link
+CVE-2021-21689 - CRITICAL -  jenkins: FilePath#unzip and FilePath#untar were not subject to any access control
+CVE-2021-21692 - CRITICAL -  jenkins: The operations FilePath#renameTo and FilePath#moveAllChildrenTo only check read permission on the source path
+CVE-2021-21693 - CRITICAL -  jenkins: When creating temporary files, permission to create files is only checked after they’ve been created.
+CVE-2017-12652 - CRITICAL -  libpng: does not check length of chunks against user limit
+CVE-2020-26154 - CRITICAL -  libproxy: sending more than 102400 bytes in PAC without a Content-Length present could result in buffer overflow
+CVE-2018-12910 - CRITICAL -  libsoup: Crash in soup_cookie_jar.c:get_cookies() on empty hostnames
+CVE-2017-14632 - CRITICAL -  libvorbis: Invalid freeing of uninitialized memory in the function vorbis_analysis_headerout()
+CVE-2017-16931 - CRITICAL -  libxml2: Mishandling parameter-entity references
+CVE-2017-7375 - CRITICAL -  libxml2: Missing validation for external entities in xmlParsePEReference
+CVE-2018-13347 - CRITICAL -  mercurial: Buffer underflow in mpatch.c:mpatch_apply()
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2019-5953 - CRITICAL -  wget: do_conversion() heap-based buffer overflow vulnerability
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-21476 - HIGH -  OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008)
+CVE-2019-2698 - HIGH -  OpenJDK: Font layout engine out of bounds access setCurrGlyphID() (2D, 8219022)
+CVE-2018-3169 - HIGH -  OpenJDK: Improper field access checks (Hotspot, 8199226)
+CVE-2019-2602 - HIGH -  OpenJDK: Slow conversion of BigDecimal to long (Libraries, 8211936)
+CVE-2020-35492 - HIGH -  cairo: libreoffice slideshow aborts with stack smashing in cairo's composite_boxes
+CVE-2018-6553 - HIGH -  cups: AppArmor cupsd Sandbox Bypass Due to Use of Hard Links
+CVE-2017-18190 - HIGH -  cups: DNS rebinding attacks via incorrect whitelist
+CVE-2018-4180 - HIGH -  cups: Local privilege escalation to root due to insecure environment variable handling
+CVE-2020-3898 - HIGH -  cups: heap based buffer overflow in libcups's ppdFindOption() in ppd-mark.c
+CVE-2019-8696 - HIGH -  cups: stack-buffer-overflow in libcups's asn1_get_packed function
+CVE-2020-35512 - HIGH -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2017-2862 - HIGH -  gdk-pixbuf2: Heap overflow in the gdk_pixbuf__jpeg_image_load_increment function
+CVE-2020-23922 - HIGH -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - HIGH -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2017-14867 - HIGH -  git: cvsserver command injection
+CVE-2021-27218 - HIGH -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2019-3829 - HIGH -  gnutls: use-after-free/double-free in certificate verification
+CVE-2020-2160 - HIGH -  jenkins: CSRF protection bypass via crafted URLs
+CVE-2021-21686 - HIGH -  jenkins: File path filters do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories
+CVE-2021-21695 - HIGH -  jenkins: FilePath#listFiles lists files outside directories with agent read access when following symbolic links.
+CVE-2020-2099 - HIGH -  jenkins: Inbound TCP Agent Protocol/3 authentication bypass
+CVE-2017-7656 - HIGH -  jetty: HTTP request smuggling using the range header
+CVE-2017-16612 - HIGH -  libXcursor: file.c: heap-based buffer overflow when reading/creating images
+CVE-2020-13790 - HIGH -  libjpeg-turbo: heap-based buffer over-read in get_rgb_row() in rdppm.c
+CVE-2020-14152 - HIGH -  libjpeg: improper handling of max_memory_to_use setting can lead to excessive memory consumption
+CVE-2017-11464 - HIGH -  librsvg: SIGFPE is raised in box_blur_line function of rsvg-filter.c
+CVE-2021-4156 - HIGH -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2018-6003 - HIGH -  libtasn1: Stack exhaustion due to indefinite recursion during BER decoding
+CVE-2020-35524 - HIGH -  libtiff: Heap-based buffer overflow in TIFF2PDF tool
+CVE-2020-35523 - HIGH -  libtiff: Integer overflow in tif_getimage.c
+CVE-2017-12944 - HIGH -  libtiff: Mishandled memory allocation for short files in the TIFFReadDirEntryArray function
+CVE-2019-17546 - HIGH -  libtiff: integer overflow leading to heap-based buffer overflow in tif_getimage.c
+CVE-2017-0663 - HIGH -  libxml2: Heap buffer overflow in xmlAddID
+CVE-2017-9049 - HIGH -  libxml2: Heap-based buffer over-read in function xmlDictComputeFastKey
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2017-9048 - HIGH -  libxml2: Stack-based buffer overflow in function xmlSnprintfElementContent
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2018-13348 - HIGH -  mercurial: Improper length check in mpatch.c
+CVE-2018-13346 - HIGH -  mercurial: Missing check for fragment start position in mpatch.c:mpatch_apply()
+CVE-2017-9462 - HIGH -  mercurial: Python debugger accessible to authorized users
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2019-17007 - HIGH -  nss: Handling of Netscape Certificate Sequences in CERT_DecodeCertPackage() may crash with a NULL deref leading to DoS
+CVE-2019-11745 - HIGH -  nss: Out-of-bounds write when passing an output buffer smaller than the block size to NSC_EncryptUpdate
+CVE-2017-7805 - HIGH -  nss: Potential use-after-free in TLS 1.2 server when verifying client authentication
+CVE-2018-1061 - HIGH -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - HIGH -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2016-5007 - HIGH -  spring: Path matching inconsistency
+CVE-2018-8740 - HIGH -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2019-9936 - HIGH -  sqlite: heap-based buffer over-read in function fts5HashEntrySort in sqlite3.c
+CVE-2019-9937 - HIGH -  sqlite: null-pointer dereference in function fts5ChunkIterate in sqlite3.c
+CVE-2019-0203 - HIGH -  subversion: NULL pointer dereference in svnserve leading to an unauthenticated remote DoS
+CVE-2017-9445 - HIGH -  systemd: Out-of-bounds write in systemd-resolved due to allocating too small buffer in dns_packet_new
+CVE-2020-14782 - LOW -  OpenJDK: Certificate blacklist bypass via alternate certificate encodings (Libraries, 8237995)
+CVE-2020-14781 - LOW -  OpenJDK: Credentials sent over unencrypted LDAP connection (JNDI, 8237990)
+CVE-2020-14779 - LOW -  OpenJDK: High memory usage during deserialization of Proxy class with many interfaces (Serialization, 8236862)
+CVE-2020-14797 - LOW -  OpenJDK: Incomplete check for invalid characters in URI to path conversion (Libraries, 8242685)
+CVE-2022-21248 - LOW -  OpenJDK: Incomplete deserialization class filtering in ObjectInputStream (Serialization, 8264934)
+CVE-2020-2659 - LOW -  OpenJDK: Incomplete enforcement of maxDatagramSockets limit in DatagramChannelImpl (Networking, 8231795)
+CVE-2018-3136 - LOW -  OpenJDK: Incorrect handling of unsigned attributes in signed Jar manifests (Security, 8194534)
+CVE-2018-3139 - LOW -  OpenJDK: Leak of sensitive header data via HTTP redirect (Networking, 8196902)
+CVE-2022-21443 - LOW -  OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151)
+CVE-2020-14798 - LOW -  OpenJDK: Missing maximum length check in WindowsNativeDispatcher.asNativeBuffer() (Libraries, 8242695)
+CVE-2020-14796 - LOW -  OpenJDK: Missing permission check in path to URI conversion (Libraries, 8242680)
+CVE-2019-2422 - LOW -  OpenJDK: memory disclosure in FileChannelImpl (Libraries, 8206290)
+CVE-2017-6519 - LOW -  avahi: Multicast DNS responds to unicast queries outside of local network
+CVE-2014-8166 - LOW -  cups: code execution via unescape ANSI escape sequences
+CVE-2017-2870 - LOW -  gdk-pixbuf2: Integer overflow in tiff_image_parse function
+CVE-2017-6314 - LOW -  gdk-pixbuf: Infinite loop in io-tiff.c
+CVE-2017-6313 - LOW -  gdk-pixbuf: Integer underflow in io-icns.c
+CVE-2017-15298 - LOW -  git: Mishandling layers of tree objects
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2017-15088 - LOW -  krb5: Buffer overflow in get_matching_data()
+CVE-2019-2201 - LOW -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2020-35521 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2015-9262 - LOW -  libxcursor: 1-byte heap-based overflow in _XcursorThemeInherits function in library.c
+CVE-2018-15853 - LOW -  libxkbcommon: Endless recursion in xkbcomp/expr.c resulting in a crash
+CVE-2018-15856 - LOW -  libxkbcommon: Infinite loop when reaching EOL unexpectedly resulting in a crash
+CVE-2018-15857 - LOW -  libxkbcommon: Invalid free in ExprAppendMultiKeysymList resulting in a crash
+CVE-2018-15861 - LOW -  libxkbcommon: NULL pointer dereference in ExprResolveLhs resulting in a crash
+CVE-2018-15862 - LOW -  libxkbcommon: NULL pointer dereference in LookupModMask resulting in a crash
+CVE-2018-15863 - LOW -  libxkbcommon: NULL pointer dereference in ResolveStateAndPredicate resulting in a crash
+CVE-2018-15864 - LOW -  libxkbcommon: NULL pointer dereference in resolve_keysym resulting in a crash
+CVE-2018-15854 - LOW -  libxkbcommon: NULL pointer dereference resulting in a crash
+CVE-2018-15858 - LOW -  libxkbcommon: NULL pointer dereference when handling invalid aliases in CopyKeyAliasesToKeymap resulting in a crash
+CVE-2018-15855 - LOW -  libxkbcommon: NULL pointer dereference when handling xkb_geometry
+CVE-2018-15859 - LOW -  libxkbcommon: NULL pointer dereference when parsing invalid atoms in ExprResolveLhs resulting in a crash
+CVE-2018-17983 - LOW -  mercurial: Out-of-bounds read in cext/manifest.c
+CVE-2021-3601 - LOW -  openssl: Certificate with CA:FALSE is accepted as valid CA cert
+CVE-2008-4108 - LOW -  python: Generic FAQ wizard moving tool insecure auxiliary /tmp file usage (symlink attack possible)
+CVE-2019-9674 - LOW -  python: Nested zip file (Zip bomb) vulnerability in Lib/zipfile.py
+CVE-2004-0971 - LOW -  security flaw
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-22747 - MEDIUM -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2022-21305 - MEDIUM -  OpenJDK: Array indexing issues in LIRGenerator (Hotspot, 8272014)
+CVE-2022-21340 - MEDIUM -  OpenJDK: Excessive resource use when reading JAR manifest attributes (Libraries, 8272026)
+CVE-2022-21434 - MEDIUM -  OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672)
+CVE-2022-21293 - MEDIUM -  OpenJDK: Incomplete checks of StringBuffer and StringBuilder during deserialization (Libraries, 8270392)
+CVE-2021-2163 - MEDIUM -  OpenJDK: Incomplete enforcement of JAR signing disabled algorithms (Libraries, 8249906)
+CVE-2022-21294 - MEDIUM -  OpenJDK: Incorrect IdentityHashMap size checks during deserialization (Libraries, 8270416)
+CVE-2022-21296 - MEDIUM -  OpenJDK: Incorrect access checks in XMLEntityManager (JAXP, 8270498)
+CVE-2018-3214 - MEDIUM -  OpenJDK: Infinite loop in RIFF format reader (Sound, 8205361)
+CVE-2022-21299 - MEDIUM -  OpenJDK: Infinite loop related to incorrect handling of newlines in XMLEntityScanner (JAXP, 8270646)
+CVE-2022-21282 - MEDIUM -  OpenJDK: Insufficient URI checks in the XSLT TransformerImpl (JAXP, 8270492)
+CVE-2022-21341 - MEDIUM -  OpenJDK: Insufficient checks when deserializing exceptions in ObjectInputStream (Serialization, 8272236)
+CVE-2022-21365 - MEDIUM -  OpenJDK: Integer overflow in BMPImageReader (ImageIO, 8273838)
+CVE-2020-14792 - MEDIUM -  OpenJDK: Integer overflow leading to out-of-bounds access (Hotspot, 8241114)
+CVE-2018-3180 - MEDIUM -  OpenJDK: Missing endpoint identification algorithm check during TLS session resumption (JSSE, 8202613)
+CVE-2022-21496 - MEDIUM -  OpenJDK: URI parsing inconsistencies (JNDI, 8278972)
+CVE-2022-21349 - MEDIUM -  OpenJDK: Unaligned memory access in ContextualGlyphSubstProc2 (2D, 8273748)
+CVE-2022-21426 - MEDIUM -  OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504)
+CVE-2022-21283 - MEDIUM -  OpenJDK: Unexpected exception thrown in regex Pattern (Libraries, 8268813)
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2015-3192 - MEDIUM -  Spring Framework: denial-of-service attack with XML input
+CVE-2021-3468 - MEDIUM -  avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2017-18248 - MEDIUM -  cups: Invalid usernames handled in scheduler/ipp.c:add_job() allow remote attackers to cause a denial of service
+CVE-2018-4181 - MEDIUM -  cups: Manipulation of cupsd.conf by a local attacker resulting in limited reads of arbitrary files as root
+CVE-2018-4300 - MEDIUM -  cups: Session cookie generated by the CUPS web interface is easy to guess
+CVE-2020-10001 - MEDIUM -  cups: access to uninitialized buffer in ipp.c
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2021-0561 - MEDIUM -  flac: out of bound write in append_to_verify_fifo_interleaved_ of stream_encoder.c
+CVE-2020-0499 - MEDIUM -  flac: out-of-bounds read can lead to denial of service
+CVE-2019-15133 - MEDIUM -  giflib: divide-by-zero exception in the decoder function DGifSlurp in dgif_lib.c
+CVE-2016-3977 - MEDIUM -  giflib: heap buffer overflow in gif2rgb
+CVE-2020-13645 - MEDIUM -  glib-networking: GTlsClientConnection silently ignores unset server identity
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2018-10846 - MEDIUM -  gnutls: "Just in Time" PRIME + PROBE cache-based side channel attack can lead to plaintext recovery
+CVE-2018-10844 - MEDIUM -  gnutls: HMAC-SHA-256 vulnerable to Lucky thirteen attack due to not enough dummy function calls
+CVE-2018-10845 - MEDIUM -  gnutls: HMAC-SHA-384 vulnerable to Lucky thirteen attack due to use of wrong constant
+CVE-2020-2162 - MEDIUM -  jenkins: Content-Security-Policy headers for files uploaded leads to XSS
+CVE-2020-2104 - MEDIUM -  jenkins: Memory usage graphs accessible to anyone with Overall/Read
+CVE-2020-2102 - MEDIUM -  jenkins: Non-constant time HMAC comparison
+CVE-2020-2101 - MEDIUM -  jenkins: Non-constant time comparison of inbound TCP agent connection secret
+CVE-2020-2105 - MEDIUM -  jenkins: REST APIs vulnerable to clickjacking
+CVE-2020-2222 - MEDIUM -  jenkins: Stored XSS vulnerability in 'keep forever' badge icons
+CVE-2020-2223 - MEDIUM -  jenkins: Stored XSS vulnerability in console links
+CVE-2020-2221 - MEDIUM -  jenkins: Stored XSS vulnerability in upstream cause
+CVE-2020-2100 - MEDIUM -  jenkins: UDP multicast/broadcast service amplification reflection attack
+CVE-2020-2161 - MEDIUM -  jenkins: XSS in job configuration pages
+CVE-2017-17383 - MEDIUM -  jenkins: XSS via a crafted tool name in a job configuration form
+CVE-2018-12536 - MEDIUM -  jetty: full server path revealed when using the default Error Handling
+CVE-2019-10241 - MEDIUM -  jetty: using specially formatted URL against DefaultServlet or ResourceHandler leads to XSS conditions
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2018-16435 - MEDIUM -  lcms2: Integer overflow in AllocateDataSet() in cmscgats.c leading to heap-based buffer overflow
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2019-20446 - MEDIUM -  librsvg: Resource exhaustion via crafted SVG file with nested patterns
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2017-14633 - MEDIUM -  libvorbis: Out-of-bounds array read in the function mapping0_forward()
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2019-3902 - MEDIUM -  mercurial: Path-checking logic bypass via symlinks and subrepositories
+CVE-2020-12401 - MEDIUM -  nss: ECDSA timing attack mitigation bypass
+CVE-2018-18508 - MEDIUM -  nss: NULL pointer dereference in several CMS functions resulting in a denial of service
+CVE-2020-12400 - MEDIUM -  nss: P-384 and P-521 implementation uses a side-channel vulnerable modular inversion function
+CVE-2020-6829 - MEDIUM -  nss: Side channel attack on ECDSA signature generation
+CVE-2020-12402 - MEDIUM -  nss: Side channel vulnerabilities during RSA key generation
+CVE-2020-12399 - MEDIUM -  nss: Timing attack on DSA signature generation
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression
+CVE-2018-11782 - MEDIUM -  subversion: remotely triggerable DoS vulnerability in svnserve 'get-deleted-rev'
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+DLA-2593-1 - UNKNOWN -  ca-certificates - whitelist Symantec CA
+DLA-2948-1 - UNKNOWN -  debian-archive-keyring - security update
+DSA-4121-1 - UNKNOWN -  gcc-6 - update
+DLA-2759-1 - UNKNOWN -  gnutls28 - security update
+DLA-2836-2 - UNKNOWN -  nss - regression update
+DLA-2412-2 - UNKNOWN -  openjdk-8 - regression update
+DLA-2761-1 - UNKNOWN -  openssl1.0 - security update
+DSA-4509-2 - UNKNOWN -  subversion - update
+DSA-4367-2 - UNKNOWN -  systemd - regression update
+DLA-2963-1 - UNKNOWN -  tzdata - new timezone database
+DLA-2424-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2509-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2542-1 - UNKNOWN -  tzdata - new upstream version
+DLA-2797-1 - UNKNOWN -  tzdata - new upstream version

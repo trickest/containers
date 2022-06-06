@@ -1,0 +1,8 @@
+bin
+data
+dynlibs
+erts-12.1.5
+etc
+lib
+log
+releases

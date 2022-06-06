@@ -1,0 +1,12 @@
+/usr/share/perl5
+/usr/local/bundle/gems/rouge-3.28.0/lib/rouge/demos/perl
+/usr/local/bundle/gems/rouge-3.28.0/lib/rouge/lexers/perl.rb
+/usr/lib/python3.9
+/usr/lib/python3.9/config-3.9-x86_64-linux-musl/python-config.py
+/usr/bin/python3
+/usr/bin/python3.9
+/usr/local/bundle/gems/rouge-3.28.0/lib/rouge/demos/python
+/usr/local/bundle/gems/rouge-3.28.0/lib/rouge/lexers/python.rb
+/usr/include/python3.9
+/usr/local/include/ruby-3.1.0/ruby/internal/compiler_is/gcc.h
+/usr/local/include/ruby-3.1.0/ruby/backward/2/gcc_version_since.h

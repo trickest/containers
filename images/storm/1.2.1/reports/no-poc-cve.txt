@@ -1,0 +1,33 @@
+CVE-2022-26612 - CRITICAL -  hadoop: Arbitrary file write in FileUtil#unpackEntries on Windows
+CVE-2017-15088 - CRITICAL -  krb5: Buffer overflow in get_matching_data()
+CVE-2018-1331 - HIGH -  High severity vulnerability that affects org.apache.storm:storm-core
+CVE-2017-3162 - HIGH -  Improper Input Validation
+CVE-2016-3083 - HIGH -  Moderate severity vulnerability that affects org.apache.hive:hive, org.apache.hive:hive-exec, and org.apache.hive:hive-service
+CVE-2019-2698 - HIGH -  OpenJDK: Font layout engine out of bounds access setCurrGlyphID() (2D, 8219022)
+CVE-2019-2602 - HIGH -  OpenJDK: Slow conversion of BigDecimal to long (Libraries, 8211936)
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2020-9492 - HIGH -  hadoop: WebHDFS client might send SPNEGO authorization header
+CVE-2017-7656 - HIGH -  jetty: HTTP request smuggling using the range header
+CVE-2019-16869 - HIGH -  netty: HTTP request smuggling by mishandled whitespace before the colon in HTTP headers
+CVE-2018-1061 - HIGH -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - HIGH -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2020-14782 - LOW -  OpenJDK: Certificate blacklist bypass via alternate certificate encodings (Libraries, 8237995)
+CVE-2020-14781 - LOW -  OpenJDK: Credentials sent over unencrypted LDAP connection (JNDI, 8237990)
+CVE-2020-14779 - LOW -  OpenJDK: High memory usage during deserialization of Proxy class with many interfaces (Serialization, 8236862)
+CVE-2020-14797 - LOW -  OpenJDK: Incomplete check for invalid characters in URI to path conversion (Libraries, 8242685)
+CVE-2020-2659 - LOW -  OpenJDK: Incomplete enforcement of maxDatagramSockets limit in DatagramChannelImpl (Networking, 8231795)
+CVE-2020-14798 - LOW -  OpenJDK: Missing maximum length check in WindowsNativeDispatcher.asNativeBuffer() (Libraries, 8242695)
+CVE-2020-14796 - LOW -  OpenJDK: Missing permission check in path to URI conversion (Libraries, 8242680)
+CVE-2019-2422 - LOW -  OpenJDK: memory disclosure in FileChannelImpl (Libraries, 8206290)
+CVE-2017-3161 - MEDIUM -  Cross-site Scripting
+CVE-2018-1332 - MEDIUM -  Moderate severity vulnerability that affects org.apache.storm:storm-core
+CVE-2020-14792 - MEDIUM -  OpenJDK: Integer overflow leading to out-of-bounds access (Hotspot, 8241114)
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2010-1330 - MEDIUM -  jruby: XSS in the regular expression engine when processing invalid UTF-8 byte sequences
+CVE-2018-16435 - MEDIUM -  lcms2: Integer overflow in AllocateDataSet() in cmscgats.c leading to heap-based buffer overflow
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')

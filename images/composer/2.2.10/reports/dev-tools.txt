@@ -1,0 +1,6 @@
+/usr/share/perl5
+/usr/lib/python3.9
+/usr/lib/python3.9/config-3.9-x86_64-linux-musl/python-config.py
+/usr/bin/python3
+/usr/bin/python3.9
+/usr/include/python3.9

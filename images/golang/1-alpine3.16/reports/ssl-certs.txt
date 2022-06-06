@@ -1,0 +1,73 @@
+subject=CN = ACCVRAIZ1, OU = PKIACCV, O = ACCV, C = ES
+subject=C = ES, O = FNMT-RCM, OU = AC RAIZ FNMT-RCM
+subject=C = ES, O = FNMT-RCM, OU = Ceres, organizationIdentifier = VATES-Q2826004J, CN = AC RAIZ FNMT-RCM SERVIDORES SEGUROS
+subject=serialNumber = G63287510, C = ES, O = ANF Autoridad de Certificacion, OU = ANF CA Raiz, CN = ANF Secure Server Root CA
+subject=C = IT, L = Milan, O = Actalis S.p.A./03358520967, CN = Actalis Authentication Root CA
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Commercial
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Networking
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium ECC
+subject=C = US, O = Amazon, CN = Amazon Root CA 1
+subject=C = US, O = Amazon, CN = Amazon Root CA 2
+subject=C = US, O = Amazon, CN = Amazon Root CA 3
+subject=C = US, O = Amazon, CN = Amazon Root CA 4
+subject=CN = Atos TrustedRoot 2011, O = Atos, C = DE
+subject=C = ES, CN = Autoridad de Certificacion Firmaprofesional CIF A62634068
+subject=C = IE, O = Baltimore, OU = CyberTrust, CN = Baltimore CyberTrust Root
+subject=C = NO, O = Buypass AS-983163327, CN = Buypass Class 2 Root CA
+subject=C = NO, O = Buypass AS-983163327, CN = Buypass Class 3 Root CA
+subject=C = SK, L = Bratislava, O = Disig a.s., CN = CA Disig Root R2
+subject=C = CN, O = China Financial Certification Authority, CN = CFCA EV ROOT
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO Certification Authority
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO ECC Certification Authority
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO RSA Certification Authority
+subject=C = FR, O = Dhimyotis, CN = Certigna
+subject=C = FR, O = Dhimyotis, OU = 0002 48146308100036, CN = Certigna Root CA
+subject=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum EC-384 CA
+subject=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA
+subject=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA 2
+subject=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum Trusted Root CA
+subject=C = GB, ST = Greater Manchester, L = Salford, O = Comodo CA Limited, CN = AAA Certificate Services
+subject=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 2009
+subject=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 EV 2009
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root CA
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G2
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G3
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G2
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G3
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert High Assurance EV Root CA
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Trusted Root G4
+subject=C = TR, L = Ankara, O = E-Tu\C4\9Fra EBG Bili\C5\9Fim Teknolojileri ve Hizmetleri A.\C5\9E., OU = E-Tugra Sertifikasyon Merkezi, CN = E-Tugra Certification Authority
+subject=C = ES, O = Agencia Catalana de Certificacio (NIF Q-0801176-I), OU = Serveis Publics de Certificacio, OU = Vegeu https://www.catcert.net/verarrel (c)03, OU = Jerarquia Entitats de Certificacio Catalanes, CN = EC-ACC
+subject=O = Entrust.net, OU = www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), OU = (c) 1999 Entrust.net Limited, CN = Entrust.net Certification Authority (2048)
+subject=C = US, O = "Entrust, Inc.", OU = www.entrust.net/CPS is incorporated by reference, OU = "(c) 2006 Entrust, Inc.", CN = Entrust Root Certification Authority
+subject=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2012 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - EC1
+subject=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2009 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G2
+subject=C = US, O = "Entrust, Inc.", OU = See www.entrust.net/legal-terms, OU = "(c) 2015 Entrust, Inc. - for authorized use only", CN = Entrust Root Certification Authority - G4
+subject=C = CN, O = "GUANG DONG CERTIFICATE AUTHORITY CO.,LTD.", CN = GDCA TrustAUTH R5 ROOT
+subject=C = AT, O = e-commerce monitoring GmbH, CN = GLOBALTRUST 2020
+subject=C = US, O = Google Trust Services LLC, CN = GTS Root R1
+subject=C = US, O = Google Trust Services LLC, CN = GTS Root R2
+subject=C = US, O = Google Trust Services LLC, CN = GTS Root R3
+subject=C = US, O = Google Trust Services LLC, CN = GTS Root R4
+subject=OU = GlobalSign ECC Root CA - R4, O = GlobalSign, CN = GlobalSign
+subject=OU = GlobalSign ECC Root CA - R5, O = GlobalSign, CN = GlobalSign
+subject=C = BE, O = GlobalSign nv-sa, OU = Root CA, CN = GlobalSign Root CA
+subject=OU = GlobalSign Root CA - R3, O = GlobalSign, CN = GlobalSign
+subject=OU = GlobalSign Root CA - R6, O = GlobalSign, CN = GlobalSign
+subject=C = BE, O = GlobalSign nv-sa, CN = GlobalSign Root E46
+subject=C = BE, O = GlobalSign nv-sa, CN = GlobalSign Root R46
+subject=C = US, O = "The Go Daddy Group, Inc.", OU = Go Daddy Class 2 Certification Authority
+subject=C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", CN = Go Daddy Root Certificate Authority - G2
+subject=C = GR, O = Hellenic Academic and Research Institutions CA, CN = HARICA TLS ECC Root CA 2021
+subject=C = GR, O = Hellenic Academic and Research Institutions CA, CN = HARICA TLS RSA Root CA 2021
+subject=C = GR, L = Athens, O = Hellenic Academic and Research Institutions Cert. Authority, CN = Hellenic Academic and Research Institutions ECC RootCA 2015
+subject=C = GR, O = Hellenic Academic and Research Institutions Cert. Authority, CN = Hellenic Academic and Research Institutions RootCA 2011
+subject=C = GR, L = Athens, O = Hellenic Academic and Research Institutions Cert. Authority, CN = Hellenic Academic and Research Institutions RootCA 2015
+subject=C = TW, O = "Chunghwa Telecom Co., Ltd.", CN = HiPKI Root CA - G1
+subject=C = HK, O = Hongkong Post, CN = Hongkong Post Root CA 1
+subject=C = HK, ST = Hong Kong, L = Hong Kong, O = Hongkong Post, CN = Hongkong Post Root CA 3
+subject=C = US, O = Internet Security Research Group, CN = ISRG Root X1
+subject=C = US, O = Internet Security Research Group, CN = ISRG Root X2
+subject=C = US, O = IdenTrust, CN = IdenTrust Commercial Root CA 1

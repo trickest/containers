@@ -1,0 +1,4 @@
+CVE-2021-20231 - MEDIUM -  gnutls: Use after free in client key_share extension
+CVE-2021-20232 - MEDIUM -  gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c
+CVE-2021-33560 - MEDIUM -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2021-3580 - MEDIUM -  nettle: Remote crash in RSA decryption via manipulated ciphertext

@@ -1,0 +1,12 @@
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2021-32027 - HIGH -  postgresql: Buffer overrun from integer overflow in array subscripting calculations
+CVE-2021-23214 - HIGH -  postgresql: server processes unencrypted bytes from man-in-the-middle
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-3393 - MEDIUM -  postgresql: Partition constraint violation errors leak values of denied columns
+CVE-2021-23222 - MEDIUM -  postgresql: libpq processes unencrypted bytes from man-in-the-middle
+CVE-2021-3677 - MEDIUM -  postgresql: memory disclosure in certain queries

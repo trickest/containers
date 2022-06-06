@@ -1,0 +1,1 @@
+CVE-2022-24903 - HIGH -  rsyslog: Heap-based overflow in TCP syslog server

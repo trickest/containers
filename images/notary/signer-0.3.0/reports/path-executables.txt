@@ -1,0 +1,1 @@
+/notary/signer/entrypoint.sh

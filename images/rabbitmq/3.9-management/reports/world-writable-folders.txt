@@ -1,0 +1,13 @@
+/var/log/rabbitmq
+/var/lib/rabbitmq
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/etc/rabbitmq
+/etc/rabbitmq/conf.d
+/dev/shm
+/dev/mqueue
+/tmp
+/tmp/rabbitmq-ssl
+/run/lock

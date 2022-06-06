@@ -1,0 +1,2 @@
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection

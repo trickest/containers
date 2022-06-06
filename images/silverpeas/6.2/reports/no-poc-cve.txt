@@ -1,0 +1,202 @@
+CVE-2020-7692 - CRITICAL -  google-oauth-client: missing PKCE support in accordance with the RFC for OAuth 2.0 for Native Apps can lead to improper authorization
+CVE-2022-23913 - HIGH -  artemis-commons: Apache ActiveMQ Artemis DoS
+CVE-2022-23596 - HIGH -  junrar: A carefully crafted RAR archive can trigger an infinite loop while extracting
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2020-25674 - LOW -  ImageMagick: heap-based buffer overflow in WriteOnePNGImage in coders/png.c
+CVE-2020-25665 - LOW -  ImageMagick: heap-based buffer overflow in WritePALMImage in coders/palm.c
+CVE-2020-25676 - LOW -  ImageMagick: outside the range of representable values of type 'long' and integer overflow at MagickCore/pixel.c and MagickCore/cache.c
+CVE-2020-25675 - LOW -  ImageMagick: outside the range of representable values of type 'long' and integer overflow at MagickCore/transform.c and MagickCore/image.c
+CVE-2020-25666 - LOW -  ImageMagick: outside the range of representable values of type int and signed integer overflow in MagickCore/histogram.c
+CVE-2021-39212 - LOW -  ImageMagick: possible read or write in postscript files
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2021-3598 - LOW -  OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrIO::readChars
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-10001 - LOW -  cups: access to uninitialized buffer in ipp.c
+CVE-2020-35512 - LOW -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - LOW -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2017-9216 - LOW -  jbig2dec: Null pointer dereference in jbig2_huffman_get()
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2016-9180 - LOW -  perl-XML-Twig:  expand_external_ents option fails to work as documented
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-44269 - LOW -  wavpack: heap Out-of-bounds Read
+GHSA-673j-qm5f-xpv8 - MEDIUM -  Arbitrary File Write Vulnerability
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2020-25664 - MEDIUM -  ImageMagick: heap-based buffer overflow in PopShortPixel in MagickCore/quantum-private.h
+CVE-2022-21305 - MEDIUM -  OpenJDK: Array indexing issues in LIRGenerator (Hotspot, 8272014)
+CVE-2022-21476 - MEDIUM -  OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008)
+CVE-2022-21340 - MEDIUM -  OpenJDK: Excessive resource use when reading JAR manifest attributes (Libraries, 8272026)
+CVE-2022-21434 - MEDIUM -  OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672)
+CVE-2022-21293 - MEDIUM -  OpenJDK: Incomplete checks of StringBuffer and StringBuilder during deserialization (Libraries, 8270392)
+CVE-2022-21248 - MEDIUM -  OpenJDK: Incomplete deserialization class filtering in ObjectInputStream (Serialization, 8264934)
+CVE-2021-2163 - MEDIUM -  OpenJDK: Incomplete enforcement of JAR signing disabled algorithms (Libraries, 8249906)
+CVE-2022-21294 - MEDIUM -  OpenJDK: Incorrect IdentityHashMap size checks during deserialization (Libraries, 8270416)
+CVE-2022-21296 - MEDIUM -  OpenJDK: Incorrect access checks in XMLEntityManager (JAXP, 8270498)
+CVE-2022-21291 - MEDIUM -  OpenJDK: Incorrect marking of writeable fields (Hotspot, 8270386)
+CVE-2022-21277 - MEDIUM -  OpenJDK: Incorrect reading of TIFF files in TIFFNullDecompressor (ImageIO, 8270952)
+CVE-2022-21299 - MEDIUM -  OpenJDK: Infinite loop related to incorrect handling of newlines in XMLEntityScanner (JAXP, 8270646)
+CVE-2022-21282 - MEDIUM -  OpenJDK: Insufficient URI checks in the XSLT TransformerImpl (JAXP, 8270492)
+CVE-2022-21341 - MEDIUM -  OpenJDK: Insufficient checks when deserializing exceptions in ObjectInputStream (Serialization, 8272236)
+CVE-2022-21365 - MEDIUM -  OpenJDK: Integer overflow in BMPImageReader (ImageIO, 8273838)
+CVE-2022-21443 - MEDIUM -  OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151)
+CVE-2022-21496 - MEDIUM -  OpenJDK: URI parsing inconsistencies (JNDI, 8278972)
+CVE-2022-21426 - MEDIUM -  OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504)
+CVE-2022-21283 - MEDIUM -  OpenJDK: Unexpected exception thrown in regex Pattern (Libraries, 8268813)
+CVE-2021-3468 - MEDIUM -  avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-25309 - MEDIUM -  fribidi: Heap-buffer-overflow in fribidi_cap_rtl_to_unicode
+CVE-2022-25310 - MEDIUM -  fribidi: SEGV in fribidi_remove_bidi_marks
+CVE-2022-25308 - MEDIUM -  fribidi: Stack based buffer overflow
+CVE-2021-45949 - MEDIUM -  ghostscript: heap-based buffer overflow in sampled_data_finish
+CVE-2021-45944 - MEDIUM -  ghostscript: use-after-free in sampled_data_sample may lead to DoS
+CVE-2021-3497 - MEDIUM -  gstreamer-plugins-good: Use-after-free in matroska demuxing
+CVE-2020-25711 - MEDIUM -  infinispan: authorization check missing for server management operations
+CVE-2020-35510 - MEDIUM -  jboss-remoting: Threads hold up forever in the EJB server by suppressing the ack from an EJB client
+CVE-2021-25633 - MEDIUM -  libreoffice: Content Manipulation with Double Certificate Attack
+CVE-2021-25636 - MEDIUM -  libreoffice: Incorrect trust validation of signature with ambiguous KeyInfo children
+CVE-2021-25634 - MEDIUM -  libreoffice: Timestamp Manipulation with Signature Wrapping
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2018-25011 - MEDIUM -  libwebp: heap-based buffer overflow in PutLE16()
+CVE-2018-25013 - MEDIUM -  libwebp: out-of-bounds read in ShiftBytes()
+CVE-2018-25009 - MEDIUM -  libwebp: out-of-bounds read in WebPMuxCreateInternal
+CVE-2018-25012 - MEDIUM -  libwebp: out-of-bounds read in WebPMuxCreateInternal()
+CVE-2018-25014 - MEDIUM -  libwebp: use of uninitialized value in ReadSymbol()
+CVE-2022-23308 - MEDIUM -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2021-2174 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2180 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2194 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21418 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21423 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21302 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21348 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21352 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2372 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2374 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2389 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2429 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2162 - MEDIUM -  mysql: Server: Audit Plug-in unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21367 - MEDIUM -  mysql: Server: Compiling unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21368 - MEDIUM -  mysql: Server: Components Services unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21425 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21249 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2339 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2352 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2399 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2166 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2172 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2196 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2300 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21413 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21301 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2370 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2440 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Jul 2021)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21270 - MEDIUM -  mysql: Server: Federated unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2354 - MEDIUM -  mysql: Server: Federated unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2417 - MEDIUM -  mysql: Server: GIS unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2179 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2232 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21256 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2301 - MEDIUM -  mysql: Server: Information Schema unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2308 - MEDIUM -  mysql: Server: Information Schema unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21362 - MEDIUM -  mysql: Server: Information Schema unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2402 - MEDIUM -  mysql: Server: Locking unspecified vulnerability (CPU Jul 2021)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2021-2340 - MEDIUM -  mysql: Server: Memcached unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2164 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2169 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2170 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2193 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2203 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2212 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2230 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2278 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2299 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21412 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21414 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21435 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21436 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21437 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21438 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21440 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21452 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21459 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21462 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21478 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21479 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21253 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21254 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21264 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21265 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21278 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21297 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21339 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21342 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21351 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2342 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2357 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2367 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2383 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2384 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2387 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2410 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2418 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2425 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2426 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2427 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2437 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2441 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2444 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2146 - MEDIUM -  mysql: Server: Options unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21457 - MEDIUM -  mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2021-2422 - MEDIUM -  mysql: Server: PS unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2307 - MEDIUM -  mysql: Server: Packaging unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21304 - MEDIUM -  mysql: Server: Parser unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2201 - MEDIUM -  mysql: Server: Partition unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2208 - MEDIUM -  mysql: Server: Partition unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2171 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21415 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21344 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2356 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Jul 2021)
+CVE-2021-2385 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Jul 2021)
+CVE-2022-21358 - MEDIUM -  mysql: Server: Security: Encryption unspecified vulnerability (CPU Jan 2022)
+CVE-2022-21245 - MEDIUM -  mysql: Server: Security: Privileges unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2215 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2217 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2293 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021)
+CVE-2021-2304 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Apr 2021)
+CVE-2022-21303 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Jan 2022)
+CVE-2021-2424 - MEDIUM -  mysql: Server: Stored Procedure unspecified vulnerability (CPU Jul 2021)
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2021-32027 - MEDIUM -  postgresql: Buffer overrun from integer overflow in array subscripting calculations
+CVE-2021-23222 - MEDIUM -  postgresql: libpq processes unencrypted bytes from man-in-the-middle
+CVE-2021-3677 - MEDIUM -  postgresql: memory disclosure in certain queries
+CVE-2021-23214 - MEDIUM -  postgresql: server processes unencrypted bytes from man-in-the-middle
+CVE-2020-25633 - MEDIUM -  resteasy-client: potential sensitive information leakage in JAX-RS RESTEasy Client's WebApplicationException handling
+CVE-2020-23903 - MEDIUM -  speex: divide by zero in read_samples() via crafted WAV file
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2022-1620 - MEDIUM -  vim: NULL Pointer Dereference in vim_regexec_string() of regexp.c
+CVE-2022-1420 - MEDIUM -  vim: Out-of-range Pointer Offset
+CVE-2022-1621 - MEDIUM -  vim: heap buffer overflow
+CVE-2022-1616 - MEDIUM -  vim: heap-buffer-overflow in append_command of src/ex_docmd.c
+CVE-2022-1619 - MEDIUM -  vim: heap-buffer-overflow in cmdline_erase_chars of ex_getln.c
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+CVE-2020-14340 - MEDIUM -  xnio: file descriptor leak caused by growing amounts of NIO Selector file handles may lead to DoS
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GMS-2021-5 - UNKNOWN -  Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+GMS-2022-75 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

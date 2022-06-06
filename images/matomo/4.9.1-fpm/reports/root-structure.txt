@@ -1,0 +1,10 @@
+PRIVACY.md
+README.md
+SECURITY.md
+console
+core
+lang
+piwik.js
+piwik.php
+tests
+vendor

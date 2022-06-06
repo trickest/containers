@@ -1,0 +1,45 @@
+CVE-2017-8287 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_builder_close_contour function
+CVE-2017-8105 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_decoder_parse_charstrings
+CVE-2017-16931 - CRITICAL -  libxml2: Mishandling parameter-entity references
+CVE-2016-9843 - CRITICAL -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - CRITICAL -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2017-9233 - HIGH -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2016-10244 - HIGH -  freetype: parse_charstrings function in type1/t1load.c does not ensure that a font contains a glyph name
+CVE-2017-2862 - HIGH -  gdk-pixbuf2: Heap overflow in the gdk_pixbuf__jpeg_image_load_increment function
+CVE-2017-7507 - HIGH -  gnutls: Crash upon receiving well-formed status_request extension
+CVE-2017-16612 - HIGH -  libXcursor: file.c: heap-based buffer overflow when reading/creating images
+CVE-2017-10790 - HIGH -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2018-6003 - HIGH -  libtasn1: Stack exhaustion due to indefinite recursion during BER decoding
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2017-10688 - HIGH -  libtiff: Assertion abort in the TIFFWriteDirectoryTagCheckedLong8Array function
+CVE-2017-7598 - HIGH -  libtiff: Divide-by-zero in tif_dirread.c
+CVE-2017-7596 - HIGH -  libtiff: Float out of range issue in tif_dir.c
+CVE-2017-7592 - HIGH -  libtiff: Left shift of unsigned char without a cast
+CVE-2017-16232 - HIGH -  libtiff: Memory leaks in tif_open.c, tif_lzw.c, and tif_aux.c
+CVE-2017-7601 - HIGH -  libtiff: Signed integer overflow in tif_jpeg.c
+CVE-2017-7602 - HIGH -  libtiff: Signed integer overflow in tif_read.c
+CVE-2018-8905 - HIGH -  libtiff: heap-based buffer overflow in tif_lzw.c:LZWDecodeCompat() allows for denial of service
+CVE-2016-5131 - HIGH -  libxml2: Use after free triggered by XPointer paths beginning with range-to
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2016-9840 - HIGH -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - HIGH -  zlib: Undefined left shift of negative number
+CVE-2017-6314 - MEDIUM -  gdk-pixbuf: Infinite loop in io-tiff.c
+CVE-2017-7595 - MEDIUM -  libtiff: Divide-by-zero in JPEGSetupEncode (tiff_jpeg.c)
+CVE-2017-7594 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesDcTable function
+CVE-2018-7456 - MEDIUM -  libtiff: NULL pointer dereference in tif_print.c:TIFFPrintDirectory() causes a denial of service
+CVE-2017-18013 - MEDIUM -  libtiff: NULL pointer dereference in tif_print.c:TIFFPrintDirectory() causes crash
+CVE-2017-9936 - MEDIUM -  libtiff: memory leak in tif_jbig.c
+CVE-2017-7593 - MEDIUM -  libtiff: tif_rawdata not properly initialized in tif_read.c
+CVE-2018-5784 - MEDIUM -  libtiff: uncontrolled resource consumption in TIFFSetDirectory function in tif_dir.c
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2016-9318 - MEDIUM -  libxml2: XML External Entity vulnerability
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2018-0733 - MEDIUM -  openssl: Implementation bug in PA-RISC CRYPTO_memcmp function allows attackers to forge authenticated messages in a reduced number of attempts
+CVE-2017-3735 - MEDIUM -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0737 - MEDIUM -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2017-3737 - MEDIUM -  openssl: Read/write after SSL object in error state
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2017-3736 - MEDIUM -  openssl: bn_sqrx8x_internal carry bug on x86_64
+CVE-2017-3738 - MEDIUM -  openssl: rsaz_1024_mul_avx2 overflow bug on x86_64
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2017-16231 - MEDIUM -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service

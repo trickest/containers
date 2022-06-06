@@ -1,0 +1,1 @@
+CVE-2020-8315 - MEDIUM -  python: unsafe dll loading in getpathp.c on Windows

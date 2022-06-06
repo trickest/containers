@@ -1,0 +1,4 @@
+/root/.npm/_cacache/content-v2/sha1/cc
+/root/.npm/_cacache/content-v2/sha512/cc
+/root/.npm/_cacache/content-v2/sha512/49/cc
+/root/.npm/_cacache/index-v5/cc

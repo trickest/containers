@@ -1,0 +1,3 @@
+/var/lib/ghost/versions/4.48.1/node_modules/re2/vendor/re2/perl_groups.cc
+/var/lib/ghost/versions/4.48.1/node_modules/sqlite3/src/gcc-preinclude.h
+/var/lib/ghost/versions/4.48.1/node_modules/knex-migrator/node_modules/sqlite3/src/gcc-preinclude.h

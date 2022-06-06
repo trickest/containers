@@ -1,0 +1,7 @@
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2021-31566 - MEDIUM -  libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive
+CVE-2021-36976 - MEDIUM -  libarchive: use-after-free in copy_string()

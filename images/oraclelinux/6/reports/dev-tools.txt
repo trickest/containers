@@ -1,0 +1,9 @@
+/usr/lib/python2.6
+/usr/lib64/python2.6
+/usr/lib64/python2.6/site-packages/python_dmidecode-3.10.15-py2.6.egg-info
+/usr/lib64/python2.6/idlelib/Icons/python.gif
+/usr/share/python-dmidecode
+/usr/bin/python
+/usr/bin/python2
+/usr/bin/python2.6
+/usr/include/python2.6

@@ -1,0 +1,11 @@
+/var/tmp
+/sys/firmware
+/usr/local/tomcat/logs
+/usr/local/tomcat/temp
+/usr/local/tomcat/work
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

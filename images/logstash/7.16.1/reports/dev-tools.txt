@@ -1,0 +1,17 @@
+/usr/lib/tmpfiles.d/python.conf
+/usr/lib/python2.7
+/usr/lib64/python2.7
+/usr/lib64/python2.7/idlelib/Icons/python.gif
+/usr/share/licenses/python-gobject-base-3.22.0
+/usr/share/doc/python-kitchen-1.1.1
+/usr/share/doc/python-pycurl-7.19.0
+/usr/share/gcc-4.8.2/python
+/usr/share/logstash/vendor/bundle/jruby/2.5.0/gems/fpm-1.14.1/lib/fpm/package/python.rb
+/usr/share/logstash/vendor/bundle/jruby/2.5.0/gems/coderay-1.1.3/lib/coderay/scanners/python.rb
+/usr/bin/python2.7
+/usr/bin/python
+/usr/bin/python2
+/usr/include/python2.7
+/etc/python
+/usr/share/gcc-4.8.5
+/usr/share/gcc-4.8.2

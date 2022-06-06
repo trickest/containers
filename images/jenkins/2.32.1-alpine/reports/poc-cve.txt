@@ -1,0 +1,99 @@
+CVE-2016-1000031 - CRITICAL -  Apache Commons FileUpload: DiskFileItem file manipulation
+CVE-2015-7501 - CRITICAL -  apache-commons-collections: InvokerTransformer code execution during deserialisation
+CVE-2018-1000120 - CRITICAL -  curl: FTP path trickery leads to NIL byte out of bounds write
+CVE-2018-1000300 - CRITICAL -  curl: FTP shutdown response heap-based buffer overflow can potentially lead to RCE
+CVE-2017-8817 - CRITICAL -  curl: FTP wildcard out of bounds read
+CVE-2017-1000257 - CRITICAL -  curl: IMAP FETCH response out of bounds read
+CVE-2017-8816 - CRITICAL -  curl: NTLM buffer overflow via integer overflow
+CVE-2018-1000301 - CRITICAL -  curl: Out-of-bounds heap read when missing RTSP headers allows information leak or denial of service
+CVE-2018-1000122 - CRITICAL -  curl: RTSP RTP buffer over-read
+CVE-2017-8287 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_builder_close_contour function
+CVE-2017-8105 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_decoder_parse_charstrings
+CVE-2017-7657 - CRITICAL -  jetty: HTTP request smuggling
+CVE-2017-7658 - CRITICAL -  jetty: Incorrect header handling
+CVE-2017-10685 - CRITICAL -  ncurses: Stack-based buffer overflow caused by format string vulnerability in fmt_entry function
+CVE-2017-10684 - CRITICAL -  ncurses: Stack-based buffer overflow in fmt_entry function in dump_entry.c
+CVE-2018-1275 - CRITICAL -  spring-framework: Address partial fix for CVE-2018-1270
+CVE-2018-1270 - CRITICAL -  spring-framework: Possible RCE via spring messaging
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2016-9843 - CRITICAL -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - CRITICAL -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2014-0114 - HIGH -  Apache Struts 1: Class Loader manipulation via request parameters
+CVE-2015-6420 - HIGH -  Insecure Deserialization in Apache Commons Collection
+CVE-2016-9878 - HIGH -  Spring Framework: Directory Traversal in the Spring Framework ResourceServlet
+CVE-2019-10086 - HIGH -  apache-commons-beanutils: does not suppresses the class property in PropertyUtilsBean by default
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2017-16544 - HIGH -  busybox: Insufficient sanitization of filenames when autocompleting
+CVE-2017-1000254 - HIGH -  curl: FTP PWD response parser out of bounds read
+CVE-2018-1000121 - HIGH -  curl: LDAP NULL pointer dereference
+CVE-2016-5300 - HIGH -  expat: Little entropy used for hash initialization
+CVE-2016-10244 - HIGH -  freetype: parse_charstrings function in type1/t1load.c does not ensure that a font contains a glyph name
+CVE-2017-1000117 - HIGH -  git: Command injection via malicious ssh URLs
+CVE-2018-1999002 - HIGH -  jenkins: Flaw in the Stapler web framework allows remote unauthenticated users to read arbitrary files
+CVE-2018-1999001 - HIGH -  jenkins: Remote unauthenticated users can move config.xml allowing administrator access to anonymous users
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2017-9735 - HIGH -  jetty: Timing channel attack in util/security/Password.java
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2017-10790 - HIGH -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2017-11112 - HIGH -  ncurses: Illegal address access in append_acs function
+CVE-2017-13728 - HIGH -  ncurses: Infinite loop in the next_char function
+CVE-2017-11113 - HIGH -  ncurses: Null pointer dereference vulnerability in _nc_parse_entry function
+CVE-2017-16879 - HIGH -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2016-10012 - HIGH -  openssh: Bounds check can be evaded in the shared memory manager used by pre-authentication compression support
+CVE-2016-10009 - HIGH -  openssh: loading of untrusted PKCS#11 modules in ssh-agent
+CVE-2016-10010 - HIGH -  openssh: privilege escalation via Unix domain socket forwarding
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2017-3731 - HIGH -  openssl: Truncated packet could crash via OOB read
+CVE-2018-1272 - HIGH -  spring-framework: Multipart content pollution
+CVE-2018-15756 - HIGH -  springframework: DoS Attack via Range Requests
+CVE-2016-9840 - HIGH -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - HIGH -  zlib: Undefined left shift of negative number
+CVE-2022-22968 - LOW -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2017-7407 - LOW -  curl: --write-out out of bounds read
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2020-2251 - MEDIUM -  Cleartext Transmission of Sensitive Information
+CVE-2020-1945 - MEDIUM -  ant: insecure temporary file vulnerability
+CVE-2018-11771 - MEDIUM -  apache-commons-compress: ZipArchiveInputStream.read() fails to identify correct EOF allowing for DoS via crafted zip
+CVE-2021-29425 - MEDIUM -  apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6
+CVE-2016-9401 - MEDIUM -  bash: popd controlled free
+CVE-2017-1000099 - MEDIUM -  curl: FILE buffer read out of bounds
+CVE-2017-1000100 - MEDIUM -  curl: TFTP sends more than buffer size
+CVE-2017-1000101 - MEDIUM -  curl: URL globbing out of bounds read
+CVE-2020-17521 - MEDIUM -  groovy: OS temporary directory leads to information disclosure
+CVE-2018-10237 - MEDIUM -  guava: Unbounded memory allocation in AtomicDoubleArray and CompoundOrdering classes allow remote attackers to cause a denial of service
+CVE-2012-5783 - MEDIUM -  jakarta-commons-httpclient: missing connection hostname check against X.509 certificate name
+CVE-2018-1999005 - MEDIUM -  jenkins: Cross-site scripting in build timeline widget exploitable by users able to control item display names
+CVE-2020-2103 - MEDIUM -  jenkins: Exposed session identifiers on user detail object in the whoAmI diagnostic page
+CVE-2021-21615 - MEDIUM -  jenkins: Filesystem traversal by privileged users
+CVE-2018-1999007 - MEDIUM -  jenkins: HTTP 404 error pages do not escape URLs when Stapler framework used in debug mode, allowing for XSS
+CVE-2018-1999003 - MEDIUM -  jenkins: Missing permission check allows users with Overall/Read permission to cancel queued builds
+CVE-2018-1999004 - MEDIUM -  jenkins: Missing permission check allows users with Overall/Read permission to initiate agent launches
+CVE-2020-2231 - MEDIUM -  jenkins: stored XSS vulnerability in 'trigger builds remotely'
+CVE-2020-2230 - MEDIUM -  jenkins: stored XSS vulnerability in project naming strategy
+CVE-2020-2229 - MEDIUM -  jenkins: user-specified tooltip values leads to stored cross-site scripting
+CVE-2019-10247 - MEDIUM -  jetty: error path information disclosure
+CVE-2017-13729 - MEDIUM -  ncurses: Illegal address access in the _nc_save_str function
+CVE-2017-13730 - MEDIUM -  ncurses: Illegal address access in the function _nc_read_entry_source()
+CVE-2017-13734 - MEDIUM -  ncurses: Illegal address access in the function _nc_safe_strcat
+CVE-2017-13732 - MEDIUM -  ncurses: Illegal address access in the function dump_uses()
+CVE-2017-13733 - MEDIUM -  ncurses: Illegal address access in the function fmt_entry
+CVE-2017-13731 - MEDIUM -  ncurses: Illegal address access in the function postprocess_termcap()
+CVE-2016-10011 - MEDIUM -  openssh: Leak of host private key material to privilege-separated child process via realloc()
+CVE-2017-3732 - MEDIUM -  openssl: BN_mod_exp may produce incorrect results on x86_64
+CVE-2016-7055 - MEDIUM -  openssl: Carry propagating bug in Montgomery multiplication
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2018-0733 - MEDIUM -  openssl: Implementation bug in PA-RISC CRYPTO_memcmp function allows attackers to forge authenticated messages in a reduced number of attempts
+CVE-2017-3735 - MEDIUM -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0737 - MEDIUM -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2017-3737 - MEDIUM -  openssl: Read/write after SSL object in error state
+CVE-2018-5407 - MEDIUM -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2017-3736 - MEDIUM -  openssl: bn_sqrx8x_internal carry bug on x86_64
+CVE-2017-3738 - MEDIUM -  openssl: rsaz_1024_mul_avx2 overflow bug on x86_64
+CVE-2018-0734 - MEDIUM -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression
+CVE-2018-1271 - MEDIUM -  spring-framework: Directory traversal vulnerability with static resources on Windows filesystems
+CVE-2018-1257 - MEDIUM -  spring-framework: ReDoS Attack with spring-messaging

@@ -1,0 +1,5 @@
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-1434 - MEDIUM -  openssl: Incorrect MAC key used in the RC4-MD5 ciphersuite
+CVE-2022-1343 - MEDIUM -  openssl: Signer certificate verification returns inaccurate response when using OCSP_NOCHECKS

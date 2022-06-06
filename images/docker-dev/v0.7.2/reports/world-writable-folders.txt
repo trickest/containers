@@ -1,0 +1,10 @@
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/tmp/.ICE-unix
+/tmp/.X11-unix
+/run/lock

@@ -1,0 +1,16 @@
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-3177 - CRITICAL -  python: Stack-based buffer overflow in PyCArg_repr in _ctypes/callproc.c
+CVE-2021-28831 - HIGH -  busybox: invalid free or segmentation fault via malformed gzip data
+CVE-2019-15903 - HIGH -  expat: heap-based buffer over-read via crafted XML input
+CVE-2021-30139 - HIGH -  null
+CVE-2021-3450 - HIGH -  openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+CVE-2021-23840 - HIGH -  openssl: integer overflow in CipherUpdate
+CVE-2020-11655 - HIGH -  sqlite: malformed window-function query leads to DoS
+CVE-2021-23839 - LOW -  openssl: incorrect SSLv2 rollback protection
+CVE-2020-1971 - MEDIUM -  openssl: EDIPARTYNAME NULL pointer de-reference
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3449 - MEDIUM -  openssl: NULL pointer dereference in signature_algorithms processing
+CVE-2019-18348 - MEDIUM -  python: CRLF injection via the host part of the url passed to urlopen()
+CVE-2020-14422 - MEDIUM -  python: DoS via inefficiency in IPv{4,6}Interface classes
+CVE-2020-8315 - MEDIUM -  python: unsafe dll loading in getpathp.c on Windows
+CVE-2020-8492 - MEDIUM -  python: wrong backtracking in urllib.request.AbstractBasicAuthHandler allows for a ReDoS

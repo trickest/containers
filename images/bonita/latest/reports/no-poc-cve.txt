@@ -1,0 +1,11 @@
+CVE-2022-21476 - HIGH -  OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008)
+CVE-2021-44531 - HIGH -  nodejs: Improper handling of URI Subject Alternative Names
+CVE-2022-21443 - LOW -  OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151)
+CVE-2022-21434 - MEDIUM -  OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672)
+CVE-2022-21496 - MEDIUM -  OpenJDK: URI parsing inconsistencies (JNDI, 8278972)
+CVE-2022-21426 - MEDIUM -  OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504)
+CVE-2021-44532 - MEDIUM -  nodejs: Certificate Verification Bypass via String Injection
+CVE-2021-44533 - MEDIUM -  nodejs: Incorrect handling of certificate subject and issuer fields
+GMS-2022-560 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GMS-2022-561 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GMS-2022-7 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

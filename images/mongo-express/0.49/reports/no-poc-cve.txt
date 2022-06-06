@@ -1,0 +1,10 @@
+NSWG-ECO-516 - HIGH -  Allocation of Resources Without Limits or Throttling
+CVE-2021-21422 - HIGH -  Cross-site scripting
+GHSA-mh5c-679w-hh4r - HIGH -  Denial of Service in mongodb
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2020-7610 - HIGH -  bson:  Deserialization of Untrusted Data could result in Code injection or Excessive CPU load
+CVE-2020-8131 - HIGH -  yarn: Arbitrary filesystem write via tar expansion
+GHSA-q3w9-g74q-vp5f - LOW -  Denial of Service in express-fileupload
+GHSA-xgh6-85xh-479p - LOW -  Regular Expression Denial of Service in npm-user-validate
+GHSA-4xcv-9jjx-gfj3 - MEDIUM -  Denial of Service in mem
+GHSA-jmqm-f2gx-4fjv - MEDIUM -  Sensitive information exposure through logs in npm-registry-fetch

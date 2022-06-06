@@ -1,0 +1,39 @@
+CVE-2021-43527 - CRITICAL -  nss: Memory corruption in decodeECorDsaSignature with DSA signatures (and RSA-PSS)
+CVE-2016-8616 - HIGH -  curl: Case insensitive password comparison
+CVE-2016-8615 - HIGH -  curl: Cookie injection for other servers
+CVE-2016-8618 - HIGH -  curl: Double-free in curl_maprintf
+CVE-2016-8619 - HIGH -  curl: Double-free in krb5 code
+CVE-2016-8620 - HIGH -  curl: Glob parser write/read out of bounds
+CVE-2016-8624 - HIGH -  curl: Invalid URL parsing with '#'
+CVE-2016-8617 - HIGH -  curl: Out-of-bounds write via unchecked multiplication
+CVE-2016-8622 - HIGH -  curl: URL unescape heap overflow via integer truncation
+CVE-2016-8623 - HIGH -  curl: Use-after-free via shared cookies
+CVE-2016-8621 - HIGH -  curl: curl_getdate out-of-bounds read
+CVE-2019-5482 - HIGH -  curl: heap buffer overflow in function tftp_receive_packet()
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2021-25217 - HIGH -  dhcp: stack-based buffer overflow when parsing statements with colon-separated hex digits in config or lease files in dhcpd and dhclient
+CVE-2022-25315 - HIGH -  expat: Integer overflow in storeRawNames()
+CVE-2022-25235 - HIGH -  expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution
+CVE-2022-25236 - HIGH -  expat: Namespace-separator characters in "xmlns[:prefix]" attribute values can lead to arbitrary code execution
+CVE-2021-27219 - HIGH -  glib: integer overflow in g_bytes_new function on 64-bit platforms due to an implicit cast from 64 bits to 32 bits
+CVE-2018-12020 - HIGH -  gnupg2: Improper sanitization of filenames allows for the display of fake status messages and the bypass of signature verification
+CVE-2019-3857 - HIGH -  libssh2: Integer overflow in SSH packet processing channel resulting in out of bounds write
+CVE-2019-3856 - HIGH -  libssh2: Integer overflow in keyboard interactive handling resulting in out of bounds write
+CVE-2019-3855 - HIGH -  libssh2: Integer overflow in transport read resulting in out of bounds write
+CVE-2019-3863 - HIGH -  libssh2: Integer overflow in user authenticate keyboard interactive allows out-of-bounds writes
+CVE-2019-3862 - HIGH -  libssh2: Out-of-bounds memory comparison with specially crafted message channel request
+CVE-2018-0739 - HIGH -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2017-3735 - HIGH -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0732 - HIGH -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2018-0737 - HIGH -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2019-9636 - HIGH -  python: Information Disclosure due to urlsplit improper NFKC normalization
+CVE-2019-10160 - HIGH -  python: regression of CVE-2019-9636 due to functional fix to allow port numbers in netloc
+CVE-2019-12735 - HIGH -  vim/neovim: ':source!' command allows arbitrary command execution via modelines
+CVE-2018-10897 - HIGH -  yum-utils: reposync: improper path validation may lead to directory traversal
+CVE-2018-15473 - LOW -  openssh: User enumeration via malformed packets in authentication requests
+CVE-2019-12749 - MEDIUM -  dbus: DBusServer DBUS_COOKIE_SHA1 authentication bypass
+CVE-2017-15804 - MEDIUM -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - MEDIUM -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2018-12384 - MEDIUM -  nss: ServerHello.random is all zeros when handling a v2-compatible ClientHello
+CVE-2019-1559 - MEDIUM -  openssl: 0-byte record padding oracle
+CVE-2018-20852 - MEDIUM -  python: Cookie domain check returns incorrect results

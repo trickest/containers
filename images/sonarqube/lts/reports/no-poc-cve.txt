@@ -1,0 +1,7 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+GHSA-v57x-gxfj-484q - CRITICAL -  Security Advisory for "Log4Shell"
+CVE-2022-23708 - MEDIUM -  elasticsearch: privilege escalation vulnerability (ESA-2022-02)
+CVE-2022-23710 - MEDIUM -  kibana: cross-site-scripting (XSS) issue (ESA-2022-04)
+GMS-2022-5 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GMS-2022-33 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GMS-2022-7 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

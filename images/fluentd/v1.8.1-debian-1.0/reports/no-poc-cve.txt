@@ -1,0 +1,205 @@
+CVE-2021-39713 - CRITICAL -  kernel: race condition in the network scheduling subsystem could lead to an use-after-free
+CVE-2019-18224 - CRITICAL -  libidn2: heap-based buffer overflow in idn2_to_ascii_4i in lib/lookup.c
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2022-1353 - HIGH -  Kernel: A kernel-info-leak issue in pfkey_register
+CVE-2020-11884 - HIGH -  Kernel: s390: page table upgrade in secondary address mode may lead to privilege escalation
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2019-19071 - HIGH -  kernel: A memory leak in the rsi_send_beacon() function in drivers/net/wireless/rsi/rsi_91x_mgmt.c allows for a DoS
+CVE-2022-1247 - HIGH -  kernel: A race condition bug in rose_connect()
+CVE-2021-4157 - HIGH -  kernel: Buffer overwrite in decode_nfs_fh function
+CVE-2019-10220 - HIGH -  kernel: CIFS: Relative paths injection in directory entry lists
+CVE-2022-1011 - HIGH -  kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes
+CVE-2022-29581 - HIGH -  kernel: Improper Update of Reference Count vulnerability in net/sched
+CVE-2020-12362 - HIGH -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2021-3506 - HIGH -  kernel: Out of bounds memory access bug in get_next_net_page() in fs/f2fs/node.c
+CVE-2021-4202 - HIGH -  kernel: Race condition in nci_request() leads to use after free while the device is getting removed
+CVE-2021-3656 - HIGH -  kernel: SVM nested virtualization issue in KVM (VMLOAD/VMSAVE)
+CVE-2022-1012 - HIGH -  kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak
+CVE-2022-1679 - HIGH -  kernel: Use-After-Free in ath9k_htc_probe_device() could cause an escalation of privileges
+CVE-2021-3348 - HIGH -  kernel: Use-after-free in ndb_queue_rq() in drivers/block/nbd.c
+CVE-2019-15099 - HIGH -  kernel: a NULL pointer dereference in drivers/net/wireless/ath/ath10k/usb.c leads to a crash
+CVE-2022-28390 - HIGH -  kernel: a double free in ems_usb_start_xmit in drivers/net/can/usb/ems_usb.c
+CVE-2022-28389 - HIGH -  kernel: a double free in mcba_usb_start_xmit in drivers/net/can/usb/mcba_usb.c
+CVE-2022-28388 - HIGH -  kernel: a double free in usb_8dev_start_xmit in drivers/net/can/usb/usb_8dev.c
+CVE-2019-19074 - HIGH -  kernel: a memory leak in the ath9k management function in allows local DoS
+CVE-2020-12653 - HIGH -  kernel: buffer overflow in mwifiex_cmd_append_vsie_tlv function in drivers/net/wireless/marvell/mwifiex/scan.c
+CVE-2021-28660 - HIGH -  kernel: buffer overflow in rtw_wx_set_scan function in drivers/staging/rtl8188eu/os_dep/ioctl_linux.c
+CVE-2021-4197 - HIGH -  kernel: cgroup: Use open-time creds and namespace for migration perm checks
+CVE-2021-22600 - HIGH -  kernel: double free in packet_set_ring() in net/packet/af_packet.c
+CVE-2021-3600 - HIGH -  kernel: eBPF 32-bit source register truncation on div/mod
+CVE-2020-12654 - HIGH -  kernel: heap-based buffer overflow in mwifiex_ret_wmm_get_status function in drivers/net/wireless/marvell/mwifiex/wmm.c
+CVE-2020-13974 - HIGH -  kernel: integer overflow in k_ascii() in drivers/tty/vt/keyboard.c
+CVE-2021-3847 - HIGH -  kernel: low-privileged user privileges escalation
+CVE-2020-25672 - HIGH -  kernel: memory leak in llcp_sock_connect()
+CVE-2019-19078 - HIGH -  kernel: memory leak in the ath10k_usb_hif_tx_sg() function in drivers/net/wireless/ath/ath10k/usb.c leads to DoS
+CVE-2021-3760 - HIGH -  kernel: nfc: Use-After-Free vulnerability of ndev->rf_conn_info object
+CVE-2021-3743 - HIGH -  kernel: out-of-bound Read in qrtr_endpoint_post in net/qrtr/qrtr.c
+CVE-2019-15918 - HIGH -  kernel: out-of-bounds read in fs/cifs/smb2pdu.c
+CVE-2020-9383 - HIGH -  kernel: out-of-bounds read in set_fdc in drivers/block/floppy.c
+CVE-2021-0512 - HIGH -  kernel: out-of-bounds write due to a heap buffer overflow in __hidinput_change_resolution_multipliers() of hid-input.c
+CVE-2020-14351 - HIGH -  kernel: performance counters race condition use-after-free
+CVE-2022-0330 - HIGH -  kernel: possible privileges escalation due to missing TLB flush
+CVE-2021-3752 - HIGH -  kernel: possible use-after-free in bluetooth module
+CVE-2022-1048 - HIGH -  kernel: race condition in snd_pcm_hw_free leading to use-after-free
+CVE-2020-25670 - HIGH -  kernel: refcount leak in llcp_sock_bind()
+CVE-2020-25671 - HIGH -  kernel: refcount leak in llcp_sock_connect()
+CVE-2019-19768 - HIGH -  kernel: use-after-free in __blk_add_trace in kernel/trace/blktrace.c
+CVE-2022-24958 - HIGH -  kernel: use-after-free in dev->buf release in drivers/usb/gadget/legacy/inode.c
+CVE-2020-8648 - HIGH -  kernel: use-after-free in n_tty_receive_buf_common function in drivers/tty/n_tty.c
+CVE-2021-3483 - HIGH -  kernel: use-after-free in nosy driver in nosy_ioctl() in drivers/firewire/nosy.c when a device is added twice
+CVE-2021-39698 - HIGH -  kernel: use-after-free in the file polling implementation
+CVE-2021-3640 - HIGH -  kernel: use-after-free vulnerability in function sco_sock_sendmsg()
+CVE-2019-19252 - HIGH -  kernel: vcs_write in drivers/tty/vt/vc_screen.c does not prevent write access to vcsu devices
+CVE-2020-35519 - HIGH -  kernel: x25_bind out-of-bounds read
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2019-12379 - LOW -  kernel:  memory leak in con_insert_unipair in drivers/tty/vt/consolemap.c
+CVE-2019-19054 - LOW -  kernel: A memory leak in the cx23888_ir_probe() function in drivers/media/pci/cx23885/cx23888-ir.c allows attackers to cause a DoS
+CVE-2019-19064 - LOW -  kernel: A memory leak in the fsl_lpspi_probe() function in drivers/spi/spi-fsl-lpspi.c allows for a DoS
+CVE-2019-19070 - LOW -  kernel: A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c allows for a DoS
+CVE-2017-13694 - LOW -  kernel: ACPI node and node_ext cache leak
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2019-19046 - LOW -  kernel: Denial Of Service in the __ipmi_bmc_register() function in drivers/char/ipmi/ipmi_msghandler.c
+CVE-2014-9900 - LOW -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2018-17977 - LOW -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2022-1734 - LOW -  kernel: Use-After-Free in NFC driver in nfcmrvl_nci_unregister_dev when simulating NFC device from user-space
+CVE-2021-21781 - LOW -  kernel: arm: SIGPAGE information disclosure vulnerability
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2012-4542 - LOW -  kernel: block: default SCSI command filter does not accomodate commands overlap across device classes
+CVE-2019-12456 - LOW -  kernel: double fetch in the MPT3COMMAND case in _ctl_ioctl_main in drivers/scsi/mpt3sas/mpt3sas_ctl.c
+CVE-2020-12656 - LOW -  kernel: gss_mech_free in net/sunrpc/auth_gss/gss_mech_switch.c in the rpcsec_gss_krb5 implementation lacks certain domain_release calls, leading to a memory leak.
+CVE-2010-4563 - LOW -  kernel: ipv6: sniffer detection
+CVE-2019-12380 - LOW -  kernel: memory allocation failure in the efi subsystem leads to denial of service
+CVE-2019-18808 - LOW -  kernel: memory leak in ccp_run_sha_cmd() function in drivers/crypto/ccp/ccp-ops.c
+CVE-2018-20669 - LOW -  kernel: missing access_ok() checks in i915_gem_execbuffer2_ioctl() results in priviledge escalation
+CVE-2021-3655 - LOW -  kernel: missing size validations on inbound SCTP packets
+CVE-2008-2544 - LOW -  kernel: mounting proc readonly on a different mount point silently mounts it rw if the /proc mount is rw
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2019-16234 - LOW -  kernel: null pointer dereference in drivers/net/wireless/intel/iwlwifi/pcie/trans.c
+CVE-2019-16233 - LOW -  kernel: null pointer dereference in drivers/scsi/qla2xxx/qla_os.c
+CVE-2019-12615 - LOW -  kernel: null pointer dereference in get_vdev_port_node_info in arch /sparc/kernel/mdesc.c
+CVE-2019-12455 - LOW -  kernel: null pointer dereference in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c causing denial of service
+CVE-2019-16232 - LOW -  kernel: null-pointer dereference in drivers/net/wireless/marvell/libertas/if_sdio.c
+CVE-2022-1516 - LOW -  kernel: null-ptr-deref caused by x25_disconnect
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2021-3178 - LOW -  kernel: path traversal in fs/nfsd/nfs3xdr.c may lead to Information Disclosure or RCE
+CVE-2021-0938 - LOW -  kernel: possible bypass of defense in depth due to uninitialized data in memzero_explicit() of compiler-clang.h
+CVE-2020-0432 - LOW -  kernel: possible out of bounds write in skb_to_mamac of networking.c
+CVE-2007-3719 - LOW -  kernel: secretly Monopolizing the CPU Without Superuser Privileges
+CVE-2019-12378 - LOW -  kernel: unchecked kmalloc of new_ra in ip6_ra_control leads to denial of service
+CVE-2019-12381 - LOW -  kernel: unchecked kmalloc of new_ra in ip_ra_control leads to denial of service
+CVE-2021-0929 - LOW -  kernel: use-after-free in ion_dma_buf_end_cpu_access and related functions in ion.c
+CVE-2010-5321 - LOW -  kernel: v4l: videobuf: hotfix a bug on multiple calls to mmap()
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-28712 - MEDIUM -  CVE-2021-28711 CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-28713 - MEDIUM -  CVE-2021-28711 CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-28711 - MEDIUM -  CVE-2021-28712 CVE-2021-28713 xen: rogue backends can cause DoS of guests via high frequency events
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2020-10711 - MEDIUM -  Kernel: NetLabel: null pointer dereference while receiving CIPSO packet with null category may cause kernel panic
+CVE-2020-2732 - MEDIUM -  Kernel: kvm: nVMX: L2 guest may trick the L0 hypervisor to access sensitive L1 resources
+CVE-2020-12888 - MEDIUM -  Kernel: vfio: access to disabled MMIO space of some devices may lead to DoS scenario
+CVE-2022-23960 - MEDIUM -  hw: cpu: arm64: Spectre-BHB
+CVE-2022-0002 - MEDIUM -  hw: cpu: intel: Intra-Mode BTI
+CVE-2022-1652 - MEDIUM -  kernel: A concurrency use-after-free in bad_flp_intr
+CVE-2019-19058 - MEDIUM -  kernel: A memory leak in the alloc_sgtable() function in drivers/net/wireless/intel/iwlwifi/fw/dbg.c allows for a DoS
+CVE-2019-19066 - MEDIUM -  kernel: A memory leak in the bfad_im_get_stats() function in drivers/scsi/bfa/bfad_attr.c allows for a DoS
+CVE-2019-19056 - MEDIUM -  kernel: A memory leak in the mwifiex_pcie_alloc_cmdrsp_buf() function in drivers/net/wireless/marvell/mwifiex/pcie.c allows to cause DoS
+CVE-2019-19072 - MEDIUM -  kernel: A memory leak in the predicate_parse() function in kernel/trace/trace_events_filter.c allows for a DoS
+CVE-2019-19068 - MEDIUM -  kernel: A memory leak in the rtl8xxxu_submit_int_urb() function in drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c allows for a DoS
+CVE-2022-1195 - MEDIUM -  kernel: A possible race condition (use-after-free) in drivers/net/hamradio/6pack ( mkiss.c) after unregister_netdev
+CVE-2022-0644 - MEDIUM -  kernel: Assertion failure can happen if users trigger kernel_read_file_from_fd()
+CVE-2021-34556 - MEDIUM -  kernel: BPF program can obtain sensitive information from kernel memory via a speculative store bypass side-channel attack because of the possibility of uninitialized memory locations on the BPF stack
+CVE-2021-35477 - MEDIUM -  kernel: BPF program can obtain sensitive information from kernel memory via a speculative store bypass side-channel attack because the technique used by the BPF verifier to manage speculation is unreliable
+CVE-2021-28972 - MEDIUM -  kernel: Buffer overflow in hotplug/rpadlpar_sysfs.c
+CVE-2021-29264 - MEDIUM -  kernel: DoS due to negative fragment size calculation in drivers/net/ethernet/freescale/gianfar.c
+CVE-2021-3764 - MEDIUM -  kernel: DoS in ccp_run_aes_gcm_cmd() function
+CVE-2022-0322 - MEDIUM -  kernel: DoS in sctp_addto_chunk in net/sctp/sm_make_chunk.c
+CVE-2021-4135 - MEDIUM -  kernel: Heap information leak in map_lookup_elem function
+CVE-2021-0129 - MEDIUM -  kernel: Improper access control in BlueZ may allow information disclosure vulnerability.
+CVE-2020-12363 - MEDIUM -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2021-33098 - MEDIUM -  kernel: Improper input validation in the Intel(R) Ethernet ixgbe driver may allow an authenticated user to potentially enable DoS via local access
+CVE-2019-16089 - MEDIUM -  kernel: Improper return check in nbd_genl_status function in drivers/block/nbd.c
+CVE-2021-0605 - MEDIUM -  kernel: In pfkey_dump() dplen and splen can both be specified to access the xfrm_address_t structure out of bounds
+CVE-2020-10768 - MEDIUM -  kernel: Indirect branch speculation can be enabled after it was force-disabled by the PR_SPEC_FORCE_DISABLE prctl command.
+CVE-2020-8694 - MEDIUM -  kernel: Insufficient access control vulnerability in PowerCap Framework
+CVE-2022-0171 - MEDIUM -  kernel: KVM: cache incoherence issue in SEV API may lead to kernel crash
+CVE-2019-19073 - MEDIUM -  kernel: Memory leaks in drivers/net/wireless/ath/ath9k/htc_hst.c in the Linux kernel (DOS)
+CVE-2019-19059 - MEDIUM -  kernel: Multiple memory leaks in the iwl_pcie_ctxt_info_gen3_init() function in drivers/net/wireless/intel/iwlwifi/pcie/ctxt-info-gen3.c allows for a DoS
+CVE-2022-0812 - MEDIUM -  kernel: NFS over RDMA random memory leakage
+CVE-2019-19965 - MEDIUM -  kernel: NULL pointer dereference in drivers/scsi/libsas/sas_discover.c because of mishandling of port disconnection during discovery
+CVE-2021-3659 - MEDIUM -  kernel: NULL pointer dereference in llsec_key_alloc() in net/mac802154/llsec.c
+CVE-2019-19462 - MEDIUM -  kernel: NULL pointer dereference in relay_open in kernel/relay.c
+CVE-2020-15437 - MEDIUM -  kernel: NULL pointer dereference in serial8250_isa_init_ports function in drivers/tty/serial/8250/8250_core.c
+CVE-2022-1199 - MEDIUM -  kernel: Null pointer dereference and use after free in ax25_release()
+CVE-2022-1205 - MEDIUM -  kernel: Null pointer dereference and use after free in net/ax25/ax25_timer.c
+CVE-2020-12364 - MEDIUM -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2022-0617 - MEDIUM -  kernel: Null pointer dereference in udf_expand_file_adinicbdue() during writeback
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2021-3714 - MEDIUM -  kernel: Remote Page Deduplication Attacks
+CVE-2019-3874 - MEDIUM -  kernel: SCTP socket buffer memory leak leading to denial of service
+CVE-2020-10751 - MEDIUM -  kernel: SELinux netlink permission check bypass
+CVE-2021-28971 - MEDIUM -  kernel: System crash in intel_pmu_drain_pebs_nhm in arch/x86/events/intel/ds.c
+CVE-2022-1204 - MEDIUM -  kernel: Use after free in net/ax25/af_ax25.c
+CVE-2021-3753 - MEDIUM -  kernel: a race out-of-bound read in vt
+CVE-2021-4159 - MEDIUM -  kernel: another kernel ptr leak vulnerability via BPF in coerce_reg_to_size
+CVE-2020-0404 - MEDIUM -  kernel: avoid cyclic entity chains due to malformed USB descriptors
+CVE-2020-12465 - MEDIUM -  kernel: buffer overflow in mt76_add_fragment function in drivers/net/wireless/mediatek/mt76/dma.c
+CVE-2020-14314 - MEDIUM -  kernel: buffer uses out of index in ext3/4 filesystem
+CVE-2022-1280 - MEDIUM -  kernel: concurrency use-after-free between drm_setmaster_ioctl and drm_mode_getresources
+CVE-2021-3744 - MEDIUM -  kernel: crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd()
+CVE-2020-12771 - MEDIUM -  kernel: deadlock if a coalescing operation fails in btree_gc_coalesce function in drivers/md/bcache/btree.c
+CVE-2020-14304 - MEDIUM -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2021-3635 - MEDIUM -  kernel: flowtable list del corruption with kernel BUG at lib/list_debug.c:50
+CVE-2020-35508 - MEDIUM -  kernel: fork: fix copy_process(CLONE_PARENT) race with the exiting ->real_parent
+CVE-2020-16120 - MEDIUM -  kernel: incorrect unprivileged overlayfs permission checking may lead to information disclosure
+CVE-2022-0850 - MEDIUM -  kernel: information leak in copy_page_to_iter() in iov_iter.c
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2021-3428 - MEDIUM -  kernel: integer overflow in ext4_es_cache_extent
+CVE-2020-8649 - MEDIUM -  kernel: invalid read location in vgacon_invert_region function in drivers/video/console/vgacon.c
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2019-18786 - MEDIUM -  kernel: memory disclosure in rcar_drif_g_fmt_sdr_cap in drivers/media/platform/rcar_drif.c
+CVE-2019-18809 - MEDIUM -  kernel: memory leak in  af9005_identify_state() function in drivers/media/usb/dvb-usb/af9005.c
+CVE-2019-19077 - MEDIUM -  kernel: memory leak in bnxt_re_create_srq function in drivers/infiniband/hw/bnxt_re/ib_verbs.c
+CVE-2020-15393 - MEDIUM -  kernel: memory leak in usbtest_disconnect function in drivers/usb/misc/usbtest.c
+CVE-2019-19082 - MEDIUM -  kernel: memory leaks in *create_resource_pool() functions under drivers/gpu/drm/amd/display/dc leads to DoS
+CVE-2020-14385 - MEDIUM -  kernel: metadata validator in XFS may cause an inode with a valid, user-creatable extended attribute to be flagged as corrupt
+CVE-2021-43976 - MEDIUM -  kernel: mwifiex_usb_recv() in drivers/net/wireless/marvell/mwifiex/usb.c allows an attacker to cause DoS via crafted USB device
+CVE-2020-25673 - MEDIUM -  kernel: non-blocking socket in llcp_sock_connect()
+CVE-2019-9445 - MEDIUM -  kernel: out of bounds read due to missing bounds check in F2FS driver leads to local information disclosure
+CVE-2021-0941 - MEDIUM -  kernel: out-of-bounds read in bpf_skb_change_head() of filter.c due to a use-after-free
+CVE-2020-8647 - MEDIUM -  kernel: out-of-bounds read in in vc_do_resize function in drivers/tty/vt/vt.c
+CVE-2021-43975 - MEDIUM -  kernel: out-of-bounds write in hw_atl_utils_fw_rpc_wait() in drivers/net/ethernet/aquantia/atlantic/hw_atl/hw_atl_utils.c
+CVE-2020-11565 - MEDIUM -  kernel: out-of-bounds write in mpol_parse_str function in mm/mempolicy.c
+CVE-2021-3732 - MEDIUM -  kernel: overlayfs: Mounting overlayfs inside an unprivileged user namespace can reveal files
+CVE-2021-39648 - MEDIUM -  kernel: possible disclosure of memory due to a race condition in gadget_dev_desc_UDC_show() of configfs.c
+CVE-2021-4002 - MEDIUM -  kernel: possible leak or coruption of data residing on hugetlbfs
+CVE-2020-0431 - MEDIUM -  kernel: possible out of bounds write in kbd_keycode of keyboard.c
+CVE-2020-0305 - MEDIUM -  kernel: possible use-after-free due to a race condition in cdev_get of char_dev.c
+CVE-2019-15030 - MEDIUM -  kernel: powerpc: local user can read vector registers of other users' processes via a Facility Unavailable exception
+CVE-2019-15031 - MEDIUM -  kernel: powerpc: local user can read vector registers of other users' processes via an interrupt
+CVE-2021-28964 - MEDIUM -  kernel: race condition in get_old_root function in fs/btrfs/ctree.c because of a lack of locking on an extent buffer before a cloning operation
+CVE-2021-3669 - MEDIUM -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2021-45095 - MEDIUM -  kernel: refcount leak in pep_sock_accept() in net/phonet/pep.c
+CVE-2021-3772 - MEDIUM -  kernel: sctp: Invalid chunks may be used to remotely remove existing associations
+CVE-2021-3894 - MEDIUM -  kernel: sctp: local DoS: unprivileged user can cause BUG()
+CVE-2020-12770 - MEDIUM -  kernel: sg_write function lacks an sg_remove_request call in a certain failure case
+CVE-2020-8992 - MEDIUM -  kernel: soft lockup via a crafted journal size in ext4_protect_reserved_inode in fs/ext4/block_validity.c
+CVE-2020-25641 - MEDIUM -  kernel: soft-lockups in iov_iter_copy_from_user_atomic() could result in DoS
+CVE-2020-4788 - MEDIUM -  kernel: speculation on incompletely validated data on IBM Power9
+CVE-2022-0854 - MEDIUM -  kernel: swiotlb information leak with DMA_FROM_DEVICE
+CVE-2020-12655 - MEDIUM -  kernel: sync of excessive duration via an XFS v5 image with crafted metadata
+CVE-2019-20794 - MEDIUM -  kernel: task processes not being properly ended could lead to resource exhaustion
+CVE-2021-3759 - MEDIUM -  kernel: unaccounted ipc objects in Linux kernel lead to breaking memcg limits and DoS attacks
+CVE-2019-19947 - MEDIUM -  kernel: uninitialized memory allocation in drivers/net/can/usb/kvaser_usb/kvaser_usb_leaf.c leading to information leak
+CVE-2020-13143 - MEDIUM -  kernel: usb: gadget: illegal array access in binding with UDC
+CVE-2021-0342 - MEDIUM -  kernel: use after free in tun_get_user of tun.c could lead to local escalation of privilege
+CVE-2022-1184 - MEDIUM -  kernel: use-after-free and memory errors in ext4 when mounting and operating on a corrupted image
+CVE-2020-10690 - MEDIUM -  kernel: use-after-free in cdev_put() when a PTP device is removed while it's chardev is open
+CVE-2022-1198 - MEDIUM -  kernel: use-after-free in drivers/net/hamradio/6pack.c
+CVE-2020-10942 - MEDIUM -  kernel: vhost-net: stack overflow in get_raw_socket while checking sk_family field
+CVE-2021-4155 - MEDIUM -  kernel: xfs: raw block device data leak in XFS_IOC_ALLOCSP IOCTL
+CVE-2020-10781 - MEDIUM -  kernel: zram sysfs resource consumption
+CVE-2021-0937 - MEDIUM -  null
+CVE-2022-1419 - MEDIUM -  null
+CVE-2021-43809 - MEDIUM -  rubygem-bundler: unexpected code execution in Gemfiles
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2022-24795 - MEDIUM -  yajl: heap-based buffer overflow when handling large inputs due to an integer overflow

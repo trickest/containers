@@ -1,0 +1,16 @@
+root:*:14871::::::
+bin:!*:19099::::::
+daemon:!*:19099::::::
+mail:!*:19099::::::
+ftp:!*:19099::::::
+http:!*:19099::::::
+nobody:!*:19099::::::
+dbus:!*:19099::::::
+systemd-coredump:!*:19099::::::
+systemd-network:!*:19099::::::
+systemd-oom:!*:19099::::::
+systemd-journal-remote:!*:19099::::::
+systemd-resolve:!*:19099::::::
+systemd-timesync:!*:19099::::::
+tss:!*:19099::::::
+uuidd:!*:19099::::::

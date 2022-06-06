@@ -1,0 +1,55 @@
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2017-15873 - LOW -  busybox: Integer overflow in the get_next_block function
+CVE-2017-3144 - LOW -  dhcp: omapi code doesn't free socket descriptors when empty message is received allowing denial-of-service
+CVE-2016-2774 - LOW -  dhcp: unclosed TCP connections to OMAPI or failover ports can cause DoS
+CVE-2015-8865 - LOW -  file: Buffer over-write in finfo_open with malformed magic file
+CVE-2014-9621 - LOW -  file: limit string printing to 100 chars
+CVE-2014-9620 - LOW -  file: limit the number of ELF notes processed
+CVE-2017-15298 - LOW -  git: Mishandling layers of tree objects
+CVE-2016-6323 - LOW -  glibc: Missing unwind info in __startcontext causes infinite loop in _Unwind_Backtrace
+CVE-2016-3706 - LOW -  glibc: stack (frame) overflow in getaddrinfo() when called with AF_INET, AF_INET6 (incomplete fix for CVE-2013-4458)
+CVE-2017-7869 - LOW -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2016-7943 - LOW -  libX11: Insufficient validation of server responses in FontNames
+CVE-2016-7942 - LOW -  libX11: Insufficient validation of server responses in XGetImage()
+CVE-2016-10087 - LOW -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2017-16932 - LOW -  libxml2: Infinite recursion in parameter entities
+CVE-2017-6463 - LOW -  ntp: Authenticated DoS via Malicious Config Option
+CVE-2017-6462 - LOW -  ntp: Buffer Overflow in DPTS Clock
+CVE-2017-6464 - LOW -  ntp: Denial of Service via Malformed Config
+CVE-2016-10713 - LOW -  patch: Out-of-bounds access in pch_write_line function in pch.c
+CVE-2018-1053 - LOW -  postgresql: pg_upgrade creates file of sensitive metadata under prevailing umask
+CVE-2018-1061 - LOW -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - LOW -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2018-8740 - LOW -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2018-1000517 - MEDIUM -  busybox: wget: Heap-based buffer overflow in the retrieve_file_data() function
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2018-1000007 - MEDIUM -  curl: HTTP authentication leak in redirects
+CVE-2018-5733 - MEDIUM -  dhcp: Reference count overflow in dhcpd allows denial of service
+CVE-2017-9233 - MEDIUM -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2017-14867 - MEDIUM -  git: cvsserver command injection
+CVE-2015-8983 - MEDIUM -  glibc: _IO_wstr_overflow integer overflow
+CVE-2015-8982 - MEDIUM -  glibc: multiple overflows in strxfrm()
+CVE-2015-8984 - MEDIUM -  glibc: potential denial of service in internal_fnmatch()
+CVE-2017-5337 - MEDIUM -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5335 - MEDIUM -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-5336 - MEDIUM -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2017-11103 - MEDIUM -  krb5: Metadata taken from the unauthenticated plaintext
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2016-0787 - MEDIUM -  libssh2: bits/bytes confusion resulting in truncated Diffie-Hellman secret length
+CVE-2017-6891 - MEDIUM -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2017-0663 - MEDIUM -  libxml2: Heap buffer overflow in xmlAddID
+CVE-2017-9049 - MEDIUM -  libxml2: Heap-based buffer over-read in function xmlDictComputeFastKey
+CVE-2017-7375 - MEDIUM -  libxml2: Missing validation for external entities in xmlParsePEReference
+CVE-2017-9048 - MEDIUM -  libxml2: Stack-based buffer overflow in function xmlSnprintfElementContent
+CVE-2018-7183 - MEDIUM -  ntp: decodearr() can write beyond its buffer limit
+CVE-2017-9287 - MEDIUM -  openldap: Double free vulnerability in servers/slapd/back-mdb/search.c
+CVE-2016-7056 - MEDIUM -  openssl: ECDSA P-256 timing attack key recovery
+CVE-2018-10915 - MEDIUM -  postgresql: Certain host connection parameters defeat client-side security defenses
+CVE-2017-15098 - MEDIUM -  postgresql: Memory disclosure in JSON functions
+CVE-2017-7548 - MEDIUM -  postgresql: lo_put() function ignores ACLs
+CVE-2017-7547 - MEDIUM -  postgresql: pg_user_mappings view discloses passwords to users lacking server privileges
+CVE-2018-5764 - MEDIUM -  rsync: sanitization bypass in parse_argument in options.c
+CVE-2016-6252 - MEDIUM -  shadow-utils: Incorrect integer handling results in LPE

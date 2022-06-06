@@ -1,0 +1,9 @@
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2020-10531 - HIGH -  ICU: Integer overflow in UnicodeString::doAppend()
+CVE-2019-19906 - HIGH -  cyrus-sasl: denial of service in _sasl_add_string function
+CVE-2018-16860 - HIGH -  samba: S4U2Self with unkeyed checksum
+CVE-2019-19244 - HIGH -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2019-5188 - MEDIUM -  e2fsprogs: Out-of-bounds write in e2fsck/rehash.c
+CVE-2019-16168 - MEDIUM -  sqlite: Division by zero in whereLoopAddBtreeIndex in sqlite3.c
+CVE-2019-19242 - MEDIUM -  sqlite: SQL injection in sqlite3ExprCodeTarget in expr.c

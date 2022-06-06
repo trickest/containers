@@ -1,0 +1,27 @@
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-27386 - HIGH -  mariab: SEGV via the component sql/sql_class.cc.
+CVE-2021-46669 - HIGH -  mariadb: MariaDB through 10.5.9 allows attackers to trigger a convert_const_to_int use-after-free when the BIGINT data type is used
+CVE-2022-27382 - HIGH -  mariadb: SEGV via component Item_field::used_tables/update_depend_map_for_order or Assertion `fixed == 1'
+CVE-2022-27385 - HIGH -  mariadb: crash in Used_tables_and_const_cache::used_tables_and_const_cache_join
+CVE-2022-27384 - HIGH -  mariadb: crash via component Item_subselect::init_expr_cache_tracker.
+CVE-2022-27387 - HIGH -  mariadb: global-buffer-overflow in decimal_bin_size of decimal.c
+CVE-2022-27381 - HIGH -  mariadb: server crash at Field::set_default via specially crafted SQL statements.
+CVE-2022-27380 - HIGH -  mariadb: server crash at my_decimal::operator=
+CVE-2022-27378 - HIGH -  mariadb: server crash in Create_tmp_table::finalize
+CVE-2022-27379 - HIGH -  mariadb: server crash in component Arg_comparator::compare_real_fixed
+CVE-2022-27383 - HIGH -  mariadb: use-after-free in my_strcasecmp_8bit() of ctype-simple.c
+CVE-2022-27376 - HIGH -  mariadb: use-after-free in the component Item_args::walk_arg
+CVE-2022-27377 - HIGH -  mariadb: use-after-free in the component Item_func_in::cleanup() of item_cmpfunc.h
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2022-1586 - HIGH -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - HIGH -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2021-45261 - LOW -  patch: Invalid Pointer via another_hunk function
+CVE-2010-4651 - LOW -  patch: directory traversal flaw allows for arbitrary file creation
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information

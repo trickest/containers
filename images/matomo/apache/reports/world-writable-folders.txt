@@ -1,0 +1,11 @@
+/var/log/apache2
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock
+/run/lock/apache2
+/run/apache2

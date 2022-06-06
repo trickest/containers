@@ -1,0 +1,14 @@
+/opt/ts3server/serverquerydocs
+/opt/ts3server/sql
+/opt/ts3server/sql/updates_and_fixes
+/opt/ts3server/sql/create_mariadb
+/opt/ts3server/sql/create_sqlite
+/var/tmp
+/var/ts3server
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/ts3server

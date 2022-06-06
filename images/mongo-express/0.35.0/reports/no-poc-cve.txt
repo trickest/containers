@@ -1,0 +1,77 @@
+NSWG-ECO-433 - CRITICAL -  Command Injection - Generic
+GHSA-28xh-wpgr-7fm8 - CRITICAL -  Command Injection in open
+CVE-2017-5337 - CRITICAL -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5336 - CRITICAL -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2019-5953 - CRITICAL -  wget: do_conversion() heap-based buffer overflow vulnerability
+GHSA-8j8c-7jfh-h6hx - HIGH -  Code Injection in js-yaml
+CVE-2021-21422 - HIGH -  Cross-site scripting
+NSWG-ECO-401 - HIGH -  Denial of Service
+GHSA-mh5c-679w-hh4r - HIGH -  Denial of Service in mongodb
+NSWG-ECO-434 - HIGH -  Out-of-bounds Read
+GHSA-j4mr-9xw3-c9jx - HIGH -  Out-of-bounds Read in base64-url
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+GHSA-46fh-8fc5-xcwx - HIGH -  Prototype Pollution in lodash.defaultsdeep
+GHSA-h5mp-5q4p-ggf5 - HIGH -  Prototype Pollution in lodash.defaultsdeep
+GHSA-5947-m4fg-xhqg - HIGH -  Prototype Pollution in lodash.mergewith
+GHSA-779f-wgxg-qr8f - HIGH -  Prototype Pollution in lodash.mergewith
+CVE-2020-7610 - HIGH -  bson:  Deserialization of Untrusted Data could result in Code injection or Excessive CPU load
+CVE-2020-14382 - HIGH -  cryptsetup: Out-of-bounds write when validating segments
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-29573 - HIGH -  glibc: stack-based buffer overflow if the input to any of the printf family of functions is an 80-bit long double with a non-canonical bit pattern
+CVE-2017-7507 - HIGH -  gnutls: Crash upon receiving well-formed status_request extension
+CVE-2017-5335 - HIGH -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-7869 - HIGH -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-29167 - HIGH -  hawk: REDoS in hawk.utils.parseHost() when parsing Host header
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2022-21803 - HIGH -  nconf: Prototype pollution in memory store
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-36770 - HIGH -  perl-Encode: bug in local configuration loading allows arbitrary Perl code execution placed under the current working directory
+CVE-2016-6252 - HIGH -  shadow-utils: Incorrect integer handling results in LPE
+CVE-2015-5186 - LOW -  Audit: log terminal emulator escape sequences handling
+NSWG-ECO-375 - LOW -  Regular Expression Denial of Service (ReDoS)
+GHSA-xgh6-85xh-479p - LOW -  Regular Expression Denial of Service in npm-user-validate
+NSWG-ECO-408 - LOW -  deep-extend prototype pollution
+CVE-2020-8991 - LOW -  lvm2: memory leak in vg_lookup in daemons/lvmetad/lvmetad-core.c
+CVE-2017-18869 - LOW -  nodejs-chownr: TOCTOU vulnerability in `chownr` function in chownr.js
+CVE-2019-16776 - LOW -  npm: Arbitrary file write via constructed entry in the package.json bin field
+CVE-2019-16777 - LOW -  npm: Global node_modules Binary Overwrite
+CVE-2021-3601 - LOW -  openssl: Certificate with CA:FALSE is accepted as valid CA cert
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+NSWG-ECO-473 - MEDIUM -  Arbitrary Code Injection
+GHSA-2pr6-76vf-7546 - MEDIUM -  Denial of Service in js-yaml
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+NSWG-ECO-393 - MEDIUM -  Memory Exposure
+GHSA-xc7v-wxcw-j472 - MEDIUM -  Memory Exposure in tunnel-agent
+NSWG-ECO-422 - MEDIUM -  Out-of-bounds Read
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+NSWG-ECO-338 - MEDIUM -  ReDoS
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2015-5276 - MEDIUM -  gcc: Predictable randomness from std::random_device
+CVE-2021-3998 - MEDIUM -  glibc: Unexpected return value from realpath() could leak data based on the application
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2018-10846 - MEDIUM -  gnutls: "Just in Time" PRIME + PROBE cache-based side channel attack can lead to plaintext recovery
+CVE-2018-10844 - MEDIUM -  gnutls: HMAC-SHA-256 vulnerable to Lucky thirteen attack due to not enough dummy function calls
+CVE-2018-10845 - MEDIUM -  gnutls: HMAC-SHA-384 vulnerable to Lucky thirteen attack due to use of wrong constant
+CVE-2018-1107 - MEDIUM -  nodejs-is-my-json-valid: ReDoS when validating JSON fields with email format
+CVE-2018-21270 - MEDIUM -  nodejs-stringstream: out-of-bounds read leading to uninitialized memory exposure
+CVE-2017-9287 - MEDIUM -  openldap: Double free vulnerability in servers/slapd/back-mdb/search.c
+CVE-2016-7056 - MEDIUM -  openssl: ECDSA P-256 timing attack key recovery
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2021-3995 - MEDIUM -  util-linux: Unauthorized unmount of FUSE filesystems belonging to users with similar uid
+CVE-2021-3996 - MEDIUM -  util-linux: Unauthorized unmount of filesystems in libmount
+CVE-2017-6508 - MEDIUM -  wget: CRLF injection in the url_parse function in url.c
+DLA-1833-2 - UNKNOWN -  bzip2 - regression update
+DLA-1606-1 - UNKNOWN -  gcc-4.9 - bugfix update
+DSA-4117-1 - UNKNOWN -  gcc-4.9 - update
+DSA-3793-2 - UNKNOWN -  shadow - regression update
+DLA-1762-2 - UNKNOWN -  systemd - regression update
+DLA-1625-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1744-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1957-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1563-1 - UNKNOWN -  tzdata - update

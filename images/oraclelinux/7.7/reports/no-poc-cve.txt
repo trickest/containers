@@ -1,0 +1,15 @@
+CVE-2020-8616 - HIGH -  bind: BIND does not sufficiently limit the number of fetches performed when processing referrals
+CVE-2020-8625 - HIGH -  bind: Buffer overflow in the SPNEGO implementation affecting GSSAPI security policy negotiation
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2021-25214 - MEDIUM -  bind: Broken inbound incremental zone update (IXFR) can cause named to terminate unexpectedly
+CVE-2020-8624 - MEDIUM -  bind: incorrect enforcement of update-policy rules of type "subdomain"
+CVE-2020-8623 - MEDIUM -  bind: remotely triggerable assertion failure in pk11.c
+CVE-2019-14866 - MEDIUM -  cpio: improper input validation when writing tar header fields leads to unexpected tar generation
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2020-29573 - MEDIUM -  glibc: stack-based buffer overflow if the input to any of the printf family of functions is an 80-bit long double with a non-canonical bit pattern
+CVE-2019-14822 - MEDIUM -  ibus: missing authorization allows local attacker to access the input bus of another user
+CVE-2020-12401 - MEDIUM -  nss: ECDSA timing attack mitigation bypass
+CVE-2020-12400 - MEDIUM -  nss: P-384 and P-521 implementation uses a side-channel vulnerable modular inversion function
+CVE-2020-6829 - MEDIUM -  nss: Side channel attack on ECDSA signature generation
+CVE-2020-12402 - MEDIUM -  nss: Side channel vulnerabilities during RSA key generation
+CVE-2019-17023 - MEDIUM -  nss: TLS 1.3 HelloRetryRequest downgrade request sets client into invalid state

@@ -1,0 +1,8 @@
+/usr/src/joomla/media/vendor/codemirror/mode/perl
+/usr/src/joomla/media/vendor/codemirror/mode/perl/perl.min.js.gz
+/usr/src/joomla/media/vendor/codemirror/mode/perl/perl.js
+/usr/src/joomla/media/vendor/codemirror/mode/perl/perl.min.js
+/usr/src/joomla/media/vendor/codemirror/mode/python
+/usr/src/joomla/media/vendor/codemirror/mode/python/python.min.js
+/usr/src/joomla/media/vendor/codemirror/mode/python/python.js
+/usr/src/joomla/media/vendor/codemirror/mode/python/python.min.js.gz

@@ -1,0 +1,1 @@
+CVE-2022-26691 - HIGH -  cups: authorization bypass when using "local" authorization

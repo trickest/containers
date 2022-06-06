@@ -1,0 +1,82 @@
+CVE-2015-2632 - LOW -  ICU: integer overflow in LETableReference verifyLength() (OpenJDK 2D, 8077520)
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2017-15873 - LOW -  busybox: Integer overflow in the get_next_block function
+CVE-2018-20679 - LOW -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2011-5325 - LOW -  busybox: Path traversal via crafted tar file containing symlink
+CVE-2016-2148 - LOW -  busybox: heap-based buffer overflow in OPTION_6RD parsing
+CVE-2016-2147 - LOW -  busybox: out of bounds write (heap) due to integer underflow in udhcpc
+CVE-2014-9645 - LOW -  busybox: unprivileged arbitrary module load via basename abuse
+CVE-2019-3823 - LOW -  curl: SMTP end-of-response out-of-bounds read
+CVE-2015-8865 - LOW -  file: Buffer over-write in finfo_open with malformed magic file
+CVE-2014-9621 - LOW -  file: limit string printing to 100 chars
+CVE-2014-9620 - LOW -  file: limit the number of ELF notes processed
+CVE-2014-9653 - LOW -  file: malformed elf file causes access to uninitialized memory
+CVE-2018-10360 - LOW -  file: out-of-bounds read via a crafted ELF file
+CVE-2019-0220 - LOW -  httpd: URL normalization inconsistency
+CVE-2018-17199 - LOW -  httpd: mod_session_cookie does not respect expiry time
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2018-5730 - LOW -  krb5: DN container check bypass by supplying special crafted data
+CVE-2018-5729 - LOW -  krb5: null dereference in kadmind or DN container check bypass by supplying special crafted data
+CVE-2016-10087 - LOW -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2017-18258 - LOW -  libxml2: Unrestricted memory usage in xz_head() function in xzlib.c
+CVE-2016-9318 - LOW -  libxml2: XML External Entity vulnerability
+CVE-2018-7185 - LOW -  ntp: Unauthenticated packet can reset authenticated interleaved association
+CVE-2018-0732 - LOW -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2018-5407 - LOW -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2018-0734 - LOW -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2018-1061 - LOW -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - LOW -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2018-8740 - LOW -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2015-1270 - MEDIUM -  ICU: Uninitialized memory read fixed in Chrome 44.0.2403.89
+CVE-2014-6585 - MEDIUM -  ICU: font parsing OOB read (OpenJDK 2D, 8055489)
+CVE-2014-6591 - MEDIUM -  ICU: font parsing OOB read (OpenJDK 2D, 8056276)
+CVE-2016-0494 - MEDIUM -  ICU: integer signedness issue in IndicRearrangementProcessor (OpenJDK 2D, 8140543)
+CVE-2015-4760 - MEDIUM -  ICU: missing boundary checks in layout engine (OpenJDK 2D, 8071715)
+CVE-2015-4844 - MEDIUM -  ICU: missing boundary checks in layout engine (OpenJDK 2D, 8132042)
+CVE-2014-7926 - MEDIUM -  ICU: regexp engine incorrect handling of a zero length quantifier
+CVE-2014-7923 - MEDIUM -  ICU: regexp engine missing look-behind expression range check
+CVE-2014-7940 - MEDIUM -  ICU: uninitialized value use in the collation component
+CVE-2017-16544 - MEDIUM -  busybox: Insufficient sanitization of filenames when autocompleting
+CVE-2019-5747 - MEDIUM -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2015-9261 - MEDIUM -  busybox: Segmentation fault when unzipping specially crafted zip file
+CVE-2018-1000517 - MEDIUM -  busybox: wget: Heap-based buffer overflow in the retrieve_file_data() function
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2018-16842 - MEDIUM -  curl: Heap-based buffer over-read in the curl tool warning formatting
+CVE-2018-16839 - MEDIUM -  curl: Integer overflow leading to heap-based buffer overflow in Curl_sasl_create_plain_message()
+CVE-2018-14618 - MEDIUM -  curl: NTLM password overflow via integer overflow
+CVE-2018-1000301 - MEDIUM -  curl: Out-of-bounds heap read when missing RTSP headers allows information leak or denial of service
+CVE-2018-12020 - MEDIUM -  gnupg2: Improper sanitization of filenames allows for the display of fake status messages and the bypass of signature verification
+CVE-2019-0217 - MEDIUM -  httpd: mod_auth_digest: access control bypass due to race condition
+CVE-2017-14952 - MEDIUM -  icu: Double free in i18n/zonemeta.cpp
+CVE-2017-7868 - MEDIUM -  icu: Heap-buffer overflow in utext_moveIndex32 function
+CVE-2017-7867 - MEDIUM -  icu: Heap-buffer overflow in utext_setNativeIndex function
+CVE-2016-6293 - MEDIUM -  icu: Out-of-bounds access in uloc_acceptLanguageFromHTTP
+CVE-2016-7415 - MEDIUM -  icu: Stack based buffer overflow in locid.cpp
+CVE-2014-8146 - MEDIUM -  icu: heap overflow via incorrect isolateCount
+CVE-2014-9654 - MEDIUM -  icu: insufficient size limit checks in regular expression compiler
+CVE-2014-8147 - MEDIUM -  icu: integer truncation in the resolveImplicitLevels function
+CVE-2014-9911 - MEDIUM -  icu: stack-based buffer overflow in uloc_getDisplayName
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2015-8631 - MEDIUM -  krb5: Memory leak caused by supplying a null principal name in request
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2015-8630 - MEDIUM -  krb5: krb5 doesn't check for null policy when KADM5_POLICY is set in the mask
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2015-8629 - MEDIUM -  krb5: xdr_nullstring() doesn't check for terminating null character
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2015-1782 - MEDIUM -  libssh2: Using SSH_MSG_KEXINIT data unbounded
+CVE-2018-14567 - MEDIUM -  libxml2: Infinite loop caused by incorrect error detection during LZMA decompression
+CVE-2018-14404 - MEDIUM -  libxml2: NULL pointer dereference in xmlXPathCompOpEval() function in xpath.c
+CVE-2018-7183 - MEDIUM -  ntp: decodearr() can write beyond its buffer limit
+CVE-2018-12015 - MEDIUM -  perl: Directory traversal in Archive::Tar
+CVE-2018-18313 - MEDIUM -  perl: Heap-based buffer read overflow in S_grok_bslash_N()
+CVE-2018-18311 - MEDIUM -  perl: Integer overflow leading to buffer overflow in Perl_my_setenv()
+CVE-2018-10915 - MEDIUM -  postgresql: Certain host connection parameters defeat client-side security defenses
+CVE-2018-1124 - MEDIUM -  procps-ng, procps: Integer overflows leading to heap overflow in file2strvec
+CVE-2018-1122 - MEDIUM -  procps-ng, procps: Local privilege escalation in top
+CVE-2018-1123 - MEDIUM -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1126 - MEDIUM -  procps-ng, procps: incorrect integer size in proc/alloc.* leading to truncation / integer overflow issues
+CVE-2018-1125 - MEDIUM -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2018-1000802 - MEDIUM -  python: Command injection in the shutil module
+CVE-2018-14647 - MEDIUM -  python: Missing salt initialization in _elementtree.c module
+CVE-2019-3842 - MEDIUM -  systemd: Spoofing of XDG_SEAT allows for actions to be checked against "allow_active" instead of "allow_any"
