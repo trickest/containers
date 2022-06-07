@@ -1,0 +1,9 @@
+/tmp
+/dev/shm
+/dev/mqueue
+/var/lock
+/var/spool/mail
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi

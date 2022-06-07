@@ -1,0 +1,2 @@
+CVE-2016-20013 - LOW -  null
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem

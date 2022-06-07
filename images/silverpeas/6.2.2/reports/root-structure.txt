@@ -1,0 +1,8 @@
+build
+build.gradle
+gradle
+lib
+settings.gradle
+silverpeas
+silverpeas.bat
+silverpeas.gradle

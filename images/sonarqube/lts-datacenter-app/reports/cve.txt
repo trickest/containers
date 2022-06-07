@@ -1,0 +1,39 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+GHSA-v57x-gxfj-484q - CRITICAL -  Security Advisory for "Log4Shell"
+CVE-2021-43466 - CRITICAL -  Template injection in thymeleaf-spring5
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2022-23221 - CRITICAL -  h2: Loading of custom classes from remote servers through JNDI
+CVE-2021-42392 - CRITICAL -  h2: Remote Code Execution in Console
+CVE-2021-23463 - CRITICAL -  h2database: XXE injection vulnerability
+CVE-2022-0265 - CRITICAL -  hazelcast: Improper Restriction of XML External Entity Reference
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-22968 - HIGH -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2022-22970 - HIGH -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2021-40690 - HIGH -  xml-security: XPath Transform abuse allows for information disclosure
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2022-21230 - MEDIUM -  Incorrect Permission Assignment for Critical Resource
+CVE-2020-13697 - MEDIUM -  XXS in NanoHTTPD
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2022-23708 - MEDIUM -  elasticsearch: privilege escalation vulnerability (ESA-2022-02)
+CVE-2018-10237 - MEDIUM -  guava: Unbounded memory allocation in AtomicDoubleArray and CompoundOrdering classes allow remote attackers to cause a denial of service
+CVE-2022-23710 - MEDIUM -  kibana: cross-site-scripting (XSS) issue (ESA-2022-04)
+CVE-2021-44832 - MEDIUM -  log4j-core: remote code execution via JDBC Appender
+CVE-2021-42550 - MEDIUM -  logback: remote code execution through JNDI call from within its configuration file
+CVE-2021-43797 - MEDIUM -  netty: control chars in header names may lead to HTTP request smuggling
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2021-22569 - MEDIUM -  protobuf-java: potential DoS in the parsing procedure for binary data
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression
+CVE-2021-22060 - MEDIUM -  springframework: Additional Log Injection in Spring Framework (follow-up to CVE-2021-22096)
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+GHSA-wrvw-hg22-4m67 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GHSA-h376-j262-vhq6 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

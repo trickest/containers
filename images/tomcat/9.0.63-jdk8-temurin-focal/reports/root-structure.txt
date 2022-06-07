@@ -1,0 +1,16 @@
+bin
+BUILDING.txt
+conf
+CONTRIBUTING.md
+lib
+LICENSE
+logs
+native-jni-lib
+NOTICE
+README.md
+RELEASE-NOTES
+RUNNING.txt
+temp
+webapps
+webapps.dist
+work

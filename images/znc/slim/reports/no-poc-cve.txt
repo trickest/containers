@@ -1,0 +1,1 @@
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability

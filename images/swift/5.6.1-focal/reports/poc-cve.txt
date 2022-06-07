@@ -1,0 +1,43 @@
+CVE-2019-14899 - LOW -  VPN: an attacker can inject data into the TCP stream which allows a hijack of active connections inside the VPN tunnel
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2021-45078 - LOW -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2021-34981 - LOW -  kernel: Bluetooth CMTP Module Double Free Privilege Escalation Vulnerability
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2019-19814 - LOW -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - LOW -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2018-12931 - LOW -  kernel: stack-based out-of-bounds write in ntfs_attr_find in the ntfs.ko
+CVE-2018-12930 - LOW -  kernel: stack-based out-of-bounds write in ntfs_end_buffer_async_read in the ntfs.ko
+CVE-2019-15213 - LOW -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2018-12929 - LOW -  kernel: use-after-free in ntfs_read_locked_inode in the ntfs.ko
+CVE-2018-20657 - LOW -  libiberty: Memory leak in demangle_template function resulting in a denial of service
+CVE-2017-0537 - LOW -  null
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2020-14145 - LOW -  openssh: Observable discrepancy leading to an information leak in the algorithm negotiation
+CVE-2021-41617 - LOW -  openssh: privilege escalation when AuthorizedKeysCommand or AuthorizedPrincipalsCommand are configured
+CVE-2018-6952 - LOW -  patch: Double free of memory in pch.c:another_hunk() causes a crash
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2015-8553 - MEDIUM -  CVE-2015-2150 CVE-2015-8553 xen: non-maskable interrupts triggerable by guests (xsa120)
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2021-4150 - MEDIUM -  kernel: Block subsystem mishandles reference counts
+CVE-2021-4148 - MEDIUM -  kernel: Improper implementation of block_invalidatepage() allows users to crash the kernel
+CVE-2021-44879 - MEDIUM -  kernel: NULL pointer dereference in folio_mark_dirty() via a crafted f2fs image
+CVE-2020-27835 - MEDIUM -  kernel: child process is able to access parent mm through hfi dev file handle
+CVE-2020-36310 - MEDIUM -  kernel: infinite loop in set_memory_region_test in arch/x86/kvm/svm/svm.c for certain nested page faults
+CVE-2022-0494 - MEDIUM -  kernel: information leak in  scsi_ioctl()
+CVE-2013-7445 - MEDIUM -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2021-20320 - MEDIUM -  kernel: s390 eBPF JIT miscompilation issues fixes
+CVE-2016-8660 - MEDIUM -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2020-9794 - MEDIUM -  null
+CVE-2021-39800 - MEDIUM -  null
+CVE-2021-39801 - MEDIUM -  null
+CVE-2021-39802 - MEDIUM -  null
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files

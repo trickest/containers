@@ -1,0 +1,474 @@
+CVE-2017-5754 - CRITICAL -  hw: cpu: speculative execution permission faults handling
+CVE-2021-44906 - CRITICAL -  minimist: prototype pollution
+CVE-2018-3646 - HIGH -  CVE-2018-3620 CVE-2018-3646 Kernel: hw: cpu: L1 terminal fault (L1TF)
+CVE-2018-3620 - HIGH -  CVE-2018-3646 Kernel: hw: cpu: L1 terminal fault (L1TF)
+GHSA-6x33-pw7p-hmpq - HIGH -  Denial of Service in http-proxy
+CVE-2018-1087 - HIGH -  Kernel: KVM: error in exception handling leads to wrong debug stack value
+CVE-2018-8897 - HIGH -  Kernel: error in exception handling leads to DoS
+CVE-2017-16939 - HIGH -  Kernel: ipsec: xfrm: use-after-free leading to potential privilege escalation
+CVE-2018-3693 - HIGH -  Kernel: speculative bounds check bypass store
+CVE-2018-1000001 - HIGH -  glibc: realpath() buffer underflow when getcwd() returns relative path allows privilege escalation
+CVE-2018-12127 - HIGH -  hardware: Micro-architectural Load Port Data Sampling - Information Leak (MLPDS)
+CVE-2018-12130 - HIGH -  hardware: Microarchitectural Fill Buffer Data Sampling (MFBDS)
+CVE-2018-12126 - HIGH -  hardware: Microarchitectural Store Buffer Data Sampling (MSBDS)
+CVE-2017-5753 - HIGH -  hw: cpu: speculative execution bounds-check bypass
+CVE-2017-5715 - HIGH -  hw: cpu: speculative execution branch target injection
+CVE-2017-1000112 - HIGH -  kernel: Exploitable memory corruption due to UFO to non-UFO path switch
+CVE-2017-1000111 - HIGH -  kernel: Heap out-of-bounds read in AF_PACKET sockets
+CVE-2018-5391 - HIGH -  kernel: IP fragments with random offsets allow a remote denial of service (FragmentSmack)
+CVE-2017-1000379 - HIGH -  kernel: Incorrectly mapped contents of PIE executable
+CVE-2018-14634 - HIGH -  kernel: Integer overflow in Linux's create_elf_tables function
+CVE-2016-2117 - HIGH -  kernel: Kernel memory leakage to ethernet frames due to buffer overflow in ethernet drivers
+CVE-2018-15594 - HIGH -  kernel: Mishandling of indirect calls weakens Spectre mitigation for paravirtual guests
+CVE-2017-7184 - HIGH -  kernel: Out-of-bounds heap access in xfrm
+CVE-2017-2636 - HIGH -  kernel: Race condition access to n_hdlc.tbuf causes double free in n_hdlc_release()
+CVE-2016-8655 - HIGH -  kernel: Race condition in packet_set_ring leads to use after free
+CVE-2016-1583 - HIGH -  kernel: Stack overflow via ecryptfs and /proc/$pid/environ
+CVE-2018-5390 - HIGH -  kernel: TCP segments with random offsets allow a remote denial of service (SegmentSmack)
+CVE-2016-4997 - HIGH -  kernel: compat IPT_SO_SET_REPLACE setsockopt
+CVE-2017-1000364 - HIGH -  kernel: heap/stack gap jumping via unbounded stack allocations
+CVE-2016-5195 - HIGH -  kernel: mm: privilege escalation via MAP_PRIVATE COW breakage
+CVE-2017-7308 - HIGH -  kernel: net/packet: overflow in check for priv area size
+CVE-2016-3134 - HIGH -  kernel: netfilter: missing bounds check in ipt_entry structure
+CVE-2017-18344 - HIGH -  kernel: out-of-bounds access in the show_timer function in kernel/time/posix-timers.c
+CVE-2017-1000405 - HIGH -  kernel: pmd can become dirty without going through a COW cycle
+CVE-2017-1000251 - HIGH -  kernel: stack buffer overflow in the native Bluetooth stack
+CVE-2016-0758 - HIGH -  kernel: tags with indefinite length can corrupt pointers in asn1_find_indefinite_length()
+CVE-2017-6074 - HIGH -  kernel: use after free in dccp protocol
+CVE-2016-3841 - HIGH -  kernel: use-after-free via crafted IPV6 sendmsg for raw / tcp / udp / l2tp sockets.
+CVE-2016-6313 - HIGH -  libgcrypt: PRNG output is predictable
+CVE-2016-6304 - HIGH -  openssl: OCSP Status Request extension unbounded memory growth
+CVE-2017-1000367 - HIGH -  sudo: Privilege escalation in via improper get_process_ttyname() parsing
+CVE-2016-9588 - LOW -  Kernel: kvm: nVMX: uncaught software exceptions in L1 guest leads to DoS
+CVE-2016-2180 - LOW -  OpenSSL: OOB read in TS_OBJ_print_bio()
+CVE-2018-0495 - LOW -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2016-2183 - LOW -  SSL/TLS: Birthday attack against 64-bit block ciphers (SWEET32)
+CVE-2016-8610 - LOW -  SSL/TLS: Malformed plain-text ALERT packets could cause remote DoS
+CVE-2016-0634 - LOW -  bash: Arbitrary code execution via malicious hostname
+CVE-2016-9401 - LOW -  bash: popd controlled free
+CVE-2017-15873 - LOW -  busybox: Integer overflow in the get_next_block function
+CVE-2018-20679 - LOW -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2011-5325 - LOW -  busybox: Path traversal via crafted tar file containing symlink
+CVE-2016-2148 - LOW -  busybox: heap-based buffer overflow in OPTION_6RD parsing
+CVE-2016-2147 - LOW -  busybox: out of bounds write (heap) due to integer underflow in udhcpc
+CVE-2014-9645 - LOW -  busybox: unprivileged arbitrary module load via basename abuse
+CVE-2017-3144 - LOW -  dhcp: omapi code doesn't free socket descriptors when empty message is received allowing denial-of-service
+CVE-2016-2774 - LOW -  dhcp: unclosed TCP connections to OMAPI or failover ports can cause DoS
+CVE-2015-8865 - LOW -  file: Buffer over-write in finfo_open with malformed magic file
+CVE-2014-9621 - LOW -  file: limit string printing to 100 chars
+CVE-2014-9620 - LOW -  file: limit the number of ELF notes processed
+CVE-2014-9653 - LOW -  file: malformed elf file causes access to uninitialized memory
+CVE-2018-10360 - LOW -  file: out-of-bounds read via a crafted ELF file
+CVE-2013-2207 - LOW -  glibc (pt_chown): Improper pseudotty ownership and permissions changes when granting access to the slave pseudoterminal
+CVE-2017-15804 - LOW -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - LOW -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2017-1000409 - LOW -  glibc: Buffer overflow triggerable via LD_LIBRARY_PATH
+CVE-2017-16997 - LOW -  glibc: Incorrect handling of RPATH in elf/dl-load.c can be used to execute code loaded from arbitrary libraries
+CVE-2015-8778 - LOW -  glibc: Integer overflow in hcreate and hcreate_r
+CVE-2015-8777 - LOW -  glibc: LD_POINTER_GUARD in the environment is not sanitized
+CVE-2017-1000408 - LOW -  glibc: Memory leak reachable via LD_HWCAP_MASK
+CVE-2016-6323 - LOW -  glibc: Missing unwind info in __startcontext causes infinite loop in _Unwind_Backtrace
+CVE-2015-8776 - LOW -  glibc: Segmentation fault caused by passing out-of-range data to strftime()
+CVE-2016-3075 - LOW -  glibc: Stack overflow in nss_dns_getnetbyname_r
+CVE-2016-1234 - LOW -  glibc: Stack-based buffer overflow in glob with GLOB_ALTDIRFUNC and crafted directory
+CVE-2015-8779 - LOW -  glibc: Unbounded stack allocation in catopen function
+CVE-2014-8121 - LOW -  glibc: Unexpected closing of nss_files databases after lookups causes denial of service
+CVE-2015-1781 - LOW -  glibc: buffer overflow in gethostbyname_r() and related functions with misaligned buffer
+CVE-2016-4429 - LOW -  glibc: libtirpc: stack (frame) overflow in Sun RPC clntudp_call()
+CVE-2016-3706 - LOW -  glibc: stack (frame) overflow in getaddrinfo() when called with AF_INET, AF_INET6 (incomplete fix for CVE-2013-4458)
+CVE-2017-7869 - LOW -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2017-11472 - LOW -  kernel: ACPI operand cache leak in acpi_ns_terminate()
+CVE-2016-9794 - LOW -  kernel: ALSA: Use-after-free in kill_fasync
+CVE-2017-11473 - LOW -  kernel: Buffer overflow in mp_override_legacy_irq()
+CVE-2016-8405 - LOW -  kernel: Copying color maps to userspace vulnerable to heap-buffer overflow
+CVE-2016-3138 - LOW -  kernel: Crash on invalid USB device descriptors (cdc_acm driver)
+CVE-2016-3137 - LOW -  kernel: Crash on invalid USB device descriptors (cypress_m8 driver)
+CVE-2016-3140 - LOW -  kernel: Crash on invalid USB device descriptors (digi_acceleport driver)
+CVE-2016-3136 - LOW -  kernel: Crash on invalid USB device descriptors (mct_u232 driver)
+CVE-2017-16649 - LOW -  kernel: Divide-by-zero in drivers/net/usb/cdc_ether.c
+CVE-2017-16650 - LOW -  kernel: Divide-by-zero in drivers/net/usb/qmi_wwan.c
+CVE-2017-9984 - LOW -  kernel: Double fetch in the snd_msnd_interrupt function
+CVE-2017-9985 - LOW -  kernel: Double fetch in the snd_msndmidi_input_read function in sound/isa/msnd/msnd_midi.c
+CVE-2017-8831 - LOW -  kernel: Double fetch vulnerability in saa7164_bus_get function
+CVE-2016-10208 - LOW -  kernel: EXT4 memory corruption / SLAB out-of-bounds read
+CVE-2017-16526 - LOW -  kernel: General protection fault in drivers/uwb/uwbd.c
+CVE-2016-7915 - LOW -  kernel: HID: core: prevent out-of-bound readings
+CVE-2017-16644 - LOW -  kernel: Improper error handling in drivers/media/usb/hdpvr/hdpvr-core.c
+CVE-2017-5549 - LOW -  kernel: Incorrect line-state error handling
+CVE-2018-1000204 - LOW -  kernel: Infoleak caused by incorrect handling of the SG_IO ioctl
+CVE-2017-0627 - LOW -  kernel: Information disclosure vulnerability in kernel UVC driver
+CVE-2018-7755 - LOW -  kernel: Information exposure in fd_locked_ioctl function in drivers/block/floppy.c
+CVE-2016-4569 - LOW -  kernel: Information leak in Linux sound module in timer.c
+CVE-2016-4578 - LOW -  kernel: Information leak in events in timer.c
+CVE-2017-14991 - LOW -  kernel: Information leak in the scsi driver
+CVE-2016-4580 - LOW -  kernel: Information leak in x25 module
+CVE-2016-4913 - LOW -  kernel: Information leak when handling NM entries containing NUL
+CVE-2017-18255 - LOW -  kernel: Integer overflow in events/core.c:perf_cpu_time_max_percent_handler() can allow for denial of service
+CVE-2018-12896 - LOW -  kernel: Integer overflow in kernel/time/posix-timers.c
+CVE-2016-9754 - LOW -  kernel: Integer overflow in ring_buffer_resize()
+CVE-2017-14051 - LOW -  kernel: Integer overflow in the qla2x00_sysfs_write_optrom_ctl function
+CVE-2018-10323 - LOW -  kernel: Invalid pointer dereference in xfs_bmapi_write() when mounting and operating on crafted xfs image allows denial of service
+CVE-2018-5750 - LOW -  kernel: Kernel address information leak in drivers/acpi/sbshc.c:acpi_smbus_hc_add() function potentially allowing KASLR bypass
+CVE-2016-2185 - LOW -  kernel: Kernel panic on invalid USB device descriptor (ati_remote2 driver)
+CVE-2016-2187 - LOW -  kernel: Kernel panic on invalid USB device descriptor (gtco driver)
+CVE-2016-2188 - LOW -  kernel: Kernel panic on invalid USB device descriptor (iowarrior driver)
+CVE-2016-2186 - LOW -  kernel: Kernel panic on invalid USB device descriptor (powermate driver)
+CVE-2016-2184 - LOW -  kernel: Kernel panic on invalid USB device descriptor (snd_usb_audio driver)
+CVE-2017-15102 - LOW -  kernel: NULL pointer dereference due to race condition in probe function of legousbtower driver
+CVE-2017-16537 - LOW -  kernel: NULL pointer dereference in imon_probe function in drivers/media/rc/imon.c
+CVE-2018-13094 - LOW -  kernel: NULL pointer dereference in xfs_da_shrink_inode function
+CVE-2017-16536 - LOW -  kernel: Null pointer dereference in cx231xx_usb_probe function in drivers/media/usb/cx231xx/cx231xx-cards.c
+CVE-2017-16532 - LOW -  kernel: Null pointer dereference in get_endpoints function in drivers/usb/misc/usbtest.c
+CVE-2017-2618 - LOW -  kernel: Off-by-one error in selinux_setprocattr (/proc/self/attr/fscreate)
+CVE-2017-16645 - LOW -  kernel: Out-of-bounds read in drivers/input/misc/ims-pcu.c
+CVE-2017-16643 - LOW -  kernel: Out-of-bounds read in drivers/input/tablet/gtco.c
+CVE-2017-11089 - LOW -  kernel: Out-of-bounds read in nl80211_set_station allows privileged local attacker to cause system crash or possibly code execution
+CVE-2017-1000363 - LOW -  kernel: Out-of-bounds write in lp_setup in drivers/char/lp.c
+CVE-2016-6136 - LOW -  kernel: Race condition vulnerability in execve argv arguments
+CVE-2016-9793 - LOW -  kernel: Signed overflow for SO_{SND|RCV}BUFFORCE
+CVE-2017-1000410 - LOW -  kernel: Stack information leak in the EFS element
+CVE-2017-17558 - LOW -  kernel: Unallocated memory access by malicious USB device via bNumInterfaces overflow
+CVE-2018-10124 - LOW -  kernel: Undefined behaviour with INT_MIN argument in kernel/signal.c:kill_something_info() allows for denial of service
+CVE-2017-9605 - LOW -  kernel: Uninitialized kernel memory leak in vmw_gb_surface_define_ioctl function
+CVE-2016-10088 - LOW -  kernel: Use after free in SCSI generic device interface (CVE-2016-9576 regression)
+CVE-2018-19824 - LOW -  kernel: Use-after-free in sound/usb/card.c:usb_audio_probe()
+CVE-2014-9940 - LOW -  kernel: Use-after-free in the regulator_ena_gpio_free function
+CVE-2017-16525 - LOW -  kernel: Use-after-free in usb_serial_console_disconnect()
+CVE-2015-7515 - LOW -  kernel: aiptek: crash on invalid USB device descriptors
+CVE-2018-10021 - LOW -  kernel: ata qc leak in drivers/scsi/libsas/sas_scsi_host.c allows local users to cause denial-of-service
+CVE-2017-15868 - LOW -  kernel: bnep_add_connection does not check if l2cap socket is available allowing privilege escalation
+CVE-2016-3951 - LOW -  kernel: crash on invalid USB device descriptors (usbnet driver)
+CVE-2016-3689 - LOW -  kernel: denial of service via malicious device using ims-pcu driver
+CVE-2017-7261 - LOW -  kernel: drm/vmwgfx: check that number of mip levels is above zero
+CVE-2017-16538 - LOW -  kernel: general protection fault in drivers/media/usb/dvb-usb-v2/lmedm04.c
+CVE-2016-6327 - LOW -  kernel: infiniband: Kernel crash by sending ABORT_TASK command
+CVE-2017-1000380 - LOW -  kernel: information leak due to a data race in ALSA timer
+CVE-2017-5897 - LOW -  kernel: ip6_gre: Invalid reads in ip6gre_err
+CVE-2018-6554 - LOW -  kernel: irda: Memory leak caused by repeated binds of irda socket
+CVE-2017-6345 - LOW -  kernel: llc: skb->sk set without skb->destructor
+CVE-2017-6348 - LOW -  kernel: net: Improper lock dropping in the hashbin_delete function
+CVE-2018-10877 - LOW -  kernel: out-of-bound access in ext4_ext_drop_refs function with a crafted ext4 image
+CVE-2018-10881 - LOW -  kernel: out-of-bound access in ext4_get_group_info() when mounting and operating a crafted ext4 image
+CVE-2017-16531 - LOW -  kernel: out-of-bounds read in drivers/usb/core/config.c
+CVE-2017-16529 - LOW -  kernel: out-of-bounds read in snd_usb_create_streams
+CVE-2017-16535 - LOW -  kernel: out-of-bounds read in usb_get_bos_descriptor function in drivers/usb/core/config.c
+CVE-2017-16533 - LOW -  kernel: out-of-bounds read in usbhid_parse function in drivers/hid/usbhid/hid-core.c
+CVE-2017-2671 - LOW -  kernel: ping socket / AF_LLC connect() sin_family race
+CVE-2016-3672 - LOW -  kernel: unlimiting the stack disables ASLR
+CVE-2016-10087 - LOW -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2017-10790 - LOW -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2015-7976 - LOW -  ntp: 'ntpq saveconfig' command allows dangerous characters in filenames
+CVE-2016-7429 - LOW -  ntp: Attack on interface selection
+CVE-2017-6463 - LOW -  ntp: Authenticated DoS via Malicious Config Option
+CVE-2016-7428 - LOW -  ntp: Broadcast Mode Poll Interval Enforcement DoS
+CVE-2016-7427 - LOW -  ntp: Broadcast Mode Replay Prevention DoS
+CVE-2017-6462 - LOW -  ntp: Buffer Overflow in DPTS Clock
+CVE-2016-7426 - LOW -  ntp: Client rate limiting and server responses
+CVE-2017-6464 - LOW -  ntp: Denial of Service via Malformed Config
+CVE-2016-9310 - LOW -  ntp: Mode 6 unauthenticated trap information disclosure and DDoS vector
+CVE-2016-9311 - LOW -  ntp: Null pointer dereference when trap service is enabled
+CVE-2017-6458 - LOW -  ntp: Potential Overflows in ctl_put() functions
+CVE-2016-0727 - LOW -  ntp: Privilege escalation via cronjob
+CVE-2018-7185 - LOW -  ntp: Unauthenticated packet can reset authenticated interleaved association
+CVE-2016-4955 - LOW -  ntp: autokey association reset
+CVE-2016-4956 - LOW -  ntp: broadcast interleave (incomplete fix for CVE-2016-1548)
+CVE-2015-7974 - LOW -  ntp: missing key check allows impersonation between authenticated peers (VU#357792)
+CVE-2015-7979 - LOW -  ntp: off-path denial of service on authenticated broadcast mode
+CVE-2016-2518 - LOW -  ntp: out-of-bounds references on crafted packet
+CVE-2016-4954 - LOW -  ntp: partial processing of spoofed packets
+CVE-2015-8158 - LOW -  ntp: potential infinite loop in ntpq
+CVE-2015-7973 - LOW -  ntp: replay attack on authenticated broadcast mode
+CVE-2015-8944 - LOW -  null
+CVE-2019-2001 - LOW -  null
+CVE-2016-2179 - LOW -  openssl: DTLS memory exhaustion DoS when messages are not removed from fragment buffer
+CVE-2016-2181 - LOW -  openssl: DTLS replay protection bypass allows DoS against DTLS connection
+CVE-2016-6302 - LOW -  openssl: Insufficient TLS session ticket HMAC length checks
+CVE-2017-3735 - LOW -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2018-0732 - LOW -  openssl: Malicious server can send large prime to client during DH(E) TLS handshake causing the client to hang
+CVE-2016-2178 - LOW -  openssl: Non-constant time codepath followed for certain operations in DSA implementation
+CVE-2016-2182 - LOW -  openssl: Out-of-bounds write caused by unchecked errors in BN_bn2dec()
+CVE-2016-2177 - LOW -  openssl: Possible integer overflow vulnerabilities in codebase
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2018-5407 - LOW -  openssl: Side-channel vulnerability on SMT/Hyper-Threading architectures (PortSmash)
+CVE-2018-0734 - LOW -  openssl: timing side channel attack in the DSA signature algorithm
+CVE-2018-6951 - LOW -  patch: NULL pointer dereference in pch.c:intuit_diff_type() causes a crash
+CVE-2016-10713 - LOW -  patch: Out-of-bounds access in pch_write_line function in pch.c
+CVE-2017-6512 - LOW -  perl-File-Path: rmtree/remove_tree race condition
+CVE-2016-6185 - LOW -  perl: XSLoader loads relative paths not included in @INC
+CVE-2015-8853 - LOW -  perl: regexp matching hangs indefinitely on illegal UTF-8 input
+CVE-2018-1061 - LOW -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - LOW -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2018-1000030 - LOW -  python: Heap-Buffer-Overflow and Heap-Use-After-Free in Objects/fileobject.c
+CVE-2018-8740 - LOW -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2018-3665 - MEDIUM -  Kernel: FPU state information leakage via lazy FPU restore
+CVE-2017-1000407 - MEDIUM -  Kernel: KVM: DoS via write flood to I/O port 0x80
+CVE-2017-7518 - MEDIUM -  Kernel: KVM: debug exception via syscall emulation
+CVE-2019-7222 - MEDIUM -  Kernel: KVM: leak of uninitialized stack contents to guest
+CVE-2019-6974 - MEDIUM -  Kernel: KVM: potential use-after-free via kvm_ioctl_create_device()
+CVE-2017-2583 - MEDIUM -  Kernel: Kvm: vmx/svm potential privilege escalation inside guest
+CVE-2017-12154 - MEDIUM -  Kernel: kvm: nVMX: L2 guest could access hardware(L0) CR8 register
+CVE-2016-9756 - MEDIUM -  Kernel: kvm: stack memory information leakage
+CVE-2017-2584 - MEDIUM -  Kernel: kvm: use after free in complete_emulated_mmio
+CVE-2016-5828 - MEDIUM -  Kernel: powerpc: tm: crash via exec system call on PPC
+CVE-2015-8709 - MEDIUM -  Kernel: ptrace: potential privilege escalation in user namespaces
+CVE-2016-3955 - MEDIUM -  Kernel: usbip: buffer overflow by trusting length of incoming packets
+CVE-2016-1000110 - MEDIUM -  Python CGIHandler: sets environmental variable based on user supplied Proxy request header
+CVE-2016-7543 - MEDIUM -  bash: Specially crafted SHELLOPTS+PS4 variables allows command substitution
+CVE-2017-16544 - MEDIUM -  busybox: Insufficient sanitization of filenames when autocompleting
+CVE-2019-5747 - MEDIUM -  busybox: Out of bounds read in udhcp components resulting in information disclosure
+CVE-2015-9261 - MEDIUM -  busybox: Segmentation fault when unzipping specially crafted zip file
+CVE-2018-1000517 - MEDIUM -  busybox: wget: Heap-based buffer overflow in the retrieve_file_data() function
+CVE-2017-1000381 - MEDIUM -  c-ares: NAPTR parser out of bounds access
+CVE-2016-5180 - MEDIUM -  c-ares: Single byte out of buffer write
+CVE-2015-0245 - MEDIUM -  dbus: denial of service in dbus systemd activation
+CVE-2018-5732 - MEDIUM -  dhcp: Buffer overflow in dhclient possibly allowing code execution triggered by malicious server
+CVE-2018-5733 - MEDIUM -  dhcp: Reference count overflow in dhcpd allows denial of service
+CVE-2017-9233 - MEDIUM -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2016-5300 - MEDIUM -  expat: Little entropy used for hash initialization
+CVE-2016-0718 - MEDIUM -  expat: Out-of-bounds heap read on crafted input causing crash
+CVE-2012-6702 - MEDIUM -  expat: Using XML_Parse before rand() results into non-random output
+CVE-2015-8983 - MEDIUM -  glibc: _IO_wstr_overflow integer overflow
+CVE-2015-5277 - MEDIUM -  glibc: data corruption while reading the NSS files database
+CVE-2017-1000366 - MEDIUM -  glibc: heap/stack gap jumping via unbounded stack allocations
+CVE-2015-8982 - MEDIUM -  glibc: multiple overflows in strxfrm()
+CVE-2015-8984 - MEDIUM -  glibc: potential denial of service in internal_fnmatch()
+CVE-2018-12020 - MEDIUM -  gnupg2: Improper sanitization of filenames allows for the display of fake status messages and the bypass of signature verification
+CVE-2017-5337 - MEDIUM -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5335 - MEDIUM -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-5336 - MEDIUM -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2019-11091 - MEDIUM -  hardware: Microarchitectural Data Sampling Uncacheable Memory (MDSUM)
+CVE-2018-3639 - MEDIUM -  hw: cpu: speculative store bypass
+CVE-2015-8830 - MEDIUM -  kernel: AIO write triggers integer overflow in some protocols
+CVE-2017-13305 - MEDIUM -  kernel: Buffer over-read in keyring subsystem allows exposing potentially sensitive information to local attacker
+CVE-2017-12762 - MEDIUM -  kernel: Buffer overflow due to unbounded strcpy in ISDN I4L driver
+CVE-2016-8633 - MEDIUM -  kernel: Buffer overflow in firewire driver via crafted incoming packets
+CVE-2018-9363 - MEDIUM -  kernel: Buffer overflow in hidp_process_report
+CVE-2017-18204 - MEDIUM -  kernel: Deadlock caused in fs/ocfs2/file.c:ocfs2_setattr() can allow local users to cause a denial of service
+CVE-2017-14106 - MEDIUM -  kernel: Divide-by-zero in __tcp_select_window
+CVE-2017-18360 - MEDIUM -  kernel: Division by zero in change_port_settings in drivers/usb/serial/io_ti.c resulting in a denial of service
+CVE-2017-8890 - MEDIUM -  kernel: Double free in the inet_csk_clone_lock function in net/ipv4/inet_connection_sock.c
+CVE-2015-8962 - MEDIUM -  kernel: Double free vulnerability in SCSI driver
+CVE-2017-7273 - MEDIUM -  kernel: HID: integer underflow in cp_report_fixup() (drivers/hid/hid-cypress.c)
+CVE-2017-17806 - MEDIUM -  kernel: HMAC implementation does not validate that the underlying cryptographic hash algorithm is unkeyed allowing local attackers to cause denial-of-service
+CVE-2017-10661 - MEDIUM -  kernel: Handling of might_cancel queueing is not properly pretected against race
+CVE-2019-3459 - MEDIUM -  kernel: Heap address information leak while using L2CAP_GET_CONF_OPT
+CVE-2019-3460 - MEDIUM -  kernel: Heap address information leak while using L2CAP_PARSE_CONF_RSP
+CVE-2016-5829 - MEDIUM -  kernel: Heap buffer overflow in hiddev driver
+CVE-2018-1000026 - MEDIUM -  kernel: Improper validation in bnx2x network card driver can allow for denial of service attacks via crafted packet
+CVE-2017-16913 - MEDIUM -  kernel: Improper validation in usbip/stub_rx.c:stub_recv_cmd_submit() allows for denial of service via crafted USB over IP CMD_SUBMIT packet
+CVE-2017-7616 - MEDIUM -  kernel: Incorrect error handling in the set_mempolicy and mbind compat syscalls in mm/mempolicy.c
+CVE-2017-9242 - MEDIUM -  kernel: Incorrect overwrite check in __ip6_append_data()
+CVE-2017-15299 - MEDIUM -  kernel: Incorrect updates of uninstantiated keys crash the kernel
+CVE-2014-9900 - MEDIUM -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2018-16658 - MEDIUM -  kernel: Information leak in cdrom_ioctl_drive_status
+CVE-2018-18710 - MEDIUM -  kernel: Information leak in cdrom_ioctl_select_disc in drivers/cdrom/cdrom.c
+CVE-2017-8924 - MEDIUM -  kernel: Information leak in completion handler in edge_bulk_in_callback function
+CVE-2016-9178 - MEDIUM -  kernel: Information leak in get_user_ex function
+CVE-2016-4485 - MEDIUM -  kernel: Information leak in llc module
+CVE-2016-5244 - MEDIUM -  kernel: Information leak in rds_inc_info_copy
+CVE-2016-4486 - MEDIUM -  kernel: Information leak in rtnetlink
+CVE-2016-5243 - MEDIUM -  kernel: Information leak in tipc_nl_compat_link_dump
+CVE-2017-18208 - MEDIUM -  kernel: Inifinite loop vulnerability in mm/madvise.c:madvise_willneed() function allows local denial of service
+CVE-2018-8781 - MEDIUM -  kernel: Integer overflow in drivers/gpu/drm/udl/udl_fb.c:udl_fb_mmap() can allow attackers to execute code in kernel space
+CVE-2018-13406 - MEDIUM -  kernel: Integer overflow in drivers/video/fbdev/uvesafb.c:uvesafb_setcmap() allows for potential denial of service
+CVE-2018-6927 - MEDIUM -  kernel: Integer overflow in futex.c:futux_requeue can lead to denial of service or unspecified impact
+CVE-2017-7542 - MEDIUM -  kernel: Integer overflow in ip6_find_1stfragopt() causes infinite loop
+CVE-2014-9904 - MEDIUM -  kernel: Integer overflow in snd_compr_allocate_buffer()
+CVE-2016-9084 - MEDIUM -  kernel: Integer overflow when using kzalloc in vfio driver
+CVE-2016-9191 - MEDIUM -  kernel: Local DoS via cgroup offline code
+CVE-2015-8966 - MEDIUM -  kernel: Local privileges escalation via crafted F_OFD_GETLK/F_OFD_SETLK/F_OFD_SETLKW commands
+CVE-2018-10902 - MEDIUM -  kernel: MIDI driver race condition leads to a double-free
+CVE-2018-9568 - MEDIUM -  kernel: Memory corruption due to incorrect socket cloning
+CVE-2018-12233 - MEDIUM -  kernel: Memory corruption in JFS setattr
+CVE-2018-8822 - MEDIUM -  kernel: Memory corruption in ncp_read_kernel function in fs/ncpfs/ncplib_kernel.c
+CVE-2018-7757 - MEDIUM -  kernel: Memory leak in the sas_smp_get_phy_events function in drivers/scsi/libsas/sas_expander.c
+CVE-2016-9685 - MEDIUM -  kernel: Memory leaks in xfs_attr_list.c error paths
+CVE-2017-17448 - MEDIUM -  kernel: Missing capabilities check in net/netfilter/nfnetlink_cthelper.c allows for unprivileged access to systemwide nfnl_cthelper_list structure
+CVE-2018-13405 - MEDIUM -  kernel: Missing check in fs/inode.c:inode_init_owner() does not clear SGID bit on non-directories for non-members
+CVE-2018-5803 - MEDIUM -  kernel: Missing length check of payload in net/sctp/sm_make_chunk.c:_sctp_make_chunk() function allows denial of service
+CVE-2017-17449 - MEDIUM -  kernel: Missing namespace check in net/netlink/af_netlink.c allows for network monitors to observe systemwide activity
+CVE-2017-14140 - MEDIUM -  kernel: Missing permission check in move_pages system call
+CVE-2017-17807 - MEDIUM -  kernel: Missing permissions check for request_key() destination allows local attackers to add keys to keyring without Write permission
+CVE-2017-10662 - MEDIUM -  kernel: Missing sanity check for segment count in f2fs
+CVE-2017-10663 - MEDIUM -  kernel: Missing sanity check for segno and blkoff read
+CVE-2018-9518 - MEDIUM -  kernel: NFC: llcp: Out of bounds write in nfc_llcp_sdp_tlv struct in nfc/llcp_commands.c
+CVE-2017-7895 - MEDIUM -  kernel: NFSv3 server does not properly handle payload bounds checking of WRITE requests
+CVE-2017-12192 - MEDIUM -  kernel: NULL pointer dereference due to KEYCTL_READ on negative key
+CVE-2018-1092 - MEDIUM -  kernel: NULL pointer dereference in ext4/mballoc.c:ext4_process_freed_data() when mounting crafted ext4 image
+CVE-2017-6951 - MEDIUM -  kernel: NULL pointer dereference in keyring_search_aux function
+CVE-2017-16914 - MEDIUM -  kernel: NULL pointer dereference in usb/usbip/stub_tx.c:stub_send_ret_submit() can lead to denial of service via crafted USB over IP packet
+CVE-2017-12193 - MEDIUM -  kernel: Null pointer dereference due to incorrect node-splitting in assoc_array implementation
+CVE-2017-18079 - MEDIUM -  kernel: Null pointer dereference in drivers/input/serio/i8042.c leading to denial-of-service
+CVE-2018-1066 - MEDIUM -  kernel: Null pointer dereference in fs/cifs/cifsencrypt.c:setup_ntlmv2_rsp() when empty TargetInfo is returned in NTLMSSP setup negotiation response allowing to crash client's kernel
+CVE-2017-18216 - MEDIUM -  kernel: Null pointer dereference in fs/ocfs2/cluster/nodemanager.c allows local users to cause denial of service
+CVE-2018-7492 - MEDIUM -  kernel: Null pointer dereference in net/rds/rdma.c:__rds_rdma_map() allowing local attackers to cause denial-of-service
+CVE-2018-5333 - MEDIUM -  kernel: Null pointer dereference in rds_atomic_free_op() allowing denial-of-service
+CVE-2017-2647 - MEDIUM -  kernel: Null pointer dereference in search_keyring
+CVE-2016-3070 - MEDIUM -  kernel: Null pointer dereference in trace_writeback_dirty_page()
+CVE-2017-8106 - MEDIUM -  kernel: Null pointer dereference on host in INVEPT emulation
+CVE-2016-8650 - MEDIUM -  kernel: Null pointer dereference via keyctl
+CVE-2018-1093 - MEDIUM -  kernel: Out of bounds read in ext4/balloc.c:ext4_valid_block_bitmap() causes crash with crafted ext4 image
+CVE-2017-16912 - MEDIUM -  kernel: Out-of-bounds read in usbip/stub_rx.c:get_pipe() allows attackers to cause a denial of service via crafted USB over IP packet
+CVE-2017-0750 - MEDIUM -  kernel: Out-of-bounds write in f2fs allows code execution when mounted malicious file system
+CVE-2018-1068 - MEDIUM -  kernel: Out-of-bounds write via userland offsets in ebt_entry struct in netfilter/ebtables.c
+CVE-2016-6213 - MEDIUM -  kernel: Overflowing kernel mount table using shared bind mount
+CVE-2017-7541 - MEDIUM -  kernel: Possible heap buffer overflow in brcmf_cfg80211_mgmt_tx()
+CVE-2017-13220 - MEDIUM -  kernel: Possible out-of-bound access in Bluetooth subsystem
+CVE-2015-8955 - MEDIUM -  kernel: Possible privilege escalation via groups spanning multiple HW PMUs
+CVE-2017-1000365 - MEDIUM -  kernel: RLIMIT_STACK/RLIMIT_INFINITY string size limitation bypass
+CVE-2017-18203 - MEDIUM -  kernel: Race condition in drivers/md/dm.c:dm_get_from_kobject() allows local users to cause a denial of service
+CVE-2018-1000004 - MEDIUM -  kernel: Race condition in sound system can lead to denial of service
+CVE-2015-8963 - MEDIUM -  kernel: Race condition on CPU unplug leading to use-after-free
+CVE-2016-5728 - MEDIUM -  kernel: Race condition vulnerability in VOP driver
+CVE-2017-5986 - MEDIUM -  kernel: Reachable BUG_ON from userspace in sctp_wait_for_sndbuf
+CVE-2017-8925 - MEDIUM -  kernel: Reference count mishandling in the omninet_open function
+CVE-2017-7487 - MEDIUM -  kernel: Reference counter leak in ipxitf_ioctl resulting into use after free
+CVE-2016-8666 - MEDIUM -  kernel: Remotely triggerable recursion in GRE code leading to kernel crash
+CVE-2016-7425 - MEDIUM -  kernel: SCSI arcmsr driver: Buffer overflow in arcmsr_iop_message_xfer()
+CVE-2015-8767 - MEDIUM -  kernel: SCTP denial of service during timeout
+CVE-2017-17805 - MEDIUM -  kernel: Salsa20 encryption algorithm does not correctly handle zero-length inputs allowing local attackers to cause denial-of-service
+CVE-2016-7097 - MEDIUM -  kernel: Setting a POSIX ACL via setxattr doesn't clear the setgid bit
+CVE-2017-5669 - MEDIUM -  kernel: Shmat allows mmap null page protection bypass
+CVE-2016-9555 - MEDIUM -  kernel: Slab out-of-bounds access in sctp_sf_ootb()
+CVE-2016-4581 - MEDIUM -  kernel: Slave being first propagated copy causes oops in propagate_mnt
+CVE-2016-8658 - MEDIUM -  kernel: Stack buffer overflow in brcmf_cfg80211_start_ap
+CVE-2016-7042 - MEDIUM -  kernel: Stack corruption while reading /proc/keys when gcc stack protector is enabled
+CVE-2016-9083 - MEDIUM -  kernel: State machine confusion bug in vfio driver leading to memory corruption
+CVE-2016-8632 - MEDIUM -  kernel: TIPC subsystem: tipc_msg_build() doesn't validate MTU, may cause memory corruption.
+CVE-2018-18281 - MEDIUM -  kernel: TLB flush happens too late on mremap
+CVE-2016-0821 - MEDIUM -  kernel: Too big poison pointer space
+CVE-2018-18386 - MEDIUM -  kernel: Type confusion in drivers/tty/n_tty.c allows for a denial of service
+CVE-2017-17450 - MEDIUM -  kernel: Unchecked capabilities in net/netfilter/xt_osf.c allows for unprivileged modification to systemwide fingerprint list
+CVE-2018-10087 - MEDIUM -  kernel: Undefined behavior in kernel/exit.c:kernel_wait4() function allows local denial of service
+CVE-2016-4470 - MEDIUM -  kernel: Uninitialized variable in request_key handling causes kernel crash in error handling path
+CVE-2018-17972 - MEDIUM -  kernel: Unprivileged users able to inspect kernel stacks of arbitrary tasks
+CVE-2016-7910 - MEDIUM -  kernel: Use after free in seq file
+CVE-2016-7911 - MEDIUM -  kernel: Use after free in sys_ioprio_get()
+CVE-2016-6828 - MEDIUM -  kernel: Use after free in tcp_xmit_retransmit_queue
+CVE-2016-4805 - MEDIUM -  kernel: Use after free vulnerability in ppp_unregister_channel
+CVE-2017-0861 - MEDIUM -  kernel: Use-after-free in snd_pcm_info function in ALSA subsystem potentially leads to privilege escalation
+CVE-2017-15265 - MEDIUM -  kernel: Use-after-free in snd_seq_ioctl_create_port()
+CVE-2017-16527 - MEDIUM -  kernel: Use-after-free in snd_usb_mixer_interrupt
+CVE-2017-11176 - MEDIUM -  kernel: Use-after-free in sys_mq_notify()
+CVE-2017-15649 - MEDIUM -  kernel: Use-after-free in the af_packet.c
+CVE-2016-7117 - MEDIUM -  kernel: Use-after-free in the recvmmsg exit path
+CVE-2017-8824 - MEDIUM -  kernel: Use-after-free vulnerability in DCCP socket
+CVE-2016-8645 - MEDIUM -  kernel: a BUG() statement can be hit in net/ipv4/tcp_input.c
+CVE-2018-1130 - MEDIUM -  kernel: a null pointer dereference in net/dccp/output.c:dccp_write_xmit() leads to a system crash
+CVE-2016-10044 - MEDIUM -  kernel: aio_mount function does not properly restrict execute access
+CVE-2015-8967 - MEDIUM -  kernel: arm64: Strict page permission bypass
+CVE-2016-7914 - MEDIUM -  kernel: assoc_array: don't call compare_object() on a node
+CVE-2016-5696 - MEDIUM -  kernel: challenge ACK counter information disclosure.
+CVE-2017-15274 - MEDIUM -  kernel: dereferencing NULL payload with nonzero length
+CVE-2017-14156 - MEDIUM -  kernel: driver/video/fbdev/aty/atyfb_base.c: atyfb_ioctl() stack infoleak
+CVE-2018-5344 - MEDIUM -  kernel: drivers/block/loop.c mishandles lo_release serialization allowing denial-of-service
+CVE-2017-7294 - MEDIUM -  kernel: drm/vmwgfx: fix integer overflow in vmw_surface_define_ioctl()
+CVE-2017-7346 - MEDIUM -  kernel: drm/vmwgfx: limit the number of mip levels in vmw_gb_surface_define_ioctl()
+CVE-2017-7495 - MEDIUM -  kernel: ext4: power failure during write(2) causes on-disk information leak
+CVE-2018-18690 - MEDIUM -  kernel: filesystem corruption due to an unchecked error condition during an xfs attribute change
+CVE-2017-18270 - MEDIUM -  kernel: improper keyrings creation
+CVE-2018-16276 - MEDIUM -  kernel: incorrect bounds checking in yurex_read in drivers/usb/misc/yurex.c
+CVE-2018-10940 - MEDIUM -  kernel: incorrect memory bounds check in drivers/cdrom/cdrom.c
+CVE-2016-4565 - MEDIUM -  kernel: infiniband: Unprivileged process can overwrite kernel memory using rdma_ucm.ko
+CVE-2016-4482 - MEDIUM -  kernel: information leak in devio.c
+CVE-2017-6214 - MEDIUM -  kernel: ipv4/tcp: Infinite loop in tcp_splice_read()
+CVE-2017-5970 - MEDIUM -  kernel: ipv4: Invalid IP options could cause skb->dst drop
+CVE-2016-3156 - MEDIUM -  kernel: ipv4: denial of service when destroying a network interface
+CVE-2018-6555 - MEDIUM -  kernel: irda: use-after-free vulnerability in the hashbin list
+CVE-2017-7472 - MEDIUM -  kernel: keyctl_set_reqkey_keyring() leaks thread keyrings
+CVE-2017-17741 - MEDIUM -  kernel: kvm: stack-based out-of-bounds read via vmcall instruction
+CVE-2016-10200 - MEDIUM -  kernel: l2tp: Race condition in the L2TPv3 IP encapsulation feature
+CVE-2019-9213 - MEDIUM -  kernel: lack of check for mmap minimum address in expand_downwards in mm/mmap.c leads to NULL pointer dereferences exploit on non-SMAP platforms
+CVE-2015-8539 - MEDIUM -  kernel: local privesc in key management
+CVE-2016-7913 - MEDIUM -  kernel: media: use-after-free in [tuner-xc2028] media driver
+CVE-2017-12190 - MEDIUM -  kernel: memory leak when merging buffers in SCSI IO vectors
+CVE-2017-7889 - MEDIUM -  kernel: mm subsystem does not properly enforce the CONFIG_STRICT_DEVMEM protection mechanism
+CVE-2018-10675 - MEDIUM -  kernel: mm: use-after-free in do_get_mempolicy function allows local DoS or other unspecified impact
+CVE-2017-7482 - MEDIUM -  kernel: net/rxrpc: overflow in decoding of krb5 principal
+CVE-2017-9076 - MEDIUM -  kernel: net: IPv6 DCCP implementation mishandles inheritance
+CVE-2017-9074 - MEDIUM -  kernel: net: IPv6 fragmentation implementation of nexthdr field may be associated with an invalid option
+CVE-2017-6346 - MEDIUM -  kernel: net: Race condition in net/packet/af_packet.c
+CVE-2017-9075 - MEDIUM -  kernel: net: sctp_v6_create_accept_sk function mishandles inheritance
+CVE-2017-9077 - MEDIUM -  kernel: net: tcp_v6_syn_recv_sock function mishandles inheritance
+CVE-2017-18017 - MEDIUM -  kernel: netfilter: use-after-free in tcpmss_mangle_packet function in net/netfilter/xt_TCPMSS.c
+CVE-2016-9806 - MEDIUM -  kernel: netlink: double-free in netlink_dump
+CVE-2017-7645 - MEDIUM -  kernel: nfsd: Incorrect handling of long RPC replies
+CVE-2017-12153 - MEDIUM -  kernel: null pointer dereference in nl80211_set_rekey_data()
+CVE-2016-4998 - MEDIUM -  kernel: out of bounds reads when processing IPT_SO_SET_REPLACE setsockopt
+CVE-2016-0774 - MEDIUM -  kernel: pipe buffer state corruption after unsuccessful atomic read from pipe
+CVE-2016-7916 - MEDIUM -  kernel: proc: prevent accessing /proc/<pid>/environ until it's ready
+CVE-2018-1000199 - MEDIUM -  kernel: ptrace() incorrect error handling leads to corruption and DoS
+CVE-2018-7566 - MEDIUM -  kernel: race condition in snd_seq_write() may lead to UAF or OOB-access
+CVE-2016-2069 - MEDIUM -  kernel: race condition in the TLB flush logic
+CVE-2018-5332 - MEDIUM -  kernel: rds_message_alloc_sgs() function doesn't validate value used during DMA page allocation causes heap out-of-bounds write
+CVE-2017-7187 - MEDIUM -  kernel: scsi: Stack-based buffer overflow in sg_ioctl function
+CVE-2016-6480 - MEDIUM -  kernel: scsi: aacraid: double fetch in ioctl_send_fib()
+CVE-2017-14489 - MEDIUM -  kernel: scsi: nlmsg is not properly parsed in iscsi_if_rx function
+CVE-2017-13168 - MEDIUM -  kernel: scsi: sg driver can improperly access userspace memory
+CVE-2016-9604 - MEDIUM -  kernel: security: The built-in keyrings for security tokens can be joined as a session and then modified by the root user
+CVE-2018-14633 - MEDIUM -  kernel: stack-based buffer overflow in chap_server_compute_md5() in iscsi target
+CVE-2015-8964 - MEDIUM -  kernel: tty: Prevent ldisc drivers from re-using stale tty fields
+CVE-2015-7833 - MEDIUM -  kernel: usbvision: crash on invalid USB device descriptors
+CVE-2017-15115 - MEDIUM -  kernel: use-after-free in sctp_cmp_addr_exact
+CVE-2018-14734 - MEDIUM -  kernel: use-after-free in ucma_leave_multicast in drivers/infiniband/core/ucma.c
+CVE-2017-16911 - MEDIUM -  kernel: vhci_cd driver in usbip/vhci_sysfs.c:port_show_vhci() discloses kernel memory addresses to local attackers
+CVE-2016-3157 - MEDIUM -  kernel: xen: Privilege escalation on 64-bit Xen PV domains with IO port access privileges (XSA-171)
+CVE-2017-14340 - MEDIUM -  kernel: xfs: unprivileged user kernel oops
+CVE-2015-3288 - MEDIUM -  kernel: zero page memory arbitrary modification
+CVE-2017-10140 - MEDIUM -  libdb: Reads DB_CONFIG from the current working directory
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2017-6891 - MEDIUM -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2020-7598 - MEDIUM -  nodejs-minimist: prototype pollution allows adding or modifying properties of Object.prototype using a constructor or __proto__ payload
+CVE-2016-5325 - MEDIUM -  nodejs: reason argument in ServerResponse#writeHead() not properly validated
+CVE-2016-2516 - MEDIUM -  ntp: assertion failure in ntpd on duplicate IPs on unconfig directives
+CVE-2016-1547 - MEDIUM -  ntp: crypto-NAK preemptable association denial of service
+CVE-2018-7183 - MEDIUM -  ntp: decodearr() can write beyond its buffer limit
+CVE-2016-1550 - MEDIUM -  ntp: libntp message digest disclosure
+CVE-2015-8138 - MEDIUM -  ntp: missing check for zero originate timestamp
+CVE-2016-1548 - MEDIUM -  ntp: ntpd switching to interleaved mode with spoofed packets
+CVE-2015-7977 - MEDIUM -  ntp: restriction list NULL pointer dereference
+CVE-2015-7978 - MEDIUM -  ntp: stack exhaustion in recursive traversal of restriction list
+CVE-2016-5863 - MEDIUM -  null
+CVE-2017-0794 - MEDIUM -  null
+CVE-2017-1000 - MEDIUM -  null
+CVE-2016-7056 - MEDIUM -  openssl: ECDSA P-256 timing attack key recovery
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2016-6303 - MEDIUM -  openssl: Integer overflow in MDC2_Update()
+CVE-2017-3731 - MEDIUM -  openssl: Truncated packet could crash via OOB read
+CVE-2016-6306 - MEDIUM -  openssl: certificate message OOB reads
+CVE-2018-1000156 - MEDIUM -  patch: Malicious patch files cause ed to execute arbitrary commands
+CVE-2017-12883 - MEDIUM -  perl: Buffer over-read in regular expression parser
+CVE-2018-12015 - MEDIUM -  perl: Directory traversal in Archive::Tar
+CVE-2017-12837 - MEDIUM -  perl: Heap buffer overflow in regular expression compiler
+CVE-2018-18313 - MEDIUM -  perl: Heap-based buffer read overflow in S_grok_bslash_N()
+CVE-2018-18311 - MEDIUM -  perl: Integer overflow leading to buffer overflow in Perl_my_setenv()
+CVE-2018-6913 - MEDIUM -  perl: heap buffer overflow in pp_pack.c
+CVE-2019-6133 - MEDIUM -  polkit: Temporary auth hijacking via PID reuse and non-atomic fork
+CVE-2018-1124 - MEDIUM -  procps-ng, procps: Integer overflows leading to heap overflow in file2strvec
+CVE-2018-1122 - MEDIUM -  procps-ng, procps: Local privilege escalation in top
+CVE-2018-1123 - MEDIUM -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1126 - MEDIUM -  procps-ng, procps: incorrect integer size in proc/alloc.* leading to truncation / integer overflow issues
+CVE-2018-1125 - MEDIUM -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2018-1000802 - MEDIUM -  python: Command injection in the shutil module
+CVE-2016-5636 - MEDIUM -  python: Heap overflow in zipimporter module
+CVE-2017-1000158 - MEDIUM -  python: Integer overflow in PyString_DecodeEscape results in heap-base buffer overflow
+CVE-2018-14647 - MEDIUM -  python: Missing salt initialization in _elementtree.c module
+CVE-2016-5699 - MEDIUM -  python: http protocol steam injection attack
+CVE-2016-0772 - MEDIUM -  python: smtplib StartTLS stripping attack
+CVE-2018-12326 - MEDIUM -  redis: Code execution in redis-cli via crafted command line arguments
+CVE-2018-11218 - MEDIUM -  redis: Heap corruption in lua_cmsgpack.c
+CVE-2018-11219 - MEDIUM -  redis: Integer overflow in lua_struct.c:b_unpack()
+CVE-2015-8080 - MEDIUM -  redis: Integer wraparound in lua_struct.c causing stack-based buffer overflow
+CVE-2015-4335 - MEDIUM -  redis: Lua sandbox escape and arbitrary code execution
+CVE-2016-10517 - MEDIUM -  redis: cross-protocol attack using malicious HTTP request
+CVE-2013-7458 - MEDIUM -  redis: world-readable ~/.rediscli_history
+CVE-2016-6252 - MEDIUM -  shadow-utils: Incorrect integer handling results in LPE
+CVE-2017-11610 - MEDIUM -  supervisor: Command injection via malicious XML-RPC request
+CVE-2019-3842 - MEDIUM -  systemd: Spoofing of XDG_SEAT allows for actions to be checked against "allow_active" instead of "allow_any"
+CVE-2018-1049 - MEDIUM -  systemd: automount: access to automounted volumes can lock up
+CVE-2016-6321 - MEDIUM -  tar: Bypassing the extract path name
+CVE-2017-2616 - MEDIUM -  util-linux: Sending SIGKILL to other processes with root privileges via su
+CVE-2016-1248 - MEDIUM -  vim: Lack of validation of values for few options results in code exection
+CVE-2016-3961 - MEDIUM -  xsa174 xen: hugetlbfs use may crash PV Linux guests (XSA-174)
+CVE-2017-10911 - MEDIUM -  xsa216 xen: blkif responses leak backend stack data (XSA-216)
+CVE-2017-12134 - MEDIUM -  xsa229 xen: linux: Fix Xen block IO merge-ability calculation (XSA-229)

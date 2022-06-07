@@ -1,0 +1,13 @@
+CVE-2016-20013 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2020-15522 - MEDIUM -  bouncycastle: Timing issue within the EC math library
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1620 - MEDIUM -  vim: NULL Pointer Dereference in vim_regexec_string() of regexp.c
+CVE-2022-1420 - MEDIUM -  vim: Out-of-range Pointer Offset
+CVE-2022-1927 - MEDIUM -  vim: buffer over-read in utf_ptr2char() in mbyte.c
+CVE-2022-1621 - MEDIUM -  vim: heap buffer overflow
+CVE-2022-1616 - MEDIUM -  vim: heap-buffer-overflow in append_command of src/ex_docmd.c
+CVE-2022-1619 - MEDIUM -  vim: heap-buffer-overflow in cmdline_erase_chars of ex_getln.c
+CVE-2022-1942 - MEDIUM -  vim: out of bounds write in vim_regsub_both()

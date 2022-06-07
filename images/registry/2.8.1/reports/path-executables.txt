@@ -1,0 +1,15 @@
+/usr/sbin/update-ca-certificates
+/usr/bin/wget
+/usr/bin/ldd
+/usr/bin/scanelf
+/usr/bin/getent
+/usr/bin/iconv
+/usr/bin/getconf
+/usr/bin/ssl_client
+/usr/bin/c_rehash
+/sbin/apk
+/sbin/ldconfig
+/sbin/mkmntdirs
+/bin/busybox
+/bin/tar
+/bin/registry

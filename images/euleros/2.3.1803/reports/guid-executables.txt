@@ -1,0 +1,10 @@
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/gpasswd
+/usr/bin/chfn
+/usr/sbin/pam_timestamp_check
+/usr/sbin/unix_chkpwd

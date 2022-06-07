@@ -1,0 +1,3 @@
+entrypoint.sh
+notary-server
+server-config.json

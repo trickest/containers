@@ -1,0 +1,16 @@
+CVE-2022-22970 - HIGH -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2016-20013 - LOW -  null
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+GHSA-673j-qm5f-xpv8 - MEDIUM -  Arbitrary File Write Vulnerability
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-28168 - MEDIUM -  jersey: Local information disclosure via system temporary directory
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2019-2692 - MEDIUM -  mysql-connector-java: privilege escalation in MySQL connector
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+GHSA-wrvw-hg22-4m67 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GHSA-36p3-wjmg-h94x - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GHSA-h376-j262-vhq6 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

@@ -1,0 +1,44 @@
+CVE-2018-0500 - CRITICAL -  curl: Heap-based buffer overflow in Curl_smtp_escape_eob() when uploading data over SMTP
+CVE-2017-8818 - CRITICAL -  curl: Out-of-bound access in SSL related cleanup code
+CVE-2018-1000005 - CRITICAL -  curl: Out-of-bounds read in code handling HTTP/2 trailers
+CVE-2021-21690 - CRITICAL -  jenkins: Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path
+CVE-2021-21696 - CRITICAL -  jenkins: Agent-to-controller access control allowed writing to sensitive directory used by Pipeline: Shared Groovy Libraries Plugin
+CVE-2021-21697 - CRITICAL -  jenkins: Agent-to-controller access control allows reading/writing most content of build directories
+CVE-2021-21691 - CRITICAL -  jenkins: Creating symbolic links is possible without the symlink permission
+CVE-2021-21685 - CRITICAL -  jenkins: FilePath#mkdirs does not check permission to create parent directories
+CVE-2021-21694 - CRITICAL -  jenkins: FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions
+CVE-2021-21687 - CRITICAL -  jenkins: FilePath#untar does not check permission to create symbolic links when unarchiving a symbolic link
+CVE-2021-21689 - CRITICAL -  jenkins: FilePath#unzip and FilePath#untar were not subject to any access control
+CVE-2021-21692 - CRITICAL -  jenkins: The operations FilePath#renameTo and FilePath#moveAllChildrenTo only check read permission on the source path
+CVE-2021-21693 - CRITICAL -  jenkins: When creating temporary files, permission to create files is only checked after they’ve been created.
+CVE-2020-2160 - HIGH -  jenkins: CSRF protection bypass via crafted URLs
+CVE-2021-21686 - HIGH -  jenkins: File path filters do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories
+CVE-2021-21695 - HIGH -  jenkins: FilePath#listFiles lists files outside directories with agent read access when following symbolic links.
+CVE-2020-2099 - HIGH -  jenkins: Inbound TCP Agent Protocol/3 authentication bypass
+CVE-2017-7656 - HIGH -  jetty: HTTP request smuggling using the range header
+CVE-2018-6003 - HIGH -  libtasn1: Stack exhaustion due to indefinite recursion during BER decoding
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2016-5007 - HIGH -  spring: Path matching inconsistency
+CVE-2022-22970 - HIGH -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2018-8740 - HIGH -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2014-8139 - HIGH -  unzip: CRC32 verification heap-based buffer overread (oCERT-2014-011)
+CVE-2014-8141 - HIGH -  unzip: getZip64Data() out-of-bounds read issues (oCERT-2014-011)
+CVE-2014-8140 - HIGH -  unzip: out-of-bounds write issue in test_compr_eb() (oCERT-2014-011)
+CVE-2015-3192 - MEDIUM -  Spring Framework: denial-of-service attack with XML input
+CVE-2017-15873 - MEDIUM -  busybox: Integer overflow in the get_next_block function
+CVE-2020-2162 - MEDIUM -  jenkins: Content-Security-Policy headers for files uploaded leads to XSS
+CVE-2020-2104 - MEDIUM -  jenkins: Memory usage graphs accessible to anyone with Overall/Read
+CVE-2020-2102 - MEDIUM -  jenkins: Non-constant time HMAC comparison
+CVE-2020-2101 - MEDIUM -  jenkins: Non-constant time comparison of inbound TCP agent connection secret
+CVE-2020-2105 - MEDIUM -  jenkins: REST APIs vulnerable to clickjacking
+CVE-2020-2222 - MEDIUM -  jenkins: Stored XSS vulnerability in 'keep forever' badge icons
+CVE-2020-2223 - MEDIUM -  jenkins: Stored XSS vulnerability in console links
+CVE-2020-2221 - MEDIUM -  jenkins: Stored XSS vulnerability in upstream cause
+CVE-2020-2100 - MEDIUM -  jenkins: UDP multicast/broadcast service amplification reflection attack
+CVE-2020-2161 - MEDIUM -  jenkins: XSS in job configuration pages
+CVE-2017-17383 - MEDIUM -  jenkins: XSS via a crafted tool name in a job configuration form
+CVE-2018-12536 - MEDIUM -  jetty: full server path revealed when using the default Error Handling
+CVE-2019-10241 - MEDIUM -  jetty: using specially formatted URL against DefaultServlet or ResourceHandler leads to XSS conditions
+CVE-2018-16435 - MEDIUM -  lcms2: Integer overflow in AllocateDataSet() in cmscgats.c leading to heap-based buffer overflow
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket

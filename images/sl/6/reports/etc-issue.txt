@@ -1,0 +1,2 @@
+Scientific Linux release 6.10 (Carbon)
+Kernel \r on an \m

@@ -1,0 +1,17 @@
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/crontab
+/usr/bin/sudo
+/usr/bin/newgidmap
+/usr/bin/traceroute
+/usr/bin/expiry
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/newuidmap
+/usr/sbin/traceroute6
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount

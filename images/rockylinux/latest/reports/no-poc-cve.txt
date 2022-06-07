@@ -1,0 +1,1 @@
+CVE-2021-3999 - MEDIUM -  glibc: Off-by-one buffer overflow/underflow in getcwd()

@@ -1,0 +1,15 @@
+LICENSE.txt
+README.txt
+Start Nuxeo.bat
+Start Nuxeo.command
+bin
+client
+conf
+doc-tomcat
+lib
+licenses
+nxserver
+readme.html
+setupWizardDownloads
+templates
+webapps

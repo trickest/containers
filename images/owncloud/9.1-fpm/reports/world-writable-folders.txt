@@ -1,0 +1,12 @@
+/var/tmp
+/var/www/html/apps
+/var/www/html/config
+/sys/firmware
+/usr/src/owncloud/apps
+/usr/src/owncloud/config
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

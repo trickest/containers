@@ -1,0 +1,11 @@
+/usr/lib/python3.9
+/usr/lib64/python3.9
+/usr/share/licenses/python3-setuptools-wheel
+/usr/share/licenses/python3-pip-wheel
+/usr/share/python3-wheels
+/usr/share/gcc-11/python
+/usr/share/crypto-policies/python
+/usr/bin/python3
+/usr/bin/python3.9
+/usr/include/python3.9
+/usr/share/gcc-11

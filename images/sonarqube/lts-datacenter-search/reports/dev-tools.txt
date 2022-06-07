@@ -1,0 +1,1 @@
+/opt/sonarqube/web/images/languages/python.svg

@@ -1,0 +1,12 @@
+subject=CN = ACCVRAIZ1, OU = PKIACCV, O = ACCV, C = ES
+subject=C = ES, O = FNMT-RCM, OU = AC RAIZ FNMT-RCM
+subject=C = IT, L = Milan, O = Actalis S.p.A./03358520967, CN = Actalis Authentication Root CA
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Commercial
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Networking
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium ECC
+subject=C = US, O = Amazon, CN = Amazon Root CA 1
+subject=C = US, O = Amazon, CN = Amazon Root CA 2
+subject=C = US, O = Amazon, CN = Amazon Root CA 3
+subject=C = US, O = Amazon, CN = Amazon Root CA 4
+subject=CN = Atos TrustedRoot 2011, O = Atos, C = DE

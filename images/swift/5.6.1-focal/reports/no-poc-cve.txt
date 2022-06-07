@@ -1,0 +1,43 @@
+CVE-2022-21499 - HIGH -  ELSA-2022-9427:  Unbreakable Enterprise kernel-container security update (IMPORTANT)
+CVE-2019-1010204 - LOW -  binutils: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read in gold/fileread.cc and elfcpp/elfcpp_file.h leads to denial of service
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2020-12363 - LOW -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2020-12364 - LOW -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2020-14304 - LOW -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2022-1729 - LOW -  kernel: race condition in perf_event_open leads to privilege escalation
+CVE-2021-3669 - LOW -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2022-0854 - LOW -  kernel: swiotlb information leak with DMA_FROM_DEVICE
+CVE-2016-20013 - LOW -  null
+CVE-2017-13165 - LOW -  null
+CVE-2021-45261 - LOW -  patch: Invalid Pointer via another_hunk function
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-1652 - MEDIUM -  kernel: A concurrency use-after-free in bad_flp_intr
+CVE-2022-1195 - MEDIUM -  kernel: A possible race condition (use-after-free) in drivers/net/hamradio/6pack ( mkiss.c) after unregister_netdev
+CVE-2022-1836 - MEDIUM -  kernel: Concurrency use-after-free in floppy's raw_cmd
+CVE-2020-12362 - MEDIUM -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2018-17977 - MEDIUM -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2022-1263 - MEDIUM -  kernel: Null pointer dereference in kvm_dirty_ring_push in virt/kvm/dirty_ring.c
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-1012 - MEDIUM -  kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak
+CVE-2020-24504 - MEDIUM -  kernel: Uncontrolled resource consumption in some Intel(R) Ethernet E810 Adapter drivers
+CVE-2022-28893 - MEDIUM -  kernel: Use after free in SUNRPC subsystem
+CVE-2022-1734 - MEDIUM -  kernel: Use-After-Free in NFC driver in nfcmrvl_nci_unregister_dev when simulating NFC device from user-space
+CVE-2022-0998 - MEDIUM -  kernel: an integer overflow in the vhost_vdpa_config_validate() can lead to out-of-bounds access on top of a 32-bit Linux kernel
+CVE-2021-4159 - MEDIUM -  kernel: another kernel ptr leak vulnerability via BPF in coerce_reg_to_size
+CVE-2021-3864 - MEDIUM -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2022-0382 - MEDIUM -  kernel: information leak due to uninitialized memory in __tipc_sendmsg() in net/tipc/socket.c
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2022-1786 - MEDIUM -  kernel: invalid-free in io_uring that can lead to LPE
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2022-1508 - MEDIUM -  kernel: out-of-bounds read in iov_iter_revert() in lib/iov_iter.c
+CVE-2022-1048 - MEDIUM -  kernel: race condition in snd_pcm_hw_free leading to use-after-free
+CVE-2021-4001 - MEDIUM -  kernel: race condition when the EBPF map is frozen
+CVE-2022-0168 - MEDIUM -  kernel: smb2_ioctl_query_info NULL Pointer Dereference
+CVE-2021-4218 - MEDIUM -  kernel: sysctl parameter read causes kernel panic ( rpcrdma module )

@@ -1,0 +1,5 @@
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue

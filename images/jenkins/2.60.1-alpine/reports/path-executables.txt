@@ -1,0 +1,4 @@
+/usr/local/bin/install-plugins.sh
+/usr/local/bin/plugins.sh
+/usr/local/bin/jenkins.sh
+/usr/bin/findssl.sh

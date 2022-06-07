@@ -1,0 +1,28 @@
+CVE-2020-7699 - CRITICAL -  Prototype Pollution in express-fileupload
+GHSA-97mg-3cr6-3x4c - CRITICAL -  Remote Code Execution in mongodb-query-parser
+CVE-2019-10769 - CRITICAL -  Sandbox Breakout / Arbitrary Code Execution in safer-eval
+GHSA-876r-hj45-fw7g - CRITICAL -  Sandbox Breakout / Arbitrary Code Execution in safer-eval
+CVE-2021-44906 - CRITICAL -  minimist: prototype pollution
+CVE-2021-3918 - CRITICAL -  nodejs-json-schema: Prototype pollution vulnerability
+CVE-2022-24434 - HIGH -  Crash in HeaderParser in dicer
+CVE-2021-21422 - HIGH -  Cross-site scripting
+GHSA-mh5c-679w-hh4r - HIGH -  Denial of Service in mongodb
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2020-24391 - HIGH -  Remote code execution in mongo-express
+CVE-2020-7610 - HIGH -  bson:  Deserialization of Untrusted Data could result in Code injection or Excessive CPU load
+CVE-2021-42380 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+CVE-2021-42383 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42385 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42378 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+CVE-2021-42382 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+CVE-2021-42384 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+CVE-2021-42381 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+CVE-2021-42379 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+CVE-2021-42386 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+CVE-2021-3807 - HIGH -  nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes
+CVE-2020-8116 - HIGH -  nodejs-dot-prop: prototype pollution
+GHSA-q3w9-g74q-vp5f - LOW -  Denial of Service in express-fileupload
+CVE-2021-23372 - MEDIUM -  Denial of Service (DoS) in mongo-express
+CVE-2021-42374 - MEDIUM -  busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed
+CVE-2020-7598 - MEDIUM -  nodejs-minimist: prototype pollution allows adding or modifying properties of Object.prototype using a constructor or __proto__ payload

@@ -1,0 +1,13 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+GHSA-v57x-gxfj-484q - CRITICAL -  Security Advisory for "Log4Shell"
+CVE-2021-43466 - CRITICAL -  Template injection in thymeleaf-spring5
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2022-22970 - HIGH -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2022-21230 - MEDIUM -  Incorrect Permission Assignment for Critical Resource
+CVE-2022-23708 - MEDIUM -  elasticsearch: privilege escalation vulnerability (ESA-2022-02)
+CVE-2022-23710 - MEDIUM -  kibana: cross-site-scripting (XSS) issue (ESA-2022-04)
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+GHSA-wrvw-hg22-4m67 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GHSA-h376-j262-vhq6 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

@@ -1,0 +1,7 @@
+CVE-2021-3634 - LOW -  libssh: possible heap-based buffer overflow when rekeying
+CVE-2021-20231 - MEDIUM -  gnutls: Use after free in client key_share extension
+CVE-2021-20232 - MEDIUM -  gnutls: Use after free in client_send_params in lib/ext/pre_shared_key.c
+CVE-2021-33560 - MEDIUM -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2021-3580 - MEDIUM -  nettle: Remote crash in RSA decryption via manipulated ciphertext
+CVE-2021-41617 - MEDIUM -  openssh: privilege escalation when AuthorizedKeysCommand or AuthorizedPrincipalsCommand are configured
+CVE-2021-3737 - MEDIUM -  python: urllib: HTTP client possible infinite loop on a 100 Continue response

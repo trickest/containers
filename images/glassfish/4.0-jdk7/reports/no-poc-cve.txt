@@ -1,0 +1,251 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2018-1000007 - CRITICAL -  curl: HTTP authentication leak in redirects
+CVE-2015-9290 - CRITICAL -  freetype: buffer over-read in function T1_Get_Private_Dict in type1/t1parse.c
+CVE-2017-5337 - CRITICAL -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5336 - CRITICAL -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2017-7774 - CRITICAL -  graphite2: out of bounds read "graphite2::Silf::readGraphite"
+CVE-2016-9538 - CRITICAL -  libtiff: Integer overflow leads to reading undefined buffer in readContigStripsIntoBuffer()
+CVE-2016-6223 - CRITICAL -  libtiff: Out-of-bounds read on memory-mapped files in TIFFReadRawStrip1() and TIFFReadRawTile1()
+CVE-2016-9537 - CRITICAL -  libtiff: Out-of-bounds write vulnerabilities in tools/tiffcrop.c
+CVE-2016-9533 - CRITICAL -  libtiff: PixarLog horizontalDifference heap-buffer-overflow
+CVE-2016-9534 - CRITICAL -  libtiff: TIFFFlushData1 heap-buffer-overflow
+CVE-2016-9540 - CRITICAL -  libtiff: cpStripToTile heap-buffer-overflow
+CVE-2016-9536 - CRITICAL -  libtiff: t2p_process_jpeg_strip heap-buffer-overflow
+CVE-2015-9262 - CRITICAL -  libxcursor: 1-byte heap-based overflow in _XcursorThemeInherits function in library.c
+CVE-2017-16931 - CRITICAL -  libxml2: Mishandling parameter-entity references
+CVE-2017-7375 - CRITICAL -  libxml2: Missing validation for external entities in xmlParsePEReference
+CVE-2018-13347 - CRITICAL -  mercurial: Buffer underflow in mpatch.c:mpatch_apply()
+CVE-2022-1292 - CRITICAL -  openssl: c_rehash script allows command injection
+CVE-2015-5297 - CRITICAL -  pixman: general_composite_rect() integer overflow
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2019-5953 - CRITICAL -  wget: do_conversion() heap-based buffer overflow vulnerability
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2019-2698 - HIGH -  OpenJDK: Font layout engine out of bounds access setCurrGlyphID() (2D, 8219022)
+CVE-2019-2602 - HIGH -  OpenJDK: Slow conversion of BigDecimal to long (Libraries, 8211936)
+CVE-2020-35492 - HIGH -  cairo: libreoffice slideshow aborts with stack smashing in cairo's composite_boxes
+CVE-2020-14382 - HIGH -  cryptsetup: Out-of-bounds write when validating segments
+CVE-2018-6553 - HIGH -  cups: AppArmor cupsd Sandbox Bypass Due to Use of Hard Links
+CVE-2017-18190 - HIGH -  cups: DNS rebinding attacks via incorrect whitelist
+CVE-2018-4180 - HIGH -  cups: Local privilege escalation to root due to insecure environment variable handling
+CVE-2022-26691 - HIGH -  cups: authorization bypass when using "local" authorization
+CVE-2020-3898 - HIGH -  cups: heap based buffer overflow in libcups's ppdFindOption() in ppd-mark.c
+CVE-2019-8696 - HIGH -  cups: stack-buffer-overflow in libcups's asn1_get_packed function
+CVE-2016-8625 - HIGH -  curl: IDNA 2003 makes curl use wrong host
+CVE-2020-35512 - HIGH -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2017-9233 - HIGH -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2015-9381 - HIGH -  freetype: a heap-based buffer over-read in T1_Get_Private_Dict in type1/t1parse.c leading to crash
+CVE-2017-2862 - HIGH -  gdk-pixbuf2: Heap overflow in the gdk_pixbuf__jpeg_image_load_increment function
+CVE-2017-2870 - HIGH -  gdk-pixbuf2: Integer overflow in tiff_image_parse function
+CVE-2017-6313 - HIGH -  gdk-pixbuf: Integer underflow in io-icns.c
+CVE-2016-6352 - HIGH -  gdk-pixbuf: Out-of-bounds write in OneLine32() function
+CVE-2020-23922 - HIGH -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - HIGH -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2017-14867 - HIGH -  git: cvsserver command injection
+CVE-2021-27218 - HIGH -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2020-29573 - HIGH -  glibc: stack-based buffer overflow if the input to any of the printf family of functions is an 80-bit long double with a non-canonical bit pattern
+CVE-2017-7507 - HIGH -  gnutls: Crash upon receiving well-formed status_request extension
+CVE-2017-5335 - HIGH -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-7869 - HIGH -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2017-7776 - HIGH -  graphite2: heap-buffer-overflow read "graphite2::Silf::getClassGlyph"
+CVE-2017-7772 - HIGH -  graphite2: heap-buffer-overflow write "lz4::decompress" (CVE-2017-7772)
+CVE-2017-7773 - HIGH -  graphite2: heap-buffer-overflow write "lz4::decompress" (src/Decompressor)
+CVE-2017-7771 - HIGH -  graphite2: out of bounds read in "graphite2::Pass::readPass"
+CVE-2017-7777 - HIGH -  graphite2: use of uninitialized memory "graphite2::GlyphCache::Loader::read_glyph"
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2017-13748 - HIGH -  jasper: tile memory not released on image parsing errors
+CVE-2017-16612 - HIGH -  libXcursor: file.c: heap-based buffer overflow when reading/creating images
+CVE-2020-13790 - HIGH -  libjpeg-turbo: heap-based buffer over-read in get_rgb_row() in rdppm.c
+CVE-2016-10087 - HIGH -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2021-4156 - HIGH -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2016-8331 - HIGH -  libtiff: FAX IFD Entry Parsing Type Confusion
+CVE-2020-35524 - HIGH -  libtiff: Heap-based buffer overflow in TIFF2PDF tool
+CVE-2020-35523 - HIGH -  libtiff: Integer overflow in tif_getimage.c
+CVE-2017-7592 - HIGH -  libtiff: Left shift of unsigned char without a cast
+CVE-2017-12944 - HIGH -  libtiff: Mishandled memory allocation for short files in the TIFFReadDirEntryArray function
+CVE-2016-3623 - HIGH -  libtiff: divide by zero in the rgb2ycybr tool
+CVE-2019-17546 - HIGH -  libtiff: integer overflow leading to heap-based buffer overflow in tif_getimage.c
+CVE-2016-5323 - HIGH -  libtiff: more tiffcrop readSeparateTilesIntoBuffer() memory corruption
+CVE-2016-3624 - HIGH -  libtiff: out of bounds write in the rgb2ycybr tool
+CVE-2016-3633 - HIGH -  libtiff: out-of-bounds read in the _setrow function
+CVE-2016-3634 - HIGH -  libtiff: out-of-bounds read in the tagCompare function
+CVE-2016-3631 - HIGH -  libtiff: thumbnail tool out-of-bounds read vulnerabilities
+CVE-2016-5652 - HIGH -  libtiff: tiff2pdf JPEG Compression Tables Heap Buffer Overflow
+CVE-2017-0663 - HIGH -  libxml2: Heap buffer overflow in xmlAddID
+CVE-2017-9049 - HIGH -  libxml2: Heap-based buffer over-read in function xmlDictComputeFastKey
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2017-9048 - HIGH -  libxml2: Stack-based buffer overflow in function xmlSnprintfElementContent
+CVE-2022-23308 - HIGH -  libxml2: Use-after-free of ID and IDREF attributes
+CVE-2018-13348 - HIGH -  mercurial: Improper length check in mpatch.c
+CVE-2018-13346 - HIGH -  mercurial: Missing check for fragment start position in mpatch.c:mpatch_apply()
+CVE-2017-9462 - HIGH -  mercurial: Python debugger accessible to authorized users
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2016-1951 - HIGH -  nspr: Memory allocation issue related to PR_*printf functions
+CVE-2019-17007 - HIGH -  nss: Handling of Netscape Certificate Sequences in CERT_DecodeCertPackage() may crash with a NULL deref leading to DoS
+CVE-2019-11745 - HIGH -  nss: Out-of-bounds write when passing an output buffer smaller than the block size to NSC_EncryptUpdate
+CVE-2021-36770 - HIGH -  perl-Encode: bug in local configuration loading allows arbitrary Perl code execution placed under the current working directory
+CVE-2018-1061 - HIGH -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - HIGH -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2016-6252 - HIGH -  shadow-utils: Incorrect integer handling results in LPE
+CVE-2018-8740 - HIGH -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2019-0203 - HIGH -  subversion: NULL pointer dereference in svnserve leading to an unauthenticated remote DoS
+CVE-2022-24070 - HIGH -  subversion: Subversion's mod_dav_svn is vulnerable to memory corruption
+CVE-2015-5186 - LOW -  Audit: log terminal emulator escape sequences handling
+CVE-2020-2659 - LOW -  OpenJDK: Incomplete enforcement of maxDatagramSockets limit in DatagramChannelImpl (Networking, 8231795)
+CVE-2019-2422 - LOW -  OpenJDK: memory disclosure in FileChannelImpl (Libraries, 8206290)
+CVE-2017-6519 - LOW -  avahi: Multicast DNS responds to unicast queries outside of local network
+CVE-2014-8166 - LOW -  cups: code execution via unescape ANSI escape sequences
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2017-15298 - LOW -  git: Mishandling layers of tree objects
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2016-9600 - LOW -  jasper: JP2 encoder NULL pointer dereference due to uninitialized cmprof_
+CVE-2017-13751 - LOW -  jasper: reachable assertion in calcstepsizes()
+CVE-2017-13750 - LOW -  jasper: reachable assertion in jpc_dec_process_siz() - dec->numhtiles
+CVE-2017-13746 - LOW -  jasper: reachable assertion in jpc_dec_process_siz() - dec->numvtiles
+CVE-2017-13752 - LOW -  jasper: reachable assertion in jpc_dequantize()
+CVE-2017-13747 - LOW -  jasper: reachable assertion in jpc_floorlog2()
+CVE-2017-13749 - LOW -  jasper: reachable assertion in jpc_pi_nextrpcl()
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2017-15088 - LOW -  krb5: Buffer overflow in get_matching_data()
+CVE-2016-7943 - LOW -  libX11: Insufficient validation of server responses in FontNames
+CVE-2016-7942 - LOW -  libX11: Insufficient validation of server responses in XGetImage()
+CVE-2016-7944 - LOW -  libXfixes: Insufficient validation of server responses results in Integer overflow
+CVE-2016-7945 - LOW -  libXi: Insufficient validation of server responses result in Integer overflows
+CVE-2016-7946 - LOW -  libXi: Insufficient validation of server responses result in various data mishandlings
+CVE-2016-7947 - LOW -  libXrandr: Insufficient validation of server responses result in Integer overflows
+CVE-2016-7948 - LOW -  libXrandr: Insufficient validation of server responses result in various data mishandlings
+CVE-2016-7949 - LOW -  libXrender: Insufficient validation of server responses results in overflow of previously reserved memory
+CVE-2016-7950 - LOW -  libXrender: Insufficient validation of server responses results out-of-bounds write in XRenderQueryFilters
+CVE-2016-7951 - LOW -  libXtst: Insufficient validation of server responses result in Integer overflows
+CVE-2016-7952 - LOW -  libXtst: Insufficient validation of server responses result in various data mishandlings
+CVE-2019-2201 - LOW -  libjpeg-turbo: several integer overflows and subsequent segfaults when attempting to compress/decompress gigapixel images
+CVE-2020-14152 - LOW -  libjpeg: improper handling of max_memory_to_use setting can lead to excessive memory consumption
+CVE-2016-10371 - LOW -  libtiff: Assertion failure in TIFFWriteDirectoryTagCheckedRational
+CVE-2020-35521 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2016-3620 - LOW -  libtiff: Out-of-bound read in ZIPEncode
+CVE-2016-9539 - LOW -  libtiff: Out-of-bounds read in readContigTilesIntoBuffer()
+CVE-2010-2596 - LOW -  libtiff: assertion failure on downsampled OJPEG file
+CVE-2016-3619 - LOW -  libtiff: bmp2tiff DumpModeEncode OOB read
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2016-3621 - LOW -  libtiff: out of bounds read in the bmp2tiff tool
+CVE-2020-8991 - LOW -  lvm2: memory leak in vg_lookup in daemons/lvmetad/lvmetad-core.c
+CVE-2021-3601 - LOW -  openssl: Certificate with CA:FALSE is accepted as valid CA cert
+CVE-2008-4108 - LOW -  python: Generic FAQ wizard moving tool insecure auxiliary /tmp file usage (symlink attack possible)
+CVE-2019-9674 - LOW -  python: Nested zip file (Zip bomb) vulnerability in Lib/zipfile.py
+CVE-2004-0971 - LOW -  security flaw
+CVE-2017-13685 - LOW -  sqlite: Local DoS via dump_callback function
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-22747 - MEDIUM -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2018-0495 - MEDIUM -  ROHNP: Key Extraction Side Channel in Multiple Crypto Libraries
+CVE-2021-3468 - MEDIUM -  avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+CVE-2021-3502 - MEDIUM -  avahi: reachable assertion in avahi_s_host_name_resolver_start when trying to resolve badly-formatted hostnames
+CVE-2016-9082 - MEDIUM -  cairo: Out of bounds read in read_png/write_png in cairo-png.c
+CVE-2017-15422 - MEDIUM -  chromium-browser: integer overflow in icu
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2017-18248 - MEDIUM -  cups: Invalid usernames handled in scheduler/ipp.c:add_job() allow remote attackers to cause a denial of service
+CVE-2018-4181 - MEDIUM -  cups: Manipulation of cupsd.conf by a local attacker resulting in limited reads of arbitrary files as root
+CVE-2018-4300 - MEDIUM -  cups: Session cookie generated by the CUPS web interface is easy to guess
+CVE-2020-10001 - MEDIUM -  cups: access to uninitialized buffer in ipp.c
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-30115 - MEDIUM -  curl: HSTS bypass via trailing dot
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27779 - MEDIUM -  curl: cookie for trailing dot TLD
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-27780 - MEDIUM -  curl: percent-encoded path separator in URL host
+CVE-2022-27778 - MEDIUM -  curl: removes wrong file on error
+CVE-2019-5094 - MEDIUM -  e2fsprogs: Crafted ext4 partition leads to out-of-bounds write
+CVE-2021-0561 - MEDIUM -  flac: out of bound write in append_to_verify_fifo_interleaved_ of stream_encoder.c
+CVE-2020-0499 - MEDIUM -  flac: out-of-bounds read can lead to denial of service
+CVE-2015-9382 - MEDIUM -  freetype: mishandling ps_parser_skip_PS_token in an FT_New_Memory_Face operation in skip_comment, psaux/psobjs.c, leads to a buffer over-read
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2015-5276 - MEDIUM -  gcc: Predictable randomness from std::random_device
+CVE-2017-6314 - MEDIUM -  gdk-pixbuf: Infinite loop in io-tiff.c
+CVE-2019-15133 - MEDIUM -  giflib: divide-by-zero exception in the decoder function DGifSlurp in dgif_lib.c
+CVE-2016-3977 - MEDIUM -  giflib: heap buffer overflow in gif2rgb
+CVE-2021-3998 - MEDIUM -  glibc: Unexpected return value from realpath() could leak data based on the application
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2018-10846 - MEDIUM -  gnutls: "Just in Time" PRIME + PROBE cache-based side channel attack can lead to plaintext recovery
+CVE-2018-10844 - MEDIUM -  gnutls: HMAC-SHA-256 vulnerable to Lucky thirteen attack due to not enough dummy function calls
+CVE-2018-10845 - MEDIUM -  gnutls: HMAC-SHA-384 vulnerable to Lucky thirteen attack due to use of wrong constant
+CVE-2021-3443 - MEDIUM -  jasper: NULL pointer dereference in jp2_decode() in jp2_dec.c
+CVE-2021-3467 - MEDIUM -  jasper: NULL pointer dereference in jp2_decode() in jp2_dec.c
+CVE-2015-5203 - MEDIUM -  jasper: integer overflow in jas_image_cmpt_create()
+CVE-2016-8882 - MEDIUM -  jasper: uninitialized tile->pi pointer use in JPC decoder
+CVE-2016-9591 - MEDIUM -  jasper: use-after-free / double-free in JPC encoder
+CVE-2015-5221 - MEDIUM -  jasper: use-after-free and double-free flaws in mif_process_cmpt()
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2018-16435 - MEDIUM -  lcms2: Integer overflow in AllocateDataSet() in cmscgats.c leading to heap-based buffer overflow
+CVE-2018-1152 - MEDIUM -  libjpeg-turbo: Divide by zero allows for denial of service via crafted BMP image
+CVE-2017-7586 - MEDIUM -  libsndfile: Error in header_read() causing stack-based buffer overflow
+CVE-2017-7585 - MEDIUM -  libsndfile: Stack-based buffer overflow in flac_buffer_copy()
+CVE-2017-16942 - MEDIUM -  libsndfile: divide-by-zero error in wav_w64_read_fmt_chunk()
+CVE-2016-5102 - MEDIUM -  libtiff: Buffer overflow in readgifimage()
+CVE-2016-3622 - MEDIUM -  libtiff: Division by zero in fpAcc function
+CVE-2017-7594 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesDcTable function
+CVE-2017-9404 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesQTable
+CVE-2017-9403 - MEDIUM -  libtiff: Memory leak in TIFFReadDirEntryLong8Array
+CVE-2017-9815 - MEDIUM -  libtiff: Memory leak in the TIFFReadDirEntryLong8Array function
+CVE-2016-9532 - MEDIUM -  libtiff: Multiple uint32 overflows leading to heap buffer over-read
+CVE-2015-7313 - MEDIUM -  libtiff: OOM when parsing crafted tiff files
+CVE-2016-5316 - MEDIUM -  libtiff: Out-of-bounds read in PixarLogCleanup() function in tif_pixarlog.c
+CVE-2016-5322 - MEDIUM -  libtiff: Out-of-bounds read in extractContigSamplesBytes() function
+CVE-2016-5315 - MEDIUM -  libtiff: Out-of-bounds read in setByteArray() function in tif_dir.c
+CVE-2016-5317 - MEDIUM -  libtiff: Out-of-bounds write in PixarLogDecode() function in libtiff.so
+CVE-2016-3186 - MEDIUM -  libtiff: buffer overflow in gif2tiff
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2017-7593 - MEDIUM -  libtiff: tif_rawdata not properly initialized in tif_read.c
+CVE-2016-5321 - MEDIUM -  libtiff: tiffcrop readSeparateTilesIntoBuffer() memory corruption
+CVE-2017-14633 - MEDIUM -  libvorbis: Out-of-bounds array read in the function mapping0_forward()
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2019-3902 - MEDIUM -  mercurial: Path-checking logic bypass via symlinks and subrepositories
+CVE-2020-12401 - MEDIUM -  nss: ECDSA timing attack mitigation bypass
+CVE-2016-9074 - MEDIUM -  nss: Insufficient timing side-channel resistance in divSpoiler
+CVE-2018-18508 - MEDIUM -  nss: NULL pointer dereference in several CMS functions resulting in a denial of service
+CVE-2020-12400 - MEDIUM -  nss: P-384 and P-521 implementation uses a side-channel vulnerable modular inversion function
+CVE-2016-9574 - MEDIUM -  nss: Remote DoS during session handshake when using SessionTicket extention and ECDHE-ECDSA
+CVE-2020-6829 - MEDIUM -  nss: Side channel attack on ECDSA signature generation
+CVE-2020-12402 - MEDIUM -  nss: Side channel vulnerabilities during RSA key generation
+CVE-2020-12399 - MEDIUM -  nss: Timing attack on DSA signature generation
+CVE-2017-9287 - MEDIUM -  openldap: Double free vulnerability in servers/slapd/back-mdb/search.c
+CVE-2016-7056 - MEDIUM -  openssl: ECDSA P-256 timing attack key recovery
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2021-28544 - MEDIUM -  subversion: SVN authz protected copyfrom paths regression
+CVE-2018-11782 - MEDIUM -  subversion: remotely triggerable DoS vulnerability in svnserve 'get-deleted-rev'
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2021-3995 - MEDIUM -  util-linux: Unauthorized unmount of FUSE filesystems belonging to users with similar uid
+CVE-2021-3996 - MEDIUM -  util-linux: Unauthorized unmount of filesystems in libmount
+CVE-2017-6508 - MEDIUM -  wget: CRLF injection in the url_parse function in url.c
+DLA-1833-2 - UNKNOWN -  bzip2 - regression update
+DLA-1417-1 - UNKNOWN -  ca-certificates - security update
+DLA-1606-1 - UNKNOWN -  gcc-4.9 - bugfix update
+DSA-4117-1 - UNKNOWN -  gcc-4.9 - update
+DLA-2043-2 - UNKNOWN -  gdk-pixbuf - regression update
+DLA-1628-2 - UNKNOWN -  jasper - regression update
+DLA-1730-2 - UNKNOWN -  libssh2 - regression update
+DLA-1886-2 - UNKNOWN -  openjdk-7 - regression update
+DLA-1500-2 - UNKNOWN -  openssh - regression update
+DSA-3673-2 - UNKNOWN -  openssl - regression update
+DSA-3793-2 - UNKNOWN -  shadow - regression update
+DLA-1762-2 - UNKNOWN -  systemd - regression update
+DLA-1625-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1744-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1957-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1563-1 - UNKNOWN -  tzdata - update
+DLA-1846-2 - UNKNOWN -  unzip - regression update

@@ -1,0 +1,18 @@
+CVE-2022-28391 - CRITICAL -  busybox: remote attackers may execute arbitrary code if netstat is used
+CVE-2021-36159 - CRITICAL -  null
+CVE-2021-3711 - CRITICAL -  openssl: SM2 Decryption Buffer Overflow
+CVE-2021-42380 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+CVE-2021-42383 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42385 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+CVE-2021-42378 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+CVE-2021-42382 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+CVE-2021-42384 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+CVE-2021-42381 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+CVE-2021-42379 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+CVE-2021-42386 - HIGH -  busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+CVE-2022-24407 - HIGH -  cyrus-sasl: failure to properly escape SQL input allows an attacker to execute arbitrary SQL commands
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2021-3712 - HIGH -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2018-25032 - HIGH -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs
+CVE-2021-42375 - MEDIUM -  busybox: incorrect handling of a special element in ash applet leads to denial of service when processing a crafted shell command
+CVE-2021-42374 - MEDIUM -  busybox: out-of-bounds read in unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed

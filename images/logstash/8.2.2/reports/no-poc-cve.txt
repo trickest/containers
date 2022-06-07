@@ -1,0 +1,5 @@
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2016-20013 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem

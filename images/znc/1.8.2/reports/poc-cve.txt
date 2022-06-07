@@ -1,0 +1,1 @@
+CVE-2021-31566 - MEDIUM -  libarchive: symbolic links incorrectly followed when changing modes, times, ACL and flags of a file while extracting an archive

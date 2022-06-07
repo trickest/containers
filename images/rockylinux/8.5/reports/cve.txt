@@ -1,0 +1,7 @@
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2021-4122 - MEDIUM -  cryptsetup: disable encryption via header rewrite
+CVE-2021-3999 - MEDIUM -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2021-3712 - MEDIUM -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2021-3521 - MEDIUM -  rpm: RPM does not require subkeys to have a valid binding signature
+CVE-2021-4019 - MEDIUM -  vim: heap-based buffer overflow in find_help_tags() in help.c
+CVE-2021-3984 - MEDIUM -  vim: illegal memory access in find_start_brace() in cindent.c when C-indenting

@@ -1,0 +1,22 @@
+LSB_VERSION=
+DISTRIB_ID="Mageia"
+DISTRIB_RELEASE=8
+DISTRIB_CODENAME=mga8
+DISTRIB_DESCRIPTION="Mageia 8"
+Mageia release 8 (Official) for x86_64
+Mageia release 8 (Official) for x86_64
+Mageia release 8 (Official) for x86_64
+Mageia release 8 (Official) for x86_64
+NAME="Mageia"
+VERSION="8"
+ID=mageia
+VERSION_ID=8
+ID_LIKE="mandriva fedora"
+PRETTY_NAME="Mageia 8"
+ANSI_COLOR="1;36"
+HOME_URL="https://www.mageia.org/"
+SUPPORT_URL="https://www.mageia.org/support/"
+BUG_REPORT_URL="https://bugs.mageia.org/"
+PRIVACY_POLICY_URL="https://wiki.mageia.org/en/Privacy_policy"
+Mageia release 8 (Official) for x86_64
+Mageia release 8 (Official) for x86_64

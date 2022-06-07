@@ -1,0 +1,55 @@
+# [bonita:7.13](https://hub.docker.com/_/bonita?tab=tags)
+![](https://img.shields.io/static/v1?label=tag&message=7.13&color=blue)
+![](https://img.shields.io/badge/Ubuntu%2018.04.6%20LTS%20%20-blue)
+---
+<p>
+Bonita is an open-source business process management and workflow suite
+</p>
+
+## CVEs
+### Critical (5)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2022--23221-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-23221.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--42392-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-42392.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--23463-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-23463.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--21724-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-21724.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--22965-CRITICAL-red)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22965.md)
+#### Without POC
+
+
+### High (4)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2022--22968-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22968.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--36518-HIGH-organge)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-36518.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--43859-HIGH-organge)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-43859.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20CVE--2022--22970-HIGH-organge)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22970.md)
+
+### Medium (25)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2019--9513-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-9513.md)[![](https://img.shields.io/badge/🔗%20CVE--2019--9511-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-9511.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--13956-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-13956.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--13844-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-13844.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--37750-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-37750.md)[![](https://img.shields.io/badge/🔗%20CVE--2018--20217-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2018/CVE-2018-20217.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--36222-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-36222.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--42550-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-42550.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--2875-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-2875.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--2934-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-2934.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9794-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9794.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--46322-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-46322.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--16156-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-16156.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--22569-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-22569.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--43784-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-43784.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--22950-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22950.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--22060-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-22060.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--0529-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-0529.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20GHSA--673j--qm5f--xpv8-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/673j/GHSA-673j-qm5f-xpv8.md)[![](https://img.shields.io/badge/%20CVE--2022--27404-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27404.md)[![](https://img.shields.io/badge/%20CVE--2022--1304-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-1304.md)[![](https://img.shields.io/badge/%20CVE--2021--28168-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-28168.md)[![](https://img.shields.io/badge/%20CVE--2022--24769-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-24769.md)[![](https://img.shields.io/badge/%20CVE--2019--2692-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-2692.md)[![](https://img.shields.io/badge/%20CVE--2022--22971-MEDIUM-yellow)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22971.md)
+
+### Low (26)
+#### With POC
+[![](https://img.shields.io/badge/🔗%20CVE--2016--2781-LOW-blue)](https://github.com/trickest/cve/blob/main/2016/CVE-2016-2781.md)[![](https://img.shields.io/badge/🔗%20CVE--2016--10739-LOW-blue)](https://github.com/trickest/cve/blob/main/2016/CVE-2016-10739.md)[![](https://img.shields.io/badge/🔗%20CVE--2009--5155-LOW-blue)](https://github.com/trickest/cve/blob/main/2009/CVE-2009-5155.md)[![](https://img.shields.io/badge/🔗%20CVE--2015--8985-LOW-blue)](https://github.com/trickest/cve/blob/main/2015/CVE-2015-8985.md)[![](https://img.shields.io/badge/🔗%20CVE--2018--16868-LOW-blue)](https://github.com/trickest/cve/blob/main/2018/CVE-2018-16868.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--34428-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-34428.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--17541-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-17541.md)[![](https://img.shields.io/badge/🔗%20CVE--2018--11813-LOW-blue)](https://github.com/trickest/cve/blob/main/2018/CVE-2018-11813.md)[![](https://img.shields.io/badge/🔗%20CVE--2018--14048-LOW-blue)](https://github.com/trickest/cve/blob/main/2018/CVE-2018-14048.md)[![](https://img.shields.io/badge/🔗%20CVE--2019--17594-LOW-blue)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-17594.md)[![](https://img.shields.io/badge/🔗%20CVE--2019--17595-LOW-blue)](https://github.com/trickest/cve/blob/main/2019/CVE-2019-17595.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11697-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11697.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11698-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11698.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11696-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11696.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11695-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11695.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9849-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9849.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--9991-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-9991.md)[![](https://img.shields.io/badge/🔗%20CVE--2017--11164-LOW-blue)](https://github.com/trickest/cve/blob/main/2017/CVE-2017-11164.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--3671-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-3671.md)[![](https://img.shields.io/badge/🔗%20CVE--2013--4235-LOW-blue)](https://github.com/trickest/cve/blob/main/2013/CVE-2013-4235.md)[![](https://img.shields.io/badge/🔗%20CVE--2022--0530-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-0530.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--2875-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-2875.md)[![](https://img.shields.io/badge/🔗%20CVE--2020--2934-LOW-blue)](https://github.com/trickest/cve/blob/main/2020/CVE-2020-2934.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--43784-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-43784.md)[![](https://img.shields.io/badge/🔗%20CVE--2021--22060-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-22060.md)
+#### Without POC
+[![](https://img.shields.io/badge/%20CVE--2022--27405-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27405.md)[![](https://img.shields.io/badge/%20CVE--2022--27406-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27406.md)[![](https://img.shields.io/badge/%20CVE--2022--22747-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-22747.md)[![](https://img.shields.io/badge/%20CVE--2016--20013-LOW-blue)](https://github.com/trickest/cve/blob/main/2016/CVE-2016-20013.md)[![](https://img.shields.io/badge/%20CVE--2021--4217-LOW-blue)](https://github.com/trickest/cve/blob/main/2021/CVE-2021-4217.md)[![](https://img.shields.io/badge/%20CVE--2022--27404-LOW-blue)](https://github.com/trickest/cve/blob/main/2022/CVE-2022-27404.md)
+
+## Tests
+* [path executables](reports/path-executables.txt)
+* [gtfo](reports/gtfo.txt)
+* [hidden files](reports/hidden-files.txt)
+* [no poc cve](reports/no-poc-cve.txt)
+* [cve](reports/cve.txt)
+* [etc issue](reports/etc-issue.txt)
+* [root structure](reports/root-structure.txt)
+* [etc release](reports/etc-release.txt)
+* [etc shadow](reports/etc-shadow.txt)
+* [guid executables](reports/guid-executables.txt)
+* [exposed ports](reports/exposed-ports.txt)
+* [package names](reports/package-names.txt)
+* [dev tools](reports/dev-tools.txt)
+* [world writable files](reports/world-writable-files.txt)
+* [files owned by root](reports/files-owned-by-root.txt)
+* [pass policy](reports/pass-policy.txt)
+* [etc passwd](reports/etc-passwd.txt)
+* [world writable folders](reports/world-writable-folders.txt)
+* [poc cve](reports/poc-cve.txt)
+* [ssl certs](reports/ssl-certs.txt)
+* [suid executables](reports/suid-executables.txt)

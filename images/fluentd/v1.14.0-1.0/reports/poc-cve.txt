@@ -1,0 +1,2 @@
+CVE-2022-28739 - HIGH -  Ruby: Buffer overrun in String-to-Float conversion
+CVE-2021-41186 - MEDIUM -  fluentd: ReDoS vulnerability in parser_apache2

@@ -1,0 +1,12 @@
+/usr/lib/perl5
+/usr/lib/perl5/core_perl/perllocal.pod
+/usr/lib/perl5/vendor_perl/auto/libwww/perl
+/usr/share/perl5
+/usr/share/perl5/core_perl/perlfaq.pm
+/usr/share/perl5/core_perl/perl5db.pl
+/usr/bin/perl5.32.0
+/usr/bin/perl
+/usr/bin/perldoc
+/usr/local/lib/perl5
+/usr/local/share/doc/irssi/perl.txt
+/usr/local/share/perl5

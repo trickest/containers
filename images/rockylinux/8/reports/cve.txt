@@ -1,0 +1,2 @@
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates
+CVE-2021-3999 - MEDIUM -  glibc: Off-by-one buffer overflow/underflow in getcwd()

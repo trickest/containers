@@ -1,0 +1,94 @@
+CVE-2015-5073 - CRITICAL -  CVE-2015-8388 pcre: buffer overflow for forward reference within backward assertion with excess closing parenthesis (8.38/18)
+CVE-2016-0687 - CRITICAL -  OpenJDK: insufficient byte type checks (Hotspot, 8132051)
+CVE-2018-1000007 - CRITICAL -  curl: HTTP authentication leak in redirects
+CVE-2014-5044 - CRITICAL -  gcc: integer overflow flaws in libgfortran
+CVE-2017-5337 - CRITICAL -  gnutls: Heap read overflow in read-packet.c
+CVE-2017-5336 - CRITICAL -  gnutls: Stack overflow in cdk_pk_get_keyid
+CVE-2016-9533 - CRITICAL -  libtiff: PixarLog horizontalDifference heap-buffer-overflow
+CVE-2016-9534 - CRITICAL -  libtiff: TIFFFlushData1 heap-buffer-overflow
+CVE-2017-14632 - CRITICAL -  libvorbis: Invalid freeing of uninitialized memory in the function vorbis_analysis_headerout()
+CVE-2017-16931 - CRITICAL -  libxml2: Mishandling parameter-entity references
+CVE-2017-7375 - CRITICAL -  libxml2: Missing validation for external entities in xmlParsePEReference
+CVE-2015-8388 - HIGH -  CVE-2015-5073 CVE-2015-8388 pcre: buffer overflow for forward reference within backward assertion with excess closing parenthesis (8.38/18)
+CVE-2016-0636 - HIGH -  OpenJDK: missing type safety checks for MethodHandle calls across class loaders, incorrect CVE-2013-5838 fix (Hotspot, 8151666)
+CVE-2016-3190 - HIGH -  cairo: out of bounds read in fill_xrgb32_lerp_opaque_spans
+CVE-2017-18190 - HIGH -  cups: DNS rebinding attacks via incorrect whitelist
+CVE-2016-8625 - HIGH -  curl: IDNA 2003 makes curl use wrong host
+CVE-2017-9233 - HIGH -  expat: Inifinite loop due to invalid XML in external entity
+CVE-2017-2862 - HIGH -  gdk-pixbuf2: Heap overflow in the gdk_pixbuf__jpeg_image_load_increment function
+CVE-2017-14867 - HIGH -  git: cvsserver command injection
+CVE-2017-5335 - HIGH -  gnutls: Out of memory while parsing crafted OpenPGP certificate
+CVE-2017-7869 - HIGH -  gnutls: Out-of-bounds write related to the cdk_pkt_read function (GNUTLS-SA-2017-3)
+CVE-2017-16612 - HIGH -  libXcursor: file.c: heap-based buffer overflow when reading/creating images
+CVE-2016-10087 - HIGH -  libpng: NULL pointer dereference in png_set_text_2()
+CVE-2017-6891 - HIGH -  libtasn1: Stack-based buffer overflow in asn1_find_node()
+CVE-2017-0663 - HIGH -  libxml2: Heap buffer overflow in xmlAddID
+CVE-2017-9049 - HIGH -  libxml2: Heap-based buffer over-read in function xmlDictComputeFastKey
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2017-9048 - HIGH -  libxml2: Stack-based buffer overflow in function xmlSnprintfElementContent
+CVE-2017-9462 - HIGH -  mercurial: Python debugger accessible to authorized users
+CVE-2015-8385 - HIGH -  pcre: buffer overflow caused by named forward reference to duplicate group number (8.38/30)
+CVE-2015-8391 - HIGH -  pcre: inefficient posix character class syntax check (8.38/16)
+CVE-2014-3634 - HIGH -  rsyslog: remote syslog PRI vulnerability
+CVE-2018-8740 - HIGH -  sqlite: NULL pointer dereference with databases with schema corrupted with CREATE TABLE AS allows for denial of service
+CVE-2014-9114 - HIGH -  util-linux: command injection flaw in blkid
+CVE-2016-3426 - LOW -  OpenJDK: non-constant time GCM authentication tag comparison (JCE, 8143945)
+CVE-2002-2439 - LOW -  gcc: Integer overflow can occur during the computation of the memory region size for new[] operator
+CVE-2017-6314 - LOW -  gdk-pixbuf: Infinite loop in io-tiff.c
+CVE-2017-6313 - LOW -  gdk-pixbuf: Integer underflow in io-icns.c
+CVE-2013-2207 - LOW -  glibc (pt_chown): Improper pseudotty ownership and permissions changes when granting access to the slave pseudoterminal
+CVE-2013-6493 - LOW -  icedtea-web: insecure temporary file use flaw in LiveConnect implementation
+CVE-2017-13748 - LOW -  jasper: tile memory not released on image parsing errors
+CVE-2017-11462 - LOW -  krb5: Automatic sec context deletion could lead to double-free
+CVE-2013-7041 - LOW -  pam: pam_userdb case insensitive password hash comparison
+CVE-2014-2583 - LOW -  pam: path traversal issue in pam_timestamp's format_timestamp_name()
+CVE-2015-2328 - LOW -  pcre: infinite recursion compiling pattern with recursive reference in a group with indefinite repeat (8.36/20)
+CVE-2014-3970 - LOW -  pulseaudio: denial of service in module-rtp-recv
+CVE-2018-1061 - LOW -  python: DOS via regular expression backtracking in difflib.IS_LINE_JUNK method in difflib
+CVE-2018-1060 - LOW -  python: DOS via regular expression catastrophic backtracking in apop() method in pop3lib
+CVE-2014-3528 - LOW -  subversion: credentials leak via MD5 collision
+CVE-2013-4277 - LOW -  subversion: svnserve is vulnerable to symlink attack
+CVE-2013-0157 - LOW -  util-linux: mount folder existence information disclosure
+CVE-2016-3425 - MEDIUM -  OpenJDK: incorrect handling of surrogate pairs in XML attribute values (JAXP, 8143167)
+CVE-2016-0695 - MEDIUM -  OpenJDK: insufficient DSA key parameters checks (Security, 8138593)
+CVE-2017-18248 - MEDIUM -  cups: Invalid usernames handled in scheduler/ipp.c:add_job() allow remote attackers to cause a denial of service
+CVE-2017-11671 - MEDIUM -  gcc: GCC generates incorrect code for RDRAND/RDSEED intrinsics
+CVE-2016-3977 - MEDIUM -  giflib: heap buffer overflow in gif2rgb
+CVE-2017-12133 - MEDIUM -  glibc: Use-after-free read access in clntudp_call in sunrpc
+CVE-2013-7447 - MEDIUM -  gtk2, gtk3: Integer overflow in image handling
+CVE-2015-5235 - MEDIUM -  icedtea-web: applet origin spoofing
+CVE-2015-5234 - MEDIUM -  icedtea-web: unexpected permanent authorization of unsigned applets
+CVE-2015-5203 - MEDIUM -  jasper: integer overflow in jas_image_cmpt_create()
+CVE-2016-9591 - MEDIUM -  jasper: use-after-free / double-free in JPC encoder
+CVE-2015-5221 - MEDIUM -  jasper: use-after-free and double-free flaws in mif_process_cmpt()
+CVE-2013-6370 - MEDIUM -  json-c: buffer overflow if size_t is larger than int
+CVE-2013-6371 - MEDIUM -  json-c: hash collision DoS
+CVE-2017-11368 - MEDIUM -  krb5: Invalid S4U2Self or S4U2Proxy request causes assertion failure
+CVE-2016-3120 - MEDIUM -  krb5: S4U2Self KDC crash when anon is restricted
+CVE-2016-3119 - MEDIUM -  krb5: null pointer dereference in kadmin
+CVE-2017-7586 - MEDIUM -  libsndfile: Error in header_read() causing stack-based buffer overflow
+CVE-2017-7585 - MEDIUM -  libsndfile: Stack-based buffer overflow in flac_buffer_copy()
+CVE-2017-16942 - MEDIUM -  libsndfile: divide-by-zero error in wav_w64_read_fmt_chunk()
+CVE-2014-9756 - MEDIUM -  libsndfile: division by zero leading to denial of service in psf_fwrite()
+CVE-2016-10371 - MEDIUM -  libtiff: Assertion failure in TIFFWriteDirectoryTagCheckedRational
+CVE-2017-7594 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesDcTable function
+CVE-2017-9404 - MEDIUM -  libtiff: Memory leak in OJPEGReadHeaderInfoSecTablesQTable
+CVE-2017-9403 - MEDIUM -  libtiff: Memory leak in TIFFReadDirEntryLong8Array
+CVE-2017-9815 - MEDIUM -  libtiff: Memory leak in the TIFFReadDirEntryLong8Array function
+CVE-2017-7593 - MEDIUM -  libtiff: tif_rawdata not properly initialized in tif_read.c
+CVE-2017-14633 - MEDIUM -  libvorbis: Out-of-bounds array read in the function mapping0_forward()
+CVE-2017-5969 - MEDIUM -  libxml2: Null pointer dereference in xmlSaveDoc implementation
+CVE-2017-9287 - MEDIUM -  openldap: Double free vulnerability in servers/slapd/back-mdb/search.c
+CVE-2015-8393 - MEDIUM -  pcre: pcregrep -q is not always quiet (8.38/28)
+CVE-2015-8382 - MEDIUM -  php: Regular Expression Uninitialized Pointer Information Disclosure Vulnerability (ZDI-CAN-2547)
+CVE-2013-2099 - MEDIUM -  python: ssl.match_hostname() DoS via certificates with specially crafted hostname wildcard patterns
+CVE-2013-7440 - MEDIUM -  python: wildcard matching rules do not follow RFC 6125
+CVE-2014-3522 - MEDIUM -  subversion: incorrect SSL certificate validation in Serf RA (repository access) layer
+DLA-1244-1 - UNKNOWN -  ca-certificates - security update
+DLA-900-1 - UNKNOWN -  freetype - security update
+DLA-1234-2 - UNKNOWN -  gdk-pixbuf - regression update
+DLA-1155-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1291-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1323-1 - UNKNOWN -  tzdata - new upstream version
+DLA-1371-1 - UNKNOWN -  tzdata - new upstream version
+DLA-886-1 - UNKNOWN -  tzdata - new upstream version

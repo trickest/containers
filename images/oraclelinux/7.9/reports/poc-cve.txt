@@ -1,0 +1,4 @@
+CVE-2021-41617 - MEDIUM -  openssh: privilege escalation when AuthorizedKeysCommand or AuthorizedPrincipalsCommand are configured
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3712 - MEDIUM -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2021-23840 - MEDIUM -  openssl: integer overflow in CipherUpdate

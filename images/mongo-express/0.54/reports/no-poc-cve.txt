@@ -1,0 +1,9 @@
+GHSA-97mg-3cr6-3x4c - CRITICAL -  Remote Code Execution in mongodb-query-parser
+GHSA-876r-hj45-fw7g - CRITICAL -  Sandbox Breakout / Arbitrary Code Execution in safer-eval
+CVE-2022-24434 - HIGH -  Crash in HeaderParser in dicer
+CVE-2021-21422 - HIGH -  Cross-site scripting
+GHSA-mh5c-679w-hh4r - HIGH -  Denial of Service in mongodb
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+CVE-2020-7610 - HIGH -  bson:  Deserialization of Untrusted Data could result in Code injection or Excessive CPU load
+GHSA-q3w9-g74q-vp5f - LOW -  Denial of Service in express-fileupload

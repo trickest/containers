@@ -1,0 +1,7 @@
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-16167 - LOW -  sysstat: memory corruption due to an integer overflow in remap_struct in sa_common.c
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect

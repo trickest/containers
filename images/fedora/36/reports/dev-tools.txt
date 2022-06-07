@@ -1,0 +1,11 @@
+/usr/lib/python3.10
+/usr/lib64/python3.10
+/usr/share/licenses/python-pip-wheel
+/usr/share/licenses/python-setuptools-wheel
+/usr/share/gcc-12/python
+/usr/share/python-wheels
+/usr/bin/python3.10
+/usr/bin/python3
+/usr/include/python3.10
+/usr/share/gcc-12
+/usr/lib/.build-id/cc

@@ -1,0 +1,14 @@
+CVE-2022-1586 - CRITICAL -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect

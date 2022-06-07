@@ -1,0 +1,31 @@
+CVE-2019-13050 - LOW -  GnuPG: interaction between the sks-keyserver code and GnuPG allows for a Certificate Spamming Attack which leads to persistent DoS
+CVE-2019-18276 - LOW -  bash: when effective UID is not equal to its real UID the saved UID is not dropped
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-35942 - LOW -  glibc: Arbitrary read in wordexp()
+CVE-2021-3326 - LOW -  glibc: Assertion failure in ISO-2022-JP-3 gconv module related to combining characters
+CVE-2022-23219 - LOW -  glibc: Stack-based buffer overflow in sunrpc clnt_create via a long pathname
+CVE-2022-23218 - LOW -  glibc: Stack-based buffer overflow in svcunix_create via long pathnames
+CVE-2020-29562 - LOW -  glibc: assertion failure in iconv when converting invalid UCS4
+CVE-2019-25013 - LOW -  glibc: buffer over-read in iconv when processing invalid multi-byte input sequences in the EUC-KR encoding
+CVE-2016-10739 - LOW -  glibc: getaddrinfo should reject IP addresses with trailing characters
+CVE-2016-10228 - LOW -  glibc: iconv program can hang when invoked with the -c option
+CVE-2020-27618 - LOW -  glibc: iconv when processing invalid multi-byte input sequences fails to advance the input state, which could result in an infinite loop
+CVE-2009-5155 - LOW -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2015-8985 - LOW -  glibc: potential denial of service in pop_fail_stack()
+CVE-2020-6096 - LOW -  glibc: signed comparison vulnerability in the ARMv7 memcpy function
+CVE-2018-16868 - LOW -  gnutls: Bleichenbacher-like side channel leakage in PKCS#1 v1.5 verification and padding oracle verification
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2019-17594 - LOW -  ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c
+CVE-2019-17595 - LOW -  ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2020-14155 - LOW -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2021-20193 - LOW -  tar: Memory leak in read_header() in list.c
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2018-25032 - MEDIUM -  zlib: A flaw found in zlib when compressing (not decompressing) certain inputs

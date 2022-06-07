@@ -1,0 +1,12 @@
+/usr/libexec/dbus-daemon-launch-helper
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/newgidmap
+/usr/bin/gpasswd
+/usr/bin/unix_chkpwd
+/usr/bin/expiry
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/newuidmap

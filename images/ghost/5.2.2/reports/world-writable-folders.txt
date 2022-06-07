@@ -1,0 +1,9 @@
+/var/lib/ghost/content
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

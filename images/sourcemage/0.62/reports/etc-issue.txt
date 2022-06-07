@@ -1,0 +1,2 @@
+Welcome to \l of \n on \d
+Running Source Mage GNU/\s, kernel \r on \m

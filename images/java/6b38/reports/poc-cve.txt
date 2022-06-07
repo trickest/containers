@@ -1,0 +1,283 @@
+CVE-2016-5582 - CRITICAL -  OpenJDK: incomplete type checks of System.arraycopy arguments (Hotspot, 8160591)
+CVE-2017-10102 - CRITICAL -  OpenJDK: incorrect handling of references in DGC (RMI, 8163958)
+CVE-2017-10285 - CRITICAL -  OpenJDK: incorrect privilege use when handling unreferenced objects (RMI, 8174966)
+CVE-2017-10107 - CRITICAL -  OpenJDK: insufficient access control checks in ActivationID (RMI, 8173697)
+CVE-2017-10110 - CRITICAL -  OpenJDK: insufficient access control checks in ImageWatched (AWT, 8174098)
+CVE-2017-10089 - CRITICAL -  OpenJDK: insufficient access control checks in ServiceRegistry (ImageIO, 8172461)
+CVE-2017-10087 - CRITICAL -  OpenJDK: insufficient access control checks in ThreadPoolExecutor (Libraries, 8172204)
+CVE-2017-10096 - CRITICAL -  OpenJDK: insufficient access control checks in XML transformations (JAXP, 8172469)
+CVE-2017-10346 - CRITICAL -  OpenJDK: insufficient loader constraints checks for invokespecial (Hotspot, 8180711)
+CVE-2017-3272 - CRITICAL -  OpenJDK: insufficient protected field access checks in atomic field updaters (Libraries, 8165344)
+CVE-2016-0686 - CRITICAL -  OpenJDK: insufficient thread consistency checks in ObjectInputStream (Serialization, 8129952)
+CVE-2017-10101 - CRITICAL -  OpenJDK: unrestricted access to com.sun.org.apache.xml.internal.resolver (JAXP, 8173286)
+CVE-2016-3427 - CRITICAL -  OpenJDK: unrestricted deserialization of authentication credentials (JMX, 8144430)
+CVE-2017-3241 - CRITICAL -  OpenJDK: untrusted input deserialization in RMI registry and DCG (RMI, 8156802)
+CVE-2018-1000120 - CRITICAL -  curl: FTP path trickery leads to NIL byte out of bounds write
+CVE-2017-8817 - CRITICAL -  curl: FTP wildcard out of bounds read
+CVE-2017-1000257 - CRITICAL -  curl: IMAP FETCH response out of bounds read
+CVE-2018-1000301 - CRITICAL -  curl: Out-of-bounds heap read when missing RTSP headers allows information leak or denial of service
+CVE-2018-1000122 - CRITICAL -  curl: RTSP RTP buffer over-read
+CVE-2016-9063 - CRITICAL -  firefox: Possible integer overflow to fix inside XML_Parse in Expat
+CVE-2017-8287 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_builder_close_contour function
+CVE-2017-8105 - CRITICAL -  freetype: heap-based buffer overflow related to the t1_decoder_parse_charstrings
+CVE-2014-9390 - CRITICAL -  git: arbitrary command execution vulnerability on case-insensitive file systems
+CVE-2018-6485 - CRITICAL -  glibc: Integer overflow in posix_memalign in memalign functions
+CVE-2014-9761 - CRITICAL -  glibc: Unbounded stack allocation in nan* functions
+CVE-2017-14062 - CRITICAL -  libidn2: Integer overflow in puny_decode.c/decode_digit
+CVE-2017-12562 - CRITICAL -  libsndfile: Heap-based Buffer Overflow in psf_binheader_writef function in common.c
+CVE-2016-9535 - CRITICAL -  libtiff: Predictor heap-buffer-overflow
+CVE-2016-4448 - CRITICAL -  libxml2: Format string vulnerability
+CVE-2017-7376 - CRITICAL -  libxml2: Incorrect limit used for port values
+CVE-2017-8872 - CRITICAL -  libxml2: Out-of-bounds read in htmlParseTryOrFinish
+CVE-2018-1000132 - CRITICAL -  mercurial: HTTP server permissions bypass
+CVE-2017-17458 - CRITICAL -  mercurial: arbitrary command execution in mercurial repo with a git submodule
+CVE-2017-1000116 - CRITICAL -  mercurial: command injection on clients through malicious ssh URLs
+CVE-2017-10685 - CRITICAL -  ncurses: Stack-based buffer overflow caused by format string vulnerability in fmt_entry function
+CVE-2017-10684 - CRITICAL -  ncurses: Stack-based buffer overflow in fmt_entry function in dump_entry.c
+CVE-2017-5461 - CRITICAL -  nss: Write beyond bounds caused by bugs in Base64 de/encoding in nssb64d.c and nssb64e.c (MFSA 2017-10)
+CVE-2016-1908 - CRITICAL -  openssh: possible fallback from untrusted to trusted X11 forwarding
+CVE-2016-3191 - CRITICAL -  pcre: workspace overflow for (*ACCEPT) with deeply nested parentheses (8.39/13, 10.22/12)
+CVE-2018-6913 - CRITICAL -  perl: heap buffer overflow in pp_pack.c
+CVE-2018-6797 - CRITICAL -  perl: heap write overflow in regcomp.c
+CVE-2018-1126 - CRITICAL -  procps-ng, procps: incorrect integer size in proc/alloc.* leading to truncation / integer overflow issues
+CVE-2017-1000158 - CRITICAL -  python: Integer overflow in PyString_DecodeEscape results in heap-base buffer overflow
+CVE-2017-12424 - CRITICAL -  shadow-utils: Buffer overflow via newusers tool
+CVE-2017-10989 - CRITICAL -  sqlite: Heap-buffer overflow in the getNodeSize function
+CVE-2017-9800 - CRITICAL -  subversion: Command injection through clients via malicious svn+ssh URLs
+CVE-2016-9843 - CRITICAL -  zlib: Big-endian out-of-bounds pointer
+CVE-2016-9841 - CRITICAL -  zlib: Out-of-bounds pointer arithmetic in inffast.c
+CVE-2009-2675 - HIGH -  Java Web Start Buffer unpack200 processing integer overflow (6830335)
+CVE-2008-3112 - HIGH -  Java Web Start, arbitrary file creation (6703909)
+CVE-2018-5360 - HIGH -  LibTIFF: heap-based buffer over-read in the ReadTIFFImage function in coders/tiff.c
+CVE-2017-1000115 - HIGH -  Mercurial: pathaudit: path traversal via symlink
+CVE-2018-5146 - HIGH -  Mozilla: Vorbis audio processing out of bounds write (MFSA 2018-08)
+CVE-2017-10115 - HIGH -  OpenJDK: DSA implementation timing attack (JCE, 8175106)
+CVE-2017-10067 - HIGH -  OpenJDK: JAR verifier incorrect handling of missing digest (Security, 8169392)
+CVE-2017-10116 - HIGH -  OpenJDK: LDAPCertStore following referrals to non-LDAP URLs (Security, 8176067)
+CVE-2018-2633 - HIGH -  OpenJDK: LDAPCertStore insecure handling of LDAP referrals (JNDI, 8186606)
+CVE-2018-2637 - HIGH -  OpenJDK: SingleEntryRegistry incorrect setup of deserialization filter (JMX, 8186998)
+CVE-2017-3253 - HIGH -  OpenJDK: imageio PNGImageReader failed to honor ignoreMetadata for iTXt and zTXt chunks (2D, 8166988)
+CVE-2016-5546 - HIGH -  OpenJDK: incorrect ECDSA signature extraction from the DER input (Libraries, 8168714)
+CVE-2018-2814 - HIGH -  OpenJDK: incorrect handling of Reference clones can lead to sandbox bypass (Hotspot, 8192025)
+CVE-2016-5573 - HIGH -  OpenJDK: insufficient checks of JDWP packets (Hotspot, 8159519)
+CVE-2017-10074 - HIGH -  OpenJDK: integer overflows in range check loop predicates (Hotspot, 8173770)
+CVE-2018-2794 - HIGH -  OpenJDK: unrestricted deserialization of data from JCEKS key stores (Security, 8189997)
+CVE-2017-3511 - HIGH -  OpenJDK: untrusted extension directories search path in Launcher (JCE, 8163528)
+CVE-2017-10388 - HIGH -  OpenJDK: use of unprotected sname in Kerberos client (Libraries, 8178794)
+CVE-2017-12613 - HIGH -  apr: Out-of-bounds array deref in apr_time_exp*() functions
+CVE-2017-14176 - HIGH -  bzr: does not strip bzr+ssh SSH options
+CVE-2017-5130 - HIGH -  chromium-browser: heap overflow in libxml2
+CVE-2017-1000254 - HIGH -  curl: FTP PWD response parser out of bounds read
+CVE-2018-1000121 - HIGH -  curl: LDAP NULL pointer dereference
+CVE-2016-0755 - HIGH -  curl: NTLM credentials not-checked for proxy connection re-use
+CVE-2017-1000422 - HIGH -  gdk-pixbuf: Integer overflow in io-gif.c:gif_get_lzw() can lead to memory corruption and potential code execution
+CVE-2017-1000117 - HIGH -  git: Command injection via malicious ssh URLs
+CVE-2017-8386 - HIGH -  git: Escape out of git-shell
+CVE-2017-1000409 - HIGH -  glibc: Buffer overflow triggerable via LD_LIBRARY_PATH
+CVE-2017-16997 - HIGH -  glibc: Incorrect handling of RPATH in elf/dl-load.c can be used to execute code loaded from arbitrary libraries
+CVE-2017-1000408 - HIGH -  glibc: Memory leak reachable via LD_HWCAP_MASK
+CVE-2017-1000366 - HIGH -  glibc: heap/stack gap jumping via unbounded stack allocations
+CVE-2018-1000001 - HIGH -  glibc: realpath() buffer underflow when getcwd() returns relative path allows privilege escalation
+CVE-2017-6852 - HIGH -  jasper: Out of bounds heap read in jpc_dec_decodepkt
+CVE-2017-14229 - HIGH -  jasper: excessive looping in jpc_dec_tileinit()
+CVE-2016-10251 - HIGH -  jasper: integer overflow in jpc_pi_nextcprl(), leading to out-of-bounds read
+CVE-2017-10140 - HIGH -  libdb: Reads DB_CONFIG from the current working directory
+CVE-2016-3616 - HIGH -  libjpeg: null pointer dereference in cjpeg
+CVE-2017-8361 - HIGH -  libsndfile: Buffer overflow in the flac_buffer_copy function
+CVE-2015-7805 - HIGH -  libsndfile: Heap overflow vulnerability when parsing specially crafted AIFF header
+CVE-2017-6892 - HIGH -  libsndfile: Information disclosure via aiff_read_chanmap() function
+CVE-2017-10790 - HIGH -  libtasn1: NULL pointer dereference in the _asn1_check_identifier function
+CVE-2017-7596 - HIGH -  libtiff: Float out of range issue in tif_dir.c
+CVE-2017-7597 - HIGH -  libtiff: Float out of range issue in tif_dirread.c
+CVE-2017-11335 - HIGH -  libtiff: Heap-based buffer overflow in tiff2pdf
+CVE-2017-7601 - HIGH -  libtiff: Signed integer overflow in tif_jpeg.c
+CVE-2017-7600 - HIGH -  libtiff: Unsigned char out of range in tif_dirwrite.c
+CVE-2017-7599 - HIGH -  libtiff: Unsigned short out of range in tif_dirwrite.c
+CVE-2018-8905 - HIGH -  libtiff: heap-based buffer overflow in tif_lzw.c:LZWDecodeCompat() allows for denial of service
+CVE-2017-14160 - HIGH -  libvorbis: Out-of-bounds read in the bark_noise_hybridmp function
+CVE-2018-10392 - HIGH -  libvorbis: heap buffer overflow in mapping0_forward function
+CVE-2018-10393 - HIGH -  libvorbis: stack buffer overflow in bark_noise_hybridmp function
+CVE-2017-9047 - HIGH -  libxml2: Buffer overflow in function xmlSnprintfElementContent
+CVE-2017-9050 - HIGH -  libxml2: Heap-based buffer over-read in function xmlDictAddString
+CVE-2017-15412 - HIGH -  libxml2: Use after free in xmlXPathCompOpEvalPositionalPredicate() function in xpath.c
+CVE-2017-11112 - HIGH -  ncurses: Illegal address access in append_acs function
+CVE-2017-13728 - HIGH -  ncurses: Infinite loop in the next_char function
+CVE-2017-11113 - HIGH -  ncurses: Null pointer dereference vulnerability in _nc_parse_entry function
+CVE-2017-16879 - HIGH -  ncurses: Stack-based buffer overflow in the _nc_write_entry function
+CVE-2017-7502 - HIGH -  nss: Null pointer dereference when handling empty SSLv2 messages
+CVE-2017-7805 - HIGH -  nss: Potential use-after-free in TLS 1.2 server when verifying client authentication
+CVE-2014-1490 - HIGH -  nss: TOCTOU, potential use-after-free in libssl's session ticket processing (MFSA 2014-12)
+CVE-2015-5600 - HIGH -  openssh: MaxAuthTries limit bypass via duplicates in KbdInteractiveDevices
+CVE-2016-8858 - HIGH -  openssh: Memory exhaustion due to unregistered KEXINIT handler after receiving message
+CVE-2016-10708 - HIGH -  openssh: Out of sequence NEWKEYS message can allow remote attacker to cause denial of service
+CVE-2015-8394 - HIGH -  pcre: Integer overflow caused by missing check for certain conditions (8.38/31)
+CVE-2015-8387 - HIGH -  pcre: Integer overflow in subroutine calls (8.38/8)
+CVE-2015-3217 - HIGH -  pcre: stack overflow caused by mishandled group empty match (8.38/11)
+CVE-2015-8390 - HIGH -  pcre: uninitialized memory read triggered by malformed posix character class (8.38/22)
+CVE-2015-8853 - HIGH -  perl: regexp matching hangs indefinitely on illegal UTF-8 input
+CVE-2013-7422 - HIGH -  perl: segmentation fault in S_regmatch on negative backreference
+CVE-2018-1124 - HIGH -  procps-ng, procps: Integer overflows leading to heap overflow in file2strvec
+CVE-2018-1122 - HIGH -  procps-ng, procps: Local privilege escalation in top
+CVE-2018-1123 - HIGH -  procps-ng, procps: denial of service in ps via mmap buffer overflow
+CVE-2018-1125 - HIGH -  procps-ng, procps: stack buffer overflow in pgrep
+CVE-2018-1000035 - HIGH -  unzip: Heap-based buffer overflow in fileio.c:UzpPassword function allows code execution
+CVE-2017-13090 - HIGH -  wget: Heap-based buffer overflow in HTTP protocol handling
+CVE-2017-13089 - HIGH -  wget: Stack-based buffer overflow in HTTP protocol handling
+CVE-2016-9840 - HIGH -  zlib: Out-of-bounds pointer arithmetic in inftrees.c
+CVE-2016-9842 - HIGH -  zlib: Undefined left shift of negative number
+CVE-2016-8690 - LOW -  CVE-2016-8884 CVE-2016-8885 jasper: missing jas_matrix_create() parameter checks
+CVE-2017-3539 - LOW -  OpenJDK: MD5 allowed for jar verification (Security, 8171121)
+CVE-2017-10193 - LOW -  OpenJDK: incorrect key size constraint check (Security, 8179101)
+CVE-2018-2790 - LOW -  OpenJDK: incorrect merging of sections in the JAR manifest (Security, 8189969)
+CVE-2016-5542 - LOW -  OpenJDK: missing algorithm restrictions for jar verification (Libraries, 8155973)
+CVE-2017-3533 - LOW -  OpenJDK: newline injection in the FTP client (Networking, 8170222)
+CVE-2017-3544 - LOW -  OpenJDK: newline injection in the SMTP client (Networking, 8171533)
+CVE-2017-10345 - LOW -  OpenJDK: unbounded resource use in JceKeyStore deserialization (Serialization, 8181370)
+CVE-2018-2579 - LOW -  OpenJDK: unsynchronized access to encryption key data (Libraries, 8172525)
+CVE-2014-3566 - LOW -  SSL/TLS: Padding Oracle On Downgraded Legacy Encryption attack
+CVE-2016-3189 - LOW -  bzip2: heap use after free in bzip2recover
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2017-9814 - LOW -  cairo: Out-of-bounds read due to mishandling of unexpected malloc(0) call
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2014-9471 - LOW -  coreutils: memory corruption flaw in parse_datetime()
+CVE-2017-7407 - LOW -  curl: --write-out out of bounds read
+CVE-2017-6888 - LOW -  flac: Memory leak in src/libFLAC/stream_decoder.c:read_metadata_vorbiscomment_()
+CVE-2017-6312 - LOW -  gdk-pixbuf: Out-of-bounds read in io-ico.c
+CVE-2017-15804 - LOW -  glibc: Buffer overflow during unescaping of user names with the ~ operator
+CVE-2017-15670 - LOW -  glibc: Buffer overflow in glob with GLOB_TILDE
+CVE-2015-5180 - LOW -  glibc: DNS resolver NULL pointer dereference with crafted record type
+CVE-2017-15671 - LOW -  glibc: Memory leak in glob with GLOB_TILDE
+CVE-2017-14132 - LOW -  jasper: heap-based buffer over-read in jas_image_ishomosamp()
+CVE-2016-8886 - LOW -  jasper: no upper limit on memory allocations in jas_malloc()
+CVE-2012-5373 - LOW -  java: Murmur hash function collisions (oCERT-2012-001)
+CVE-2018-5730 - LOW -  krb5: DN container check bypass by supplying special crafted data
+CVE-2014-5353 - LOW -  krb5: NULL pointer dereference when using a ticket policy name as a password policy name
+CVE-2014-5351 - LOW -  krb5: current keys returned when randomizing the keys for a service principal
+CVE-2014-0459 - LOW -  lcms: insufficient ICC profile version validation (OpenJDK 2D, 8031335)
+CVE-2018-14598 - LOW -  libX11: Crash on invalid reply in XListExtensions in ListExt.c
+CVE-2018-14599 - LOW -  libX11: Off-by-one error in XListExtensions in ListExt.c
+CVE-2018-14600 - LOW -  libX11: Out of Bounds write in XListExtensions in ListExt.c
+CVE-2014-9496 - LOW -  libsndfile: 2 buffer overruns in sd2_parse_rsrc_fork()
+CVE-2017-14245 - LOW -  libsndfile: Out-of-bounds read in the function d2alaw_array()
+CVE-2017-14246 - LOW -  libsndfile: Out-of-bounds read in the function d2ulaw_array()
+CVE-2017-18258 - LOW -  libxml2: Unrestricted memory usage in xz_head() function in xzlib.c
+CVE-2018-19211 - LOW -  ncurses: Null pointer dereference at function _nc_parse_entry in parse_entry.c
+CVE-2016-10012 - LOW -  openssh: Bounds check can be evaded in the shared memory manager used by pre-authentication compression support
+CVE-2017-15906 - LOW -  openssh: Improper write operations in readonly mode allow for zero-length file creation
+CVE-2016-10011 - LOW -  openssh: Leak of host private key material to privilege-separated child process via realloc()
+CVE-2015-6563 - LOW -  openssh: Privilege separation weakness related to PAM support
+CVE-2016-10009 - LOW -  openssh: loading of untrusted PKCS#11 modules in ssh-agent
+CVE-2018-0737 - LOW -  openssl: RSA key generation cache timing vulnerability in crypto/rsa/rsa_gen.c allows attackers to recover private keys
+CVE-2015-2327 - LOW -  pcre: infinite recursion compiling pattern with zero-repeated groups that include recursive back reference (8.36/19)
+CVE-2014-4650 - LOW -  python: CGIHTTPServer module does not properly handle URL-encoded path separators in URLs
+CVE-2013-1753 - LOW -  python: XMLRPC library unrestricted decompression of HTTP responses using gzip enconding
+CVE-2014-7185 - LOW -  python: buffer() integer overflow leading to out of bounds read
+CVE-2014-2524 - LOW -  readline: insecure temporary file use in _rl_tropen()
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2016-8734 - LOW -  subversion: unrestricted XML entity expansion in mod_dontdothat and Subversion clients using http(s)://
+CVE-2016-7098 - LOW -  wget: files rejected by access list are kept on the disk for the duration of HTTP connection
+CVE-2015-8782 - MEDIUM -  CVE-2015-8781 CVE-2015-8782 CVE-2015-8783 libtiff: invalid assertion
+CVE-2015-8783 - MEDIUM -  CVE-2015-8781 CVE-2015-8782 CVE-2015-8783 libtiff: invalid assertion
+CVE-2015-8781 - MEDIUM -  CVE-2015-8782 CVE-2015-8783 libtiff: invalid assertion
+CVE-2009-2676 - MEDIUM -  JRE applet launcher vulnerability
+CVE-2018-2663 - MEDIUM -  OpenJDK: ArrayBlockingQueue deserialization to an inconsistent state (Libraries, 8189284)
+CVE-2017-10274 - MEDIUM -  OpenJDK: CardImpl incorrect state handling (Smart Card IO, 8169026)
+CVE-2016-5548 - MEDIUM -  OpenJDK: DSA implementation timing attack (Libraries, 8168728)
+CVE-2018-2603 - MEDIUM -  OpenJDK: DerValue unbounded memory allocation (Libraries, 8182387)
+CVE-2018-2599 - MEDIUM -  OpenJDK: DnsClient missing source port randomization (JNDI, 8182125)
+CVE-2018-2629 - MEDIUM -  OpenJDK: GSS context use-after-free (JGSS, 8186212)
+CVE-2018-2641 - MEDIUM -  OpenJDK: GTK library loading use-after-free (AWT, 8185325)
+CVE-2017-10295 - MEDIUM -  OpenJDK: HTTP client insufficient check for newline in URLs (Networking, 8176751)
+CVE-2017-3252 - MEDIUM -  OpenJDK: LdapLoginModule incorrect userDN extraction (JAAS, 8161743)
+CVE-2018-2588 - MEDIUM -  OpenJDK: LdapLoginModule insufficient username encoding in LDAP query (LDAP, 8178449)
+CVE-2017-10135 - MEDIUM -  OpenJDK: PKCS#8 implementation timing attack (JCE, 8176760)
+CVE-2018-2800 - MEDIUM -  OpenJDK: RMI HTTP transport enabled by default (RMI, 8193833)
+CVE-2017-3231 - MEDIUM -  OpenJDK: URLClassLoader insufficient access control checks (Networking, 8151934)
+CVE-2016-5597 - MEDIUM -  OpenJDK: exposure of server authentication credentials to proxy (Networking, 8160838)
+CVE-2017-3509 - MEDIUM -  OpenJDK: improper re-use of NTLM authenticated connections (Networking, 8163520)
+CVE-2017-3526 - MEDIUM -  OpenJDK: incomplete XML parse tree size enforcement (JAXP, 8169011)
+CVE-2016-5552 - MEDIUM -  OpenJDK: incorrect URL parsing in URLStreamHandler (Networking, 8167223)
+CVE-2017-10081 - MEDIUM -  OpenJDK: incorrect bracket processing in function signature handling (Hotspot, 8170966)
+CVE-2017-10198 - MEDIUM -  OpenJDK: incorrect enforcement of certificate path restrictions (Security, 8179998)
+CVE-2017-10243 - MEDIUM -  OpenJDK: insecure XML parsing in wsdlimport (JAX-WS, 8182054)
+CVE-2016-5554 - MEDIUM -  OpenJDK: insufficient classloader consistency checks in ClassLoaderWithRepository (JMX, 8157739)
+CVE-2018-2795 - MEDIUM -  OpenJDK: insufficient consistency checks in deserialization of multiple classes (Security, 8189977)
+CVE-2016-3458 - MEDIUM -  OpenJDK: insufficient restrictions on the use of custom ValueHandler (CORBA, 8079718)
+CVE-2018-2618 - MEDIUM -  OpenJDK: insufficient strength of key agreement (JCE, 8185292)
+CVE-2017-3261 - MEDIUM -  OpenJDK: integer overflow in SocketOutputStream boundary check (Networking, 8164147)
+CVE-2016-3550 - MEDIUM -  OpenJDK: integer overflows in bytecode streams (Hotspot, 8152479)
+CVE-2018-2602 - MEDIUM -  OpenJDK: loading of classes from untrusted locations (I18n, 8182601)
+CVE-2016-3500 - MEDIUM -  OpenJDK: maximum XML name limit not applied to namespace URIs (JAXP, 8148872)
+CVE-2016-3508 - MEDIUM -  OpenJDK: missing entity replacement limits (JAXP, 8149962)
+CVE-2017-10348 - MEDIUM -  OpenJDK: multiple unbounded memory allocations in deserialization (Libraries, 8181432)
+CVE-2017-10281 - MEDIUM -  OpenJDK: multiple unbounded memory allocations in deserialization (Serialization, 8174109)
+CVE-2017-10355 - MEDIUM -  OpenJDK: no default network operations timeouts in FtpClient (Networking, 8181612)
+CVE-2017-10053 - MEDIUM -  OpenJDK: reading of unprocessed image data in JPEGImageReader (2D, 8169209)
+CVE-2018-2677 - MEDIUM -  OpenJDK: unbounded memory allocation during deserialization (AWT, 8190289)
+CVE-2018-2798 - MEDIUM -  OpenJDK: unbounded memory allocation during deserialization in Container (AWT, 8189989)
+CVE-2018-2815 - MEDIUM -  OpenJDK: unbounded memory allocation during deserialization in StubIORImpl (Serialization, 8192757)
+CVE-2018-2797 - MEDIUM -  OpenJDK: unbounded memory allocation during deserialization in TabularDataSupport (JMX, 8189985)
+CVE-2017-10108 - MEDIUM -  OpenJDK: unbounded memory allocation in BasicAttribute deserialization (Serialization, 8174105)
+CVE-2018-2678 - MEDIUM -  OpenJDK: unbounded memory allocation in BasicAttributes deserialization (JNDI, 8191142)
+CVE-2017-10109 - MEDIUM -  OpenJDK: unbounded memory allocation in CodeSource deserialization (Serialization, 8174113)
+CVE-2017-10357 - MEDIUM -  OpenJDK: unbounded memory allocation in ObjectInputStream deserialization (Serialization, 8181597)
+CVE-2017-10349 - MEDIUM -  OpenJDK: unbounded memory allocation in PredicatedNodeTest deserialization (JAXP, 8181327)
+CVE-2017-10347 - MEDIUM -  OpenJDK: unbounded memory allocation in SimpleTimeZone deserialization (Serialization, 8181323)
+CVE-2018-2634 - MEDIUM -  OpenJDK: use of global credentials for HTTP/SPNEGO (JGSS, 8186600)
+CVE-2017-10356 - MEDIUM -  OpenJDK: weak protection of key stores against brute forcing (Security, 8181692)
+CVE-2017-12618 - MEDIUM -  apr-util: Out-of-bounds access in corrupted SDBM database
+CVE-2016-9401 - MEDIUM -  bash: popd controlled free
+CVE-2017-1000100 - MEDIUM -  curl: TFTP sends more than buffer size
+CVE-2015-3153 - MEDIUM -  curl: sensitive HTTP server headers also sent to proxies
+CVE-2017-12132 - MEDIUM -  glibc: Fragmentation attacks possible when EDNS0 is enabled
+CVE-2016-10228 - MEDIUM -  glibc: iconv program can hang when invoked with the -c option
+CVE-2016-4429 - MEDIUM -  glibc: libtirpc: stack (frame) overflow in Sun RPC clntudp_call()
+CVE-2015-1607 - MEDIUM -  gnupg2: memcpy with overlapping ranges (keybox_search.c)
+CVE-2017-9782 - MEDIUM -  jasper: cdef.ents[] heap-based buffer over-read in jp2_decode()
+CVE-2016-1867 - MEDIUM -  jasper: out-of-bounds read in jpc_pi_nextcprl()
+CVE-2016-9557 - MEDIUM -  jasper: signed integer overflow in jas_image_create()
+CVE-2015-2694 - MEDIUM -  krb5: issues in OTP and PKINIT kdcpreauth modules leading to requires_preauth bypass
+CVE-2013-1418 - MEDIUM -  krb5: multi-realm KDC null dereference leads to crash
+CVE-2018-5729 - MEDIUM -  krb5: null dereference in kadmind or DN container check bypass by supplying special crafted data
+CVE-2014-5355 - MEDIUM -  krb5: unauthenticated denial of service in recvauth_common() and others
+CVE-2017-2626 - MEDIUM -  libICE: weak entropy usage in session keys
+CVE-2017-2625 - MEDIUM -  libXdmcp: weak entropy usage for session keys
+CVE-2017-7526 - MEDIUM -  libgcrypt: Use of left-to-right sliding window method allows full RSA key recovery
+CVE-2017-8365 - MEDIUM -  libsndfile: Buffer over-read in the l2les_array function
+CVE-2017-14634 - MEDIUM -  libsndfile: Divide-by-zero in the double64_init() function
+CVE-2017-8363 - MEDIUM -  libsndfile: Heap buffer over-read in the flac_buffer_copy function
+CVE-2017-7742 - MEDIUM -  libsndfile: Invalid memory read in flac_buffer_copy function
+CVE-2017-7741 - MEDIUM -  libsndfile: Invalid memory write in flac_buffer_copy function
+CVE-2017-8362 - MEDIUM -  libsndfile: Out-of-bounds read in the flac_buffer_copy function
+CVE-2017-7595 - MEDIUM -  libtiff: Divide-by-zero in JPEGSetupEncode (tiff_jpeg.c)
+CVE-2017-11613 - MEDIUM -  libtiff: Memory leak via corrupt td_imagelength in TIFFOpen function
+CVE-2018-7456 - MEDIUM -  libtiff: NULL pointer dereference in tif_print.c:TIFFPrintDirectory() causes a denial of service
+CVE-2017-18013 - MEDIUM -  libtiff: NULL pointer dereference in tif_print.c:TIFFPrintDirectory() causes crash
+CVE-2017-9147 - MEDIUM -  libtiff: Out of bounds read in _TIFFVGetField
+CVE-2016-10095 - MEDIUM -  libtiff: Stack-based buffer overflow in _TIFFVGetField
+CVE-2017-9936 - MEDIUM -  libtiff: memory leak in tif_jbig.c
+CVE-2015-8784 - MEDIUM -  libtiff: out-of-bound write in NeXTDecode()
+CVE-2018-5784 - MEDIUM -  libtiff: uncontrolled resource consumption in TIFFSetDirectory function in tif_dir.c
+CVE-2017-11333 - MEDIUM -  libvorbis: Memory exhaustion in vorbis_analysis_wrote function in lib/block.c
+CVE-2016-9318 - MEDIUM -  libxml2: XML External Entity vulnerability
+CVE-2017-13729 - MEDIUM -  ncurses: Illegal address access in the _nc_save_str function
+CVE-2017-13730 - MEDIUM -  ncurses: Illegal address access in the function _nc_read_entry_source()
+CVE-2017-13734 - MEDIUM -  ncurses: Illegal address access in the function _nc_safe_strcat
+CVE-2017-13732 - MEDIUM -  ncurses: Illegal address access in the function dump_uses()
+CVE-2017-13733 - MEDIUM -  ncurses: Illegal address access in the function fmt_entry
+CVE-2017-13731 - MEDIUM -  ncurses: Illegal address access in the function postprocess_termcap()
+CVE-2017-5462 - MEDIUM -  nss: DRBG flaw in NSS
+CVE-2013-1740 - MEDIUM -  nss: false start PR_Recv information disclosure security issue
+CVE-2015-6564 - MEDIUM -  openssh: Use-after-free bug related to PAM support
+CVE-2015-5352 - MEDIUM -  openssh: XSECURITY restrictions bypass under certain conditions in ssh(1)
+CVE-2016-3115 - MEDIUM -  openssh: missing sanitisation of input for X11 forwarding
+CVE-2018-0739 - MEDIUM -  openssl: Handling of crafted recursive ASN.1 structures can cause a stack overflow and resulting denial of service
+CVE-2017-3735 - MEDIUM -  openssl: Malformed X.509 IPAdressFamily could cause OOB read
+CVE-2015-3238 - MEDIUM -  pam: DoS/user enumeration due to blocking pipe in pam_unix module
+CVE-2014-8964 - MEDIUM -  pcre: incorrect handling of zero-repeat assertion conditions
+CVE-2017-6512 - MEDIUM -  perl-File-Path: rmtree/remove_tree race condition
+CVE-2014-9365 - MEDIUM -  python: failure to validate certificates in the HTTP client with TLS (PEP 476)
+CVE-2014-4616 - MEDIUM -  python: missing boundary check in JSON module
+CVE-2018-1049 - MEDIUM -  systemd: automount: access to automounted volumes can lock up
+CVE-2016-5011 - MEDIUM -  util-linux: Extended partition loop in MBR partition table leads to DOS
+CVE-2018-0494 - MEDIUM -  wget: Cookie injection allows malicious website to write arbitrary cookie entries into cookie jar

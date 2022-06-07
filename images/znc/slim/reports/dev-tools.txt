@@ -1,0 +1,6 @@
+/opt/znc/lib64/znc/perleval.pm
+/usr/lib/python3.8
+/usr/lib/python3.8/config-3.8-x86_64-linux-gnu/python-config.py
+/usr/bin/python3
+/usr/bin/python3.8
+/usr/include/python3.8

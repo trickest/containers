@@ -1,0 +1,10 @@
+/var/tmp
+/sys/firmware
+/usr/local/bundle
+/usr/local/bundle/bin
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/run/lock

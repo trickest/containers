@@ -1,0 +1,13 @@
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=14.10
+DISTRIB_CODENAME=utopic
+DISTRIB_DESCRIPTION="Ubuntu 14.10"
+NAME="Ubuntu"
+VERSION="14.10 (Utopic Unicorn)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 14.10"
+VERSION_ID="14.10"
+HOME_URL="http://www.ubuntu.com/"
+SUPPORT_URL="http://help.ubuntu.com/"
+BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"

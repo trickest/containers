@@ -1,0 +1,14 @@
+/usr/libexec/ssh-keysign
+/usr/bin/newgrp
+/usr/bin/gpg
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/gpasswd
+/usr/bin/expiry
+/usr/bin/passwd
+/usr/bin/chfn
+/bin/su
+/bin/ping
+/bin/umount
+/bin/mount
+/bin/fusermount

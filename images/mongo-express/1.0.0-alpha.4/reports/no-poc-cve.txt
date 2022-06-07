@@ -1,0 +1,4 @@
+CVE-2022-24434 - HIGH -  Crash in HeaderParser in dicer
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+GHSA-q3w9-g74q-vp5f - LOW -  Denial of Service in express-fileupload

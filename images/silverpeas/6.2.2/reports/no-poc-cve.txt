@@ -1,0 +1,94 @@
+CVE-2020-7692 - CRITICAL -  google-oauth-client: missing PKCE support in accordance with the RFC for OAuth 2.0 for Native Apps can lead to improper authorization
+CVE-2022-23913 - HIGH -  artemis-commons: Apache ActiveMQ Artemis DoS
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2021-22573 - HIGH -  google-oauth-client: Token signature not verified
+CVE-2022-23596 - HIGH -  junrar: A carefully crafted RAR archive can trigger an infinite loop while extracting
+CVE-2022-29799 - HIGH -  networkd-dispatcher: Directory traversal
+CVE-2022-29800 - HIGH -  networkd-dispatcher: Time-of-check-time-of-use (TOCTOU) race condition
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2021-39212 - LOW -  ImageMagick: possible read or write in postscript files
+CVE-2022-22747 - LOW -  Mozilla: Crash when handling empty pkcs7 sequence
+CVE-2021-3598 - LOW -  OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrIO::readChars
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-10001 - LOW -  cups: access to uninitialized buffer in ipp.c
+CVE-2022-27781 - LOW -  curl: CERTINFO never-ending busy-loop
+CVE-2022-27776 - LOW -  curl: auth/cookie leak on redirect
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2020-35512 - LOW -  dbus: users with the same numeric UID could lead to use-after-free and undefined behaviour
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-28506 - LOW -  giflib:Buffer overflow in function DumpScreen2RGB()
+CVE-2017-9216 - LOW -  jbig2dec: Null pointer dereference in jbig2_huffman_get()
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2016-20013 - LOW -  null
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2016-9180 - LOW -  perl-XML-Twig:  expand_external_ents option fails to work as documented
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-44269 - LOW -  wavpack: heap Out-of-bounds Read
+GHSA-673j-qm5f-xpv8 - MEDIUM -  Arbitrary File Write Vulnerability
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2020-25664 - MEDIUM -  ImageMagick: heap-based buffer overflow in PopShortPixel in MagickCore/quantum-private.h
+CVE-2022-21476 - MEDIUM -  OpenJDK: Defective secure validation in Apache Santuario (Libraries, 8278008)
+CVE-2022-21434 - MEDIUM -  OpenJDK: Improper object-to-string conversion in AnnotationInvocationHandler (Libraries, 8277672)
+CVE-2022-21443 - MEDIUM -  OpenJDK: Missing check for negative ObjectIdentifier (Libraries, 8275151)
+CVE-2022-21496 - MEDIUM -  OpenJDK: URI parsing inconsistencies (JNDI, 8278972)
+CVE-2022-21426 - MEDIUM -  OpenJDK: Unbounded memory allocation when compiling crafted XPath expressions (JAXP, 8270504)
+CVE-2022-26691 - MEDIUM -  cups: authorization bypass when using "local" authorization
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-25309 - MEDIUM -  fribidi: Heap-buffer-overflow in fribidi_cap_rtl_to_unicode
+CVE-2022-25310 - MEDIUM -  fribidi: SEGV in fribidi_remove_bidi_marks
+CVE-2022-25308 - MEDIUM -  fribidi: Stack based buffer overflow
+CVE-2022-1271 - MEDIUM -  gzip: arbitrary-file-write vulnerability
+CVE-2020-25711 - MEDIUM -  infinispan: authorization check missing for server management operations
+CVE-2020-35510 - MEDIUM -  jboss-remoting: Threads hold up forever in the EJB server by suppressing the ack from an EJB client
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-29824 - MEDIUM -  libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write
+CVE-2022-21417 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21418 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21423 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21451 - MEDIUM -  mysql: InnoDB unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21425 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21444 - MEDIUM -  mysql: Server: DDL unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21413 - MEDIUM -  mysql: Server: DML unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21427 - MEDIUM -  mysql: Server: FTS unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21454 - MEDIUM -  mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21460 - MEDIUM -  mysql: Server: Logging unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21412 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21414 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21435 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21436 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21437 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21438 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21440 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21452 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21459 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21462 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21478 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21479 - MEDIUM -  mysql: Server: Optimizer unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21457 - MEDIUM -  mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022)
+CVE-2022-21415 - MEDIUM -  mysql: Server: Replication unspecified vulnerability (CPU Apr 2022)
+CVE-2022-1292 - MEDIUM -  openssl: c_rehash script allows command injection
+CVE-2022-1552 - MEDIUM -  postgresql: Autovacuum, REINDEX, and others omit "security restricted operation" sandbox
+CVE-2020-25633 - MEDIUM -  resteasy-client: potential sensitive information leakage in JAX-RS RESTEasy Client's WebApplicationException handling
+CVE-2021-3597 - MEDIUM -  undertow: HTTP2SourceChannel fails to write final frame under some circumstances may lead to DoS
+CVE-2021-3629 - MEDIUM -  undertow: potential security issue in flow control over HTTP/2 may lead to DOS
+CVE-2022-1620 - MEDIUM -  vim: NULL Pointer Dereference in vim_regexec_string() of regexp.c
+CVE-2022-1420 - MEDIUM -  vim: Out-of-range Pointer Offset
+CVE-2022-1927 - MEDIUM -  vim: buffer over-read in utf_ptr2char() in mbyte.c
+CVE-2022-1621 - MEDIUM -  vim: heap buffer overflow
+CVE-2022-1616 - MEDIUM -  vim: heap-buffer-overflow in append_command of src/ex_docmd.c
+CVE-2022-1619 - MEDIUM -  vim: heap-buffer-overflow in cmdline_erase_chars of ex_getln.c
+CVE-2022-1942 - MEDIUM -  vim: out of bounds write in vim_regsub_both()
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+CVE-2020-14340 - MEDIUM -  xnio: file descriptor leak caused by growing amounts of NIO Selector file handles may lead to DoS
+GHSA-wrvw-hg22-4m67 - UNKNOWN -  A potential Denial of Service issue in protobuf-java

@@ -1,0 +1,16 @@
+/usr/share/nano/perl.nanorc
+/usr/share/clr-bundles/perl-extras
+/usr/share/clr-bundles/perl-graphics
+/usr/share/clr-bundles/perl-basic
+/usr/share/clr-bundles/perl-basic-dev
+/usr/share/nano/python.nanorc
+/usr/share/clr-bundles/python3-basic
+/usr/share/clr-bundles/python3-tcl
+/usr/share/clr-bundles/python3-basic-static
+/usr/share/clr-bundles/python-data-science
+/usr/share/clr-bundles/python2-basic
+/usr/share/clr-bundles/python-qt
+/usr/share/clr-bundles/python-basic-dev
+/usr/share/clr-bundles/python-basic
+/usr/share/clr-bundles/python-extras
+/usr/share/clr-bundles/python-testing

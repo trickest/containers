@@ -1,0 +1,4 @@
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2021-43138 - HIGH -  Prototype Pollution in async
+GHSA-64g7-mvw6-v9qj - MEDIUM -  Improper Privilege Management in shelljs
+CVE-2022-0536 - MEDIUM -  follow-redirects: Exposure of Sensitive Information via Authorization Header leak

@@ -1,0 +1,15 @@
+/usr/lib32/pt_chown
+/usr/lib/pt_chown
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/chage
+/usr/bin/su
+/usr/bin/sudo
+/usr/bin/expiry
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/sbin/traceroute6
+/bin/ping6
+/bin/ping
+/bin/umount
+/bin/mount

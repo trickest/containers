@@ -1,0 +1,2 @@
+/var/lib/ghost/versions/5.2.2/node_modules/re2/vendor/re2/perl_groups.cc
+/var/lib/ghost/versions/5.2.2/node_modules/sqlite3/src/gcc-preinclude.h

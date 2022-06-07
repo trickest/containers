@@ -1,0 +1,38 @@
+CVE-2022-27404 - CRITICAL -  FreeType: Buffer Overflow
+CVE-2022-1586 - CRITICAL -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2015-20107 - CRITICAL -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2022-24303 - CRITICAL -  python-pillow: temporary directory with a space character allows removal of unrelated file after im.show() and related actions
+CVE-2022-27405 - HIGH -  FreeType: Segementation Fault
+CVE-2022-27406 - HIGH -  Freetype: Segmentation violation
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2022-25308 - HIGH -  fribidi: Stack based buffer overflow
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2021-44531 - HIGH -  nodejs: Improper handling of URI Subject Alternative Names
+CVE-2022-27775 - LOW -  curl: bad local IPv6 connection reuse
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2018-20225 - LOW -  python-pip: when --extra-index-url option is used and package does not already exist in the public index, the installation of malicious package with arbitrary version number is possible.
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+CVE-2022-24859 - MEDIUM -  PyPDF2: infinite loop vulnerability
+CVE-2022-27781 - MEDIUM -  curl: CERTINFO never-ending busy-loop
+CVE-2022-22576 - MEDIUM -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27782 - MEDIUM -  curl: TLS and SSH connection too eager reuse
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-25309 - MEDIUM -  fribidi: Heap-buffer-overflow in fribidi_cap_rtl_to_unicode
+CVE-2022-25310 - MEDIUM -  fribidi: SEGV in fribidi_remove_bidi_marks
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2021-22959 - MEDIUM -  llhttp: HTTP Request Smuggling due to spaces in headers
+CVE-2021-22960 - MEDIUM -  llhttp: HTTP Request Smuggling when parsing the body of chunked requests
+CVE-2021-44532 - MEDIUM -  nodejs: Certificate Verification Bypass via String Injection
+CVE-2021-44533 - MEDIUM -  nodejs: Incorrect handling of certificate subject and issuer fields
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information

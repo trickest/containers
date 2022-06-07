@@ -1,0 +1,17 @@
+bin
+boot
+dev
+etc
+home
+lib
+lib64
+mnt
+opt
+proc
+root
+run
+sbin
+sys
+tmp
+usr
+var

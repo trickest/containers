@@ -1,0 +1,1 @@
+CVE-2022-0778 - HIGH -  openssl: Infinite loop in BN_mod_sqrt() reachable when parsing certificates

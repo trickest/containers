@@ -1,0 +1,7 @@
+/usr/lib/python2.6
+/usr/lib64/python2.6
+/usr/lib64/python2.6/idlelib/Icons/python.gif
+/usr/bin/python
+/usr/bin/python2
+/usr/bin/python2.6
+/usr/include/python2.6

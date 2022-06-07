@@ -1,0 +1,26 @@
+root:x:0:0:System Administrator:/root:/bin/bash
+bin:x:1:1:bin:/:/dev/null
+daemon:x:2:2:daemon:/:/dev/null
+adm:x:3:4:adm:/var/adm:/dev/null
+lp:x:4:7:lp:/var/spool/lpd:/dev/null
+mail:x:8:12:mail:/var/spool/mail:/dev/null
+news:x:9:13:news:/var/spool/news:/dev/null
+uucp:x:10:14:uucp:/var/spool/uucp:/dev/null
+games:x:12:100:games:/usr/games:/dev/null
+ftp:x:14:50:FTP User:/var/ftp:/dev/null
+squid:x:23:23:Squid User:/var/spool/squid:/dev/null
+named:x:25:25:Bind User:/var/lib/named:/dev/null
+nscd:x:28:28:NSCD Daemon:/:/dev/null
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/dev/null
+rpc:x:32:32:Portmapper RPC user:/:/dev/null
+mailman:x:41:41:GNU Mailing List Manager:/usr/share/mailman:/dev/null
+postfix:x:42:42:Postfix Mail Transport Agent:/var/spool/postfix:/dev/null
+popa3d:x:43:43:POP3 daemon:/dev/null:/dev/null
+xfs:x:44:44:X Font Server:/etc/X11/fs:/dev/null
+mysql:x:45:45:MySQL server:/var/lib/mysql:/dev/null
+postgres:x:46:46:PostgreSQL Server:/var/lib/pgsql:/dev/null
+gdm:x:47:47:GDM:/var/lib/gdm:/dev/null
+ldap:x:55:55:LDAP User:/var/lib/ldap:/dev/null
+exim:x:79:79:Exim Mail Transport Agent:/var/spool/exim:/dev/null
+apache:x:96:96:Apache web server:/var/www:/dev/null
+nobody:x:99:99:Nobody:/var/nobody:/dev/null

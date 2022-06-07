@@ -1,0 +1,73 @@
+CVE-2021-20296 - LOW -  OpenEXR: Segv on unknown address in Imf_2_5::hufUncompress - Null Pointer dereference
+CVE-2019-14899 - LOW -  VPN: an attacker can inject data into the TCP stream which allows a hijack of active connections inside the VPN tunnel
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2021-45078 - LOW -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2018-18064 - LOW -  cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document
+CVE-2019-6461 - LOW -  cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2021-34981 - LOW -  kernel: Bluetooth CMTP Module Double Free Privilege Escalation Vulnerability
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2019-19814 - LOW -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - LOW -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2018-12931 - LOW -  kernel: stack-based out-of-bounds write in ntfs_attr_find in the ntfs.ko
+CVE-2018-12930 - LOW -  kernel: stack-based out-of-bounds write in ntfs_end_buffer_async_read in the ntfs.ko
+CVE-2019-15213 - LOW -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2018-12929 - LOW -  kernel: use-after-free in ntfs_read_locked_inode in the ntfs.ko
+CVE-2018-20657 - LOW -  libiberty: Memory leak in demangle_template function resulting in a denial of service
+CVE-2020-17541 - LOW -  libjpeg-turbo: Stack-based buffer overflow in the "transform" component
+CVE-2018-10126 - LOW -  libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c
+CVE-2017-9937 - LOW -  libtiff: memory malloc failure in tif_jbig.c could cause DOS.
+CVE-2022-22844 - LOW -  libtiff: out-of-bounds read in _TIFFmemcpy() in tif_unix.c
+CVE-2017-0537 - LOW -  null
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2019-6988 - LOW -  openjpeg: DoS via memory exhaustion in opj_decompress
+CVE-2021-29338 - LOW -  openjpeg: out-of-bounds write due to an integer overflow in opj_compress.c
+CVE-2020-14145 - LOW -  openssh: Observable discrepancy leading to an information leak in the algorithm negotiation
+CVE-2021-41617 - LOW -  openssh: privilege escalation when AuthorizedKeysCommand or AuthorizedPrincipalsCommand are configured
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2019-9543 - LOW -  poppler: recursive function call in JBIG2Stream::readGenericBitmap() in JBIG2Stream.cc causing denial of service
+CVE-2019-9545 - LOW -  poppler: recursive function call in JBIG2Stream::readTextRegion() in JBIG2Stream.cc causing denial of service
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2018-7727 - LOW -  zziplib: Memory leak in memdisk.c:zzip_mem_disk_new() can lead to denial of service via crafted zip
+CVE-2018-17828 - LOW -  zziplib: directory traversal in unzzip_cat in the bins/unzzipcat-mem.c
+CVE-2015-8553 - MEDIUM -  CVE-2015-2150 CVE-2015-8553 xen: non-maskable interrupts triggerable by guests (xsa120)
+CVE-2020-14410 - MEDIUM -  SDL2: Heap-based buffer over-read in Blit_3or4_to_3or4__inversed_rgb in video/SDL_blit_N.c via a crafted .BMP file
+CVE-2020-14409 - MEDIUM -  SDL2: Integer overflow in SDL_BlitCopy in video/SDL_blit_copy.c via a crafted .BMP file
+CVE-2021-44648 - MEDIUM -  gdk-pixbuf: heap-buffer overflow when decoding the lzw compressed stream of image data
+CVE-2018-17234 - MEDIUM -  hdf5: Memory leak in the H5O__chunk_deserialize() function in H5Ocache.c
+CVE-2018-17432 - MEDIUM -  hdf5: NULL pointer dereference in H5O_sdspace_encode() in H5Osdspace.c
+CVE-2017-17507 - MEDIUM -  hdf5: Out-of-bounds read in the H5T_conv_struct_opt function
+CVE-2018-17233 - MEDIUM -  hdf5: SIGFPE signal in H5D__create_chunk_file_map_hyper() of H5Dchunk.c
+CVE-2018-17434 - MEDIUM -  hdf5: SIGFPE signal in apply_filters() in h5repack_filters.c
+CVE-2018-17438 - MEDIUM -  hdf5: SIGFPE signal in function H5D__select_io() of H5Dselect.c
+CVE-2018-17433 - MEDIUM -  hdf5: heap-based buffer overflow in ReadGifImageDesc() in gifread.c
+CVE-2018-17437 - MEDIUM -  hdf5: memory leak in H5O_dtype_decode_helper() in H5Odtype.c
+CVE-2019-9151 - MEDIUM -  hdf5: out of bounds read in function H5VM_memcpyvv in H5VM.c
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2021-4150 - MEDIUM -  kernel: Block subsystem mishandles reference counts
+CVE-2021-4148 - MEDIUM -  kernel: Improper implementation of block_invalidatepage() allows users to crash the kernel
+CVE-2021-44879 - MEDIUM -  kernel: NULL pointer dereference in folio_mark_dirty() via a crafted f2fs image
+CVE-2020-27835 - MEDIUM -  kernel: child process is able to access parent mm through hfi dev file handle
+CVE-2020-36310 - MEDIUM -  kernel: infinite loop in set_memory_region_test in arch/x86/kvm/svm/svm.c for certain nested page faults
+CVE-2022-0494 - MEDIUM -  kernel: information leak in  scsi_ioctl()
+CVE-2013-7445 - MEDIUM -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2021-20320 - MEDIUM -  kernel: s390 eBPF JIT miscompilation issues fixes
+CVE-2016-8660 - MEDIUM -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2020-9794 - MEDIUM -  null
+CVE-2021-39800 - MEDIUM -  null
+CVE-2021-39801 - MEDIUM -  null
+CVE-2021-39802 - MEDIUM -  null
+CVE-2021-46322 - MEDIUM -  null
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2018-1311 - MEDIUM -  xerces-c: XML parser contains a use-after-free error triggered during the scanning of external DTDs
+CVE-2021-20235 - MEDIUM -  zeromq: Heap overflow when receiving malformed ZMTP v1 packets
+CVE-2021-20236 - MEDIUM -  zeromq: Stack overflow on server running PUB/XPUB socket
+CVE-2020-15166 - MEDIUM -  zeromq: unauthenticated clients causing denial-of-service

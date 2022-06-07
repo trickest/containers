@@ -1,0 +1,11 @@
+/usr/lib/pt_chown
+/usr/lib/eject/dmcrypt-get-device
+/usr/bin/newgrp
+/usr/bin/chsh
+/usr/bin/sudo
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chfn
+/bin/su
+/bin/umount
+/bin/mount

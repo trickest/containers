@@ -1,0 +1,11 @@
+EulerOS release 2.0 (SP2)
+EulerOS release 2.0 (SP2)
+NAME="EulerOS"
+VERSION="2.0 (SP2)"
+ID="euleros"
+ID_LIKE="rhel fedora centos"
+VERSION_ID="2.0"
+PRETTY_NAME="EulerOS 2.0 (SP2)"
+ANSI_COLOR="0;31"
+EulerOS release 2.0 (SP2)
+EulerOS release 2.0 (SP2)

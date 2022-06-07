@@ -1,0 +1,22 @@
+CVE-2022-27405 - LOW -  FreeType: Segementation Fault
+CVE-2022-27406 - LOW -  Freetype: Segmentation violation
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2016-20013 - LOW -  null
+CVE-2020-9849 - LOW -  null
+CVE-2020-9991 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2015-20107 - LOW -  python(mailcap): findmatch() function does not sanitise the second argument
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-27404 - MEDIUM -  FreeType: Buffer Overflow
+CVE-2022-1304 - MEDIUM -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2020-9794 - MEDIUM -  null
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2021-43784 - MEDIUM -  runc: integer overflow in netlink bytemsg length field allows attacker to override netlink-based container configuration

@@ -1,0 +1,2 @@
+Source Mage GNU/Linux x86_64-pc-linux-gnu
+Installed from tarball using chroot image (Grimoire 0.61-stable) generated on Tue Feb 17 16:06:59 UTC 2015

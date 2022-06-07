@@ -1,0 +1,22 @@
+LSB_VERSION=
+DISTRIB_ID="Mageia"
+DISTRIB_RELEASE=7
+DISTRIB_CODENAME=mga7
+DISTRIB_DESCRIPTION="Mageia 7"
+Mageia release 7 (Official) for x86_64
+Mageia release 7 (Official) for x86_64
+Mageia release 7 (Official) for x86_64
+Mageia release 7 (Official) for x86_64
+NAME="Mageia"
+VERSION="7"
+ID=mageia
+VERSION_ID=7
+ID_LIKE="mandriva fedora"
+PRETTY_NAME="Mageia 7"
+ANSI_COLOR="1;36"
+HOME_URL="http://www.mageia.org/"
+SUPPORT_URL="http://www.mageia.org/support/"
+BUG_REPORT_URL="https://bugs.mageia.org/"
+PRIVACY_POLICY_URL="https://wiki.mageia.org/en/Privacy_policy"
+Mageia release 7 (Official) for x86_64
+Mageia release 7 (Official) for x86_64
