@@ -1,0 +1,10 @@
+/opt/java/.scc
+/var/tmp
+/sys/firmware
+/proc/acpi
+/proc/scsi
+/dev/shm
+/dev/mqueue
+/tmp
+/tmp/.com_ibm_tools_attach
+/run/lock
