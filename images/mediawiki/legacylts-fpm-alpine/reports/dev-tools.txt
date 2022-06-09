@@ -1,0 +1,9 @@
+/var/www/html/extensions/CodeEditor/modules/ace/snippets/perl.js
+/var/www/html/extensions/CodeEditor/modules/ace/snippets/perl6.js
+/usr/share/perl5
+/var/www/html/extensions/CodeEditor/modules/ace/snippets/python.js
+/usr/lib/python3.10
+/usr/lib/python3.10/config-3.10-x86_64-linux-gnu/python-config.py
+/usr/bin/python3.10
+/usr/bin/python3
+/usr/include/python3.10

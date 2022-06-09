@@ -1,0 +1,37 @@
+subject=CN = ACCVRAIZ1, OU = PKIACCV, O = ACCV, C = ES
+subject=C = ES, O = FNMT-RCM, OU = AC RAIZ FNMT-RCM
+subject=C = ES, O = FNMT-RCM, OU = Ceres, organizationIdentifier = VATES-Q2826004J, CN = AC RAIZ FNMT-RCM SERVIDORES SEGUROS
+subject=serialNumber = G63287510, C = ES, O = ANF Autoridad de Certificacion, OU = ANF CA Raiz, CN = ANF Secure Server Root CA
+subject=C = IT, L = Milan, O = Actalis S.p.A./03358520967, CN = Actalis Authentication Root CA
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Commercial
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Networking
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium
+subject=C = US, O = AffirmTrust, CN = AffirmTrust Premium ECC
+subject=C = US, O = Amazon, CN = Amazon Root CA 1
+subject=C = US, O = Amazon, CN = Amazon Root CA 2
+subject=C = US, O = Amazon, CN = Amazon Root CA 3
+subject=C = US, O = Amazon, CN = Amazon Root CA 4
+subject=CN = Atos TrustedRoot 2011, O = Atos, C = DE
+subject=C = ES, CN = Autoridad de Certificacion Firmaprofesional CIF A62634068
+subject=C = IE, O = Baltimore, OU = CyberTrust, CN = Baltimore CyberTrust Root
+subject=C = NO, O = Buypass AS-983163327, CN = Buypass Class 2 Root CA
+subject=C = NO, O = Buypass AS-983163327, CN = Buypass Class 3 Root CA
+subject=C = SK, L = Bratislava, O = Disig a.s., CN = CA Disig Root R2
+subject=C = CN, O = China Financial Certification Authority, CN = CFCA EV ROOT
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO Certification Authority
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO ECC Certification Authority
+subject=C = GB, ST = Greater Manchester, L = Salford, O = COMODO CA Limited, CN = COMODO RSA Certification Authority
+subject=C = FR, O = Dhimyotis, CN = Certigna
+subject=C = FR, O = Dhimyotis, OU = 0002 48146308100036, CN = Certigna Root CA
+subject=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum EC-384 CA
+subject=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA
+subject=C = PL, O = Unizeto Technologies S.A., OU = Certum Certification Authority, CN = Certum Trusted Network CA 2
+subject=C = PL, O = Asseco Data Systems S.A., OU = Certum Certification Authority, CN = Certum Trusted Root CA
+subject=C = GB, ST = Greater Manchester, L = Salford, O = Comodo CA Limited, CN = AAA Certificate Services
+subject=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 2009
+subject=C = DE, O = D-Trust GmbH, CN = D-TRUST Root Class 3 CA 2 EV 2009
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root CA
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G2
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Assured ID Root G3
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+subject=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root G2

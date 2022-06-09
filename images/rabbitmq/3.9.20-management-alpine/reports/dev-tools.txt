@@ -1,0 +1,6 @@
+/usr/lib/python3.10
+/usr/lib/python3.10/config-3.10-x86_64-linux-gnu/python-config.py
+/usr/bin/python3.10
+/usr/bin/python3
+/usr/include/python3.10
+/usr/local/lib/erlang/erts-12.3.2.1/include/internal/gcc
