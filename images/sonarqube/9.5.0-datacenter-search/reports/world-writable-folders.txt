@@ -1,0 +1,14 @@
+/sys/firmware
+/tmp
+/var/tmp
+/dev/shm
+/dev/mqueue
+/proc/acpi
+/proc/scsi
+/opt/sonarqube/temp
+/opt/sonarqube/data
+/opt/sonarqube/logs
+/opt/sonarqube/extensions
+/opt/sonarqube/extensions/plugins
+/opt/sonarqube/extensions/jdbc-driver
+/opt/sonarqube/extensions/jdbc-driver/oracle

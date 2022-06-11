@@ -1,0 +1,11 @@
+COPYING
+bin
+conf
+data
+dependency-license.json
+elasticsearch
+extensions
+lib
+logs
+temp
+web

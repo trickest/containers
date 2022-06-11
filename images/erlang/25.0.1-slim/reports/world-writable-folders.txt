@@ -1,0 +1,8 @@
+/sys/firmware
+/run/lock
+/tmp
+/var/tmp
+/dev/shm
+/dev/mqueue
+/proc/acpi
+/proc/scsi
