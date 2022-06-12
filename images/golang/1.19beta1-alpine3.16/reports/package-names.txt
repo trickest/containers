@@ -1,0 +1,7 @@
+CHANGELOG.md
+LICENSE
+README.md
+confused
+[*] All packages seem to be available in the public repositories. 
+In case your application uses private repositories please make sure that those namespaces in 
+public repositories are controlled by a trusted party.

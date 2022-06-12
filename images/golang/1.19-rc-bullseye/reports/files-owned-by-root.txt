@@ -1,0 +1,9 @@
+/bin/su
+/bin/umount
+/bin/mount
+/usr/bin/passwd
+/usr/bin/chfn
+/usr/bin/gpasswd
+/usr/bin/chsh
+/usr/bin/newgrp
+/usr/lib/openssh/ssh-keysign

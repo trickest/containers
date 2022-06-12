@@ -1,0 +1,16 @@
+/usr/local/go/bin/go
+/usr/local/go/bin/gofmt
+/usr/sbin/update-ca-certificates
+/usr/bin/scanelf
+/usr/bin/getent
+/usr/bin/ssl_client
+/usr/bin/wget
+/usr/bin/ldd
+/usr/bin/iconv
+/usr/bin/getconf
+/usr/bin/c_rehash
+/sbin/ldconfig
+/sbin/apk
+/sbin/mkmntdirs
+/bin/tar
+/bin/busybox

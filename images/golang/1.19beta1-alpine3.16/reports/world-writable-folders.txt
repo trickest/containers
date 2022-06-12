@@ -1,0 +1,10 @@
+/sys/firmware
+/tmp
+/var/tmp
+/dev/shm
+/dev/mqueue
+/proc/acpi
+/proc/scsi
+/go
+/go/bin
+/go/src
