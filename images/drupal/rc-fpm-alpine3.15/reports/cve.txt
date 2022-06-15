@@ -1,0 +1,7 @@
+CVE-2022-31042 - HIGH -  Failure to strip the Cookie header on change in host or HTTP downgrade
+CVE-2022-31043 - HIGH -  Fix failure to strip Authorization header on HTTP downgrade
+CVE-2022-22576 - HIGH -  curl: OAUTH2 bearer bypass in connection re-use
+CVE-2022-27775 - HIGH -  curl: bad local IPv6 connection reuse
+CVE-2022-1271 - HIGH -  gzip: arbitrary-file-write vulnerability
+CVE-2022-27776 - MEDIUM -  curl: auth/cookie leak on redirect
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect

@@ -1,0 +1,9 @@
+CVE-2021-42767 - CRITICAL -  Path traversal in Neo4j Graph Database
+CVE-2022-1586 - CRITICAL -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-3999 - HIGH -  glibc: Off-by-one buffer overflow/underflow in getcwd()
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4209 - MEDIUM -  GnuTLS: Null pointer dereference in MD_UPDATE
+GHSA-4mpj-488r-vh6m - UNKNOWN -  Path traversal in Neo4j Graph Database
