@@ -33,7 +33,7 @@ A [Trickest](https://trickest.com) workflow collects a list of DockerHub's most 
 - As with most of [our](https://github.com/trickest/cve) [previous](https://github.com/trickest/inventory) [projects](https://github.com/trickest/resolvers), this workflow is scheduled to run constantly and always have up-to-date results.
 
 ## Contribution
-All contributions/ideas/suggestions are welcome! Feel free to create a new ticket via [GitHub issues](https://github.com/trickest/resolvers/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
+All contributions/ideas/suggestions are welcome! Feel free to create a new ticket via [GitHub issues](https://github.com/trickest/containers/issues), tweet at us [@trick3st](https://twitter.com/trick3st), or join the conversation on [Discord](https://discord.gg/7HZmFYTGcQ).
 
 ---
 ## ...Build your own workflows or run this one!
