@@ -1,0 +1,14 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-2868 - HIGH -  libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits()
+CVE-2022-2869 - HIGH -  libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits()
+CVE-2022-2867 - HIGH -  libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2022-2520 - LOW -  libtiff: Assertion fail in rotateImage() function at tiffcrop.c
+CVE-2022-2521 - LOW -  libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2004-0971 - LOW -  security flaw
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
