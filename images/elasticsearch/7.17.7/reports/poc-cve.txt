@@ -1,0 +1,26 @@
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2021-40690 - HIGH -  xml-security: XPath Transform abuse allows for information disclosure
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2018-10237 - MEDIUM -  guava: Unbounded memory allocation in AtomicDoubleArray and CompoundOrdering classes allow remote attackers to cause a denial of service
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2021-43797 - MEDIUM -  netty: control chars in header names may lead to HTTP request smuggling
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-37434 - MEDIUM -  zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field

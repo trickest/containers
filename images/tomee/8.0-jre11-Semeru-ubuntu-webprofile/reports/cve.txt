@@ -1,0 +1,22 @@
+CVE-2022-41853 - CRITICAL -  hsqldb: Untrusted input may lead to RCE attack
+CVE-2022-40152 - HIGH -  woodstox-core: woodstox to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40151 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40153 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40154 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40155 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40156 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

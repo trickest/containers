@@ -1,0 +1,8 @@
+CVE-2022-42915 - CRITICAL -  curl: HTTP proxy double-free
+GHSA-gv9j-4w24-q7vx - UNKNOWN -  Improper random number generation in github.com/coredns/coredns
+GHSA-69ch-w2m2-3vjp - UNKNOWN -  null
+GHSA-7f33-f4f5-xwgw - UNKNOWN -  null
+GHSA-8c26-wmh5-6g9v - UNKNOWN -  null
+GHSA-cg3q-j54f-5p7p - UNKNOWN -  null
+GHSA-f5pg-7wfw-84q9 - UNKNOWN -  null
+GHSA-gwc9-m7rh-j2ww - UNKNOWN -  null

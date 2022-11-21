@@ -1,0 +1,19 @@
+CVE-2022-43945 - HIGH -  kernel: nfsd buffer overflow by RPC message over TCP with garbage data
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2021-3669 - LOW -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2021-4048 - LOW -  lapack: Out-of-bounds read in *larrv
+CVE-2017-13165 - LOW -  null
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-3566 - MEDIUM -  kernel: data races around icsk->icsk_af_ops in do_ipv6_setsockopt
+CVE-2022-2991 - MEDIUM -  kernel: heap-based overflow in LightNVM Subsystem may lead to privilege escalation
+CVE-2022-0382 - MEDIUM -  kernel: information leak due to uninitialized memory in __tipc_sendmsg() in net/tipc/socket.c
+CVE-2022-40768 - MEDIUM -  kernel: leak of sensitive information due to uninitialized data in stex_queuecommand_lck() in drivers/scsi/stex.c
+CVE-2022-3649 - MEDIUM -  kernel: nilfs2: use-after-free in nilfs_new_inode of fs/nilfs2/inode.c
+CVE-2022-1508 - MEDIUM -  kernel: out-of-bounds read in iov_iter_revert() in lib/iov_iter.c
+CVE-2021-4001 - MEDIUM -  kernel: race condition when the EBPF map is frozen
+CVE-2022-0168 - MEDIUM -  kernel: smb2_ioctl_query_info NULL pointer dereference
+CVE-2021-4218 - MEDIUM -  kernel: sysctl parameter read causes kernel panic ( rpcrdma module )
+CVE-2022-3640 - MEDIUM -  kernel: use after free flaw in l2cap_conn_del in net/bluetooth/l2cap_core.c
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

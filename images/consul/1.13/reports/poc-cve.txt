@@ -1,0 +1,12 @@
+CVE-2022-42916 - HIGH -  curl: HSTS bypass via IDN
+CVE-2022-28948 - HIGH -  golang-gopkg-yaml: crash when attempting to deserialize invalid input
+CVE-2021-43565 - HIGH -  golang.org/x/crypto: empty plaintext packet causes panic
+CVE-2022-27191 - HIGH -  golang: crash in a golang.org/x/crypto/ssh server
+CVE-2022-32149 - HIGH -  golang: golang.org/x/text/language: ParseAcceptLanguage takes a long time to parse complex tags
+CVE-2022-27664 - HIGH -  golang: net/http: handle server errors after sending GOAWAY
+CVE-2021-38561 - HIGH -  golang: out-of-bounds read in golang.org/x/text/language leads to DoS
+CVE-2022-21698 - HIGH -  prometheus/client_golang: Denial of service using InstrumentHandlerCounter
+CVE-2020-8912 - LOW -  aws-sdk-go: In-band key negotiation issue in AWS S3 Crypto SDK for golang
+CVE-2020-8911 - MEDIUM -  aws/aws-sdk-go: CBC padding oracle issue in AWS S3 Crypto SDK for golang
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2020-8565 - MEDIUM -  kubernetes: Incomplete fix for CVE-2019-11250 allows for token leak in logs when logLevel >= 9

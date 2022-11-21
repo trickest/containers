@@ -1,0 +1,10 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2018-19931 - LOW -  binutils: Heap-based buffer overflow in bfd_elf32_swap_phdr_in function resulting in a denial of service
+CVE-2019-9073 - LOW -  binutils: excessive memory allocation in function _bfd_elf_slurp_version_tables in elf.c
+CVE-2021-3549 - LOW -  binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

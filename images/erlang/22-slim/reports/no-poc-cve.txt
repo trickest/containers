@@ -1,0 +1,6 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2012-2663 - LOW -  iptables: --syn flag bypass
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2019-20795 - MEDIUM -  iproute: use-after-free in get_netnsid_from_name in ip/ipnetns.c
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

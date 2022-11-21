@@ -1,0 +1,12 @@
+CVE-2022-42915 - CRITICAL -  curl: HTTP proxy double-free
+CVE-2022-42916 - HIGH -  curl: HSTS bypass via IDN
+CVE-2022-43680 - HIGH -  expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate
+CVE-2022-39260 - HIGH -  git: git shell function that splits command arguments can lead to arbitrary heap writes.
+CVE-2022-40304 - HIGH -  libxml2: dict corruption caused by entity reference cycles
+CVE-2022-40303 - HIGH -  libxml2: integer overflows with XML_PARSE_HUGE
+CVE-2022-44638 - HIGH -  pixman: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write
+CVE-2022-3704 - LOW -  rubygem-rails: XSS within Route Error Page
+GHSA-4qw4-jpp4-8gvp - MEDIUM -  Unbounded resource exhaustion in cmark-gfm autolink extension may lead to denial of service
+GHSA-2qc6-mcvw-92cw - MEDIUM -  Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor

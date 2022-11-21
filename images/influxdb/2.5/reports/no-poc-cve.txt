@@ -1,0 +1,16 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2019-20454 - HIGH -  pcre: Out of bounds read in JIT mode when \X is used in non-UTF mode
+CVE-2012-2663 - LOW -  iptables: --syn flag bypass
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2019-20795 - MEDIUM -  iproute: use-after-free in get_netnsid_from_name in ip/ipnetns.c
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-76wf-9vgp-pj7w - UNKNOWN -  Improper Neutralization
+CVE-2022-2582 - UNKNOWN -  null
+GHSA-69ch-w2m2-3vjp - UNKNOWN -  null
+GHSA-7f33-f4f5-xwgw - UNKNOWN -  null
+GHSA-cg3q-j54f-5p7p - UNKNOWN -  null
+GHSA-f5pg-7wfw-84q9 - UNKNOWN -  null

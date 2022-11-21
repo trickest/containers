@@ -1,0 +1,13 @@
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2022-2047 - LOW -  jetty-http: improver hostname input handling
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect

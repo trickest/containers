@@ -1,0 +1,19 @@
+CVE-2022-42898 - HIGH -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2014-3636 - LOW -  dbus: denial of service by queuing or splitting file descriptors
+CVE-2022-3857 - LOW -  libpng: Null pointer dereference leads to segmentation fault
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-3705 - LOW -  vim: a use after free in the function qf_update_buffer
+CVE-2022-45061 - MEDIUM -  Python: CPU denial of service via inefficient IDNA decoder
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-30115 - MEDIUM -  curl: HSTS bypass via trailing dot
+CVE-2022-42012 - MEDIUM -  dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with "foreign" endianness correctly
+CVE-2022-42011 - MEDIUM -  dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type
+CVE-2022-42010 - MEDIUM -  dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets
+CVE-2021-3800 - MEDIUM -  glib2: Possible privilege escalation thourgh pkexec and aliases
+CVE-2021-27218 - MEDIUM -  glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform
+CVE-2021-27918 - MEDIUM -  golang: encoding/xml: infinite loop when using xml.NewTokenDecoder with a custom TokenReader
+CVE-2021-46848 - MEDIUM -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-40304 - MEDIUM -  libxml2: dict corruption caused by entity reference cycles
+CVE-2022-40303 - MEDIUM -  libxml2: integer overflows with XML_PARSE_HUGE
+CVE-2021-3421 - MEDIUM -  rpm: unsigned signature header leads to string injection into an rpm database
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

@@ -1,0 +1,4 @@
+CVE-2022-39399 - LOW -  OpenJDK: missing SNI caching in HTTP/2 (Networking, 8289366)
+CVE-2022-21541 - MEDIUM -  OpenJDK: improper restriction of MethodHandle.invokeBasic() (Hotspot, 8281866)
+CVE-2022-21549 - MEDIUM -  OpenJDK: random exponentials issue (Libraries, 8283875)
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization

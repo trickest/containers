@@ -1,0 +1,35 @@
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2022-40152 - HIGH -  woodstox-core: woodstox to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2021-40690 - HIGH -  xml-security: XPath Transform abuse allows for information disclosure
+CVE-2022-40151 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40153 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40154 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40155 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40156 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-35252 - LOW -  curl: control code in cookie denial of service
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2022-1586 - LOW -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2021-3671 - LOW -  samba: Null pointer dereference on missing sname in TGS-REQ
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-0530 - LOW -  unzip: SIGSEGV during the conversion of an utf-8 string to a local string
+CVE-2021-29425 - MEDIUM -  apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-3116 - MEDIUM -  null
+CVE-2020-16156 - MEDIUM -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2020-35525 - MEDIUM -  sqlite: Null pointer derreference in src/select.c
+CVE-2020-35527 - MEDIUM -  sqlite: Out of bounds access during table rename
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-0529 - MEDIUM -  unzip: Heap out-of-bound writes and reads during conversion of wide string to local string
+CVE-2022-37434 - MEDIUM -  zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field

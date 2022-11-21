@@ -1,0 +1,16 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+NSWG-ECO-106 - HIGH -  Regular Expression Denial of Service
+GHSA-36jr-mh4h-2g58 - HIGH -  d3-color vulnerable to ReDoS
+CVE-2022-36313 - HIGH -  file-type vulnerable to Infinite Loop via malformed MKV file
+CVE-2020-26938 - HIGH -  oauth2-server through 3.1.1 vulnerable to Open Redirect
+GHSA-56x4-j7p9-fcf9 - LOW -  Command Injection in moment-timezone
+GHSA-5rrq-pxf6-6jx5 - LOW -  Prototype Pollution in node-forge debug API.
+GHSA-wxgw-qj99-44c2 - LOW -  Prototype Pollution in node-forge util.setPath API
+GHSA-gf8q-jrpm-jvxq - LOW -  URL parsing in node-forge could lead to undesired behavior.
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+GHSA-v78c-4p63-2j6c - MEDIUM -  Cleartext Transmission of Sensitive Information in moment-timezone
+NSWG-ECO-28 - MEDIUM -  Denial-of-Service Extended Event Loop Blocking
+GHSA-7wwv-vh3v-89cq - MEDIUM -  ReDOS vulnerabities: multiple grammars
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

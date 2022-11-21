@@ -1,0 +1,193 @@
+CVE-2022-42889 - CRITICAL -  apache-commons-text: variable interpolation RCE
+CVE-2022-23221 - CRITICAL -  h2: Loading of custom classes from remote servers through JNDI
+CVE-2021-42392 - CRITICAL -  h2: Remote Code Execution in Console
+CVE-2021-23463 - CRITICAL -  h2database: XXE injection vulnerability
+CVE-2017-7525 - CRITICAL -  jackson-databind: Deserialization vulnerability via readValue method of ObjectMapper
+CVE-2018-11307 - CRITICAL -  jackson-databind: Potential information exfiltration with default typing, serialization gadget from MyBatis
+CVE-2019-17267 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the ehcache package
+CVE-2019-14893 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the xalan package
+CVE-2019-16943 - CRITICAL -  jackson-databind: Serialization gadgets in com.p6spy.engine.spy.P6DataSource
+CVE-2019-14540 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariConfig
+CVE-2019-16335 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariDataSource
+CVE-2019-16942 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.commons.dbcp.datasources.*
+CVE-2019-17531 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.log4j.receivers.db.*
+CVE-2017-15095 - CRITICAL -  jackson-databind: Unsafe deserialization due to incomplete black list (incomplete fix for CVE-2017-7525)
+CVE-2018-14719 - CRITICAL -  jackson-databind: arbitrary code execution in blaze-ds-opt and blaze-ds-core classes
+CVE-2018-14718 - CRITICAL -  jackson-databind: arbitrary code execution in slf4j-ext class
+CVE-2018-14720 - CRITICAL -  jackson-databind: exfiltration/XXE in some JDK classes
+CVE-2018-19360 - CRITICAL -  jackson-databind: improper polymorphic deserialization in axis2-transport-jms class
+CVE-2018-19362 - CRITICAL -  jackson-databind: improper polymorphic deserialization in jboss-common-core class
+CVE-2018-19361 - CRITICAL -  jackson-databind: improper polymorphic deserialization in openjpa class
+CVE-2018-7489 - CRITICAL -  jackson-databind: incomplete fix for CVE-2017-7525 permits unsafe serialization via c3p0 libraries
+CVE-2019-20330 - CRITICAL -  jackson-databind: lacks certain net.sf.ehcache blocking
+CVE-2018-14721 - CRITICAL -  jackson-databind: server-side request forgery (SSRF) in axis2-jaxws class
+CVE-2022-21724 - CRITICAL -  jdbc-postgresql: Unchecked Class Instantiation when providing Plugin Classes
+CVE-2017-1000487 - CRITICAL -  plexus-utils: Mishandled strings in Commandline class allow for command injection
+CVE-2022-26520 - CRITICAL -  postgresql-jdbc: Arbitrary File Write Vulnerability
+CVE-2018-1275 - CRITICAL -  spring-framework: Address partial fix for CVE-2018-1270
+CVE-2018-1270 - CRITICAL -  spring-framework: Possible RCE via spring messaging
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2016-1000027 - CRITICAL -  spring: HttpInvokerServiceExporter readRemoteInvocation method untrusted java deserialization
+CVE-2022-37866 - HIGH -  Apache Ivy vulnerable to path traversal
+CVE-2014-0225 - HIGH -  Spring Framework: Information disclosure via SSRF
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2020-10650 - HIGH -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2020-10673 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution
+CVE-2020-35490 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource
+CVE-2020-35491 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource
+CVE-2018-5968 - HIGH -  jackson-databind: unsafe deserialization due to incomplete blacklist (incomplete fix for CVE-2017-7525 and CVE-2017-17485)
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2022-31197 - HIGH -  postgresql: SQL Injection in ResultSet.refreshRow() with malicious column names
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2022-25857 - HIGH -  snakeyaml: Denial of Service due to missing nested depth limitation for collections
+CVE-2018-1272 - HIGH -  spring-framework: Multipart content pollution
+CVE-2016-5007 - HIGH -  spring: Path matching inconsistency
+CVE-2018-15756 - HIGH -  springframework: DoS Attack via Range Requests
+CVE-2022-1259 - HIGH -  undertow: potential security issue in flow control over HTTP/2 may lead to DOS(incomplete fix for CVE-2021-3629)
+CVE-2022-40152 - HIGH -  woodstox-core: woodstox to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40151 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40153 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40154 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40155 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2022-40156 - HIGH -  xstream: Xstream to serialise XML data was vulnerable to Denial of Service attacks
+CVE-2021-20313 - LOW -  ImageMagick: Cipher leak when the calculating signatures in TransformSignatureof MagickCore/signature.c
+CVE-2021-20243 - LOW -  ImageMagick: Division by zero in GetResizeFilterWeight in MagickCore/resize.c
+CVE-2021-20244 - LOW -  ImageMagick: Division by zero in ImplodeImage in MagickCore/visual-effects.c
+CVE-2021-20246 - LOW -  ImageMagick: Division by zero in ScaleResampleFilter in MagickCore/resample.c
+CVE-2021-20245 - LOW -  ImageMagick: Division by zero in WriteAnimatedWEBPImage() in coders/webp.c
+CVE-2021-20241 - LOW -  ImageMagick: Division by zero in WriteJP2Image() in coders/jp2.c
+CVE-2021-20312 - LOW -  ImageMagick: Integer overflow in WriteTHUMBNAILImage of coders/thumbnail.c
+CVE-2020-29599 - LOW -  ImageMagick: Shell injection via PDF password could result in arbitrary code execution
+CVE-2021-20309 - LOW -  ImagemMagick: Division by zero in WaveImage() of MagickCore/visual-effects.c
+CVE-2021-20296 - LOW -  OpenEXR: Segv on unknown address in Imf_2_5::hufUncompress - Null Pointer dereference
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2018-18064 - LOW -  cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document
+CVE-2019-6461 - LOW -  cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2021-0561 - LOW -  flac: out of bound write in append_to_verify_fifo_interleaved_ of stream_encoder.c
+CVE-2022-28506 - LOW -  giflib: buffer overflow in function DumpScreen2RGB()
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2017-9216 - LOW -  jbig2dec: Null pointer dereference in jbig2_huffman_get()
+CVE-2021-4156 - LOW -  libsndfile: heap out-of-bounds read in src/flac.c in flac_buffer_copy
+CVE-2018-10126 - LOW -  libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c
+CVE-2017-9937 - LOW -  libtiff: memory malloc failure in tif_jbig.c could cause DOS.
+CVE-2022-2309 - LOW -  lxml: NULL Pointer Dereference in lxml
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2019-6988 - LOW -  openjpeg: DoS via memory exhaustion in opj_decompress
+CVE-2021-3575 - LOW -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2021-29338 - LOW -  openjpeg: out-of-bounds write due to an integer overflow in opj_compress.c
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2019-9543 - LOW -  poppler: recursive function call in JBIG2Stream::readGenericBitmap() in JBIG2Stream.cc causing denial of service
+CVE-2019-9545 - LOW -  poppler: recursive function call in JBIG2Stream::readTextRegion() in JBIG2Stream.cc causing denial of service
+CVE-2021-28861 - LOW -  python: open redirection vulnerability in lib/http/server.py may lead to information disclosure
+CVE-2017-16516 - LOW -  rubygem-yajl-ruby: Yajl::Parser.new.parse incorrect parsing
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-1210 - LOW -  tiff: Malicious file leads to a denial of service in TIFF File Handler
+CVE-2022-2845 - LOW -  vim: Buffer Under-read
+CVE-2022-1733 - LOW -  vim: Heap-based Buffer Overflow in cindent.c
+CVE-2022-2125 - LOW -  vim: Heap-based Buffer Overflow in get_lisp_indent()
+CVE-2022-2581 - LOW -  vim: Out-of-bounds Read in vim src/regexp.c
+CVE-2022-1785 - LOW -  vim: Out-of-bounds Write
+CVE-2022-1796 - LOW -  vim: Use After Free
+CVE-2022-0729 - LOW -  vim: Use of Out-of-range Pointer Offset
+CVE-2022-1735 - LOW -  vim: changing text in visual mode may cause invalid memory access that lead to a heap buffer overflow
+CVE-2022-2849 - LOW -  vim: heap-based buffer overflow in latin_ptr2len() at src/mbyte.c
+CVE-2022-0443 - LOW -  vim: heap-use-after-free in enter_buffer() of src/buffer.c
+CVE-2022-2124 - LOW -  vim: out of bounds read in current_quote()
+CVE-2022-2126 - LOW -  vim: out of bounds read in suggest_trie_walk()
+CVE-2022-2129 - LOW -  vim: out of bounds write in vim_regsub_both()
+CVE-2022-2206 - LOW -  vim: out-of-bound read in function msg_outtrans_attr
+CVE-2021-4193 - LOW -  vim: out-of-bound read in getvcol()
+CVE-2022-1898 - LOW -  vim: use-after-free in find_pattern_in_path() in search.c
+CVE-2022-0685 - MEDIUM -  : vim: Use of Out-of-range Pointer Offset in vim
+CVE-2020-27752 - MEDIUM -  ImageMagick: heap-based buffer overflow in PopShortPixel in MagickCore/quantum-private.h
+CVE-2022-21628 - MEDIUM -  OpenJDK: HttpServer no connection count limit (Lightweight HTTP Server, 8286918)
+CVE-2022-21626 - MEDIUM -  OpenJDK: excessive memory allocation in X.509 certificate parsing (Security, 8286533)
+CVE-2022-21619 - MEDIUM -  OpenJDK: improper handling of long NTLM client hostnames (Security, 8286526)
+CVE-2022-21624 - MEDIUM -  OpenJDK: insufficient randomization of JNDI DNS port numbers (JNDI, 8286910)
+CVE-2020-14410 - MEDIUM -  SDL2: Heap-based buffer over-read in Blit_3or4_to_3or4__inversed_rgb in video/SDL_blit_N.c via a crafted .BMP file
+CVE-2020-14409 - MEDIUM -  SDL2: Integer overflow in SDL_BlitCopy in video/SDL_blit_copy.c via a crafted .BMP file
+CVE-2022-22968 - MEDIUM -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2015-3192 - MEDIUM -  Spring Framework: denial-of-service attack with XML input
+CVE-2022-35278 - MEDIUM -  activemq-artemis: AMQ Broker web console HTML Injection
+CVE-2021-36373 - MEDIUM -  ant: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36374 - MEDIUM -  ant: excessive memory allocation when reading a specially crafted ZIP archive or a derived formats
+CVE-2021-29425 - MEDIUM -  apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2018-1000873 - MEDIUM -  jackson-modules-java8: DoS due to an Improper Input Validation
+CVE-2022-36033 - MEDIUM -  jsoup: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability
+CVE-2022-24329 - MEDIUM -  kotlin: Not possible to lock dependencies for Multiplatform Gradle Projects
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-34526 - MEDIUM -  libtiff: A stack overflow was discovered in the _TIFFVGetField function of Tiffsplit
+CVE-2022-3570 - MEDIUM -  libtiff: heap Buffer overflows in tiffcrop.c
+CVE-2022-3599 - MEDIUM -  libtiff: out-of-bounds read in writeSingleSection in tools/tiffcrop.c
+CVE-2022-3598 - MEDIUM -  libtiff: out-of-bounds write in extractContigSamplesShifted24bits in tools/tiffcrop.c
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2022-44638 - MEDIUM -  pixman: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write
+CVE-2022-38752 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+CVE-2022-38751 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+CVE-2022-38749 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+CVE-2022-38750 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression
+CVE-2018-1271 - MEDIUM -  spring-framework: Directory traversal vulnerability with static resources on Windows filesystems
+CVE-2018-1257 - MEDIUM -  spring-framework: ReDoS Attack with spring-messaging
+CVE-2022-22970 - MEDIUM -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+CVE-2020-5421 - MEDIUM -  springframework: RFD protection bypass via jsessionid
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-30126 - MEDIUM -  tika-core: Regular Expression Denial of Service in standards extractor
+CVE-2022-30973 - MEDIUM -  tika-core: incomplete fix for CVE-2022-30126
+CVE-2021-28657 - MEDIUM -  tika-parsers: Infinite loop in MP3Parser
+CVE-2022-2571 - MEDIUM -  vim: Heap-based Buffer Overflow in vim
+CVE-2022-0261 - MEDIUM -  vim: Heap-based buffer overflow in block_insert() in src/ops.c
+CVE-2022-0392 - MEDIUM -  vim: Heap-based buffer overflow in getexmodeline() in ex_getln.c
+CVE-2022-0359 - MEDIUM -  vim: Heap-based buffer overflow in init_ccline() in ex_getln.c
+CVE-2022-0318 - MEDIUM -  vim: Heap-based buffer overflow in utf_head_off() in mbyte.c
+CVE-2022-0361 - MEDIUM -  vim: Illegal memory access when copying lines in visual mode leads to heap buffer overflow
+CVE-2022-1674 - MEDIUM -  vim: NULL pointer dereference in vim_regexec_string() of regexp.c
+CVE-2022-0368 - MEDIUM -  vim: Out-of-bounds Read in vim
+CVE-2022-0408 - MEDIUM -  vim: Stack-based Buffer Overflow in spellsuggest.c
+CVE-2022-0629 - MEDIUM -  vim: Stack-based Buffer Overflow in vim prior to 8.2.
+CVE-2022-0413 - MEDIUM -  vim: Use after free in src/ex_cmds.c
+CVE-2022-0554 - MEDIUM -  vim: Use of Out-of-range Pointer Offset in vim
+CVE-2022-0351 - MEDIUM -  vim: access of memory location before start of buffer
+CVE-2022-1629 - MEDIUM -  vim: buffer over-read in function find_next_quote
+CVE-2022-1720 - MEDIUM -  vim: buffer over-read in grab_file_name() in findfile.c
+CVE-2022-2175 - MEDIUM -  vim: buffer over-read in put_on_cmdline() at ex_getln.c
+CVE-2022-1927 - MEDIUM -  vim: buffer over-read in utf_ptr2char() in mbyte.c
+CVE-2022-0714 - MEDIUM -  vim: buffer overflow
+CVE-2022-0572 - MEDIUM -  vim: heap overflow in ex_retab() may lead to crash
+CVE-2022-2343 - MEDIUM -  vim: heap-based buffer overflow in ins_compl_add() in insexpand.c
+CVE-2022-2344 - MEDIUM -  vim: heap-based buffer overflow in ins_compl_add() in insexpand.c
+CVE-2022-0319 - MEDIUM -  vim: heap-based out-of-bounds read
+CVE-2022-0417 - MEDIUM -  vim: heap-based-buffer-overflow in ex_retab() of src/indent.c
+CVE-2022-2980 - MEDIUM -  vim: null pointer dereference in do_mouse() at src/mouse.c
+CVE-2022-2923 - MEDIUM -  vim: null pointer dereference in function sug_filltree
+CVE-2022-1942 - MEDIUM -  vim: out of bounds write in vim_regsub_both()
+CVE-2021-4166 - MEDIUM -  vim: out-of-bounds read in do_arg_all() in src/arglist.c
+CVE-2022-1851 - MEDIUM -  vim: out-of-bounds read in gchar_cursor() in misc1.c
+CVE-2022-2183 - MEDIUM -  vim: out-of-bounds read through get_lisp_indent() in function get_lisp_indent
+CVE-2022-2304 - MEDIUM -  vim: stack buffer overflow in spell_dump_compl() at spell.c
+CVE-2022-2946 - MEDIUM -  vim: use after free in function vim_vsnprintf_typval
+CVE-2022-1968 - MEDIUM -  vim: use-after-free in function utf_ptr2char at mbyte.c:1794
+CVE-2022-2345 - MEDIUM -  vim: use-after-free in skipwhite() in charset.c
+CVE-2021-4192 - MEDIUM -  vim: use-after-free in win_linetabsize()
+CVE-2022-0213 - MEDIUM -  vim: vim is vulnerable to out of bounds read
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+CVE-2021-20235 - MEDIUM -  zeromq: Heap overflow when receiving malformed ZMTP v1 packets
+CVE-2021-20236 - MEDIUM -  zeromq: Stack overflow on server running PUB/XPUB socket
+CVE-2020-15166 - MEDIUM -  zeromq: unauthenticated clients causing denial-of-service

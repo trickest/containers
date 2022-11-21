@@ -1,0 +1,9 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+GHSA-56x4-j7p9-fcf9 - LOW -  Command Injection in moment-timezone
+CVE-2004-0971 - LOW -  security flaw
+GHSA-v78c-4p63-2j6c - MEDIUM -  Cleartext Transmission of Sensitive Information in moment-timezone
+GHSA-xx4c-jj58-r7x6 - MEDIUM -  Inefficient Regular Expression Complexity in Validator.js
+GHSA-984p-xq9m-4rjw - MEDIUM -  Rate Limiting Bypass in express-brute
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

@@ -1,0 +1,375 @@
+CVE-2020-14343 - CRITICAL -  PyYAML: incomplete fix for CVE-2020-1747
+CVE-2022-3649 - CRITICAL -  kernel: nilfs2: use-after-free in nilfs_new_inode of fs/nilfs2/inode.c
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2021-44906 - CRITICAL -  minimist: prototype pollution
+CVE-2021-3918 - CRITICAL -  nodejs-json-schema: Prototype pollution vulnerability
+CVE-2021-23358 - CRITICAL -  nodejs-underscore: Arbitrary code execution via the template function
+CVE-2020-12403 - CRITICAL -  nss: CHACHA20-POLY1305 decryption with undersized tag leads to out-of-bounds read
+CVE-2022-1586 - CRITICAL -  pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2021-34552 - CRITICAL -  python-pillow: Buffer overflow in image convert function
+CVE-2021-25287 - CRITICAL -  python-pillow: Out-of-bounds read in J2K image reader
+CVE-2021-25288 - CRITICAL -  python-pillow: Out-of-bounds read in J2K image reader
+CVE-2022-22817 - CRITICAL -  python-pillow: PIL.ImageMath.eval allows evaluation of arbitrary expressions
+CVE-2021-25289 - CRITICAL -  python-pillow: insufficent fix for CVE-2020-35654 due to incorrect error checking in TiffDecode.c
+CVE-2022-24303 - CRITICAL -  python-pillow: temporary directory with a space character allows removal of unrelated file after im.show() and related actions
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+NSWG-ECO-328 - HIGH -  Cross-Site Scripting (XSS)
+GHSA-27gm-ghr9-4v95 - HIGH -  Cross-site scripting vulnerability in TinyMCE
+CVE-2022-39189 - HIGH -  Kernel: TLB flush operations are mishandled in certain KVM_VCPU_PREEMPTED leading to guest malfunctioning
+CVE-2022-24785 - HIGH -  Moment.js: Path traversal  in moment.locale
+CVE-2020-28458 - HIGH -  datatables.net: prototype pollution if 'constructor' were used in a data property name
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2019-15847 - HIGH -  gcc: POWER9 "DARN" RNG intrinsic produces repeated output
+CVE-2018-12886 - HIGH -  gcc: spilling of stack protection address in cfgexpand.c and function.c leads to stack-overflow protection bypass
+CVE-2022-29187 - HIGH -  git:  Bypass of safe.directory protections
+CVE-2022-24765 - HIGH -  git: On multi-user machines Git users might find themselves unexpectedly in a Git worktree
+CVE-2022-39260 - HIGH -  git: git shell function that splits command arguments can lead to arbitrary heap writes.
+CVE-2020-1751 - HIGH -  glibc: array overflow in backtrace functions for powerpc
+CVE-2022-29167 - HIGH -  hawk: REDoS in hawk.utils.parseHost() when parsing Host header
+CVE-2022-1247 - HIGH -  kernel: A race condition bug in rose_connect()
+CVE-2020-12362 - HIGH -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2022-0400 - HIGH -  kernel: Out of bounds read in the smc protocol stack
+CVE-2021-3714 - HIGH -  kernel: Remote Page Deduplication Attacks
+CVE-2022-3424 - HIGH -  kernel: Use after Free in gru_set_context_option leading to kernel panic
+CVE-2021-38207 - HIGH -  kernel: buffer overflow in drivers/net/ethernet/xilinx/ll_temac_main.c by sending heavy network traffic for about ten minutes
+CVE-2022-3566 - HIGH -  kernel: data races around icsk->icsk_af_ops in do_ipv6_setsockopt
+CVE-2021-3864 - HIGH -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2021-3847 - HIGH -  kernel: low-privileged user privileges escalation
+CVE-2013-7445 - HIGH -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2019-19449 - HIGH -  kernel: mounting a crafted f2fs filesystem image can lead to slab-out-of-bounds read access in f2fs_build_segment_manager in fs/f2fs/segment.c
+CVE-2022-43945 - HIGH -  kernel: nfsd buffer overflow by RPC message over TCP with garbage data
+CVE-2022-3621 - HIGH -  kernel: nilfs2: null pointer dereference in nilfs_bmap_lookup_at_level() of fs/nilfs2/inode.c
+CVE-2019-19814 - HIGH -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - HIGH -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2021-3493 - HIGH -  kernel: overlayfs file system caps privilege escalation
+CVE-2022-2961 - HIGH -  kernel: race condition in rose_bind()
+CVE-2021-4037 - HIGH -  kernel: security regression for CVE-2018-13405
+CVE-2022-3640 - HIGH -  kernel: use after free flaw in l2cap_conn_del in net/bluetooth/l2cap_core.c
+CVE-2020-36385 - HIGH -  kernel: use-after-free in drivers/infiniband/core/ucma.c ctx use-after-free
+CVE-2022-3176 - HIGH -  kernel: use-after-free in io_uring for POLLFREE notification with Signalfd_poll() and binder_poll()
+CVE-2022-2978 - HIGH -  kernel: use-after-free in nilfs_mdt_destroy
+CVE-2021-33560 - HIGH -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2019-13115 - HIGH -  libssh2: integer overflow in kex_method_diffie_hellman_group_exchange_sha256_key_exchange in kex.c leads to out-of-bounds write
+CVE-2022-2868 - HIGH -  libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits()
+CVE-2022-3570 - HIGH -  libtiff: heap Buffer overflows in tiffcrop.c
+CVE-2022-2869 - HIGH -  libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits()
+CVE-2022-2867 - HIGH -  libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c
+CVE-2017-16932 - HIGH -  libxml2: Infinite recursion in parameter entities
+CVE-2022-2309 - HIGH -  lxml: NULL Pointer Dereference in lxml
+CVE-2022-21680 - HIGH -  marked: regular expression block.def may lead Denial of Service
+CVE-2022-21681 - HIGH -  marked: regular expression inline.reflinkSearch may lead Denial of Service
+CVE-2022-31129 - HIGH -  moment: inefficient parsing algorithm resulting in DoS
+CVE-2020-11080 - HIGH -  nghttp2: overly large SETTINGS frames can lead to DoS
+CVE-2020-25648 - HIGH -  nss: TLS 1.3 CCS flood remote DoS Attack
+CVE-2021-3575 - HIGH -  openjpeg: heap-buffer-overflow in color.c may lead to DoS or arbitrary code execution
+CVE-2019-20454 - HIGH -  pcre: Out of bounds read in JIT mode when \X is used in non-UTF mode
+CVE-2020-16156 - HIGH -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2022-29217 - HIGH -  python-jwt: Key confusion through non-blocklisted public key formats
+CVE-2020-35653 - HIGH -  python-pillow: Buffer over-read in PCX image reader
+CVE-2021-28677 - HIGH -  python-pillow: Excessive CPU use in EPS image reader
+CVE-2021-27921 - HIGH -  python-pillow: Excessive memory allocation in BLP image reader
+CVE-2021-27922 - HIGH -  python-pillow: Excessive memory allocation in ICNS image reader
+CVE-2021-27923 - HIGH -  python-pillow: Excessive memory allocation in ICO image reader
+CVE-2021-28676 - HIGH -  python-pillow: Infinite loop in FLI image reader
+CVE-2021-25290 - HIGH -  python-pillow: Negative-offset memcpy in TIFF image reader
+CVE-2021-25293 - HIGH -  python-pillow: Out-of-bounds read in SGI RLE image reader
+CVE-2020-35654 - HIGH -  python-pillow: decoding crafted YCbCr files could result in heap-based buffer overflow
+CVE-2021-25291 - HIGH -  python-pillow: out-of-bounds read in TiffReadRGBATile in TiffDecode.c
+CVE-2020-11538 - HIGH -  python-pillow: out-of-bounds reads/writes in the parsing of SGI image files in expandrow/expandrow2
+CVE-2021-23437 - HIGH -  python-pillow: possible ReDoS via the getrgb function
+CVE-2020-10379 - HIGH -  python-pillow: two buffer overflows in libImaging/TiffDecode.c due to small buffers allocated in ImagingLibTiffDecode()
+CVE-2022-29154 - HIGH -  rsync: remote arbitrary files write inside the directories of connecting peers
+CVE-2019-19603 - HIGH -  sqlite: mishandling of certain SELECT statements with non-existent VIEW can lead to DoS
+CVE-2019-3843 - HIGH -  systemd: services with DynamicUser can create SUID/SGID binaries
+CVE-2019-3844 - HIGH -  systemd: services with DynamicUser can get new privileges and create SGID binaries
+CVE-2022-3204 - HIGH -  unbound: NRDelegation attack leads to uncontrolled resource consumption (Non-Responsive Delegation Attack)
+CVE-2016-9114 - LOW -  CVE-2016-9113 CVE-2016-9114 CVE-2016-9115 CVE-2016-9116 CVE-2016-9117 CVE-2016-9118 openjpeg2: Multiple security issues
+CVE-2016-9115 - LOW -  CVE-2016-9113 CVE-2016-9114 CVE-2016-9115 CVE-2016-9116 CVE-2016-9117 CVE-2016-9118 openjpeg2: Multiple security issues
+CVE-2016-9116 - LOW -  CVE-2016-9113 CVE-2016-9114 CVE-2016-9115 CVE-2016-9116 CVE-2016-9117 CVE-2016-9118 openjpeg2: Multiple security issues
+CVE-2016-9117 - LOW -  CVE-2016-9113 CVE-2016-9114 CVE-2016-9115 CVE-2016-9116 CVE-2016-9117 CVE-2016-9118 openjpeg2: Multiple security issues
+CVE-2016-9113 - LOW -  CVE-2016-9114 CVE-2016-9115 CVE-2016-9116 CVE-2016-9117 CVE-2016-9118 openjpeg2: Multiple security issues
+CVE-2007-6755 - LOW -  Dual_EC_DRBG: weak pseudo random number generator
+CVE-2011-3389 - LOW -  HTTPS: block-wise chosen-plaintext attack against SSL/TLS (BEAST)
+GHSA-4fx9-vc88-q2xc - LOW -  Infinite loop in Pillow
+CVE-2015-2877 - LOW -  Kernel: Cross-VM ASL INtrospection (CAIN)
+GHSA-h96f-fc7c-9r55 - LOW -  Regex denial of service vulnerability in codesample plugin
+CVE-2019-18276 - LOW -  bash: when effective UID is not equal to its real UID the saved UID is not dropped
+CVE-2017-7475 - LOW -  cairo: NULL pointer dereference with a crafted font file
+CVE-2018-18064 - LOW -  cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document
+CVE-2019-6461 - LOW -  cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c
+CVE-2019-6462 - LOW -  cairo: infinite loop in the function _arc_error_normalized in the file cairo-arc.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - LOW -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2021-22922 - LOW -  curl: Content not matching hash in Metalink is not being discarded
+CVE-2021-22923 - LOW -  curl: Metalink download sends credentials
+CVE-2022-35252 - LOW -  curl: control code in cookie denial of service
+CVE-2013-0340 - LOW -  expat: internal entity expansion
+CVE-2007-3477 - LOW -  gd: arc drawing functions can consume large amount of CPU time
+CVE-2009-3546 - LOW -  gd: insufficient input validation in _gdGetColors()
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2018-1000021 - LOW -  git: client prints server-sent ANSI escape codes to the terminal, allowing for unverified messages to potentially execute arbitrary commands
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2019-1010024 - LOW -  glibc: ASLR bypass using cache of thread stack and heap
+CVE-2010-4756 - LOW -  glibc: glob implementation can cause excessive CPU and memory consumption due to crafted glob expressions
+CVE-2019-1010025 - LOW -  glibc: information disclosure of heap addresses of pthread_created thread
+CVE-2019-1010023 - LOW -  glibc: running ldd on malicious ELF leads to code execution because of wrong size computation
+CVE-2019-1010022 - LOW -  glibc: stack guard protection bypass
+CVE-2018-20796 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-9192 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-14855 - LOW -  gnupg2: OpenPGP Key Certification Forgeries with SHA-1
+CVE-2018-3728 - LOW -  hoek: Prototype pollution in utilities function
+CVE-2019-12379 - LOW -  kernel:  memory leak in con_insert_unipair in drivers/tty/vt/consolemap.c
+CVE-2019-19064 - LOW -  kernel: A memory leak in the fsl_lpspi_probe() function in drivers/spi/spi-fsl-lpspi.c allows for a DoS
+CVE-2019-19070 - LOW -  kernel: A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c allows for a DoS
+CVE-2017-13694 - LOW -  kernel: ACPI node and node_ext cache leak
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2022-25265 - LOW -  kernel: Executable Space Protection Bypass
+CVE-2014-9900 - LOW -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2017-0630 - LOW -  kernel: Information disclosure vulnerability in kernel trace subsystem
+CVE-2018-17977 - LOW -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2008-4609 - LOW -  kernel: TCP protocol vulnerabilities from Outpost24
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2012-4542 - LOW -  kernel: block: default SCSI command filter does not accomodate commands overlap across device classes
+CVE-2019-12456 - LOW -  kernel: double fetch in the MPT3COMMAND case in _ctl_ioctl_main in drivers/scsi/mpt3sas/mpt3sas_ctl.c
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2010-4563 - LOW -  kernel: ipv6: sniffer detection
+CVE-2019-12380 - LOW -  kernel: memory allocation failure in the efi subsystem leads to denial of service
+CVE-2019-19083 - LOW -  kernel: memory leaks in *clock_source_create() functions under drivers/gpu/drm/amd/display/dc leads to DoS
+CVE-2008-2544 - LOW -  kernel: mounting proc readonly on a different mount point silently mounts it rw if the /proc mount is rw
+CVE-2019-16229 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/amd/amdkfd/kfd_interrupt.c
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2019-16234 - LOW -  kernel: null pointer dereference in drivers/net/wireless/intel/iwlwifi/pcie/trans.c
+CVE-2019-16233 - LOW -  kernel: null pointer dereference in drivers/scsi/qla2xxx/qla_os.c
+CVE-2019-12615 - LOW -  kernel: null pointer dereference in get_vdev_port_node_info in arch /sparc/kernel/mdesc.c
+CVE-2019-12455 - LOW -  kernel: null pointer dereference in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c causing denial of service
+CVE-2019-16231 - LOW -  kernel: null-pointer dereference in drivers/net/fjes/fjes_main.c
+CVE-2019-16232 - LOW -  kernel: null-pointer dereference in drivers/net/wireless/marvell/libertas/if_sdio.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2019-11191 - LOW -  kernel: race condition in load_aout_binary() allows local users to bypass ASLR on setuid a.out programs
+CVE-2007-3719 - LOW -  kernel: secretly Monopolizing the CPU Without Superuser Privileges
+CVE-2019-12378 - LOW -  kernel: unchecked kmalloc of new_ra in ip6_ra_control leads to denial of service
+CVE-2019-12381 - LOW -  kernel: unchecked kmalloc of new_ra in ip_ra_control leads to denial of service
+CVE-2019-12382 - LOW -  kernel: unchecked kstrdup of fwstr in drm_load_edid_firmware leads to denial of service
+CVE-2021-0929 - LOW -  kernel: use-after-free in ion_dma_buf_end_cpu_access and related functions in ion.c
+CVE-2020-27820 - LOW -  kernel: use-after-free in nouveau kernel module
+CVE-2010-5321 - LOW -  kernel: v4l: videobuf: hotfix a bug on multiple calls to mmap()
+CVE-2016-8660 - LOW -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2018-5709 - LOW -  krb5: integer overflow in dbentry->n_key_data in kadmin/dbutil/dump.c
+CVE-2018-6829 - LOW -  libgcrypt: ElGamal implementation doesn't have semantic security due to incorrectly encoded plaintexts possibly allowing to obtain sensitive information
+CVE-2007-3476 - LOW -  libgd Denial of service by corrupted GIF images
+CVE-2017-15232 - LOW -  libjpeg-turbo: NULL pointer dereference in jdpostct.c and jquant1.c
+CVE-2020-17541 - LOW -  libjpeg-turbo: Stack-based buffer overflow in the "transform" component
+CVE-2018-11813 - LOW -  libjpeg: "cjpeg" utility large loop because read_pixel in rdtarga.c mishandles EOF
+CVE-2018-14048 - LOW -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2018-14550 - LOW -  libpng: Stack-based buffer overflow in contrib/pngminus/pnm2png.c:get_token() potentially leading to arbitrary code execution
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2019-6129 - LOW -  libpng: memory leak of png_info struct in pngcp.c
+CVE-2019-9893 - LOW -  libseccomp: incorrect generation of syscall filters in libseccomp
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2019-17498 - LOW -  libssh2: integer overflow in SSH_MSG_DISCONNECT logic in packet.c
+CVE-2018-1000654 - LOW -  libtasn1: Infinite loop in _asn1_expand_object_id(ptree) leads to memory exhaustion
+CVE-2022-2520 - LOW -  libtiff: Assertion fail in rotateImage() function at tiffcrop.c
+CVE-2022-2519 - LOW -  libtiff: Double free or corruption in rotateImage() function at tiffcrop.c
+CVE-2017-9117 - LOW -  libtiff: Heap-based buffer over-read in bmp2tiff
+CVE-2017-5563 - LOW -  libtiff: Heap-buffer overflow in LZWEncode tif_lzw.c
+CVE-2022-2521 - LOW -  libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c
+CVE-2020-35521 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2020-35522 - LOW -  libtiff: Memory allocation failure in tiff2rgba
+CVE-2017-16232 - LOW -  libtiff: Memory leaks in tif_open.c, tif_lzw.c, and tif_aux.c
+CVE-2018-10126 - LOW -  libtiff: NULL pointer dereference in the jpeg_fdct_16x16 function in jfdctint.c
+CVE-2014-8130 - LOW -  libtiff: divide by zero in the tiffdither tool
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2017-9937 - LOW -  libtiff: memory malloc failure in tif_jbig.c could cause DOS.
+CVE-2022-2953 - LOW -  libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c
+CVE-2016-9085 - LOW -  libwebp: Several integer overflows
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2019-17543 - LOW -  lz4: heap-based buffer overflow in LZ4_write32
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2017-11697 - LOW -  nss: Floating Point Exception in __hash_open
+CVE-2017-11698 - LOW -  nss: Heap-buffer-overflow in __get_page
+CVE-2017-11696 - LOW -  nss: Heap-buffer-overflow in __hash_open
+CVE-2017-11695 - LOW -  nss: Heap-buffer-overflow in alloc_segs
+CVE-2016-9581 - LOW -  openjpeg2: Infinite loop in tiftoimage resulting into heap buffer overflow in convert_32s_C1P1
+CVE-2016-9580 - LOW -  openjpeg2: Integer overflow in tiftoimage causes heap buffer overflow
+CVE-2016-10506 - LOW -  openjpeg: Division by zero in functions opj_pi_next_cprl, opj_pi_next_pcrl, and opj_pi_next_rpcl in pi.c
+CVE-2019-6988 - LOW -  openjpeg: DoS via memory exhaustion in opj_decompress
+CVE-2018-16376 - LOW -  openjpeg: Heap-based buffer overflow in function t2_encode_packet in src/lib/openmj2/t2.c
+CVE-2018-16375 - LOW -  openjpeg: Heap-based buffer overflow in pnmtoimage function in bin/jpwl/convert.c
+CVE-2016-10505 - LOW -  openjpeg: NULL pointer dereference in imagetopnm function in convert.c
+CVE-2017-17479 - LOW -  openjpeg: Stack-buffer overflow in the pgxtoimage function
+CVE-2018-20845 - LOW -  openjpeg: division-by-zero in functions pi_next_pcrl, pi_next_cprl, and pi_next_rpcl in openmj2/pi.c
+CVE-2018-5727 - LOW -  openjpeg: integer overflow in opj_t1_encode_cblks in src/lib/openjp2/t1.c
+CVE-2018-20846 - LOW -  openjpeg: out-of-bounds read in functions pi_next_lrcp, pi_next_rlcp, pi_next_rpcl, pi_next_pcrl, pi_next_rpcl, and pi_next_cprl in openmj2/pi.c leads to denial of service
+CVE-2020-15719 - LOW -  openldap: Certificate validation incorrectly matches name against CN-ID
+CVE-2017-14159 - LOW -  openldap: Privilege escalation via PID file manipulation
+CVE-2017-17740 - LOW -  openldap: contrib/slapd-modules/nops/nops.c attempts to free stack buffer allowing remote attackers to cause a denial of service
+CVE-2015-3276 - LOW -  openldap: incorrect multi-keyword mode cipherstring parsing
+CVE-2010-0928 - LOW -  openssl: RSA authentication weakness
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-16231 - LOW -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2011-4116 - LOW -  perl: File::Temp insecure temporary file handling
+CVE-2007-3996 - LOW -  php multiple integer overflows in gd
+CVE-2013-4472 - LOW -  poppler, xpdf: insecure temporary file
+CVE-2017-2814 - LOW -  poppler: Heap-buffer overflow in DCTStream::readScan()
+CVE-2017-2818 - LOW -  poppler: Heap-buffer overflow in the image rendering functionality
+CVE-2017-2820 - LOW -  poppler: Integer overflow in the JPEG 2000 image parsing functionality
+CVE-2017-9083 - LOW -  poppler: Null pointer dereference in the JPXStream::readUByte function
+CVE-2019-10871 - LOW -  poppler: heap-based buffer over-read in function PSOutputDev::checkPageSlice in PSOutputDev.cc
+CVE-2019-11026 - LOW -  poppler: infinite recursion in function FontInfoScanner::scanFonts in FontInfo.cc
+CVE-2018-19059 - LOW -  poppler: out-of-bounds read in EmbFile::save2 in FileSpec.cc
+CVE-2018-19060 - LOW -  poppler: pdfdetach utility does not validate save paths
+CVE-2019-9543 - LOW -  poppler: recursive function call in JBIG2Stream::readGenericBitmap() in JBIG2Stream.cc causing denial of service
+CVE-2019-9545 - LOW -  poppler: recursive function call in JBIG2Stream::readTextRegion() in JBIG2Stream.cc causing denial of service
+CVE-2019-9193 - LOW -  postgresql: Command injection via "COPY TO/FROM PROGRAM" function
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2004-0971 - LOW -  security flaw
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-19882 - LOW -  shadow-utils: local users can obtain root access because setuid programs are misconfigured
+CVE-2018-7169 - LOW -  shadow-utils: newgidmap allows unprivileged user to drop supplementary groups potentially allowing privilege escalation
+CVE-2019-19244 - LOW -  sqlite: allows a crash if a sub-select uses both DISTINCT and window functions and also has certain ORDER BY usage
+CVE-2022-35737 - LOW -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2020-11656 - LOW -  sqlite: use-after-free in the ALTER TABLE implementation
+CVE-2020-13529 - LOW -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2020-13776 - LOW -  systemd: Mishandles numerical usernames beginning with decimal digits or 0x followed by hexadecimal digits
+CVE-2013-4392 - LOW -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2019-20386 - LOW -  systemd: memory leak in button_open() in login/logind-button.c when udev events are received
+CVE-2021-20193 - LOW -  tar: Memory leak in read_header() in list.c
+CVE-2005-2541 - LOW -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2019-9923 - LOW -  tar: null-pointer dereference in pax_decode_header in sparse.c
+CVE-2022-1210 - LOW -  tiff: Malicious file leads to a denial of service in TIFF File Handler
+CVE-2019-25037 - LOW -  unbound: assertion failure and denial of service in dname_pkt_copy via an invalid packet
+CVE-2019-25036 - LOW -  unbound: assertion failure and denial of service in synth_cname
+CVE-2019-25041 - LOW -  unbound: assertion failure via a compressed name in dname_pkt_copy
+CVE-2019-18934 - LOW -  unbound: command injection with data coming from a specially crafted IPSECKEY answer
+CVE-2019-25031 - LOW -  unbound: configuration injection in create_unbound_ad_servers.sh upon a successful man-in-the-middle attack against a cleartext HTTP session
+CVE-2019-25040 - LOW -  unbound: infinite loop via a compressed name in dname_pkt_copy
+CVE-2019-25038 - LOW -  unbound: integer overflow in a size calculation in dnscrypt/dnscrypt.c
+CVE-2019-25039 - LOW -  unbound: integer overflow in a size calculation in respip/respip.c
+CVE-2019-25034 - LOW -  unbound: integer overflow in sldns_str2wire_dname_buf_origin can lead to an out-of-bounds write
+CVE-2019-25032 - LOW -  unbound: integer overflow in the regional allocator via regional_alloc
+CVE-2019-25033 - LOW -  unbound: integer overflow in the regional allocator via the ALIGN_UP macro
+CVE-2019-25035 - LOW -  unbound: out-of-bounds write in sldns_bget_token_par
+CVE-2019-25042 - LOW -  unbound: out-of-bounds write via a compressed name in rdata_copy
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-0563 - LOW -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+CVE-2022-29900 - MEDIUM -  CVE-2022-23816 CVE-2022-29900 hw: cpu: AMD: RetBleed Arbitrary Speculative Code Execution with Return Instructions
+CVE-2022-23816 - MEDIUM -  CVE-2022-29900 hw: cpu: AMD: RetBleed Arbitrary Speculative Code Execution with Return Instructions
+GHSA-5h9g-x5rv-25wg - MEDIUM -  Cross-site scripting vulnerability in TinyMCE
+GHSA-5vm8-hhgr-jcjp - MEDIUM -  Cross-site scripting vulnerability in TinyMCE
+GHSA-vrv8-v4w8-f95h - MEDIUM -  Cross-site scripting vulnerability in TinyMCE
+GHSA-w7jx-j77m-wp65 - MEDIUM -  Cross-site scripting vulnerability in TinyMCE
+GHSA-r8hm-w5f7-wj39 - MEDIUM -  Cross-site scripting vulnerability in TinyMCE plugins
+CVE-2022-41849 - MEDIUM -  Kernel: A race between ufx_ops_open() and ufx_usb_disconnect() may result in UAF
+CVE-2022-3169 - MEDIUM -  Kernel: Request to NVME_IOCTL_RESET and NVME_IOCTL_SUBSYS_RESET  may cause a DOS.
+CVE-2022-3523 - MEDIUM -  Kernel: race when faulting a device private page in memory manager
+CVE-2022-2056 - MEDIUM -  LibTiff: DoS from Divide By Zero Error
+CVE-2022-2057 - MEDIUM -  LibTiff: DoS from Divide By Zero Error
+CVE-2022-2058 - MEDIUM -  LibTiff: DoS from Divide By Zero Error
+NSWG-ECO-101 - MEDIUM -  Sanitization bypass using HTML Entities
+GHSA-jgpv-4h4c-xhw3 - MEDIUM -  Uncontrolled Resource Consumption in pillow
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-27774 - MEDIUM -  curl: credential leak on redirect
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor
+CVE-2020-15802 - MEDIUM -  hardware: BLURtooth: "Dual mode" hardware using CTKD are vulnerable to key overwrite
+CVE-2022-23825 - MEDIUM -  hw: cpu: AMD: Branch Type Confusion (non-retbleed)
+CVE-2022-29901 - MEDIUM -  hw: cpu: Intel: RetBleed Arbitrary Speculative Code Execution with Return Instructions
+CVE-2020-11022 - MEDIUM -  jquery: Cross-site scripting due to improper injQuery.htmlPrefilter method
+CVE-2015-9251 - MEDIUM -  jquery: Cross-site scripting via cross-domain ajax requests
+CVE-2019-11358 - MEDIUM -  jquery: Prototype pollution in object's prototype leading to denial of service, remote code execution, or property injection
+CVE-2020-11023 - MEDIUM -  jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods
+CVE-2022-3903 - MEDIUM -  kernel: An invalid pipe direction in the mceusb driver cause the kernel to DOS
+CVE-2020-26555 - MEDIUM -  kernel: Bluetooth BR/EDR PIN Pairing procedure is vulnerable to an impersonation attack
+CVE-2022-3707 - MEDIUM -  kernel: Double-free in split_2MB_gtt_entry when function intel_gvt_dma_map_guest_page failed
+CVE-2020-12363 - MEDIUM -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2019-16089 - MEDIUM -  kernel: Improper return check in nbd_genl_status function in drivers/block/nbd.c
+CVE-2022-3344 - MEDIUM -  kernel: KVM: SVM: nested shutdown interception could lead to host crash
+CVE-2021-44879 - MEDIUM -  kernel: NULL pointer dereference in folio_mark_dirty() via a crafted f2fs image
+CVE-2020-12364 - MEDIUM -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2019-15794 - MEDIUM -  kernel: Overlayfs in the Linux kernel and shiftfs  not restoring original value on error leading to a refcount underflow
+CVE-2022-41848 - MEDIUM -  kernel: Race condition between mgslpc_ioctl and mgslpc_detach
+CVE-2022-41850 - MEDIUM -  kernel: Race condition in roccat_report_event in drivers/hid/hid-roccat.c
+CVE-2022-41218 - MEDIUM -  kernel: Report vmalloc UAF in dvb-core/dmxdev
+CVE-2020-26145 - MEDIUM -  kernel: accepting plaintext broadcast fragments as full frames
+CVE-2022-2873 - MEDIUM -  kernel: an out-of-bounds vulnerability in i2c-ismt driver
+CVE-2020-27835 - MEDIUM -  kernel: child process is able to access parent mm through hfi dev file handle
+CVE-2022-1280 - MEDIUM -  kernel: concurrency use-after-free between drm_setmaster_ioctl and drm_mode_getresources
+CVE-2020-14304 - MEDIUM -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2022-3061 - MEDIUM -  kernel: fbdev: i740fb: divide-by-zero in drivers/video/fbdev/i740fb.c could lead to DoS
+CVE-2020-16120 - MEDIUM -  kernel: incorrect unprivileged overlayfs permission checking may lead to information disclosure
+CVE-2020-36310 - MEDIUM -  kernel: infinite loop in set_memory_region_test in arch/x86/kvm/svm/svm.c for certain nested page faults
+CVE-2021-33061 - MEDIUM -  kernel: insufficient control flow management for the Intel(R) 82599 Ethernet Controllers and Adapters may lead to DoS
+CVE-2022-40768 - MEDIUM -  kernel: leak of sensitive information due to uninitialized data in stex_queuecommand_lck() in drivers/scsi/stex.c
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2020-26141 - MEDIUM -  kernel: not verifying TKIP MIC of fragmented frames
+CVE-2020-36516 - MEDIUM -  kernel: off-path attacker may inject data or terminate victim's TCP session
+CVE-2022-21499 - MEDIUM -  kernel: possible to use the debugger to write zero into a location of choice
+CVE-2022-3303 - MEDIUM -  kernel: race condition in snd_pcm_oss_sync leads to NULL pointer dereference
+CVE-2021-3669 - MEDIUM -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2020-26541 - MEDIUM -  kernel: security bypass in certs/blacklist.c and certs/system_keyring.c
+CVE-2019-20794 - MEDIUM -  kernel: task processes not being properly ended could lead to resource exhaustion
+CVE-2021-3759 - MEDIUM -  kernel: unaccounted ipc objects in Linux kernel lead to breaking memcg limits and DoS attacks
+CVE-2022-1184 - MEDIUM -  kernel: use-after-free and memory errors in ext4 when mounting and operating on a corrupted image
+CVE-2019-15213 - MEDIUM -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2022-20369 - MEDIUM -  kernel: v4l2-mem2mem: Apply DST_QUEUE_OFF_BASE on MMAP buffers across ioctls
+CVE-2022-38096 - MEDIUM -  kernel: vmxgfx: NULL pointer dereference in vmw_cmd_dx_define_query
+CVE-2022-36280 - MEDIUM -  kernel: vmxgfx: out-of-bounds write in vmw_kms_cursor_snoop
+CVE-2022-38457 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_cmd_res_check
+CVE-2022-40133 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_execbuf_tie_context
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2019-13627 - MEDIUM -  libgcrypt: ECDSA timing attack allowing private key leak
+CVE-2020-35538 - MEDIUM -  libjpeg-turbo: Null pointer dereference in jcopy_sample_rows() function
+CVE-2021-46822 - MEDIUM -  libjpeg-turbo: heap buffer overflow in get_word_rgb_row() in rdppm.c
+CVE-2022-34526 - MEDIUM -  libtiff: A stack overflow was discovered in the _TIFFVGetField function of Tiffsplit
+CVE-2022-1354 - MEDIUM -  libtiff: heap-buffer-overflow in TIFFReadRawDataStriped() in tiffinfo.c
+CVE-2022-1622 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-3599 - MEDIUM -  libtiff: out-of-bounds read in writeSingleSection in tools/tiffcrop.c
+CVE-2022-3597 - MEDIUM -  libtiff: out-of-bounds write in _TIFFmemcpy in libtiff/tif_unix
+CVE-2022-3626 - MEDIUM -  libtiff: out-of-bounds write in _TIFFmemset in libtiff/tif_unix.c
+CVE-2022-3598 - MEDIUM -  libtiff: out-of-bounds write in extractContigSamplesShifted24bits in tools/tiffcrop.c
+CVE-2022-1355 - MEDIUM -  libtiff: stack-buffer-overflow in tiffcp.c in main()
+CVE-2016-3709 - MEDIUM -  libxml2: Incorrect server side include parsing can lead to XSS
+CVE-2016-9318 - MEDIUM -  libxml2: XML External Entity vulnerability
+CVE-2020-15366 - MEDIUM -  nodejs-ajv: prototype pollution via crafted JSON schema in ajv.validate function
+CVE-2020-12401 - MEDIUM -  nss: ECDSA timing attack mitigation bypass
+CVE-2020-12400 - MEDIUM -  nss: P-384 and P-521 implementation uses a side-channel vulnerable modular inversion function
+CVE-2020-6829 - MEDIUM -  nss: Side channel attack on ECDSA signature generation
+CVE-2019-12973 - MEDIUM -  openjpeg: denial of service in function opj_t1_encode_cblks in openjp2/t1.c
+CVE-2021-29338 - MEDIUM -  openjpeg: out-of-bounds write due to an integer overflow in opj_compress.c
+CVE-2022-1122 - MEDIUM -  openjpeg: segmentation fault in opj2_decompress due to uninitialized pointer
+CVE-2022-2097 - MEDIUM -  openssl: AES OCB fails to encrypt some bytes
+CVE-2020-14155 - MEDIUM -  pcre: Integer overflow when parsing callout numeric arguments
+CVE-2020-35655 - MEDIUM -  python-pillow: Buffer over-read in SGI RLE image reader
+CVE-2021-28678 - MEDIUM -  python-pillow: Excessive looping in BLP image reader
+CVE-2021-28675 - MEDIUM -  python-pillow: Excessive memory allocation in PSD image reader
+CVE-2021-25292 - MEDIUM -  python-pillow: Regular expression DoS in PDF format parser
+CVE-2020-10378 - MEDIUM -  python-pillow: an out-of-bounds read in libImaging/PcxDecode.c can occur when reading PCX files
+CVE-2022-22816 - MEDIUM -  python-pillow: buffer over-read during initialization of ImagePath.Path in path_getbbox() in path.c
+CVE-2022-22815 - MEDIUM -  python-pillow: improperly initializes ImagePath.Path in path_getbbox() in path.c
+CVE-2020-10177 - MEDIUM -  python-pillow: multiple out-of-bounds reads in libImaging/FliDecode.c
+CVE-2020-10994 - MEDIUM -  python-pillow: multiple out-of-bounds reads via a crafted JP2 file
+CVE-2016-10744 - MEDIUM -  select2: XSS due to missing sanitization when HTML templates are used to display remotely-loaded data.
+CVE-2020-13631 - MEDIUM -  sqlite: Virtual table can be renamed into the name of one of its shadow tables
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2019-19924 - MEDIUM -  sqlite: incorrect sqlite3WindowRewrite() error handling leads to mishandling certain parser-tree rewriting
+CVE-2019-19645 - MEDIUM -  sqlite: infinite recursion via certain types of self-referential views in conjunction with ALTER TABLE statements
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2022-30698 - MEDIUM -  unbound: novel ghost domain attack that allows attackers to trigger continued resolvability of malicious domain names
+CVE-2022-30699 - MEDIUM -  unbound: novel ghost domain attack that allows attackers to trigger continued resolvability of malicious domain names
+CVE-2020-28935 - MEDIUM -  unbound: symbolic link traversal when writing PID file
+CVE-2022-31015 - MEDIUM -  waitress: uncaught Exception (due to a data race) leads to process termination
+CVE-2022-42896 - UNKNOWN -  [Bluetooth: L2CAP: Fix accepting connection request for invalid SPSM]
+CVE-2022-42895 - UNKNOWN -  [Bluetooth: L2CAP: Fix attempting to access uninitialized memory]
+CVE-2022-3628 - UNKNOWN -  null
+PYSEC-2020-77 - UNKNOWN -  null
+PYSEC-2020-78 - UNKNOWN -  null

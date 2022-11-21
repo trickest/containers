@@ -1,0 +1,7 @@
+GHSA-36jr-mh4h-2g58 - HIGH -  d3-color vulnerable to ReDoS
+GHSA-56x4-j7p9-fcf9 - LOW -  Command Injection in moment-timezone
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+GHSA-v78c-4p63-2j6c - MEDIUM -  Cleartext Transmission of Sensitive Information in moment-timezone
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

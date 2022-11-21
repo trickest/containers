@@ -1,0 +1,108 @@
+CVE-2015-1832 - CRITICAL -  Apache Derby: XXE attack possible by using XmlVTI and the XML datatype
+CVE-2022-37865 - CRITICAL -  Apache Ivy does not verify target path when extracting the archive
+CVE-2022-39135 - CRITICAL -  calcite: XXE via SQL operators
+CVE-2021-37404 - CRITICAL -  hadoop-hdfs: Heap buffer overflow in Apache Hadoop libhdfs
+CVE-2017-7525 - CRITICAL -  jackson-databind: Deserialization vulnerability via readValue method of ObjectMapper
+CVE-2018-11307 - CRITICAL -  jackson-databind: Potential information exfiltration with default typing, serialization gadget from MyBatis
+CVE-2019-17267 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the ehcache package
+CVE-2019-14893 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the xalan package
+CVE-2019-16943 - CRITICAL -  jackson-databind: Serialization gadgets in com.p6spy.engine.spy.P6DataSource
+CVE-2019-14540 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariConfig
+CVE-2019-16335 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariDataSource
+CVE-2019-16942 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.commons.dbcp.datasources.*
+CVE-2019-17531 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.log4j.receivers.db.*
+CVE-2017-15095 - CRITICAL -  jackson-databind: Unsafe deserialization due to incomplete black list (incomplete fix for CVE-2017-7525)
+CVE-2018-14719 - CRITICAL -  jackson-databind: arbitrary code execution in blaze-ds-opt and blaze-ds-core classes
+CVE-2018-14718 - CRITICAL -  jackson-databind: arbitrary code execution in slf4j-ext class
+CVE-2018-14720 - CRITICAL -  jackson-databind: exfiltration/XXE in some JDK classes
+CVE-2018-19360 - CRITICAL -  jackson-databind: improper polymorphic deserialization in axis2-transport-jms class
+CVE-2018-19362 - CRITICAL -  jackson-databind: improper polymorphic deserialization in jboss-common-core class
+CVE-2018-19361 - CRITICAL -  jackson-databind: improper polymorphic deserialization in openjpa class
+CVE-2018-7489 - CRITICAL -  jackson-databind: incomplete fix for CVE-2017-7525 permits unsafe serialization via c3p0 libraries
+CVE-2019-20330 - CRITICAL -  jackson-databind: lacks certain net.sf.ehcache blocking
+CVE-2018-14721 - CRITICAL -  jackson-databind: server-side request forgery (SSRF) in axis2-jaxws class
+CVE-2017-7657 - CRITICAL -  jetty: HTTP request smuggling
+CVE-2017-7658 - CRITICAL -  jetty: Incorrect header handling
+CVE-2021-27568 - CRITICAL -  json-smart: uncaught exception may lead to crash or information disclosure
+CVE-2019-20444 - CRITICAL -  netty: HTTP request smuggling
+CVE-2019-20445 - CRITICAL -  netty: HttpObjectDecoder.java allows Content-Length header to accompanied by second Content-Length header
+CVE-2019-17195 - CRITICAL -  nimbus-jose-jwt: Uncaught exceptions while parsing a JWT
+CVE-2016-5018 - CRITICAL -  tomcat: security manager bypass via IntrospectHelper utility function
+CVE-2022-37866 - HIGH -  Apache Ivy vulnerable to path traversal
+CVE-2019-12402 - HIGH -  apache-commons-compress: Infinite loop in name encoding algorithm
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2021-33036 - HIGH -  hadoop: privilege escalation via yarn user
+CVE-2020-10650 - HIGH -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2020-10673 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution
+CVE-2020-35490 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource
+CVE-2020-35491 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource
+CVE-2018-5968 - HIGH -  jackson-databind: unsafe deserialization due to incomplete blacklist (incomplete fix for CVE-2017-7525 and CVE-2017-17485)
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2019-10172 - HIGH -  jackson-mapper-asl: XML external entity similar to CVE-2016-3720
+CVE-2022-40150 - HIGH -  jettison: memory exhaustion via user-supplied XML or JSON data
+CVE-2017-7656 - HIGH -  jetty: HTTP request smuggling using the range header
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2017-9735 - HIGH -  jetty: Timing channel attack in util/security/Password.java
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2015-2080 - HIGH -  jetty: remote unauthenticated credential exposure
+CVE-2021-31684 - HIGH -  json-smart: Denial of Service in JSONParserByteArray function
+CVE-2020-13949 - HIGH -  libthrift: potential DoS when processing untrusted payloads
+CVE-2021-37136 - HIGH -  netty-codec: Bzip2Decoder doesn't allow setting size restrictions for decompressed data
+CVE-2021-37137 - HIGH -  netty-codec: SnappyFrameDecoder doesn't restrict chunk length and may buffer skippable chunks in an unnecessary way
+CVE-2020-11612 - HIGH -  netty: compression/decompression codecs don't enforce limits on buffer allocation sizes
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2022-25857 - HIGH -  snakeyaml: Denial of Service due to missing nested depth limitation for collections
+CVE-2017-5637 - HIGH -  zookeeper: Incorrect input validation with wchp/wchc four letter words
+CVE-2018-8012 - HIGH -  zookeeper: No authentication or authorization is enforced when a server joins a quorum
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2022-2047 - LOW -  jetty-http: improver hostname input handling
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2019-9674 - LOW -  python: Nested zip file (Zip bomb) vulnerability in Lib/zipfile.py
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2013-2035 - MEDIUM -  HawtJNI: predictable temporary file name leading to local arbitrary code execution
+CVE-2016-2402 - MEDIUM -  Improper Certificate Validation in OkHttp
+CVE-2020-13955 - MEDIUM -  Missing Authentication for Critical Function in Apache Calcite
+CVE-2021-36373 - MEDIUM -  ant: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36374 - MEDIUM -  ant: excessive memory allocation when reading a specially crafted ZIP archive or a derived formats
+CVE-2020-1945 - MEDIUM -  ant: insecure temporary file vulnerability
+CVE-2021-29425 - MEDIUM -  apache-commons-io: Limited path traversal in Apache Commons IO 2.2 to 2.6
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2018-1313 - MEDIUM -  derby: Externally-controlled input vulnerability allows remote attacker to boot a database under attacker's control
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2020-17521 - MEDIUM -  groovy: OS temporary directory leads to information disclosure
+CVE-2018-10237 - MEDIUM -  guava: Unbounded memory allocation in AtomicDoubleArray and CompoundOrdering classes allow remote attackers to cause a denial of service
+CVE-2020-10693 - MEDIUM -  hibernate-validator: Improper input validation in the interpolation of constraint error messages
+CVE-2018-1000873 - MEDIUM -  jackson-modules-java8: DoS due to an Improper Input Validation
+CVE-2012-5783 - MEDIUM -  jakarta-commons-httpclient: missing connection hostname check against X.509 certificate name
+CVE-2021-28168 - MEDIUM -  jersey: Local information disclosure via system temporary directory
+CVE-2020-27218 - MEDIUM -  jetty: buffer not correctly recycled in Gzip Request inflation
+CVE-2019-10247 - MEDIUM -  jetty: error path information disclosure
+CVE-2011-4461 - MEDIUM -  jetty: hash table collisions CPU usage DoS (oCERT-2011-003)
+CVE-2020-27223 - MEDIUM -  jetty: request containing multiple Accept headers with a large number of "quality" parameters may lead to DoS
+CVE-2021-28169 - MEDIUM -  jetty: requests to the ConcatServlet and WelcomeFilter are able to access protected resources within the WEB-INF directory
+CVE-2019-10241 - MEDIUM -  jetty: using specially formatted URL against DefaultServlet or ResourceHandler leads to XSS conditions
+CVE-2021-21290 - MEDIUM -  netty: Information disclosure via the local system temporary directory
+CVE-2021-21409 - MEDIUM -  netty: Request smuggling via content-length header
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2021-22569 - MEDIUM -  protobuf-java: potential DoS in the parsing procedure for binary data
+CVE-2021-4189 - MEDIUM -  python: ftplib should not use the host from the PASV response
+CVE-2022-0391 - MEDIUM -  python: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+CVE-2022-38752 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+CVE-2022-38751 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+CVE-2022-38749 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+CVE-2022-38750 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+CVE-2019-0201 - MEDIUM -  zookeeper: Information disclosure in Apache ZooKeeper

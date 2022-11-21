@@ -1,0 +1,61 @@
+CVE-2022-3649 - CRITICAL -  kernel: nilfs2: use-after-free in nilfs_new_inode of fs/nilfs2/inode.c
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-1587 - CRITICAL -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2022-29187 - HIGH -  git:  Bypass of safe.directory protections
+CVE-2022-0400 - HIGH -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-3424 - HIGH -  kernel: Use after Free in gru_set_context_option leading to kernel panic
+CVE-2022-3566 - HIGH -  kernel: data races around icsk->icsk_af_ops in do_ipv6_setsockopt
+CVE-2021-3847 - HIGH -  kernel: low-privileged user privileges escalation
+CVE-2022-43945 - HIGH -  kernel: nfsd buffer overflow by RPC message over TCP with garbage data
+CVE-2022-3621 - HIGH -  kernel: nilfs2: null pointer dereference in nilfs_bmap_lookup_at_level() of fs/nilfs2/inode.c
+CVE-2022-2961 - HIGH -  kernel: race condition in rose_bind()
+CVE-2022-3640 - HIGH -  kernel: use after free flaw in l2cap_conn_del in net/bluetooth/l2cap_core.c
+CVE-2019-20454 - HIGH -  pcre: Out of bounds read in JIT mode when \X is used in non-UTF mode
+CVE-2018-19931 - LOW -  binutils: Heap-based buffer overflow in bfd_elf32_swap_phdr_in function resulting in a denial of service
+CVE-2019-9073 - LOW -  binutils: excessive memory allocation in function _bfd_elf_slurp_version_tables in elf.c
+CVE-2021-3549 - LOW -  binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2019-12379 - LOW -  kernel:  memory leak in con_insert_unipair in drivers/tty/vt/consolemap.c
+CVE-2019-19064 - LOW -  kernel: A memory leak in the fsl_lpspi_probe() function in drivers/spi/spi-fsl-lpspi.c allows for a DoS
+CVE-2019-19070 - LOW -  kernel: A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c allows for a DoS
+CVE-2014-9900 - LOW -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2019-12456 - LOW -  kernel: double fetch in the MPT3COMMAND case in _ctl_ioctl_main in drivers/scsi/mpt3sas/mpt3sas_ctl.c
+CVE-2010-4563 - LOW -  kernel: ipv6: sniffer detection
+CVE-2008-2544 - LOW -  kernel: mounting proc readonly on a different mount point silently mounts it rw if the /proc mount is rw
+CVE-2019-12615 - LOW -  kernel: null pointer dereference in get_vdev_port_node_info in arch /sparc/kernel/mdesc.c
+CVE-2019-12455 - LOW -  kernel: null pointer dereference in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c causing denial of service
+CVE-2019-16232 - LOW -  kernel: null-pointer dereference in drivers/net/wireless/marvell/libertas/if_sdio.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2007-3719 - LOW -  kernel: secretly Monopolizing the CPU Without Superuser Privileges
+CVE-2019-12378 - LOW -  kernel: unchecked kmalloc of new_ra in ip6_ra_control leads to denial of service
+CVE-2019-12381 - LOW -  kernel: unchecked kmalloc of new_ra in ip_ra_control leads to denial of service
+CVE-2021-0929 - LOW -  kernel: use-after-free in ion_dma_buf_end_cpu_access and related functions in ion.c
+CVE-2010-5321 - LOW -  kernel: v4l: videobuf: hotfix a bug on multiple calls to mmap()
+CVE-2010-4651 - LOW -  patch: directory traversal flaw allows for arbitrary file creation
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-41849 - MEDIUM -  Kernel: A race between ufx_ops_open() and ufx_usb_disconnect() may result in UAF
+CVE-2022-3169 - MEDIUM -  Kernel: Request to NVME_IOCTL_RESET and NVME_IOCTL_SUBSYS_RESET  may cause a DOS.
+CVE-2022-3523 - MEDIUM -  Kernel: race when faulting a device private page in memory manager
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor
+CVE-2022-3903 - MEDIUM -  kernel: An invalid pipe direction in the mceusb driver cause the kernel to DOS
+CVE-2022-3707 - MEDIUM -  kernel: Double-free in split_2MB_gtt_entry when function intel_gvt_dma_map_guest_page failed
+CVE-2019-16089 - MEDIUM -  kernel: Improper return check in nbd_genl_status function in drivers/block/nbd.c
+CVE-2022-3344 - MEDIUM -  kernel: KVM: SVM: nested shutdown interception could lead to host crash
+CVE-2022-41848 - MEDIUM -  kernel: Race condition between mgslpc_ioctl and mgslpc_detach
+CVE-2022-41850 - MEDIUM -  kernel: Race condition in roccat_report_event in drivers/hid/hid-roccat.c
+CVE-2022-3061 - MEDIUM -  kernel: fbdev: i740fb: divide-by-zero in drivers/video/fbdev/i740fb.c could lead to DoS
+CVE-2022-40768 - MEDIUM -  kernel: leak of sensitive information due to uninitialized data in stex_queuecommand_lck() in drivers/scsi/stex.c
+CVE-2021-3669 - MEDIUM -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2022-1184 - MEDIUM -  kernel: use-after-free and memory errors in ext4 when mounting and operating on a corrupted image
+CVE-2022-38096 - MEDIUM -  kernel: vmxgfx: NULL pointer dereference in vmw_cmd_dx_define_query
+CVE-2022-36280 - MEDIUM -  kernel: vmxgfx: out-of-bounds write in vmw_kms_cursor_snoop
+CVE-2022-38457 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_cmd_res_check
+CVE-2022-40133 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_execbuf_tie_context
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2022-42896 - UNKNOWN -  [Bluetooth: L2CAP: Fix accepting connection request for invalid SPSM]
+CVE-2022-42895 - UNKNOWN -  [Bluetooth: L2CAP: Fix attempting to access uninitialized memory]
+CVE-2022-3628 - UNKNOWN -  null

@@ -1,0 +1,11 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-45061 - HIGH -  Python: CPU denial of service via inefficient IDNA decoder
+CVE-2012-2663 - LOW -  iptables: --syn flag bypass
+CVE-2008-4108 - LOW -  python: Generic FAQ wizard moving tool insecure auxiliary /tmp file usage (symlink attack possible)
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-37600 - LOW -  util-linux: integer overflow can lead to buffer overflow in get_sem_elements() in sys-utils/ipcutils.c
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2019-20795 - MEDIUM -  iproute: use-after-free in get_netnsid_from_name in ip/ipnetns.c
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+DLA-3161-1 - UNKNOWN -  tzdata - new timezone database

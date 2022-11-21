@@ -1,0 +1,9 @@
+CVE-2022-40149 - HIGH -  jettison: parser crash by stackoverflow
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2022-1587 - LOW -  pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42915 - MEDIUM -  curl: HTTP proxy double-free
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-rpr3-cw39-3pxh - UNKNOWN -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization

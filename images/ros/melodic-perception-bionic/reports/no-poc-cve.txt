@@ -1,0 +1,50 @@
+CVE-2022-43945 - HIGH -  kernel: nfsd buffer overflow by RPC message over TCP with garbage data
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-3621 - LOW -  kernel: nilfs2: null pointer dereference in nilfs_bmap_lookup_at_level() of fs/nilfs2/inode.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2021-3669 - LOW -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2021-4048 - LOW -  lapack: Out-of-bounds read in *larrv
+CVE-2018-7441 - LOW -  leptonica: hardcoded /tmp paths
+CVE-2019-20446 - LOW -  librsvg: Resource exhaustion via crafted SVG file with nested patterns
+CVE-2022-2868 - LOW -  libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits()
+CVE-2022-2869 - LOW -  libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits()
+CVE-2022-2867 - LOW -  libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c
+CVE-2017-13165 - LOW -  null
+CVE-2019-20425 - LOW -  null
+CVE-2019-20429 - LOW -  null
+CVE-2019-19624 - LOW -  opencv: out-of-bounds read in DIS optflow algorithm when dealing with small images
+CVE-2022-24303 - LOW -  python-pillow: temporary directory with a space character allows removal of unrelated file after im.show() and related actions
+CVE-2022-39348 - LOW -  python-twisted: NameVirtualHost Host header injection
+CVE-2015-9541 - LOW -  qt: XML entity expansion vulnerability
+CVE-2021-44269 - LOW -  wavpack: Heap out-of-bounds read in WavpackPackSamples()
+CVE-2012-0880 - LOW -  xml: xerces-c hash table collisions CPU usage DoS (oCERT-2011-003)
+CVE-2017-5950 - LOW -  yaml-cpp: Stack overflow in HandleNode()
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42012 - MEDIUM -  dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with "foreign" endianness correctly
+CVE-2022-42011 - MEDIUM -  dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type
+CVE-2022-42010 - MEDIUM -  dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets
+CVE-2019-8397 - MEDIUM -  hdf5: Out-of-Bounds Read in function H5T_close_real in H5T.c
+CVE-2019-9152 - MEDIUM -  hdf5: out of bounds read in function H5MM_xstrdup in H5MM.c
+CVE-2022-0400 - MEDIUM -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-3566 - MEDIUM -  kernel: data races around icsk->icsk_af_ops in do_ipv6_setsockopt
+CVE-2022-2991 - MEDIUM -  kernel: heap-based overflow in LightNVM Subsystem may lead to privilege escalation
+CVE-2022-0382 - MEDIUM -  kernel: information leak due to uninitialized memory in __tipc_sendmsg() in net/tipc/socket.c
+CVE-2022-40768 - MEDIUM -  kernel: leak of sensitive information due to uninitialized data in stex_queuecommand_lck() in drivers/scsi/stex.c
+CVE-2022-3649 - MEDIUM -  kernel: nilfs2: use-after-free in nilfs_new_inode of fs/nilfs2/inode.c
+CVE-2022-1508 - MEDIUM -  kernel: out-of-bounds read in iov_iter_revert() in lib/iov_iter.c
+CVE-2022-0168 - MEDIUM -  kernel: smb2_ioctl_query_info NULL pointer dereference
+CVE-2021-4218 - MEDIUM -  kernel: sysctl parameter read causes kernel panic ( rpcrdma module )
+CVE-2022-3640 - MEDIUM -  kernel: use after free flaw in l2cap_conn_del in net/bluetooth/l2cap_core.c
+CVE-2018-7247 - MEDIUM -  leptonica: Unsanitized input in pixHtmlViewer in prog/htmlviewer.c
+CVE-2018-7442 - MEDIUM -  leptonica: directory traversal in gplot rootname argument
+CVE-2020-36278 - MEDIUM -  leptonica: heap-based buffer overflow in findNextBorderPixel in ccbord.c
+CVE-2020-36279 - MEDIUM -  leptonica: heap-based buffer overflow in rasteropGeneralLow
+CVE-2022-42800 - MEDIUM -  null
+CVE-2019-14493 - MEDIUM -  opencv: NULL pointer dereference in function cv::XMLParser::parse() in persistence_xml.cpp leading to DoS
+CVE-2019-9423 - MEDIUM -  opencv: Out of bounds write due to missing bounds check
+CVE-2019-16249 - MEDIUM -  opencv: Out-of-bounds read in hal_baseline::v_load in core/hal/intrin_sse.hpp
+CVE-2019-15939 - MEDIUM -  opencv: division by zero in cv::HOGDescriptor::getDescriptorSize in modules/objdetect/src/hog.cpp
+CVE-2019-14491 - MEDIUM -  opencv: out-of-bounds read in function cv::predictOrdered<cv::HaarEvaluator> in modules/objdetect/src/cascadedetect.hpp leads to dos
+CVE-2020-35678 - MEDIUM -  python-autobahn: allows redirect header injection
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

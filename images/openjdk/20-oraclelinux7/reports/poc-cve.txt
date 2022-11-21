@@ -1,0 +1,4 @@
+CVE-2022-37434 - HIGH -  zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field
+CVE-2021-23841 - MEDIUM -  openssl: NULL pointer dereference in X509_issuer_and_serial_hash()
+CVE-2021-3712 - MEDIUM -  openssl: Read buffer overruns processing ASN.1 strings
+CVE-2021-23840 - MEDIUM -  openssl: integer overflow in CipherUpdate

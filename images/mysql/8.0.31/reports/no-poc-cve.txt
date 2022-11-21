@@ -1,0 +1,2 @@
+CVE-2022-29526 - MEDIUM -  golang: syscall: faccessat checks wrong group
+GHSA-v95c-p5hm-xq8f - UNKNOWN -  null

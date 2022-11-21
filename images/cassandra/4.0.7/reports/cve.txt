@@ -1,0 +1,33 @@
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2022-29162 - HIGH -  runc: incorrect handling of inheritable capabilities
+CVE-2022-25857 - HIGH -  snakeyaml: Denial of Service due to missing nested depth limitation for collections
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2021-28861 - LOW -  python: open redirection vulnerability in lib/http/server.py may lead to information disclosure
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2022-29526 - MEDIUM -  golang: syscall: faccessat checks wrong group
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-24769 - MEDIUM -  moby: Default inheritable capabilities for linux container should be empty
+CVE-2021-21290 - MEDIUM -  netty: Information disclosure via the local system temporary directory
+CVE-2021-21409 - MEDIUM -  netty: Request smuggling via content-length header
+CVE-2022-24823 - MEDIUM -  netty: world readable temporary file containing sensitive data
+CVE-2022-42800 - MEDIUM -  null
+CVE-2021-43784 - MEDIUM -  runc: integer overflow in netlink bytemsg length field allows attacker to override netlink-based container configuration
+CVE-2022-38752 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+CVE-2022-38751 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+CVE-2022-38749 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+CVE-2022-38750 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+GHSA-v95c-p5hm-xq8f - UNKNOWN -  null

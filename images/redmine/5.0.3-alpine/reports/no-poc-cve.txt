@@ -1,0 +1,7 @@
+CVE-2022-42915 - CRITICAL -  curl: HTTP proxy double-free
+CVE-2022-40304 - HIGH -  libxml2: dict corruption caused by entity reference cycles
+CVE-2022-40303 - HIGH -  libxml2: integer overflows with XML_PARSE_HUGE
+CVE-2022-3704 - LOW -  rubygem-rails: XSS within Route Error Page
+GHSA-4qw4-jpp4-8gvp - MEDIUM -  Unbounded resource exhaustion in cmark-gfm autolink extension may lead to denial of service
+GHSA-2qc6-mcvw-92cw - MEDIUM -  Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor

@@ -1,0 +1,39 @@
+CVE-2022-42898 - HIGH -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-38533 - LOW -  binutils: heap-based buffer overflow in bfd_getl32() when called by strip_main() in objcopy.c via a crafted file
+CVE-2022-27943 - LOW -  binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+CVE-2021-22925 - LOW -  curl: Incorrect fix for CVE-2021-22898 TELNET stack contents disclosure
+CVE-2022-35252 - LOW -  curl: control code in cookie denial of service
+CVE-2021-43618 - LOW -  gmp: Integer overflow and resultant buffer overflow via crafted input
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2021-3826 - LOW -  libiberty: Heap/stack buffer overflow in the dlang_lname function in d-demangle.c
+CVE-2022-3857 - LOW -  libpng: Null pointer dereference leads to segmentation fault
+CVE-2018-14048 - LOW -  libpng: Segmentation fault in png.c:png_free_data function causing denial of service
+CVE-2021-44568 - LOW -  libsolv: heap-overflows in resolve_dependencies function
+CVE-2022-28805 - LOW -  lua: heap buffer overread
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2022-3358 - LOW -  openssl: Using a Custom Cipher with NID_undef may lead to NULL encryption
+CVE-2021-3997 - LOW -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2020-17049 - MEDIUM -  Kerberos: delegation constrain bypass in S4U2Proxy
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2021-20197 - MEDIUM -  binutils: Race window allows users to own arbitrary files
+CVE-2021-45078 - MEDIUM -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-42012 - MEDIUM -  dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with "foreign" endianness correctly
+CVE-2022-42011 - MEDIUM -  dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type
+CVE-2022-42010 - MEDIUM -  dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets
+CVE-2022-33068 - MEDIUM -  harfbuzz: integer overflow in the component hb-ot-shape-fallback.cc
+CVE-2021-46848 - MEDIUM -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-40304 - MEDIUM -  libxml2: dict corruption caused by entity reference cycles
+CVE-2022-40303 - MEDIUM -  libxml2: integer overflows with XML_PARSE_HUGE
+CVE-2021-43519 - MEDIUM -  lua: stack overflow in lua_resume of ldo.c allows a DoS via a crafted script file
+CVE-2021-44964 - MEDIUM -  lua: use after free allows Sandbox Escape
+CVE-2021-27212 - MEDIUM -  openldap: Assertion failure in slapd in the issuerAndThisUpdateCheck function
+CVE-2021-23840 - MEDIUM -  openssl: integer overflow in CipherUpdate
+CVE-2021-35937 - MEDIUM -  rpm: TOCTOU race in checks for unsafe symlinks
+CVE-2021-35939 - MEDIUM -  rpm: checks for unsafe symlinks are not performed for intermediary directories
+CVE-2021-35938 - MEDIUM -  rpm: races with chown/chmod/capabilities calls during installation
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2021-3997 - MEDIUM -  systemd: Uncontrolled recursion in systemd-tmpfiles when removing files
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2005-2541 - MEDIUM -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect

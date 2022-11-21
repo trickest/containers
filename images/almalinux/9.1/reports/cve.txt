@@ -1,0 +1,1 @@
+CVE-2022-42919 - HIGH -  python: local privilege escalation via the multiprocessing forkserver start method

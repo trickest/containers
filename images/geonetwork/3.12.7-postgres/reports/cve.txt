@@ -1,0 +1,133 @@
+CVE-2022-45378 - CRITICAL -  Apache SOAP contains unauthenticated RPCRouterServlet
+CVE-2020-8441 - CRITICAL -  Deserialization of Untrusted Data in JYaml
+CVE-2022-41852 - CRITICAL -  JXPath: untrusted XPath expressions may lead to RCE attack
+CVE-2014-3527 - CRITICAL -  Spring Security CAS: Access control bypass via untrusted infomation usage in proxy ticket authentication
+CVE-2020-15232 - CRITICAL -  XXE attack in Mapfish Print
+CVE-2022-42889 - CRITICAL -  apache-commons-text: variable interpolation RCE
+CVE-2015-3253 - CRITICAL -  groovy: remote execution of untrusted code in class MethodClosure
+CVE-2022-23221 - CRITICAL -  h2: Loading of custom classes from remote servers through JNDI
+CVE-2021-42392 - CRITICAL -  h2: Remote Code Execution in Console
+CVE-2021-23463 - CRITICAL -  h2database: XXE injection vulnerability
+CVE-2022-41853 - CRITICAL -  hsqldb: Untrusted input may lead to RCE attack
+CVE-2022-21724 - CRITICAL -  jdbc-postgresql: Unchecked Class Instantiation when providing Plugin Classes
+CVE-2017-7657 - CRITICAL -  jetty: HTTP request smuggling
+CVE-2019-17638 - CRITICAL -  jetty: double release of resource can lead to information disclosure
+CVE-2022-23305 - CRITICAL -  log4j: SQL injection in Log4j 1.x when application is configured to use JDBCAppender
+CVE-2019-17571 - CRITICAL -  log4j: deserialization of untrusted data in SocketServer
+CVE-2021-23369 - CRITICAL -  nodejs-handlebars: Remote code execution when compiling untrusted compile templates with strict:true option
+CVE-2022-26520 - CRITICAL -  postgresql-jdbc: Arbitrary File Write Vulnerability
+CVE-2018-1273 - CRITICAL -  spring-data-commons: Improper neutralization of special elements allow remote attackers to execute code via crafted requests
+CVE-2018-1275 - CRITICAL -  spring-framework: Address partial fix for CVE-2018-1270
+CVE-2018-1270 - CRITICAL -  spring-framework: Possible RCE via spring messaging
+CVE-2022-22965 - CRITICAL -  spring-framework: RCE via Data Binding on JDK 9+
+CVE-2022-22978 - CRITICAL -  springframework: Authorization Bypass in RegexRequestMatcher
+CVE-2022-40705 - HIGH -  Apache SOAP's RPCRouterServlet allows reading of arbitrary files over HTTP
+CVE-2014-0114 - HIGH -  Apache Struts 1: Class Loader manipulation via request parameters
+CVE-2018-1294 - HIGH -  Improper Input Validation Apache Commons Email
+CVE-2017-9801 - HIGH -  Improper Input Validation in Apache Commons Email
+CVE-2022-34169 - HIGH -  OpenJDK: integer truncation issue in Xalan-J (JAXP, 8285407)
+CVE-2022-29546 - HIGH -  OutOfMemory Exception by specifically crafted processing instruction in NekoHtml Parser
+CVE-2016-9878 - HIGH -  Spring Framework: Directory Traversal in the Spring Framework ResourceServlet
+CVE-2014-0097 - HIGH -  Spring Framework: empty passwords may bypass authentication
+CVE-2016-9879 - HIGH -  Spring Security: Improper handling of path parameters allows bypassing the security constraint
+CVE-2014-0107 - HIGH -  Xalan-Java: insufficient constraints in secure processing feature
+CVE-2013-4002 - HIGH -  Xerces-J2 OpenJDK: XML parsing Denial of Service (JAXP, 8017298)
+CVE-2019-10086 - HIGH -  apache-commons-beanutils: does not suppresses the class property in PropertyUtilsBean by default
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2018-8039 - HIGH -  apache-cxf: TLS hostname verification does not work correctly with com.sun.net.ssl.*
+CVE-2020-11987 - HIGH -  batik: SSRF due to improper input validation by the NodePickerPanel
+CVE-2017-5643 - HIGH -  camel-core: Validation component vulnerable to SSRF via remote DTDs and XXE
+CVE-2019-0188 - HIGH -  camel-xmljson: XML external entity injection vulnerability inoutdated JSON-lib library
+CVE-2019-0194 - HIGH -  camel: Directory traversal in file producer
+CVE-2022-25647 - HIGH -  com.google.code.gson-gson: Deserialization of Untrusted Data in com.google.code.gson-gson
+CVE-2017-5656 - HIGH -  cxf: CXF's STSClient uses a flawed way of caching tokens that are associated with delegation tokens
+CVE-2021-22696 - HIGH -  cxf: OAuth 2 authorization service vulnerable to DDos attacks
+CVE-2019-12423 - HIGH -  cxf: OpenId Connect token service does not properly validate the clientId
+CVE-2020-25638 - HIGH -  hibernate-core: SQL injection vulnerability when both hibernate.use_sql_comments and JPQL String literals are used
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2019-10172 - HIGH -  jackson-mapper-asl: XML external entity similar to CVE-2016-3720
+CVE-2021-33813 - HIGH -  jdom: XXE allows attackers to cause a DoS via a crafted HTTP request
+CVE-2021-22112 - HIGH -  jenkins: Privilege escalation vulnerability in bundled Spring Security library
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2017-9735 - HIGH -  jetty: Timing channel attack in util/security/Password.java
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2018-10899 - HIGH -  jolokia: system-wide CSRF that could lead to Remote Code Execution
+CVE-2022-23302 - HIGH -  log4j: Remote code execution in Log4j 1.x when application is configured to use JMSSink
+CVE-2022-23307 - HIGH -  log4j: Unsafe deserialization flaw in Chainsaw log viewer
+CVE-2022-31197 - HIGH -  postgresql: SQL Injection in ResultSet.refreshRow() with malicious column names
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2022-25857 - HIGH -  snakeyaml: Denial of Service due to missing nested depth limitation for collections
+CVE-2018-1272 - HIGH -  spring-framework: Multipart content pollution
+CVE-2016-5007 - HIGH -  spring: Path matching inconsistency
+CVE-2018-15756 - HIGH -  springframework: DoS Attack via Range Requests
+CVE-2018-11040 - HIGH -  springframework: cross-domain requests via JSONP through AbstractJsonpResponseBodyAdvice
+CVE-2012-0881 - HIGH -  xml: xerces-j2 hash table collisions CPU usage DoS (oCERT-2011-003)
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2020-8908 - LOW -  guava: local information disclosure via temporary directory created with unsafe permissions
+CVE-2022-2047 - LOW -  jetty-http: improver hostname input handling
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2022-2256 - LOW -  keycloak: improper input validation permits script injection
+CVE-2020-9488 - LOW -  log4j: improper validation of certificate with host mismatch in SMTP appender
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2013-2035 - MEDIUM -  HawtJNI: predictable temporary file name leading to local arbitrary code execution
+CVE-2016-2402 - MEDIUM -  Improper Certificate Validation in OkHttp
+CVE-2016-6652 - MEDIUM -  Improper Neutralization of Special Elements used in an SQL Command  Pivotal Spring Data JPA
+CVE-2022-31159 - MEDIUM -  Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 
+CVE-2022-22968 - MEDIUM -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2020-15231 - MEDIUM -  XSS in Mapfish Print relating to JSONP support
+CVE-2020-13920 - MEDIUM -  activemq: improper authentication allows MITM attack
+CVE-2018-11771 - MEDIUM -  apache-commons-compress: ZipArchiveInputStream.read() fails to identify correct EOF allowing for DoS via crafted zip
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2020-15522 - MEDIUM -  bouncycastle: Timing issue within the EC math library
+CVE-2017-5653 - MEDIUM -  cxf: CXF JAX-RS XML Security streaming clients do not validate that the service response was signed or encrypted
+CVE-2017-12624 - MEDIUM -  cxf: Improper size validation in message attachment header for JAX-WS and JAX-RS services
+CVE-2020-1954 - MEDIUM -  cxf: JMX integration is vulnerable to a MITM attack
+CVE-2020-13954 - MEDIUM -  cxf: XSS via the styleSheetPath
+CVE-2019-12406 - MEDIUM -  cxf: does not restrict the number of message attachments
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2020-17521 - MEDIUM -  groovy: OS temporary directory leads to information disclosure
+CVE-2012-5783 - MEDIUM -  jakarta-commons-httpclient: missing connection hostname check against X.509 certificate name
+CVE-2020-27218 - MEDIUM -  jetty: buffer not correctly recycled in Gzip Request inflation
+CVE-2019-10247 - MEDIUM -  jetty: error path information disclosure
+CVE-2020-27223 - MEDIUM -  jetty: request containing multiple Accept headers with a large number of "quality" parameters may lead to DoS
+CVE-2021-28169 - MEDIUM -  jetty: requests to the ConcatServlet and WelcomeFilter are able to access protected resources within the WEB-INF directory
+CVE-2022-36033 - MEDIUM -  jsoup: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled
+CVE-2021-3754 - MEDIUM -  keycloak: allows using email as username
+CVE-2022-42800 - MEDIUM -  null
+CVE-2021-27906 - MEDIUM -  pdfbox: OutOfMemory-Exception while loading a crafted PDF file
+CVE-2021-31811 - MEDIUM -  pdfbox: OutOfMemory-Exception while loading a crafted PDF file
+CVE-2021-27807 - MEDIUM -  pdfbox: infinite loop while loading a crafted PDF file
+CVE-2021-31812 - MEDIUM -  pdfbox: infinite loop while loading a crafted PDF file
+GHSA-673j-qm5f-xpv8 - MEDIUM -  pgjdbc Arbitrary File Write Vulnerability
+CVE-2022-38752 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+CVE-2022-38751 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+CVE-2022-38749 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+CVE-2022-38750 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+CVE-2022-22950 - MEDIUM -  spring-expression: Denial of service via specially crafted SpEL expression
+CVE-2018-1271 - MEDIUM -  spring-framework: Directory traversal vulnerability with static resources on Windows filesystems
+CVE-2018-1199 - MEDIUM -  spring-framework: Improper URL path validation allows for bypassing of security checks on static resources
+CVE-2018-1257 - MEDIUM -  spring-framework: ReDoS Attack with spring-messaging
+CVE-2022-22976 - MEDIUM -  springframework: BCrypt skips salt rounds for work factor of 31
+CVE-2018-11039 - MEDIUM -  springframework: Cross Site Tracing (XST) if vulnerable to XSS
+CVE-2022-22970 - MEDIUM -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+CVE-2020-5421 - MEDIUM -  springframework: RFD protection bypass via jsessionid
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+CVE-2020-14338 - MEDIUM -  wildfly: XML validation manipulation due to incomplete application of use-grammar-pool-only in xercesImpl
+CVE-2022-23437 - MEDIUM -  xerces-j2: infinite loop when handling specially crafted XML document payloads
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization
+GHSA-36p3-wjmg-h94x - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GHSA-h376-j262-vhq6 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')

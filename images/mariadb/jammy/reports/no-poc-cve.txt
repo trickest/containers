@@ -1,0 +1,7 @@
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-29526 - MEDIUM -  golang: syscall: faccessat checks wrong group
+CVE-2021-45940 - MEDIUM -  libbpf: heap-based buffer overflow (4 bytes) in __bpf_object__open
+CVE-2021-45941 - MEDIUM -  libbpf: heap-based buffer overflow (8 bytes) in __bpf_object__open
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-v95c-p5hm-xq8f - UNKNOWN -  null

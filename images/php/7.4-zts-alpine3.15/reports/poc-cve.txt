@@ -1,0 +1,2 @@
+CVE-2022-42916 - HIGH -  curl: HSTS bypass via IDN
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion

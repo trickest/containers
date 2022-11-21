@@ -1,0 +1,2 @@
+CVE-2022-3602 - HIGH -  OpenSSL: X.509 Email Address Buffer Overflow
+CVE-2022-3786 - HIGH -  OpenSSL: X.509 Email Address Variable Length Buffer Overflow

@@ -1,0 +1,13 @@
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2009-5155 - LOW -  glibc: parse_reg_exp in posix/regcomp.c misparses alternatives leading to denial of service or trigger incorrect result
+CVE-2015-8985 - LOW -  glibc: potential denial of service in pop_fail_stack()
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2018-16868 - LOW -  gnutls: Bleichenbacher-like side channel leakage in PKCS#1 v1.5 verification and padding oracle verification
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2019-17594 - LOW -  ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c
+CVE-2019-17595 - LOW -  ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2020-13844 - MEDIUM -  kernel: ARM straight-line speculation vulnerability

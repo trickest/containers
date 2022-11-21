@@ -1,0 +1,12 @@
+CVE-2022-42898 - HIGH -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3857 - LOW -  libpng: Null pointer dereference leads to segmentation fault
+CVE-2021-44568 - LOW -  libsolv: heap-overflows in resolve_dependencies function
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42012 - MEDIUM -  dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with "foreign" endianness correctly
+CVE-2022-42011 - MEDIUM -  dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type
+CVE-2022-42010 - MEDIUM -  dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets
+CVE-2022-33068 - MEDIUM -  harfbuzz: integer overflow in the component hb-ot-shape-fallback.cc
+CVE-2021-46848 - MEDIUM -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-40304 - MEDIUM -  libxml2: dict corruption caused by entity reference cycles
+CVE-2022-40303 - MEDIUM -  libxml2: integer overflows with XML_PARSE_HUGE
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

@@ -1,0 +1,56 @@
+CVE-2022-26280 - CRITICAL -  libarchive: an out-of-bounds read via the component zipx_lzma_alone_init
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2019-8457 - CRITICAL -  sqlite: heap out-of-bound read in function rtreenode()
+CVE-2022-42916 - HIGH -  curl: HSTS bypass via IDN
+CVE-2022-1304 - HIGH -  e2fsprogs: out-of-bounds read/write via crafted filesystem
+CVE-2021-33560 - HIGH -  libgcrypt: mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm
+CVE-2022-29458 - HIGH -  ncurses: segfaulting OOB read
+CVE-2020-16156 - HIGH -  perl-CPAN: Bypass of verification of signatures in CHECKSUMS files
+CVE-2007-6755 - LOW -  Dual_EC_DRBG: weak pseudo random number generator
+CVE-2011-3389 - LOW -  HTTPS: block-wise chosen-plaintext attack against SSL/TLS (BEAST)
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2017-18018 - LOW -  coreutils: race condition vulnerability in chown and chgrp
+CVE-2021-22922 - LOW -  curl: Content not matching hash in Metalink is not being discarded
+CVE-2021-22923 - LOW -  curl: Metalink download sends credentials
+CVE-2019-1010024 - LOW -  glibc: ASLR bypass using cache of thread stack and heap
+CVE-2010-4756 - LOW -  glibc: glob implementation can cause excessive CPU and memory consumption due to crafted glob expressions
+CVE-2019-1010025 - LOW -  glibc: information disclosure of heap addresses of pthread_created thread
+CVE-2019-1010023 - LOW -  glibc: running ldd on malicious ELF leads to code execution because of wrong size computation
+CVE-2019-1010022 - LOW -  glibc: stack guard protection bypass
+CVE-2018-20796 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2019-9192 - LOW -  glibc: uncontrolled recursion in function check_dst_limits_calc_pos_1 in posix/regexec.c
+CVE-2018-5709 - LOW -  krb5: integer overflow in dbentry->n_key_data in kadmin/dbutil/dump.c
+CVE-2018-6829 - LOW -  libgcrypt: ElGamal implementation doesn't have semantic security due to incorrectly encoded plaintexts possibly allowing to obtain sensitive information
+CVE-2021-36087 - LOW -  libsepol: heap-based buffer overflow in ebitmap_match_any()
+CVE-2021-36084 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36085 - LOW -  libsepol: use-after-free in __cil_verify_classperms()
+CVE-2021-36086 - LOW -  libsepol: use-after-free in cil_reset_classpermission()
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2020-15719 - LOW -  openldap: Certificate validation incorrectly matches name against CN-ID
+CVE-2017-14159 - LOW -  openldap: Privilege escalation via PID file manipulation
+CVE-2017-17740 - LOW -  openldap: contrib/slapd-modules/nops/nops.c attempts to free stack buffer allowing remote attackers to cause a denial of service
+CVE-2015-3276 - LOW -  openldap: incorrect multi-keyword mode cipherstring parsing
+CVE-2010-0928 - LOW -  openssl: RSA authentication weakness
+CVE-2019-20838 - LOW -  pcre: Buffer over-read in JIT when UTF is disabled and \X or \R has fixed quantifier greater than 1
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2017-16231 - LOW -  pcre: self-recursive call in match() in pcre_exec.c leads to denial of service
+CVE-2017-7245 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2017-7246 - LOW -  pcre: stack-based buffer overflow write in pcre32_copy_substring
+CVE-2011-4116 - LOW -  perl: File::Temp insecure temporary file handling
+CVE-2004-0971 - LOW -  security flaw
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2019-19882 - LOW -  shadow-utils: local users can obtain root access because setuid programs are misconfigured
+CVE-2022-35737 - LOW -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2020-13529 - LOW -  systemd: DHCP FORCERENEW authentication not implemented can cause a system running the DHCP client to have its network reconfigured
+CVE-2013-4392 - LOW -  systemd: TOCTOU race condition when updating file permissions and SELinux security contexts
+CVE-2005-2541 - LOW -  tar: does not properly warn the user when extracting setuid or setgid files
+CVE-2022-0563 - LOW -  util-linux: partial disclosure of arbitrary files in chfn and chsh when compiled with libreadline
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2021-36976 - MEDIUM -  libarchive: use-after-free in copy_string()
+CVE-2016-3709 - MEDIUM -  libxml2: Incorrect server side include parsing can lead to XSS
+CVE-2022-2097 - MEDIUM -  openssl: AES OCB fails to encrypt some bytes
+CVE-2021-45346 - MEDIUM -  sqlite: crafted SQL query allows a malicious user to obtain sensitive information
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

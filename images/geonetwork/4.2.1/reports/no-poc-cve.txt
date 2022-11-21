@@ -1,0 +1,16 @@
+CVE-2022-45378 - CRITICAL -  Apache SOAP contains unauthenticated RPCRouterServlet
+CVE-2020-8441 - CRITICAL -  Deserialization of Untrusted Data in JYaml
+CVE-2022-41853 - CRITICAL -  hsqldb: Untrusted input may lead to RCE attack
+CVE-2022-40705 - HIGH -  Apache SOAP's RPCRouterServlet allows reading of arbitrary files over HTTP
+CVE-2017-5656 - HIGH -  cxf: CXF's STSClient uses a flawed way of caching tokens that are associated with delegation tokens
+CVE-2021-33813 - HIGH -  jdom: XXE allows attackers to cause a DoS via a crafted HTTP request
+CVE-2018-10899 - HIGH -  jolokia: system-wide CSRF that could lead to Remote Code Execution
+CVE-2022-2256 - LOW -  keycloak: improper input validation permits script injection
+CVE-2022-31159 - MEDIUM -  Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2017-5653 - MEDIUM -  cxf: CXF JAX-RS XML Security streaming clients do not validate that the service response was signed or encrypted
+CVE-2021-3754 - MEDIUM -  keycloak: allows using email as username
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization
+GHSA-rpr3-cw39-3pxh - UNKNOWN -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization

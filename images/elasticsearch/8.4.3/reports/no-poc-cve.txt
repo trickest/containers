@@ -1,0 +1,6 @@
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2022-31159 - MEDIUM -  Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization

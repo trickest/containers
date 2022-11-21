@@ -1,0 +1,144 @@
+CVE-2022-45378 - CRITICAL -  Apache SOAP contains unauthenticated RPCRouterServlet
+CVE-2020-8441 - CRITICAL -  Deserialization of Untrusted Data in JYaml
+CVE-2022-41852 - CRITICAL -  JXPath: untrusted XPath expressions may lead to RCE attack
+CVE-2022-31692 - CRITICAL -  Spring Security authorization rules can be bypassed via forward or include dispatcher types
+CVE-2020-15232 - CRITICAL -  XXE attack in Mapfish Print
+CVE-2022-42889 - CRITICAL -  apache-commons-text: variable interpolation RCE
+CVE-2022-41853 - CRITICAL -  hsqldb: Untrusted input may lead to RCE attack
+CVE-2020-8840 - CRITICAL -  jackson-databind: Lacks certain xbean-reflect/JNDI blocking
+CVE-2020-9548 - CRITICAL -  jackson-databind: Serialization gadgets in anteros-core
+CVE-2019-14892 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the commons-configuration package
+CVE-2019-17267 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the ehcache package
+CVE-2019-14893 - CRITICAL -  jackson-databind: Serialization gadgets in classes of the xalan package
+CVE-2019-16943 - CRITICAL -  jackson-databind: Serialization gadgets in com.p6spy.engine.spy.P6DataSource
+CVE-2019-14540 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariConfig
+CVE-2019-16335 - CRITICAL -  jackson-databind: Serialization gadgets in com.zaxxer.hikari.HikariDataSource
+CVE-2020-9547 - CRITICAL -  jackson-databind: Serialization gadgets in ibatis-sqlmap
+CVE-2019-16942 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.commons.dbcp.datasources.*
+CVE-2019-17531 - CRITICAL -  jackson-databind: Serialization gadgets in org.apache.log4j.receivers.db.*
+CVE-2020-9546 - CRITICAL -  jackson-databind: Serialization gadgets in shaded-hikari-config
+CVE-2018-14719 - CRITICAL -  jackson-databind: arbitrary code execution in blaze-ds-opt and blaze-ds-core classes
+CVE-2018-14718 - CRITICAL -  jackson-databind: arbitrary code execution in slf4j-ext class
+CVE-2019-14379 - CRITICAL -  jackson-databind: default typing mishandling leading to remote code execution
+CVE-2018-14720 - CRITICAL -  jackson-databind: exfiltration/XXE in some JDK classes
+CVE-2018-19360 - CRITICAL -  jackson-databind: improper polymorphic deserialization in axis2-transport-jms class
+CVE-2018-19362 - CRITICAL -  jackson-databind: improper polymorphic deserialization in jboss-common-core class
+CVE-2018-19361 - CRITICAL -  jackson-databind: improper polymorphic deserialization in openjpa class
+CVE-2019-20330 - CRITICAL -  jackson-databind: lacks certain net.sf.ehcache blocking
+CVE-2018-14721 - CRITICAL -  jackson-databind: server-side request forgery (SSRF) in axis2-jaxws class
+CVE-2021-23369 - CRITICAL -  nodejs-handlebars: Remote code execution when compiling untrusted compile templates with strict:true option
+CVE-2022-40705 - HIGH -  Apache SOAP's RPCRouterServlet allows reading of arbitrary files over HTTP
+CVE-2014-0114 - HIGH -  Apache Struts 1: Class Loader manipulation via request parameters
+CVE-2022-34169 - HIGH -  OpenJDK: integer truncation issue in Xalan-J (JAXP, 8285407)
+CVE-2022-27772 - HIGH -  Temporary Directory Hijacking to Local Privilege Escalation Vulnerability in org.springframework.boot:spring-boot
+CVE-2014-0107 - HIGH -  Xalan-Java: insufficient constraints in secure processing feature
+CVE-2019-10086 - HIGH -  apache-commons-beanutils: does not suppresses the class property in PropertyUtilsBean by default
+CVE-2021-35516 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted 7Z archive
+CVE-2021-35517 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted TAR archive
+CVE-2021-36090 - HIGH -  apache-commons-compress: excessive memory allocation when reading a specially crafted ZIP archive
+CVE-2021-35515 - HIGH -  apache-commons-compress: infinite loop when reading a specially crafted 7Z archive
+CVE-2018-8039 - HIGH -  apache-cxf: TLS hostname verification does not work correctly with com.sun.net.ssl.*
+CVE-2017-5656 - HIGH -  cxf: CXF's STSClient uses a flawed way of caching tokens that are associated with delegation tokens
+CVE-2021-22696 - HIGH -  cxf: OAuth 2 authorization service vulnerable to DDos attacks
+CVE-2019-12423 - HIGH -  cxf: OpenId Connect token service does not properly validate the clientId
+CVE-2020-10650 - HIGH -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+CVE-2020-25649 - HIGH -  jackson-databind: FasterXML DOMDeserializer insecure entity expansion is vulnerable to XML external entity (XXE)
+CVE-2019-14439 - HIGH -  jackson-databind: Polymorphic typing issue related to logback/JNDI
+CVE-2020-24750 - HIGH -  jackson-databind: Serialization gadgets in com.pastdev.httpcomponents.configuration.JndiConfiguration
+CVE-2020-11620 - HIGH -  jackson-databind: Serialization gadgets in commons-jelly:commons-jelly
+CVE-2020-10969 - HIGH -  jackson-databind: Serialization gadgets in javax.swing.JEditorPane
+CVE-2020-10968 - HIGH -  jackson-databind: Serialization gadgets in org.aoju.bus.proxy.provider.*.RmiProvider
+CVE-2020-11111 - HIGH -  jackson-databind: Serialization gadgets in org.apache.activemq.jms.pool.XaPooledConnectionFactory
+CVE-2020-11112 - HIGH -  jackson-databind: Serialization gadgets in org.apache.commons.proxy.provider.remoting.RmiProvider
+CVE-2020-11113 - HIGH -  jackson-databind: Serialization gadgets in org.apache.openjpa.ee.WASRegistryManagedRuntime
+CVE-2020-11619 - HIGH -  jackson-databind: Serialization gadgets in org.springframework:spring-aop
+CVE-2022-42003 - HIGH -  jackson-databind: deep wrapper array nesting wrt UNWRAP_SINGLE_VALUE_ARRAYS
+CVE-2020-36518 - HIGH -  jackson-databind: denial of service via a large depth of nested objects
+CVE-2020-10672 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution
+CVE-2020-10673 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing which could result in remote command execution
+CVE-2020-24616 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to br.com.anteros.dbcp.AnterosDBCPDataSource
+CVE-2020-36189 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.DriverManagerConnectionSource
+CVE-2020-36188 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource
+CVE-2020-35728 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to com.oracle.wls.shaded.org.apache.xalan.lib.sql.JNDIConnectionPool
+CVE-2021-20190 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to javax.swing
+CVE-2020-36179 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to oadd.org.apache.commons.dbcp.cpdsadapter.DriverAdapterCPDS
+CVE-2020-36180 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.cpdsadapter.DriverAdapterCPDS
+CVE-2020-35490 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource
+CVE-2020-35491 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.SharedPoolDataSource
+CVE-2020-36181 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.cpdsadapter.DriverAdapterCPDS
+CVE-2020-36186 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.PerUserPoolDataSource
+CVE-2020-36187 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp.datasources.SharedPoolDataSource
+CVE-2020-36182 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS
+CVE-2020-36184 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource
+CVE-2020-36185 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource
+CVE-2020-36183 - HIGH -  jackson-databind: mishandles the interaction between serialization gadgets and typing, related to org.docx4j.org.apache.xalan.lib.sql.JNDIConnectionPool
+CVE-2019-12086 - HIGH -  jackson-databind: polymorphic typing issue allows attacker to read arbitrary local files on the server.
+CVE-2020-14062 - HIGH -  jackson-databind: serialization in com.sun.org.apache.xalan.internal.lib.sql.JNDIConnectionPool
+CVE-2020-14060 - HIGH -  jackson-databind: serialization in oadd.org.apache.xalan.lib.sql.JNDIConnectionPool
+CVE-2020-14195 - HIGH -  jackson-databind: serialization in org.jsecurity.realm.jndi.JndiRealmFactory
+CVE-2020-14061 - HIGH -  jackson-databind: serialization in weblogic/oracle-aqjms
+CVE-2022-42004 - HIGH -  jackson-databind: use of deeply nested arrays
+CVE-2019-10172 - HIGH -  jackson-mapper-asl: XML external entity similar to CVE-2016-3720
+CVE-2021-33813 - HIGH -  jdom: XXE allows attackers to cause a DoS via a crafted HTTP request
+CVE-2021-28165 - HIGH -  jetty: Resource exhaustion when receiving an invalid large TLS frame
+CVE-2018-12545 - HIGH -  jetty: large settings frames causing denial of service
+CVE-2020-27216 - HIGH -  jetty: local temporary directory hijacking vulnerability
+CVE-2018-10899 - HIGH -  jolokia: system-wide CSRF that could lead to Remote Code Execution
+CVE-2022-31197 - HIGH -  postgresql: SQL Injection in ResultSet.refreshRow() with malicious column names
+CVE-2022-3171 - HIGH -  protobuf-java: timeout in parser leads to DoS
+CVE-2017-18640 - HIGH -  snakeyaml: Billion laughs attack via alias feature
+CVE-2022-25857 - HIGH -  snakeyaml: Denial of Service due to missing nested depth limitation for collections
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2022-2047 - LOW -  jetty-http: improver hostname input handling
+CVE-2021-34428 - LOW -  jetty: SessionListener can prevent a session from being invalidated breaking logout
+CVE-2022-2256 - LOW -  keycloak: improper input validation permits script injection
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2013-2035 - MEDIUM -  HawtJNI: predictable temporary file name leading to local arbitrary code execution
+CVE-2016-2402 - MEDIUM -  Improper Certificate Validation in OkHttp
+CVE-2022-31159 - MEDIUM -  Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 
+CVE-2022-22968 - MEDIUM -  Spring Framework: Data Binding Rules Vulnerability
+CVE-2020-15231 - MEDIUM -  XSS in Mapfish Print relating to JSONP support
+CVE-2020-13920 - MEDIUM -  activemq: improper authentication allows MITM attack
+CVE-2018-11771 - MEDIUM -  apache-commons-compress: ZipArchiveInputStream.read() fails to identify correct EOF allowing for DoS via crafted zip
+CVE-2020-13956 - MEDIUM -  apache-httpclient: incorrect handling of malformed authority component in request URIs
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2020-15522 - MEDIUM -  bouncycastle: Timing issue within the EC math library
+CVE-2017-5653 - MEDIUM -  cxf: CXF JAX-RS XML Security streaming clients do not validate that the service response was signed or encrypted
+CVE-2017-12624 - MEDIUM -  cxf: Improper size validation in message attachment header for JAX-WS and JAX-RS services
+CVE-2020-1954 - MEDIUM -  cxf: JMX integration is vulnerable to a MITM attack
+CVE-2020-13954 - MEDIUM -  cxf: XSS via the styleSheetPath
+CVE-2019-12406 - MEDIUM -  cxf: does not restrict the number of message attachments
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2020-17521 - MEDIUM -  groovy: OS temporary directory leads to information disclosure
+CVE-2020-10693 - MEDIUM -  hibernate-validator: Improper input validation in the interpolation of constraint error messages
+CVE-2019-12384 - MEDIUM -  jackson-databind: failure to block the logback-core class from polymorphic deserialization leading to remote code execution
+CVE-2019-12814 - MEDIUM -  jackson-databind: polymorphic typing issue allows attacker to read arbitrary local files on the server via crafted JSON message.
+CVE-2018-1000873 - MEDIUM -  jackson-modules-java8: DoS due to an Improper Input Validation
+CVE-2012-5783 - MEDIUM -  jakarta-commons-httpclient: missing connection hostname check against X.509 certificate name
+CVE-2020-27218 - MEDIUM -  jetty: buffer not correctly recycled in Gzip Request inflation
+CVE-2019-10247 - MEDIUM -  jetty: error path information disclosure
+CVE-2020-27223 - MEDIUM -  jetty: request containing multiple Accept headers with a large number of "quality" parameters may lead to DoS
+CVE-2021-28169 - MEDIUM -  jetty: requests to the ConcatServlet and WelcomeFilter are able to access protected resources within the WEB-INF directory
+CVE-2019-10241 - MEDIUM -  jetty: using specially formatted URL against DefaultServlet or ResourceHandler leads to XSS conditions
+CVE-2022-36033 - MEDIUM -  jsoup: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled
+CVE-2021-3754 - MEDIUM -  keycloak: allows using email as username
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-38752 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.ArrayList.hashCode
+CVE-2022-38751 - MEDIUM -  snakeyaml: Uncaught exception in java.base/java.util.regex.Pattern$Ques.match
+CVE-2022-38749 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.composer.Composer.composeSequenceNode
+CVE-2022-38750 - MEDIUM -  snakeyaml: Uncaught exception in org.yaml.snakeyaml.constructor.BaseConstructor.constructObject
+CVE-2022-22970 - MEDIUM -  springframework: DoS via data binding to multipartFile or servlet part
+CVE-2022-22971 - MEDIUM -  springframework: DoS with STOMP over WebSocket
+CVE-2020-5421 - MEDIUM -  springframework: RFD protection bypass via jsessionid
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization
+GHSA-rpr3-cw39-3pxh - UNKNOWN -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization

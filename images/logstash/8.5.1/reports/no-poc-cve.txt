@@ -1,0 +1,4 @@
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42800 - MEDIUM -  null
+CVE-2021-43809 - MEDIUM -  rubygem-bundler: unexpected code execution in Gemfiles
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

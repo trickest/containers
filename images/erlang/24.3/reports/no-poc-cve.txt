@@ -1,0 +1,98 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2021-3782 - CRITICAL -  wayland: libwayland-server wl_shm reference-count overflow
+CVE-2022-28463 - HIGH -  ImageMagick: heap-buffer-overflow in PushLongPixel() of quantum-private.h
+CVE-2022-1114 - HIGH -  ImageMagick: heap-use-after-free in RelinquishDCMInfo of dcm.c
+CVE-2022-32547 - HIGH -  ImageMagick: load of misaligned address at MagickCore/property.c
+CVE-2022-32545 - HIGH -  ImageMagick: outside the range of representable values of type 'unsigned char' at coders/psd.c
+CVE-2022-32546 - HIGH -  ImageMagick: outside the range of representable values of type 'unsigned long' at coders/pcl.c
+CVE-2022-45061 - HIGH -  Python: CPU denial of service via inefficient IDNA decoder
+CVE-2022-29187 - HIGH -  git:  Bypass of safe.directory protections
+CVE-2022-0500 - HIGH -  kernel: Linux ebpf logic vulnerability leads to critical memory read and write gaining root privileges
+CVE-2022-0400 - HIGH -  kernel: Out of bounds read in the smc protocol stack
+CVE-2022-3424 - HIGH -  kernel: Use after Free in gru_set_context_option leading to kernel panic
+CVE-2022-3566 - HIGH -  kernel: data races around icsk->icsk_af_ops in do_ipv6_setsockopt
+CVE-2021-3847 - HIGH -  kernel: low-privileged user privileges escalation
+CVE-2022-43945 - HIGH -  kernel: nfsd buffer overflow by RPC message over TCP with garbage data
+CVE-2022-2961 - HIGH -  kernel: race condition in rose_bind()
+CVE-2022-3640 - HIGH -  kernel: use after free flaw in l2cap_conn_del in net/bluetooth/l2cap_core.c
+CVE-2022-2868 - HIGH -  libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits()
+CVE-2022-2869 - HIGH -  libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits()
+CVE-2022-2867 - HIGH -  libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c
+CVE-2022-32082 - HIGH -  mariadb: assertion failure at table->get_ref_count() == 0 in dict0dict.cc
+CVE-2022-32084 - HIGH -  mariadb: segmentation fault via the component sub_select
+CVE-2022-32083 - HIGH -  mariadb: server crash at Item_subselect::init_expr_cache_tracker
+CVE-2022-32087 - HIGH -  mariadb: server crash in Item_args::walk_args
+CVE-2022-42919 - HIGH -  python: local privilege escalation via the multiprocessing forkserver start method
+CVE-2008-3134 - LOW -  GraphicsMagick/ImageMagick: multiple crash or DoS issues
+CVE-2021-39212 - LOW -  ImageMagick: possible read or write in postscript files
+CVE-2021-26945 - LOW -  OpenEXR: Integer-overflow in bool Imf_2_5::readDeepTile<Imf_2_5::DeepTiledInputPart>
+CVE-2021-3549 - LOW -  binutils: heap-based buffer overflow in avr_elf32_load_records_from_section() via large section parameter
+CVE-2021-3530 - LOW -  binutils: stack memory exhaustion in demangle_path() in rust-demangle.c
+CVE-2021-42523 - LOW -  colord: potential memory leak, forgetting to free error message of libsqlite3 API 'sqlite3_exec' -1
+CVE-2014-8166 - LOW -  cups: code execution via unescape ANSI escape sequences
+CVE-2007-3477 - LOW -  gd: arc drawing functions can consume large amount of CPU time
+CVE-2009-3546 - LOW -  gd: insufficient input validation in _gdGetColors()
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2012-0039 - LOW -  glib2: hash table collisions CPU usage DoS
+CVE-2012-2663 - LOW -  iptables: --syn flag bypass
+CVE-2019-12379 - LOW -  kernel:  memory leak in con_insert_unipair in drivers/tty/vt/consolemap.c
+CVE-2019-19070 - LOW -  kernel: A memory leak in the spi_gpio_probe() function in drivers/spi/spi-gpio.c allows for a DoS
+CVE-2014-9900 - LOW -  kernel: Info leak in uninitialized structure ethtool_wolinfo in ethtool_get_wol()
+CVE-2019-12456 - LOW -  kernel: double fetch in the MPT3COMMAND case in _ctl_ioctl_main in drivers/scsi/mpt3sas/mpt3sas_ctl.c
+CVE-2010-4563 - LOW -  kernel: ipv6: sniffer detection
+CVE-2008-2544 - LOW -  kernel: mounting proc readonly on a different mount point silently mounts it rw if the /proc mount is rw
+CVE-2019-12455 - LOW -  kernel: null pointer dereference in sunxi_divs_clk_setup in drivers/clk/sunxi/clk-sunxi.c causing denial of service
+CVE-2019-16232 - LOW -  kernel: null-pointer dereference in drivers/net/wireless/marvell/libertas/if_sdio.c
+CVE-2021-32078 - LOW -  kernel: out-of-bounds read in arch/arm/mach-footbridge/personal-pci.c due to improper input validation
+CVE-2007-3719 - LOW -  kernel: secretly Monopolizing the CPU Without Superuser Privileges
+CVE-2019-12378 - LOW -  kernel: unchecked kmalloc of new_ra in ip6_ra_control leads to denial of service
+CVE-2019-12381 - LOW -  kernel: unchecked kmalloc of new_ra in ip_ra_control leads to denial of service
+CVE-2010-5321 - LOW -  kernel: v4l: videobuf: hotfix a bug on multiple calls to mmap()
+CVE-2021-4214 - LOW -  libpng: hardcoded value leads to heap-overflow
+CVE-2022-2520 - LOW -  libtiff: Assertion fail in rotateImage() function at tiffcrop.c
+CVE-2022-2521 - LOW -  libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c
+CVE-2017-17973 - LOW -  libtiff: heap-based use after free in tiff2pdf.c:t2p_writeproc
+CVE-2015-9019 - LOW -  libxslt: math.random() in xslt uses unseeded randomness
+CVE-2018-16376 - LOW -  openjpeg: Heap-based buffer overflow in function t2_encode_packet in src/lib/openmj2/t2.c
+CVE-2018-16375 - LOW -  openjpeg: Heap-based buffer overflow in pnmtoimage function in bin/jpwl/convert.c
+CVE-2010-4651 - LOW -  patch: directory traversal flaw allows for arbitrary file creation
+CVE-2007-3996 - LOW -  php multiple integer overflows in gd
+CVE-2004-0971 - LOW -  security flaw
+CVE-2021-4217 - LOW -  unzip: Null pointer dereference in Unicode strings code
+CVE-2021-44269 - LOW -  wavpack: Heap out-of-bounds read in WavpackPackSamples()
+CVE-2022-3213 - MEDIUM -  ImageMagick: heap buffer overflow while processing a malformed TIFF file
+CVE-2022-1115 - MEDIUM -  ImageMagick: heap-buffer-overflow in PushShortPixel of quantum-private.h
+CVE-2022-41849 - MEDIUM -  Kernel: A race between ufx_ops_open() and ufx_usb_disconnect() may result in UAF
+CVE-2022-3169 - MEDIUM -  Kernel: Request to NVME_IOCTL_RESET and NVME_IOCTL_SUBSYS_RESET  may cause a DOS.
+CVE-2022-3523 - MEDIUM -  Kernel: race when faulting a device private page in memory manager
+CVE-2021-3598 - MEDIUM -  OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrIO::readChars
+CVE-2021-3605 - MEDIUM -  OpenEXR: Heap buffer overflow in the rleUncompress function
+CVE-2021-23215 - MEDIUM -  OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers
+CVE-2021-26260 - MEDIUM -  OpenEXR: Integer-overflow in Imf_2_5::DwaCompressor::initializeBuffers
+CVE-2021-45942 - MEDIUM -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2021-3468 - MEDIUM -  avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor
+CVE-2022-33068 - MEDIUM -  harfbuzz: integer overflow in the component hb-ot-shape-fallback.cc
+CVE-2021-4219 - MEDIUM -  imagemagick: remote DoS in MagicCore/draw.c via crafted SVG file
+CVE-2022-3707 - MEDIUM -  kernel: Double-free in split_2MB_gtt_entry when function intel_gvt_dma_map_guest_page failed
+CVE-2021-4023 - MEDIUM -  kernel: Improper IO-uring request cancellation operation allows local users to cause a crash
+CVE-2019-16089 - MEDIUM -  kernel: Improper return check in nbd_genl_status function in drivers/block/nbd.c
+CVE-2022-3344 - MEDIUM -  kernel: KVM: SVM: nested shutdown interception could lead to host crash
+CVE-2022-41848 - MEDIUM -  kernel: Race condition between mgslpc_ioctl and mgslpc_detach
+CVE-2022-41850 - MEDIUM -  kernel: Race condition in roccat_report_event in drivers/hid/hid-roccat.c
+CVE-2022-3435 - MEDIUM -  kernel: an out-of-bounds read in fib_nh_match of the file net/ipv4/fib_semantics.c
+CVE-2021-3669 - MEDIUM -  kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts
+CVE-2022-38096 - MEDIUM -  kernel: vmxgfx: NULL pointer dereference in vmw_cmd_dx_define_query
+CVE-2022-36280 - MEDIUM -  kernel: vmxgfx: out-of-bounds write in vmw_kms_cursor_snoop
+CVE-2022-38457 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_cmd_res_check
+CVE-2022-40133 - MEDIUM -  kernel: vmxgfx: use-after-free in vmw_execbuf_tie_context
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-1623 - MEDIUM -  libtiff: out-of-bounds read in LZWDecode
+CVE-2022-38791 - MEDIUM -  mariadb: compress_write() fails to release mutex on failure
+CVE-2021-3941 - MEDIUM -  openexr: Divide-by-zero in Imf_3_1::RGBtoXYZ
+CVE-2021-3933 - MEDIUM -  openexr: Integer-overflow in Imf_3_1::bytesPerDeepLineTable
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2022-42896 - UNKNOWN -  [Bluetooth: L2CAP: Fix accepting connection request for invalid SPSM]
+CVE-2022-42895 - UNKNOWN -  [Bluetooth: L2CAP: Fix attempting to access uninitialized memory]
+CVE-2022-3628 - UNKNOWN -  null

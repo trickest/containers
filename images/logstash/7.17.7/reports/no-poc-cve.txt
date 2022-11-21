@@ -1,0 +1,10 @@
+GHSA-gx8x-g87m-h5q6 - HIGH -  Denial of Service (DoS) in Nokogiri on JRuby
+GHSA-cgx6-hpwq-fhv5 - HIGH -  Integer Overflow or Wraparound in libxml2 affects Nokogiri
+GHSA-v6gp-9mmm-c6p5 - HIGH -  Out-of-bounds Write in zlib affects Nokogiri
+GHSA-fq42-c5rg-92c2 - HIGH -  Vulnerable dependencies in Nokogiri
+CVE-2022-24836 - HIGH -  nokogiri: ReDoS in HTML encoding detection
+GHSA-2qc6-mcvw-92cw - MEDIUM -  Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+GHSA-xxx9-3xcr-gjj3 - MEDIUM -  XML Injection in Xerces Java affects Nokogiri
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

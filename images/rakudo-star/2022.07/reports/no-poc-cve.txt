@@ -1,0 +1,10 @@
+CVE-2021-46848 - CRITICAL -  libtasn1: Out-of-bound access in ETYPE_OK
+CVE-2022-45061 - HIGH -  Python: CPU denial of service via inefficient IDNA decoder
+CVE-2022-29187 - HIGH -  git:  Bypass of safe.directory protections
+CVE-2022-42919 - HIGH -  python: local privilege escalation via the multiprocessing forkserver start method
+CVE-2022-24975 - LOW -  git: The --mirror option for git leaks secret for deleted content, aka the "GitBleed"
+CVE-2004-0971 - LOW -  security flaw
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-39253 - MEDIUM -  git: exposure of sensitive information to a malicious actor
+CVE-2022-42898 - MEDIUM -  krb5: integer overflow vulnerabilities in PAC parsing
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.

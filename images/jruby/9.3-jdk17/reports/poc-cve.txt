@@ -1,0 +1,66 @@
+CVE-2022-41222 - HIGH -  kernel: mm/mremap.c use-after-free vulnerability
+CVE-2022-42703 - HIGH -  kernel: use-after-free related to leaf anon_vma double reuse
+CVE-2019-14899 - LOW -  VPN: an attacker can inject data into the TCP stream which allows a hijack of active connections inside the VPN tunnel
+CVE-2019-1010204 - LOW -  binutils: Improper Input Validation, Signed/Unsigned Comparison, Out-of-bounds Read in gold/fileread.cc and elfcpp/elfcpp_file.h leads to denial of service
+CVE-2017-13716 - LOW -  binutils: Memory leak with the C++ symbol demangler routine in libiberty
+CVE-2021-45078 - LOW -  binutils: out-of-bounds write in stab_xcoff_builtin_type() in stabs.c
+CVE-2016-2781 - LOW -  coreutils: Non-privileged session can escape to the parent session in chroot
+CVE-2022-3219 - LOW -  gnupg: denial of service issue (resource consumption) using compressed packets
+CVE-2017-13693 - LOW -  kernel: ACPI operand cache leak in dsutils.c
+CVE-2021-34981 - LOW -  kernel: Bluetooth CMTP Module Double Free Privilege Escalation Vulnerability
+CVE-2020-12363 - LOW -  kernel: Improper input validation in some Intel(R) Graphics Drivers
+CVE-2018-12928 - LOW -  kernel: NULL pointer dereference in hfs_ext_read_extent in hfs.ko
+CVE-2020-12364 - LOW -  kernel: Null pointer dereference in some Intel(R) Graphics Drivers
+CVE-2020-35501 - LOW -  kernel: audit not logging access to syscall open_by_handle_at for users with CAP_DAC_READ_SEARCH capability
+CVE-2020-14304 - LOW -  kernel: ethtool when reading eeprom of device could lead to memory leak
+CVE-2020-11725 - LOW -  kernel: improper handling of private_size*count multiplication due to count=info->owner typo
+CVE-2019-16230 - LOW -  kernel: null pointer dereference in drivers/gpu/drm/radeon/radeon_display.c
+CVE-2019-19814 - LOW -  kernel: out-of-bounds write in __remove_dirty_segment in fs/f2fs/segment.c
+CVE-2019-19378 - LOW -  kernel: out-of-bounds write in index_rbio_pages in fs/btrfs/raid56.c
+CVE-2018-12931 - LOW -  kernel: stack-based out-of-bounds write in ntfs_attr_find in the ntfs.ko
+CVE-2018-12930 - LOW -  kernel: stack-based out-of-bounds write in ntfs_end_buffer_async_read in the ntfs.ko
+CVE-2022-0854 - LOW -  kernel: swiotlb information leak with DMA_FROM_DEVICE
+CVE-2019-15213 - LOW -  kernel: use-after-free caused by malicious USB device in drivers/media/usb/dvb-usb/dvb-usb-init.c
+CVE-2018-12929 - LOW -  kernel: use-after-free in ntfs_read_locked_inode in the ntfs.ko
+CVE-2018-20657 - LOW -  libiberty: Memory leak in demangle_template function resulting in a denial of service
+CVE-2021-39537 - LOW -  ncurses: heap-based buffer overflow in _nc_captoinfo() in captoinfo.c
+CVE-2022-29458 - LOW -  ncurses: segfaulting OOB read
+CVE-2016-20013 - LOW -  null
+CVE-2017-0537 - LOW -  null
+CVE-2021-39801 - LOW -  null
+CVE-2017-11164 - LOW -  pcre: OP_KETRMAX feature in the match function in pcre_exec.c
+CVE-2018-1121 - LOW -  procps-ng, procps: process hiding through race condition enumerating /proc
+CVE-2013-4235 - LOW -  shadow-utils: TOCTOU race conditions by copying and removing directory trees
+CVE-2015-8553 - MEDIUM -  CVE-2015-2150 CVE-2015-8553 xen: non-maskable interrupts triggerable by guests (xsa120)
+CVE-2022-29900 - MEDIUM -  CVE-2022-23816 CVE-2022-29900 hw: cpu: AMD: RetBleed Arbitrary Speculative Code Execution with Return Instructions
+CVE-2022-39189 - MEDIUM -  Kernel: TLB flush operations are mishandled in certain KVM_VCPU_PREEMPTED leading to guest malfunctioning
+CVE-2022-39188 - MEDIUM -  Kernel: unmap_mapping_range() race with munmap() on VM_PFNMAP mappings leads to stale TLB entry
+CVE-2022-38533 - MEDIUM -  binutils: heap-based buffer overflow in bfd_getl32() when called by strip_main() in objcopy.c via a crafted file
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
+CVE-2022-40674 - MEDIUM -  expat: a use-after-free in the doContent function in xmlparse.c
+CVE-2022-29901 - MEDIUM -  hw: cpu: Intel: RetBleed Arbitrary Speculative Code Execution with Return Instructions
+CVE-2022-42719 - MEDIUM -  kernel: A use-after-free problem observed in multi-BSSID element when parsing
+CVE-2021-4150 - MEDIUM -  kernel: Block subsystem mishandles reference counts
+CVE-2021-4148 - MEDIUM -  kernel: Improper implementation of block_invalidatepage() allows users to crash the kernel
+CVE-2020-12362 - MEDIUM -  kernel: Integer overflow in Intel(R) Graphics Drivers
+CVE-2022-1263 - MEDIUM -  kernel: KVM: NULL pointer dereference in kvm_dirty_ring_push in virt/kvm/dirty_ring.c
+CVE-2022-2153 - MEDIUM -  kernel: KVM: NULL pointer dereference in kvm_irq_delivery_to_apic_fast()
+CVE-2018-17977 - MEDIUM -  kernel: Mishandled interactions among XFRM Netlink messages, IPPROTO_AH packets, and IPPROTO_IP packets resulting in a denial of service
+CVE-2021-44879 - MEDIUM -  kernel: NULL pointer dereference in folio_mark_dirty() via a crafted f2fs image
+CVE-2020-24504 - MEDIUM -  kernel: Uncontrolled resource consumption in some Intel(R) Ethernet E810 Adapter drivers
+CVE-2022-20148 - MEDIUM -  kernel: Use after free in f2fs_available_memory
+CVE-2020-27835 - MEDIUM -  kernel: child process is able to access parent mm through hfi dev file handle
+CVE-2022-1280 - MEDIUM -  kernel: concurrency use-after-free between drm_setmaster_ioctl and drm_mode_getresources
+CVE-2021-3864 - MEDIUM -  kernel: descendant's dumpable setting with certain SUID binaries
+CVE-2020-36310 - MEDIUM -  kernel: infinite loop in set_memory_region_test in arch/x86/kvm/svm/svm.c for certain nested page faults
+CVE-2022-0480 - MEDIUM -  kernel: memcg does not limit the number of POSIX file locks allowing memory exhaustion
+CVE-2013-7445 - MEDIUM -  kernel: memory exhaustion via crafted Graphics Execution Manager (GEM) objects
+CVE-2022-3028 - MEDIUM -  kernel: race condition in xfrm_probe_algs can lead to out-of-bounds read/write
+CVE-2021-20320 - MEDIUM -  kernel: s390 eBPF JIT miscompilation issues fixes
+CVE-2022-2978 - MEDIUM -  kernel: use-after-free in nilfs_mdt_destroy
+CVE-2016-8660 - MEDIUM -  kernel: xfs: local DoS due to a page lock order bug in the XFS seek hole/data implementation
+CVE-2021-37750 - MEDIUM -  krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field
+CVE-2021-36222 - MEDIUM -  krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS
+CVE-2021-39800 - MEDIUM -  null
+CVE-2022-35737 - MEDIUM -  sqlite: an array-bounds overflow if billions of bytes are used in a string argument to a C API
+CVE-2021-31879 - MEDIUM -  wget: authorization header disclosure on redirect

@@ -1,0 +1,12 @@
+CVE-2022-26612 - CRITICAL -  hadoop: Arbitrary file write in FileUtil#unpackEntries on Windows
+CVE-2022-25168 - CRITICAL -  hadoop: Command injection in org.apache.hadoop.fs.FileUtil.unTarUsingTar
+CVE-2022-41853 - CRITICAL -  hsqldb: Untrusted input may lead to RCE attack
+CVE-2022-36364 - HIGH -  Apache Calcite Avatica JDBC driver arbitrary code execution
+CVE-2021-22573 - HIGH -  google-oauth-client: Token signature not verified
+CVE-2021-33813 - HIGH -  jdom: XXE allows attackers to cause a DoS via a crafted HTTP request
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42800 - MEDIUM -  null
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+GHSA-wrvw-hg22-4m67 - UNKNOWN -  A potential Denial of Service issue in protobuf-java
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization
+GHSA-rpr3-cw39-3pxh - UNKNOWN -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization

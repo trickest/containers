@@ -1,0 +1,32 @@
+CVE-2020-7692 - CRITICAL -  google-oauth-client: missing PKCE support in accordance with the RFC for OAuth 2.0 for Native Apps can lead to improper authorization
+CVE-2015-5258 - HIGH -  CSRF
+CVE-2021-22573 - HIGH -  google-oauth-client: Token signature not verified
+CVE-2022-2053 - HIGH -  undertow: Large AJP request may cause DoS
+CVE-2021-39212 - LOW -  ImageMagick: possible read or write in postscript files
+CVE-2021-3598 - LOW -  OpenEXR: Heap buffer overflow in Imf_3_1::CharPtrIO::readChars
+CVE-2021-45942 - LOW -  OpenEXR: heap-based buffer overflow in Imf_3_1:LineCompositeTask:execute
+CVE-2020-0499 - LOW -  flac: out-of-bounds read can lead to denial of service
+CVE-2020-23922 - LOW -  giflib: out-of-bounds read in DumpScreen2RGB() in gif2rgb.c in gif2rgb tool
+CVE-2022-2868 - LOW -  libtiff: Invalid crop_width and/or crop_length could cause an out-of-bounds read in reverseSamples16bits()
+CVE-2022-2869 - LOW -  libtiff: tiffcrop.c has uint32_t underflow which leads to out of bounds read and write in extractContigSamples8bits()
+CVE-2022-2867 - LOW -  libtiff: uint32_t underflow leads to out of bounds read and write in tiffcrop.c
+CVE-2016-9180 - LOW -  perl-XML-Twig:  expand_external_ents option fails to work as documented
+CVE-2021-44269 - LOW -  wavpack: Heap out-of-bounds read in WavpackPackSamples()
+CVE-2020-25664 - MEDIUM -  ImageMagick: heap-based buffer overflow in PopShortPixel in MagickCore/quantum-private.h
+CVE-2022-21618 - MEDIUM -  OpenJDK: improper MultiByte conversion can lead to buffer overflow (JGSS, 8286077)
+CVE-2022-39399 - MEDIUM -  OpenJDK: missing SNI caching in HTTP/2 (Networking, 8289366)
+CVE-2022-31159 - MEDIUM -  Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 
+CVE-2014-3578 - MEDIUM -  Spring Framework: Directory traversal
+CVE-2022-2764 - MEDIUM -  Undertow: DoS can be achieved as Undertow server waits for the LAST_CHUNK forever for EJB invocations
+CVE-2022-3715 - MEDIUM -  bash: a heap-buffer-overflow in valid_parameter_transform
+CVE-2022-42012 - MEDIUM -  dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with "foreign" endianness correctly
+CVE-2022-42011 - MEDIUM -  dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type
+CVE-2022-42010 - MEDIUM -  dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets
+CVE-2022-42800 - MEDIUM -  null
+GHSA-673j-qm5f-xpv8 - MEDIUM -  pgjdbc Arbitrary File Write Vulnerability
+CVE-2022-3821 - MEDIUM -  systemd: buffer overrun in format_timespan() function.
+CVE-2022-24795 - MEDIUM -  yajl: heap-based buffer overflow when handling large inputs due to an integer overflow
+GHSA-h4h5-3hr4-j3g2 - UNKNOWN -  Improper Neutralization
+GHSA-36p3-wjmg-h94x - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GHSA-h376-j262-vhq6 - UNKNOWN -  Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+GHSA-rpr3-cw39-3pxh - UNKNOWN -  jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization

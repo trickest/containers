@@ -1,0 +1,5 @@
+CVE-2022-42916 - HIGH -  curl: HSTS bypass via IDN
+CVE-2022-43680 - HIGH -  expat: use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate
+CVE-2022-39260 - HIGH -  git: git shell function that splits command arguments can lead to arbitrary heap writes.
+CVE-2022-44638 - HIGH -  pixman: Integer overflow in pixman_sample_floor_y leading to heap out-of-bounds write
+CVE-2022-32221 - MEDIUM -  curl: POST following PUT confusion
